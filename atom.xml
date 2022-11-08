@@ -5,13 +5,15 @@
     <link href="http://example.com" />
     <updated>2022-11-08T08:12:55.000Z</updated>
     <category term="大学计划1" />
-    <category term="第二章一节" />
     <category term="慢节奏的生活" />
+    <category term="第二章一节" />
     <entry>
         <id>http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</id>
         <title>简明线性代数第二章</title>
         <link rel="alternate" href="http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
-        <content type="html">&lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a href=&#34;#线性方程组与矩阵的初等变换&#34; class=&#34;headerlink&#34; title=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;/a&gt;线性方程组与矩阵的初等变换&lt;/h1&gt;&lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a href=&#34;#线性方程组消元法的形式化&#34; class=&#34;headerlink&#34; title=&#34;线性方程组消元法的形式化&#34;&gt;&lt;/a&gt;线性方程组消元法的形式化&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;
+        <content type="html">&lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 线性方程组与矩阵的初等变换&lt;/h1&gt;
+&lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组消元法的形式化&#34;&gt;#&lt;/a&gt; 线性方程组消元法的形式化&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;实际上就是把线性方程组的消元法加以形式化处理，将同解方程组的变换过程表示成与相应的增广矩阵的初等行变换过程。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -21,54 +23,61 @@
 &lt;th&gt;矩阵的初等行变换&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1，交换矩阵的第i,j行&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1，交换矩阵的第 i,j 行&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2, 用非零矩阵k乘以矩阵的第i行&lt;/td&gt;
+&lt;td&gt;2, 用非零矩阵 k 乘以矩阵的第 i 行&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;3，用常数k乘以矩阵的第i行元素后加到第i行相应的元素上，若矩阵A经过有限次初等行变换化为矩阵B,则称矩阵A与B行等价。&lt;/td&gt;
+&lt;td&gt;3，用常数 k 乘以矩阵的第 i 行元素后加到第 i 行相应的元素上，若矩阵 A 经过有限次初等行变换化为矩阵 B, 则称矩阵 A 与 B 行等价。&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;等价矩阵的线性方程组同解&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;如果线性方程组的一组未知元具备如下两个条件，那么称这组未知元为改线性方程组的自由元&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;这组未知元取任意一组值，方程组总有解；&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取任意一组值，方程组总有解；&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;这组未知元取定一组值之后，方程组的解是唯一的；&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取定一组值之后，方程组的解是唯一的；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;  &lt;em&gt;&lt;strong&gt;注意：线性方程组的自由未知元选择不唯一，对应通解表示式也不唯一。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注意：线性方程组的自由未知元选择不唯一，对应通解表示式也不唯一。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;行阶梯形矩阵的定义&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1. 零行（元素全为0的行）都位于矩阵的下方。&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. 零行（元素全为 0 的行）都位于矩阵的下方。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2. 各非零矩阵的首非零元（自左向右的首个不为0的元素）的列表随着行标的增大而严格增大。&lt;/td&gt;
+&lt;td&gt;2. 各非零矩阵的首非零元（自左向右的首个不为 0 的元素）的列表随着行标的增大而严格增大。&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
 &lt;tr&gt;
-&lt;th&gt;行最简型矩阵的定义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1，各非零行的首非零元都是1；&lt;/td&gt;
+&lt;td&gt;行最简型矩阵的定义&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2，每个非零元所在列的其余元素都是0。&lt;/td&gt;
+&lt;td&gt;------------------------------------&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;我们称与矩阵A行等价的行最简型矩阵为矩阵A的行最简型&lt;/strong&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;1，各非零行的首非零元都是 1；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2，每个非零元所在列的其余元素都是 0。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;我们称与矩阵 A 行等价的行最简型矩阵为矩阵 A 的行最简型&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;任何矩阵总可以经过有限次初等行换化为最简矩阵&lt;/strong&gt;&lt;/p&gt;
 </content>
         <category term="第二章一节" />
@@ -162,7 +171,12 @@ were silent.&lt;br&gt;
         <id>http://example.com/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/</id>
         <title>大学规划</title>
         <link rel="alternate" href="http://example.com/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/"/>
-        <content type="html">&lt;h1 id=&#34;大一要做的事&#34;&gt;&lt;a href=&#34;#大一要做的事&#34; class=&#34;headerlink&#34; title=&#34;大一要做的事&#34;&gt;&lt;/a&gt;大一要做的事&lt;/h1&gt;&lt;p&gt;1.在c语言(初级)学完后，Java和c语言进阶必须齐头并进&lt;br&gt;2.虽然博客网站已经搭建完成，但是网站的本质却并没有太多的了解，这样子的网站感觉就像无根之萍。&lt;br&gt;3.不用多说都知道PS是重中之重，自媒体的快速发展，注定了PS必须成为大学生的必备技能，因此要尽早学完。&lt;br&gt;4.英语四六级，因为我对英语不太喜欢的缘故，所以现在的知识都是吃着高中的老本，因此尽早搞定英语四六级对我越有优势，但是苗老师已经在课上说过只有A班的同学可以在大一考四级英语，B班只能大二再考，因此之后的重心可以稍微的偏向英语复习，必须在期末试中取得去A班的门票。不然就麻烦了，要想英语成绩号听力这关必须硬实力提上来，所以要恢复一些高中时练英语的习惯，早点过完六级就不用受罪了&lt;br&gt;5.最后局势驾照问题了，根据师兄师姐的经验这种东西最好在大学毕业前弄好，不然等工作的时候就没有那么多时间了&lt;/p&gt;
+        <content type="html">&lt;h1 id=&#34;大一要做的事&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#大一要做的事&#34;&gt;#&lt;/a&gt; 大一要做的事&lt;/h1&gt;
+&lt;p&gt;1. 在 c 语言 (初级) 学完后，Java 和 c 语言进阶必须齐头并进&lt;br&gt;
+ 2. 虽然博客网站已经搭建完成，但是网站的本质却并没有太多的了解，这样子的网站感觉就像无根之萍。&lt;br&gt;
+3. 不用多说都知道 PS 是重中之重，自媒体的快速发展，注定了 PS 必须成为大学生的必备技能，因此要尽早学完。&lt;br&gt;
+4. 英语四六级，因为我对英语不太喜欢的缘故，所以现在的知识都是吃着高中的老本，因此尽早搞定英语四六级对我越有优势，但是苗老师已经在课上说过只有 A 班的同学可以在大一考四级英语，B 班只能大二再考，因此之后的重心可以稍微的偏向英语复习，必须在期末试中取得去 A 班的门票。不然就麻烦了，要想英语成绩号听力这关必须硬实力提上来，所以要恢复一些高中时练英语的习惯，早点过完六级就不用受罪了&lt;br&gt;
+ 5. 最后局势驾照问题了，根据师兄师姐的经验这种东西最好在大学毕业前弄好，不然等工作的时候就没有那么多时间了&lt;/p&gt;
 </content>
         <category term="大学计划1" />
         <updated>2022-11-07T16:33:00.000Z</updated>
@@ -176,27 +190,29 @@ were silent.&lt;br&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;1.如何搭建个人博客，以及个人博客的作用&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;1. 如何搭建个人博客，以及个人博客的作用&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;2.样板娘的介绍&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2. 样板娘的介绍&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;3.开学以来，我见到的广科趣事记录&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3. 开学以来，我见到的广科趣事记录&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;4.开学以来，我学到了什么&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4. 开学以来，我学到了什么&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;我稍后会在博客开辟分类块，方便我和其他人写论文时检索资料&lt;/p&gt;
 </content>
         <updated>2022-11-04T02:48:03.000Z</updated>
