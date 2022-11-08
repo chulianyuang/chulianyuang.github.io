@@ -5,10 +5,89 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 08 Nov 2022 01:17:22 +0800</pubDate>
-        <lastBuildDate>Tue, 08 Nov 2022 01:17:22 +0800</lastBuildDate>
+        <pubDate>Tue, 08 Nov 2022 16:12:55 +0800</pubDate>
+        <lastBuildDate>Tue, 08 Nov 2022 16:12:55 +0800</lastBuildDate>
         <category>优雅永不过时</category>
         <category>大学计划1</category>
+        <category>第二章一节</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+            <title>简明线性代数第二章</title>
+            <link>http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+            <category>第二章一节</category>
+            <pubDate>Tue, 08 Nov 2022 16:12:55 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 线性方程组与矩阵的初等变换&lt;/h1&gt;
+&lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组消元法的形式化&#34;&gt;#&lt;/a&gt; 线性方程组消元法的形式化&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;实际上就是把线性方程组的消元法加以形式化处理，将同解方程组的变换过程表示成与相应的增广矩阵的初等行变换过程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;矩阵的初等行变换&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1，交换矩阵的第 i,j 行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2, 用非零矩阵 k 乘以矩阵的第 i 行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3，用常数 k 乘以矩阵的第 i 行元素后加到第 i 行相应的元素上，若矩阵 A 经过有限次初等行变换化为矩阵 B, 则称矩阵 A 与 B 行等价。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;等价矩阵的线性方程组同解&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img data-src=&#34;C:\Users\luo66\Pictures\Saved Pictures\微信图片_20221108191708.jpg&#34; style=&#34;zoom:25%;&#34; /&gt;
+&lt;p&gt;&lt;strong&gt;如果线性方程组的一组未知元具备如下两个条件，那么称这组未知元为改线性方程组的自由元&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取任意一组值，方程组总有解；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取定一组值之后，方程组的解是唯一的；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注意：线性方程组的自由未知元选择不唯一，对应通解表示式也不唯一。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;行阶梯形矩阵的定义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. 零行（元素全为 0 的行）都位于矩阵的下方。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. 各非零矩阵的首非零元（自左向右的首个不为 0 的元素）的列表随着行标的增大而严格增大。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;行最简型矩阵的定义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;------------------------------------&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1，各非零行的首非零元都是 1；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2，每个非零元所在列的其余元素都是 0。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;我们称与矩阵 A 行等价的行最简型矩阵为矩阵 A 的行最简型&lt;/strong&gt;&lt;br&gt;
+ **&lt;br&gt;
+ 任何矩阵总可以经过有限次初等行换化为最简矩阵 **&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</guid>
             <title>我喜欢的一些课外书</title>
