@@ -32,11 +32,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
+            <guid isPermalink="true">http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
             <title>简明线性代数第二章小节2</title>
-            <link>http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
+            <link>http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
             <category>矩阵与求解</category>
-            <pubDate>Thu, 10 Nov 2022 10:23:22 +0800</pubDate>
+            <pubDate>Fri, 11 Nov 2022 01:23:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第二章-线性方程组与矩阵的初等变换&#34;&gt;&lt;a href=&#34;#第二章-线性方程组与矩阵的初等变换&#34; class=&#34;headerlink&#34; title=&#34;第二章 线性方程组与矩阵的初等变换&#34;&gt;&lt;/a&gt;第二章 线性方程组与矩阵的初等变换&lt;/h1&gt;&lt;h2 id=&#34;矩阵的初等变换与初等矩阵&#34;&gt;&lt;a href=&#34;#矩阵的初等变换与初等矩阵&#34; class=&#34;headerlink&#34; title=&#34;矩阵的初等变换与初等矩阵&#34;&gt;&lt;/a&gt;矩阵的初等变换与初等矩阵&lt;/h2&gt;&lt;p&gt;若矩阵A经过有限次初等列变换化为矩阵B，则称矩阵A与B列等价，&lt;strong&gt;并不能说矩阵A与矩阵B相等&lt;/strong&gt;，两个矩阵相等必须得每个元素都一样。&lt;/p&gt;
 &lt;p&gt;矩阵的等价关系具有以下基本性质：&lt;/p&gt;
 &lt;ol&gt;
@@ -44,6 +44,57 @@
 &lt;li&gt;对称性&lt;/li&gt;
 &lt;li&gt;传递性&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;矩阵转换的流程图&#34;&gt;&lt;a href=&#34;#矩阵转换的流程图&#34; class=&#34;headerlink&#34; title=&#34;矩阵转换的流程图&#34;&gt;&lt;/a&gt;矩阵转换的流程图&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;任何非零矩阵&lt;/strong&gt;通过有限次初等行变换变成&lt;strong&gt;行阶梯矩阵&lt;/strong&gt;，又通过有限次初等行变换变成行&lt;strong&gt;最简形矩阵&lt;/strong&gt;最后经过有限次初等列变换变成&lt;strong&gt;标准形矩阵&lt;/strong&gt;这时候又可以通过有限次初等变换变回&lt;strong&gt;非零矩阵&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;所有过程皆可逆&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;标准形矩阵：左上角的部分为单位阵，其他部分为零&lt;/p&gt;
+&lt;h2 id=&#34;初等矩阵&#34;&gt;&lt;a href=&#34;#初等矩阵&#34; class=&#34;headerlink&#34; title=&#34;初等矩阵&#34;&gt;&lt;/a&gt;初等矩阵&lt;/h2&gt;&lt;p&gt;由单位阵经过一次初等变换而得的矩阵称为初等矩阵。&lt;/p&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a href=&#34;#&#34; class=&#34;headerlink&#34; title=&#34;&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;变化重点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;1，E(i,j),即由单位矩阵交换第一i,j行（或列）而得的矩阵&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2，E(i(k)),即由单位矩阵的第i行（或列）乘以非零常数k而得的矩阵&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3，E（j，i(k)），既由常数k乘以单位矩阵的第i行（或j列）元素后加到第j行（或i列）相应的元素上得到的矩阵&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;考点&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;1.对矩阵A施行某种行变换得到的矩阵，等于用同种类型的m阶初等矩阵左乘A;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;2.对矩阵A施行某种列变换得到的矩阵，等于用同种类型的n阶初等矩阵右乘A；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：初等矩阵可逆，其逆矩阵也为同种类型的初等矩阵&lt;/p&gt;
+&lt;p&gt;必备：[E(i.j)]^-1 &amp;#x3D;E(i.j)&lt;br&gt;     [E(i(k))]^-1 &amp;#x3D;E(i*(1&amp;#x2F;k))&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;定理&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;1，n阶方阵A为可逆矩阵的充要条件是A可以表示成若干个初等矩阵的乘积&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2，若A可逆，则A的行最简形为单位矩阵I&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&#34;矩阵方程的初等变换解法&#34;&gt;&lt;a href=&#34;#矩阵方程的初等变换解法&#34; class=&#34;headerlink&#34; title=&#34;矩阵方程的初等变换解法&#34;&gt;&lt;/a&gt;矩阵方程的初等变换解法&lt;/h2&gt;&lt;p&gt;对于一般形式的矩阵方程，可以通过矩阵的有关运算转化为标准形式的矩阵方程，然后解之。&lt;/p&gt;
+&lt;p&gt;设A为可逆矩阵，则矩阵方程AX&amp;#x3D;B,X&amp;#x3D;A^-1 B&lt;br&gt;$$&lt;br&gt;A^-1*(A,B)&amp;#x3D;(I,A^-1*B)&lt;br&gt;$$&lt;/p&gt;
  ]]></description>
         </item>
         <item>
