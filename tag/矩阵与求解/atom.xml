@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>welcome to my world • Posts by &#34;矩阵与求解&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-11-10T02:23:22.000Z</updated>
+    <category term="大学计划1" />
+    <category term="慢节奏的生活" />
+    <category term="C语言实验报告" />
+    <category term="小白学C语言" />
+    <category term="三省吾身" />
+    <category term="矩阵与求解" />
+    <category term="慢慢就爱上的科目" />
+    <entry>
+        <id>http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</id>
+        <title>简明线性代数第二章小节2</title>
+        <link rel="alternate" href="http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/"/>
+        <content type="html">&lt;h1 id=&#34;第二章-线性方程组与矩阵的初等变换&#34;&gt;&lt;a href=&#34;#第二章-线性方程组与矩阵的初等变换&#34; class=&#34;headerlink&#34; title=&#34;第二章 线性方程组与矩阵的初等变换&#34;&gt;&lt;/a&gt;第二章 线性方程组与矩阵的初等变换&lt;/h1&gt;&lt;h2 id=&#34;矩阵的初等变换与初等矩阵&#34;&gt;&lt;a href=&#34;#矩阵的初等变换与初等矩阵&#34; class=&#34;headerlink&#34; title=&#34;矩阵的初等变换与初等矩阵&#34;&gt;&lt;/a&gt;矩阵的初等变换与初等矩阵&lt;/h2&gt;&lt;p&gt;若矩阵A经过有限次初等列变换化为矩阵B，则称矩阵A与B列等价，&lt;strong&gt;并不能说矩阵A与矩阵B相等&lt;/strong&gt;，两个矩阵相等必须得每个元素都一样。&lt;/p&gt;
+&lt;p&gt;矩阵的等价关系具有以下基本性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;反身性&lt;/li&gt;
+&lt;li&gt;对称性&lt;/li&gt;
+&lt;li&gt;传递性&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="矩阵与求解" />
+        <updated>2022-11-10T02:23:22.000Z</updated>
+    </entry>
+</feed>

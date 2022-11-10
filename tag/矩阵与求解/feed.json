@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"矩阵与求解\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/",
+            "url": "http://example.com/2022/11/10/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/",
+            "title": "简明线性代数第二章小节2",
+            "date_published": "2022-11-10T02:23:22.000Z",
+            "content_html": "<h1 id=\"第二章-线性方程组与矩阵的初等变换\"><a href=\"#第二章-线性方程组与矩阵的初等变换\" class=\"headerlink\" title=\"第二章 线性方程组与矩阵的初等变换\"></a>第二章 线性方程组与矩阵的初等变换</h1><h2 id=\"矩阵的初等变换与初等矩阵\"><a href=\"#矩阵的初等变换与初等矩阵\" class=\"headerlink\" title=\"矩阵的初等变换与初等矩阵\"></a>矩阵的初等变换与初等矩阵</h2><p>若矩阵A经过有限次初等列变换化为矩阵B，则称矩阵A与B列等价，<strong>并不能说矩阵A与矩阵B相等</strong>，两个矩阵相等必须得每个元素都一样。</p>\n<p>矩阵的等价关系具有以下基本性质：</p>\n<ol>\n<li>反身性</li>\n<li>对称性</li>\n<li>传递性</li>\n</ol>\n",
+            "tags": [
+                "矩阵与求解"
+            ]
+        }
+    ]
+}
