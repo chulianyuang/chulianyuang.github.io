@@ -5,6 +5,16 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/",
+            "url": "http://example.com/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/",
+            "title": "项目三 循环结构程序设计",
+            "date_published": "2022-11-19T16:39:51.000Z",
+            "content_html": "<h1 id=\"1-分别用while语句-do-while语句-for语句编写程序计算e111121n\"><a class=\"markdownIt-Anchor\" href=\"#1-分别用while语句-do-while语句-for语句编写程序计算e111121n\">#</a> 1、分别用 while 语句、do-while 语句、for 语句编写程序，计算 e≈1+1/1!+1/2!+…+1/n!</h1>\n<h2 id=\"for循环示例\"><a class=\"markdownIt-Anchor\" href=\"#for循环示例\">#</a> for 循环示例</h2>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br><span class=\"line\">17</span><br><span class=\"line\">18</span><br><span class=\"line\">19</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">//计算e≈1 + 1 / 1!+ 1 / 2!+ ... + 1 / n!</span><br><span class=\"line\">#include &lt;stdio.h&gt;</span><br><span class=\"line\">int main()</span><br><span class=\"line\">&#123;</span><br><span class=\"line\">\tprintf(&quot;用for循环计算e的值:&quot;);</span><br><span class=\"line\">\tprintf(&quot;请输入n的值&quot;);</span><br><span class=\"line\">\tint n,i,a;</span><br><span class=\"line\">\tint k = 1;</span><br><span class=\"line\">\tfloat num = 0;</span><br><span class=\"line\">\tscanf_s(&quot;%d&quot;, &amp;n);</span><br><span class=\"line\">\tfor (i = 1;i &lt;= n;i++) &#123;</span><br><span class=\"line\">\t\tfor (a = i;a &gt;= 1;a--) &#123;</span><br><span class=\"line\">\t\t\tk*= a;</span><br><span class=\"line\">\t\t&#125;</span><br><span class=\"line\">\t\tnum =num+ 1.0/ k;</span><br><span class=\"line\">\t&#125;</span><br><span class=\"line\">\tprintf(&quot;e的值为%f&quot;,num+1);</span><br><span class=\"line\">\treturn 0;</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>\n",
+            "tags": [
+                "C语言实验报告"
+            ]
+        },
+        {
             "id": "http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/",
             "url": "http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/",
             "title": "项目二  选择结构程序设计",
