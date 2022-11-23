@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"难啊\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/",
+            "url": "http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/",
+            "title": "困扰我的C语言难题",
+            "date_published": "2022-11-23T01:18:50.000Z",
+            "content_html": "<h1 id=\"一个浪费我一天还找不出问题的程序\"><a href=\"#一个浪费我一天还找不出问题的程序\" class=\"headerlink\" title=\"一个浪费我一天还找不出问题的程序\"></a>一个浪费我一天还找不出问题的程序</h1><h2 id=\"计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n-（只能用while循环）\"><a href=\"#计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n-（只能用while循环）\" class=\"headerlink\" title=\"计算e≈1 + 1 &#x2F; 1!+ 1 &#x2F; 2!+ … + 1 &#x2F; n!（只能用while循环）\"></a>计算e≈1 + 1 &#x2F; 1!+ 1 &#x2F; 2!+ … + 1 &#x2F; n!（只能用while循环）</h2><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br><span class=\"line\">17</span><br><span class=\"line\">18</span><br><span class=\"line\">19</span><br><span class=\"line\">20</span><br><span class=\"line\">21</span><br><span class=\"line\">22</span><br><span class=\"line\">23</span><br><span class=\"line\">24</span><br><span class=\"line\">25</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">#include &lt;stdio.h&gt;</span><br><span class=\"line\">int main()</span><br><span class=\"line\">&#123;</span><br><span class=\"line\">\tint a;</span><br><span class=\"line\">\tdouble k = 0;</span><br><span class=\"line\">\tdouble b = 0;</span><br><span class=\"line\">\tint n;</span><br><span class=\"line\">\tdouble sum = 1;</span><br><span class=\"line\">\tscanf_s(&quot;%d&quot;, &amp;n);</span><br><span class=\"line\">\twhile (n &gt; 1)</span><br><span class=\"line\">\t&#123;</span><br><span class=\"line\">\t\ta = n;</span><br><span class=\"line\">\t\twhile (a &gt;= 1) &#123;</span><br><span class=\"line\">\t\t\tsum *= a;</span><br><span class=\"line\">\t\t\ta--;</span><br><span class=\"line\">\t\t&#125;</span><br><span class=\"line\">\t\tb = 1.0 / sum;</span><br><span class=\"line\">\t\t</span><br><span class=\"line\">\t\tk = k + b;</span><br><span class=\"line\">\t\tn--;</span><br><span class=\"line\">\t&#125;</span><br><span class=\"line\"></span><br><span class=\"line\">\tprintf(&quot;%lf&quot;,1+ k);</span><br><span class=\"line\">\treturn 0;</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>\n\n",
+            "tags": [
+                "难啊"
+            ]
+        }
+    ]
+}
