@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world</title>
     <link href="http://example.com" />
-    <updated>2022-11-23T05:25:50.000Z</updated>
+    <updated>2022-11-23T10:22:36.000Z</updated>
     <category term="大学计划1" />
     <category term="慢节奏的生活" />
     <category term="C语言实验报告" />
@@ -15,6 +15,27 @@
     <category term="中二病" />
     <category term="练习题" />
     <category term="NO.1" />
+    <entry>
+        <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <title>C语言指针模块知识总结</title>
+        <link rel="alternate" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <content type="html"></content>
+        <updated>2022-11-23T10:22:36.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <title>C语言数组模块知识总结</title>
+        <link rel="alternate" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <content type="html"></content>
+        <updated>2022-11-23T10:22:03.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <title>C语言函数模块知识总结</title>
+        <link rel="alternate" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <content type="html"></content>
+        <updated>2022-11-23T10:21:15.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</id>
         <title>C语言周末作业</title>
