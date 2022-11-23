@@ -24,15 +24,15 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="NO.1" />
+  <meta name="keywords" content="小白学C语言" />
 
 
-<link rel="canonical" href="http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/">
+<link rel="canonical" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/">
 
 
 
   <title>
-困扰我的C语言难题 - C语言程序设计 |
+C语言周末作业 - C语言程序设计 |
 Luo的小世界 = welcome to my world</title>
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -60,16 +60,16 @@ Luo的小世界 = welcome to my world</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">困扰我的C语言难题
+  <h1 itemprop="name headline">C语言周末作业
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2022-11-23 09:18:50">
+  <span class="item" title="创建时间：2022-11-23 13:25:50">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2022-11-23T09:18:50+08:00">2022-11-23</time>
+    <time itemprop="dateCreated datePublished" datetime="2022-11-23T13:25:50+08:00">2022-11-23</time>
   </span>
 </div>
 
@@ -102,11 +102,11 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph4fomxoj20zk0m8axp.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeyhsblkj20zk0m81kx.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeyvx1d4j20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh0m9pdj20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclxfdlttj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipexbei4hj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh5u05ej20zk0m87df.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph4lm9i7j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeybxm1pj20zk0m8niv.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipex2cdtbj20zk0m8x6p.jpg"></li>
           <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciryrr3rj20zk0m8nhk.jpg"></li>
         </ul>
       </div>
@@ -138,7 +138,7 @@ Luo的小世界 = welcome to my world</title>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -153,17 +153,25 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="一个浪费我一天还找不出问题的程序"><a class="markdownIt-Anchor" href="#一个浪费我一天还找不出问题的程序">#</a> 一个浪费我一天还找不出问题的程序</h1>
-<h2 id="计算e1-1-1-1-2-1-n只能用while循环"><a class="markdownIt-Anchor" href="#计算e1-1-1-1-2-1-n只能用while循环">#</a> 计算 e≈1 + 1 / 1!+ 1 / 2!+ … + 1 /n!（只能用 while 循环）</h2>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int a;</span><br><span class="line">	double k = 0;</span><br><span class="line">	double b = 0;</span><br><span class="line">	int n;</span><br><span class="line">	double sum = 1;</span><br><span class="line">	scanf_s(&quot;%d&quot;, &amp;n);</span><br><span class="line">	while (n &gt; 1)</span><br><span class="line">	&#123;</span><br><span class="line">		a = n;</span><br><span class="line">		while (a &gt;= 1) &#123;</span><br><span class="line">			sum *= a;</span><br><span class="line">			a--;</span><br><span class="line">		&#125;</span><br><span class="line">		b = 1.0 / sum;</span><br><span class="line">		</span><br><span class="line">		k = k + b;</span><br><span class="line">		n--;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%lf&quot;,1+ k);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="收获总结"><a class="markdownIt-Anchor" href="#收获总结">#</a> 收获总结：</h2>
-<p><strong>不是每个程序都值得抢救，一些乱七八糟的程序真的没有再修改的必要了，删库重做才是最好的方法。</strong></p>
-<p><strong>值得注意的是，在嵌套循环中，一些变量的值会保留上一次循环的最终值，不会之间进行初始化。下次不能再犯这种错误了</strong></p>
-<h2 id="解决方案1"><a class="markdownIt-Anchor" href="#解决方案1">#</a> 解决方案 1</h2>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">//计算e≈1 + 1 / 1!+ 1 / 2!+ ... + 1 / n!</span><br><span class="line"></span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int a=1,n;</span><br><span class="line">	double sum=1, b = 1;</span><br><span class="line">	scanf_s(&quot;%d&quot;, &amp;n);</span><br><span class="line">	while (a&lt;=n)</span><br><span class="line">	&#123;	</span><br><span class="line">		sum *= a;</span><br><span class="line">		b+= 1.0 / sum;</span><br><span class="line">		a++;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%lf&quot;,b);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <h1 id="第四章"><a class="markdownIt-Anchor" href="#第四章">#</a> 第四章</h1>
+<p>因为比较简单，所以分类的话我给它弄到了小白学 C 语言那里了</p>
+<h2 id="编程计算135101的值并输出计算结果"><a class="markdownIt-Anchor" href="#编程计算135101的值并输出计算结果">#</a> 编程计算 1+3+5+・・・・・・+101 的值，并输出计算结果。</h2>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i, sum = 0;</span><br><span class="line">	for (i = 1;i &lt;= 101;i = i + 2) </span><br><span class="line">	sum = sum + i;</span><br><span class="line">	printf(&quot;sum=%d\n&quot;, sum);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="要求输出100~200之间的不能被3整除的数"><a class="markdownIt-Anchor" href="#要求输出100~200之间的不能被3整除的数">#</a> 要求：输出 100~200 之间的不能被 3 整除的数。</h2>
+<h2 id="编程思路"><a class="markdownIt-Anchor" href="#编程思路">#</a> 编程思路：</h2>
+<p>对 100 到 200 之间的每一个整数进行检查，如果不能被 3 整除，输出，否则不输出。无论是否输出此数，都要接着检查下一个数（直到 200 为止）。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int n;</span><br><span class="line">	for (n = 1;n &lt;= 200;n++) &#123;</span><br><span class="line">		if (n % 3 == 0) continue;</span><br><span class="line">		printf(&quot;%d &quot;, n);</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="输出以下45的矩阵"><a class="markdownIt-Anchor" href="#输出以下45的矩阵">#</a> 输出以下 4*5 的矩阵。</h2>
+<p>1 2 3 4 5</p>
+<p>2 4 6 8 10</p>
+<p>3 6 9  12 15</p>
+<p>4 8 12 16 20</p>
+<h2 id="解题思路"><a class="markdownIt-Anchor" href="#解题思路">#</a> 解题思路：</h2>
+<p>可以用循环的嵌套来处理此问题，用外循环来输出一行数据，用内循环来输出一列数据，按矩阵的格式（每行 5 个数据）输出。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i,j,n;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=<span class="number">4</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=<span class="number">5</span>;j++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d  &quot;</span>,i*j);</span><br><span class="line">    &#125;&#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       <div class="tags">
-          <a href="/tags/NO-1/" rel="tag"><i class="ic i-tag"></i> NO.1</a>
+          <a href="/tags/%E5%B0%8F%E7%99%BD%E5%AD%A6C%E8%AF%AD%E8%A8%80/" rel="tag"><i class="ic i-tag"></i> 小白学C语言</a>
       </div>
   </div>
 
@@ -175,7 +183,7 @@ Luo的小世界 = welcome to my world</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2022-11-23 13:48:20" itemprop="dateModified" datetime="2022-11-23T13:48:20+08:00">2022-11-23</time>
+    <time title="修改时间：2022-11-23 13:51:34" itemprop="dateModified" datetime="2022-11-23T13:51:34+08:00">2022-11-23</time>
   </span>
 </div>
 
@@ -206,7 +214,7 @@ Luo的小世界 = welcome to my world</title>
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" title="困扰我的C语言难题">http://example.com/2022/11/23/困扰我的C语言难题/</a>
+    <a href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">http://example.com/2022/11/23/C语言周末作业/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -225,22 +233,14 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclx6phq6j20zk0m8e36.jpg" title="项目三 循环结构程序设计">
+  <a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclj9410cj20zk0m8h12.jpg" title="困扰我的C语言难题">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
-  <h3>项目三 循环结构程序设计</h3>
+  <h3>困扰我的C语言难题</h3>
   </a>
 
     </div>
     <div class="item right">
-      
-
-  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicm0n457cj20zk0m8e81.jpg" title="C语言周末作业">
-  <span class="type">下一篇</span>
-  <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
-  <h3>C语言周末作业</h3>
-  </a>
-
     </div>
 </div>
 
@@ -257,11 +257,11 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E6%B5%AA%E8%B4%B9%E6%88%91%E4%B8%80%E5%A4%A9%E8%BF%98%E6%89%BE%E4%B8%8D%E5%87%BA%E9%97%AE%E9%A2%98%E7%9A%84%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.</span> <span class="toc-text"> 一个浪费我一天还找不出问题的程序</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97e1-1-1-1-2-1-n%E5%8F%AA%E8%83%BD%E7%94%A8while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.</span> <span class="toc-text"> 计算 e≈1 + 1 &#x2F; 1!+ 1 &#x2F; 2!+ … + 1 &#x2F;n!（只能用 while 循环）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%B6%E8%8E%B7%E6%80%BB%E7%BB%93"><span class="toc-number">1.2.</span> <span class="toc-text"> 收获总结：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%881"><span class="toc-number">1.3.</span> <span class="toc-text"> 解决方案 1</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0"><span class="toc-number">1.</span> <span class="toc-text"> 第四章</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E8%AE%A1%E7%AE%97135101%E7%9A%84%E5%80%BC%E5%B9%B6%E8%BE%93%E5%87%BA%E8%AE%A1%E7%AE%97%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text"> 编程计算 1+3+5+・・・・・・+101 的值，并输出计算结果。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E6%B1%82%E8%BE%93%E5%87%BA100~200%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%8D%E8%83%BD%E8%A2%AB3%E6%95%B4%E9%99%A4%E7%9A%84%E6%95%B0"><span class="toc-number">1.2.</span> <span class="toc-text"> 要求：输出 100~200 之间的不能被 3 整除的数。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E6%80%9D%E8%B7%AF"><span class="toc-number">1.3.</span> <span class="toc-text"> 编程思路：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B45%E7%9A%84%E7%9F%A9%E9%98%B5"><span class="toc-number">1.4.</span> <span class="toc-text"> 输出以下 4*5 的矩阵。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="toc-number">1.5.</span> <span class="toc-text"> 解题思路：</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></li><li><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></li><li><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" rel="bookmark" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></li><li><a href="/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></li><li class="active"><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" rel="bookmark" title="困扰我的C语言难题">困扰我的C语言难题</a></li><li><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" rel="bookmark" title="C语言周末作业">C语言周末作业</a></li>
+          <li><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></li><li><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></li><li><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" rel="bookmark" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></li><li><a href="/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="bookmark" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></li><li><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" rel="bookmark" title="困扰我的C语言难题">困扰我的C语言难题</a></li><li class="active"><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" rel="bookmark" title="C语言周末作业">C语言周末作业</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="站点概览">
@@ -347,12 +347,10 @@ Luo的小世界 = welcome to my world</title>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/2022/11/20/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -374,20 +372,29 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
+    <span><a href="/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/" title="形势与政策">形势与政策</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/" title="我喜欢的一些课外书">我喜欢的一些课外书</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
+</div>
+
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
   </li>
 
       
@@ -404,10 +411,19 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E7%BD%AE/" title="分类于 C语言程序设置">C语言程序设置</a>
 </div>
 
-    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
+    <span><a href="/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/" title="入门级C语言练习题">入门级C语言练习题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="中国近现代史纲要">中国近现代史纲要</a></span>
   </li>
 
       
@@ -417,15 +433,6 @@ Luo的小世界 = welcome to my world</title>
 </div>
 
     <span><a href="/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="大学进阶英语">大学进阶英语</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
   </li>
 
       
@@ -442,29 +449,19 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
-</div>
-
-    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" title="计算机导论">计算机导论</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
+    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="高等数学">高等数学</a></span>
   </li>
 
   </ul>
@@ -495,7 +492,7 @@ Luo的小世界 = welcome to my world</title>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2022/11/23/困扰我的C语言难题/',
+    path: '2022/11/23/C语言周末作业/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"
