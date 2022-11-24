@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;c语言程序设计&#34; category</title>
     <link href="http://example.com" />
-    <updated>2022-11-23T05:25:50.000Z</updated>
+    <updated>2022-11-23T10:21:15.000Z</updated>
     <category term="大学计划1" />
     <category term="慢节奏的生活" />
     <category term="C语言实验报告" />
@@ -14,6 +14,26 @@
     <category term="历史早读" />
     <category term="中二病" />
     <category term="练习题" />
+    <category term="C语言大一上学期期末复习" />
+    <entry>
+        <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <title>C语言函数模块知识总结</title>
+        <link rel="alternate" href="http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <content type="html">&lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
+&lt;p&gt;相信大家对现在 IT 公司的项目完成方式都已经有所了解，一个项目的工作量绝不是一个人可以完成的，它是把这个项目里面的很多功能都一一拆解出来，然后交到一个个精英的手中，项目的最终产物一定是很多人努力成果的汇总。而想要实现这个过程，就得充分利用好函数的功能。&lt;/p&gt;
+&lt;p&gt;之前的章节我没有写总结是因为太简单了，没有必要写。有在函数方面薄弱的可以看看当复习，这篇文章是写给你们的，也是写给我自己的，方便四年后有考研想法的自己可以更好的复习。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;函数的概念&lt;/strong&gt;：函数是完成&lt;strong&gt;一个个特定任务的语句集合&lt;/strong&gt;，它能完成你所想要的某种特定任务，当你想要用时，只需要调用它既可，在后续的修改或是维护过程中，只需要针对这一个进行修改即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;函数的好处：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;1. 减少程序的代码量&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2. 代码复用&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;3. 使程序有良好的结构&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;简单的例子用函数输出hello-luo-teacher&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简单的例子用函数输出hello-luo-teacher&#34;&gt;#&lt;/a&gt; 简单的例子（用函数输出 hello luo teacher）&lt;/h3&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fun&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt;)&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//函数的声明&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*注意如果你要调用的函数在主函数的后面那就必须在头文件进行声明，否则计算机没办法调用*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//主函数，要注意的是每一个程序都必须有一个主函数，否则计算机在执行程序时没有入口。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt;)&lt;/span&gt;&lt;span class=&#34;comment&#34;&gt;//void表示空的意思&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	fun();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*函数最好有注释让别人知道你调用的这个函数有什么用，别像那些被炒鱿鱼的程序员一样，把注释都删掉，&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;不管这个函数是不是简单，写注释都是我们必须有的好习惯，方便别人也方便自己*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//功能：输出hello luo teacher&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fun&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt;)&lt;/span&gt;&lt;span class=&#34;comment&#34;&gt;//fun是函数名，随便起，最好起个跟你这个函数功能相关联的，好记忆&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;hello luo teacher&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这个程序很简单，所以放在这里当例子了。&lt;/p&gt;
+</content>
+        <category term="C语言大一上学期期末复习" />
+        <updated>2022-11-23T10:21:15.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</id>
         <title>C语言周末作业</title>
