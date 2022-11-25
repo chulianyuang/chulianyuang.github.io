@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipetfk5zwj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giciukx8a7j20zk0m8aio.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclga70tsj20zk0m84mr.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giciryrr3rj20zk0m8nhk.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeuv80yoj20zk0m8kjl.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclg5ms2rj20zk0m8u0x.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicliierfjj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicmnywqgpj20zk0m8dwx.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph47e9vtj20zk0m8x6l.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg"></li>
         </ul>
       </div>
     </header>
@@ -161,9 +161,19 @@ Luo的小世界 = welcome to my world</title>
 <p><em>1. 减少程序的代码量</em></p>
 <p><em>2. 代码复用</em></p>
 <p><em>3. 使程序有良好的结构</em></p>
+<p><strong>函数的结构包括两部分：函数头和函数体。其中函数数头又分为返回值数字类型，函数名和形参列表。</strong></p>
+<p>返回值数字类型：你在调用的函数中要返回给主函数的类型</p>
+<p>函数名：随便起，但不能起重复。否则计算机会报错重定义</p>
+<p>形参列表：这个是从主函数输给调用函数的值的类型</p>
 <h3 id="简单的例子用函数输出hello-luo-teacher"><a class="markdownIt-Anchor" href="#简单的例子用函数输出hello-luo-teacher">#</a> 简单的例子（用函数输出 hello luo teacher）</h3>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">fun</span><span class="params">(<span class="type">void</span>)</span>;<span class="comment">//函数的声明</span></span><br><span class="line"><span class="comment">/*注意如果你要调用的函数在主函数的后面那就必须在头文件进行声明，否则计算机没办法调用*/</span></span><br><span class="line"><span class="comment">//主函数，要注意的是每一个程序都必须有一个主函数，否则计算机在执行程序时没有入口。</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span><span class="comment">//void表示空的意思</span></span><br><span class="line">&#123;</span><br><span class="line">	fun();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*函数最好有注释让别人知道你调用的这个函数有什么用，别像那些被炒鱿鱼的程序员一样，把注释都删掉，</span></span><br><span class="line"><span class="comment">不管这个函数是不是简单，写注释都是我们必须有的好习惯，方便别人也方便自己*/</span></span><br><span class="line"><span class="comment">//功能：输出hello luo teacher</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">fun</span><span class="params">(<span class="type">void</span>)</span><span class="comment">//fun是函数名，随便起，最好起个跟你这个函数功能相关联的，好记忆</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;hello luo teacher&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">fun</span><span class="params">(<span class="type">void</span>)</span>;<span class="comment">//函数的声明，不要漏掉后面的;</span></span><br><span class="line"><span class="comment">//注意如果你要调用的函数在主函数的后面那就必须在头文件进行声明，否则计算机没办法调用</span></span><br><span class="line"><span class="comment">//主函数，要注意的是每一个程序都必须有一个主函数，否则计算机在执行程序时没有入口。</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span><span class="comment">//void表示空的意思</span></span><br><span class="line">&#123;</span><br><span class="line">	fun();<span class="comment">//函数的调用，注意函数如果不被调用则不会被运行</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*函数最好有注释让别人知道你调用的这个函数有什么用，别像那些被炒鱿鱼的程序员一样，把注释都删掉，</span></span><br><span class="line"><span class="comment">不管这个函数是不是简单，写注释都是我们必须有的好习惯，方便别人也方便自己*/</span></span><br><span class="line"><span class="comment">//功能：输出hello luo teacher</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">fun</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line"><span class="comment">/*fun是函数名，必须符合函数名的规则，建议首个英语单词首字母不大写，第二个此首字母大写，最好起个跟你这个函数功能相关联的，好记忆*/</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;hello luo teacher&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>这个程序很简单，所以放在这里当例子了。</p>
+<h2 id="通过增加函数来输出2011的值"><a class="markdownIt-Anchor" href="#通过增加函数来输出2011的值">#</a> 通过增加函数来输出 20+11 的值</h2>
+<h3 id="示例"><a class="markdownIt-Anchor" href="#示例">#</a> 示例</h3>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int add(int a, int b);</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int sum;</span><br><span class="line">	sum = add(20, 11);</span><br><span class="line">	printf(&quot;%d\n&quot;, sum);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int add(int a, int b)</span><br><span class="line">&#123;</span><br><span class="line">	int c;</span><br><span class="line">	c = a + b;</span><br><span class="line">	return c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>为了这个程序没有那么古板你可以改一下</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">add</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> sum,q,w;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入要相加的两个整数&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%d %d&quot;</span>, &amp;q, &amp;w);</span><br><span class="line">	sum = add(q, w);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, sum);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">		  *   ┏┓　　　┏┓</span></span><br><span class="line"><span class="comment">		  * ┏┛┻━━━┛┻┓</span></span><br><span class="line"><span class="comment">		  * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">		  * ┃　　　━　　　┃</span></span><br><span class="line"><span class="comment">		  * ┃　＞　　　＜　┃</span></span><br><span class="line"><span class="comment">		  * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">		  * ┃...　⌒　...　┃</span></span><br><span class="line"><span class="comment">		  * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">		  * ┗━┓　　　┏━┛</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃　</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃  神兽保佑</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃  代码无bug　　</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┃</span></span><br><span class="line"><span class="comment">		  *     ┃　　　┗━━━┓</span></span><br><span class="line"><span class="comment">		  *     ┃　　　　　　　┣┓</span></span><br><span class="line"><span class="comment">		  *     ┃　　　　　　　┏┛</span></span><br><span class="line"><span class="comment">		  *     ┗┓┓┏━┳┓┏┛</span></span><br><span class="line"><span class="comment">		  *       ┃┫┫　┃┫┫</span></span><br><span class="line"><span class="comment">		  *       ┗┻┛　┗┻┛</span></span><br><span class="line"><span class="comment">		  */</span></span><br><span class="line"><span class="comment">//函数功能：计算A+B的值</span></span><br><span class="line"><span class="type">int</span> <span class="comment">/*返回值类型是int所以返回值也必须是整形*/</span> add(<span class="type">int</span> a, <span class="type">int</span> b)<span class="comment">/*输入的数也必须是整型*/</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> c;</span><br><span class="line">	c = a + b;</span><br><span class="line">	<span class="keyword">return</span> c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>有人可能会有疑惑为什么不把输入的这个步骤也放在函数内，我曾经也有过这个想法，但是主函数并不是越简单越好的，我更喜欢把要调用的函数称为模块，一个模块的核心原则是功能简单，越单一越好，功能越单一说明它的通用性越强，模块可以供更多的人去使用。</p>
 
       <div class="tags">
           <a href="/tags/C%E8%AF%AD%E8%A8%80%E5%A4%A7%E4%B8%80%E4%B8%8A%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" rel="tag"><i class="ic i-tag"></i> C语言大一上学期期末复习</a>
@@ -178,7 +188,7 @@ Luo的小世界 = welcome to my world</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2022-11-24 11:59:11" itemprop="dateModified" datetime="2022-11-24T11:59:11+08:00">2022-11-24</time>
+    <time title="修改时间：2022-11-25 19:28:21" itemprop="dateModified" datetime="2022-11-25T19:28:21+08:00">2022-11-25</time>
   </span>
 </div>
 
@@ -228,7 +238,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclgi503lj20zk0m8hdt.jpg" title="C语言周末作业">
+  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipet4bz0yj20zk0m8e81.jpg" title="C语言周末作业">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言周末作业</h3>
@@ -238,7 +248,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicljitigmj20zk0m87fp.jpg" title="C语言数组模块知识总结">
+  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipet4bz0yj20zk0m8e81.jpg" title="C语言数组模块知识总结">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>C语言数组模块知识总结</h3>
@@ -260,7 +270,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text"> 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%9A%84%E4%BE%8B%E5%AD%90%E7%94%A8%E5%87%BD%E6%95%B0%E8%BE%93%E5%87%BAhello-luo-teacher"><span class="toc-number">1.0.1.</span> <span class="toc-text"> 简单的例子（用函数输出 hello luo teacher）</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text"> 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%9A%84%E4%BE%8B%E5%AD%90%E7%94%A8%E5%87%BD%E6%95%B0%E8%BE%93%E5%87%BAhello-luo-teacher"><span class="toc-number">1.0.1.</span> <span class="toc-text"> 简单的例子（用函数输出 hello luo teacher）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E5%A2%9E%E5%8A%A0%E5%87%BD%E6%95%B0%E6%9D%A5%E8%BE%93%E5%87%BA2011%E7%9A%84%E5%80%BC"><span class="toc-number">1.1.</span> <span class="toc-text"> 通过增加函数来输出 20+11 的值</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 示例</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -377,10 +387,38 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言指针模块知识总结">C语言指针模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+</div>
+
+    <span><a href="/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/" title="一些童年回忆">一些童年回忆</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" title="困扰我的C语言难题">困扰我的C语言难题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" title="计算机导论">计算机导论</a></span>
   </li>
 
       
@@ -397,18 +435,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" title="计算机导论">计算机导论</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/" title="形势与政策">形势与政策</a></span>
+    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
   </li>
 
       
@@ -424,10 +454,9 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
+    <span><a href="/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/" title="形势与政策">形势与政策</a></span>
   </li>
 
       
@@ -447,26 +476,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="高等数学">高等数学</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
+    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
   </li>
 
   </ul>
