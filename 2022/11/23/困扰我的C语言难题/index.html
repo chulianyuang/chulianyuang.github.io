@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclgi503lj20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph4baakhj20zk0m8h5q.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicit4jrvuj20zk0m8785.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicliierfjj20zk0m8npd.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciub8ja1j20zk0m81ky.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciusoyjnj219g0u0x56.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipew8gmvyj20zk0m87wh.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclgi503lj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclfb3vzhj20zk0m8wny.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipewf5l51j20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclh3brzpj20zk0m8ann.jpg"></li>
         </ul>
       </div>
     </header>
@@ -161,6 +161,12 @@ Luo的小世界 = welcome to my world</title>
 <p><strong>值得注意的是，在嵌套循环中，一些变量的值会保留上一次循环的最终值，不会之间进行初始化。下次不能再犯这种错误了</strong></p>
 <h2 id="解决方案1"><a class="markdownIt-Anchor" href="#解决方案1">#</a> 解决方案 1</h2>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">//计算e≈1 + 1 / 1!+ 1 / 2!+ ... + 1 / n!</span><br><span class="line"></span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int a=1,n;</span><br><span class="line">	double sum=1, b = 1;</span><br><span class="line">	scanf_s(&quot;%d&quot;, &amp;n);</span><br><span class="line">	while (a&lt;=n)</span><br><span class="line">	&#123;	</span><br><span class="line">		sum *= a;</span><br><span class="line">		b+= 1.0 / sum;</span><br><span class="line">		a++;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	printf(&quot;%lf&quot;,b);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="输出1000以内完数的和"><a class="markdownIt-Anchor" href="#输出1000以内完数的和">#</a> 输出 1000 以内完数的和</h2>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int pangDuan(int h);</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i,a,sum=0,n=0,j=0;</span><br><span class="line">	for (i = 1;i &lt;= 1000;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		/*for (a = 1;a &lt; i;a++)</span><br><span class="line">		&#123;</span><br><span class="line">			if (i % a == 0) </span><br><span class="line">			&#123;</span><br><span class="line">				sum += a;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		if (sum - 1 == i)</span><br><span class="line">		&#123;</span><br><span class="line">			printf(&quot;%d是完数  &quot;, i);</span><br><span class="line">			n += i;</span><br><span class="line">		&#125;*/</span><br><span class="line">		j+=pangDuan(i);</span><br><span class="line">	&#125;</span><br><span class="line">	printf(&quot;\n&quot;);</span><br><span class="line">	printf(&quot;1000以内所有的完数之和为%d&quot;, j);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//主函数不知道错在哪里了，我在外面写一个新的调用函数先用着。</span><br><span class="line">//功能：判断一个数是否是完数</span><br><span class="line">int pangDuan(int h)</span><br><span class="line">&#123;</span><br><span class="line">	int a, sum = 0, i = 0,g;</span><br><span class="line">	for (a = 1;a &lt; h;a++) &#123;</span><br><span class="line">		if (h % a == 0)</span><br><span class="line">		&#123;</span><br><span class="line">			sum += a;//1,3,6</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	if (sum == h)</span><br><span class="line">	&#123;</span><br><span class="line">		printf(&quot;%d是完数  &quot;, h);</span><br><span class="line">		g = h;</span><br><span class="line">	&#125;</span><br><span class="line">	else g = 0;</span><br><span class="line">	return g;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>错误心得：在写代码的时候没有认真投入，导致逻辑没有理清楚就开始写了，下次写之前要写想代码框架，而且我也学了函数模块，可以将任务进行拆分，以此来锻炼自己分析问题的能力。</strong></p>
+<h3 id="例题用函数来用循环给数组a5赋初值接着用循环输出a5的值"><a class="markdownIt-Anchor" href="#例题用函数来用循环给数组a5赋初值接着用循环输出a5的值">#</a> 例题：用函数来用循环给数组 a [5] 赋初值，接着用循环输出 a [5] 的值</h3>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> b[])</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> c[])</span>;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> SIZE 5</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a[SIZE] = &#123; <span class="number">12</span>,<span class="number">12</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">3</span> &#125;;</span><br><span class="line">	<span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line">	 input(a);<span class="comment">//这里直接写数组名就好</span></span><br><span class="line">	 output(a);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">			  *_______________#########_______________________</span></span><br><span class="line"><span class="comment">			  *______________############_____________________</span></span><br><span class="line"><span class="comment">			  *______________#############____________________</span></span><br><span class="line"><span class="comment">			  *_____________##__###########___________________</span></span><br><span class="line"><span class="comment">			  *____________###__######_#####__________________</span></span><br><span class="line"><span class="comment">			  *____________###_#######___####_________________</span></span><br><span class="line"><span class="comment">			  *___________###__##########_####________________</span></span><br><span class="line"><span class="comment">			  *__________####__###########_####_______________</span></span><br><span class="line"><span class="comment">			  *________#####___###########__#####_____________</span></span><br><span class="line"><span class="comment">			  *_______######___###_########___#####___________</span></span><br><span class="line"><span class="comment">			  *_______#####___###___########___######_________</span></span><br><span class="line"><span class="comment">			  *______######___###__###########___######_______</span></span><br><span class="line"><span class="comment">			  *_____######___####_##############__######______</span></span><br><span class="line"><span class="comment">			  *____#######__#####################_#######_____</span></span><br><span class="line"><span class="comment">			  *____#######__##############################____</span></span><br><span class="line"><span class="comment">			  *___#######__######_#################_#######___</span></span><br><span class="line"><span class="comment">			  *___#######__######_######_#########___######___</span></span><br><span class="line"><span class="comment">			  *___#######____##__######___######_____######___</span></span><br><span class="line"><span class="comment">			  *___#######________######____#####_____#####____</span></span><br><span class="line"><span class="comment">			  *____######________#####_____#####_____####_____</span></span><br><span class="line"><span class="comment">			  *_____#####________####______#####_____###______</span></span><br><span class="line"><span class="comment">			  *______#####______;###________###______#________</span></span><br><span class="line"><span class="comment">			  *________##_______####________####______________</span></span><br><span class="line"><span class="comment">			  */</span></span><br><span class="line"><span class="comment">//函数功能：对数组进行赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> b[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; SIZE;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数据:&quot;</span>, i + <span class="number">1</span>);</span><br><span class="line">		scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;b[i]);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//函数功能：对数组进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> c[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; SIZE;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;第%d个数据为：%d \n&quot;</span>, i + <span class="number">1</span>, c[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>错误心得：对数组和函数的混合运用不太熟悉，缺少时间练习，代码除了多练我找不到第二种提高自己的方法，可以多点看看大佬们写的一些有趣的代码，这样子乐在其中，也学到了东西。</p>
 
       <div class="tags">
           <a href="/tags/%E4%B8%89%E7%9C%81%E5%90%BE%E8%BA%AB/" rel="tag"><i class="ic i-tag"></i> 三省吾身</a>
@@ -175,7 +181,7 @@ Luo的小世界 = welcome to my world</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2022-11-23 20:29:24" itemprop="dateModified" datetime="2022-11-23T20:29:24+08:00">2022-11-23</time>
+    <time title="修改时间：2022-11-29 20:43:21" itemprop="dateModified" datetime="2022-11-29T20:43:21+08:00">2022-11-29</time>
   </span>
 </div>
 
@@ -225,7 +231,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipey84bjtj20zk0m8hdt.jpg" title="入门级C语言练习题">
+  <a href="/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitcxhpij20zk0m8hdt.jpg" title="入门级C语言练习题">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>入门级C语言练习题</h3>
@@ -235,7 +241,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipesx5fdwj20zk0m81kx.jpg" title="C语言周末作业">
+  <a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicis081o9j20zk0m8dmr.jpg" title="C语言周末作业">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言周末作业</h3>
@@ -257,7 +263,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E6%B5%AA%E8%B4%B9%E6%88%91%E4%B8%80%E5%A4%A9%E8%BF%98%E6%89%BE%E4%B8%8D%E5%87%BA%E9%97%AE%E9%A2%98%E7%9A%84%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.</span> <span class="toc-text"> 一个浪费我一天还找不出问题的程序</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97e1-1-1-1-2-1-n%E5%8F%AA%E8%83%BD%E7%94%A8while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.</span> <span class="toc-text"> 计算 e≈1 + 1 &#x2F; 1!+ 1 &#x2F; 2!+ … + 1 &#x2F;n!（只能用 while 循环）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%B6%E8%8E%B7%E6%80%BB%E7%BB%93"><span class="toc-number">1.2.</span> <span class="toc-text"> 收获总结：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%881"><span class="toc-number">1.3.</span> <span class="toc-text"> 解决方案 1</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E6%B5%AA%E8%B4%B9%E6%88%91%E4%B8%80%E5%A4%A9%E8%BF%98%E6%89%BE%E4%B8%8D%E5%87%BA%E9%97%AE%E9%A2%98%E7%9A%84%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.</span> <span class="toc-text"> 一个浪费我一天还找不出问题的程序</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97e1-1-1-1-2-1-n%E5%8F%AA%E8%83%BD%E7%94%A8while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.</span> <span class="toc-text"> 计算 e≈1 + 1 &#x2F; 1!+ 1 &#x2F; 2!+ … + 1 &#x2F;n!（只能用 while 循环）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%B6%E8%8E%B7%E6%80%BB%E7%BB%93"><span class="toc-number">1.2.</span> <span class="toc-text"> 收获总结：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%881"><span class="toc-number">1.3.</span> <span class="toc-text"> 解决方案 1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA1000%E4%BB%A5%E5%86%85%E5%AE%8C%E6%95%B0%E7%9A%84%E5%92%8C"><span class="toc-number">1.4.</span> <span class="toc-text"> 输出 1000 以内完数的和</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%8B%E9%A2%98%E7%94%A8%E5%87%BD%E6%95%B0%E6%9D%A5%E7%94%A8%E5%BE%AA%E7%8E%AF%E7%BB%99%E6%95%B0%E7%BB%84a5%E8%B5%8B%E5%88%9D%E5%80%BC%E6%8E%A5%E7%9D%80%E7%94%A8%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BAa5%E7%9A%84%E5%80%BC"><span class="toc-number">1.4.1.</span> <span class="toc-text"> 例题：用函数来用循环给数组 a [5] 赋初值，接着用循环输出 a [5] 的值</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -374,16 +380,6 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
-</div>
-
-    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
@@ -396,47 +392,26 @@ Luo的小世界 = welcome to my world</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/" title="形势与政策">形势与政策</a></span>
+    <span><a href="/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" title="计算机导论">计算机导论</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
 </div>
 
-    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" title="困扰我的C语言难题">困扰我的C语言难题</a></span>
+    <span><a href="/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="大学进阶英语">大学进阶英语</a></span>
   </li>
 
       
@@ -453,9 +428,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" title="计算机导论">计算机导论</a></span>
+    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
   </li>
 
       
@@ -464,7 +450,26 @@ Luo的小世界 = welcome to my world</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/11/08/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="中国近现代史纲要">中国近现代史纲要</a></span>
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言指针模块知识总结">C语言指针模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/java%E5%AD%A6%E4%B9%A0/" title="java学习">java学习</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
   </li>
 
   </ul>
