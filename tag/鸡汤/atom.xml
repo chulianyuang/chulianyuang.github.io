@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>welcome to my world • Posts by &#34;鸡汤&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-12-02T10:16:39.000Z</updated>
+    <category term="大学计划1" />
+    <category term="慢节奏的生活" />
+    <category term="C语言实验报告" />
+    <category term="小白学C语言" />
+    <category term="三省吾身" />
+    <category term="矩阵与求解" />
+    <category term="慢慢就爱上的科目" />
+    <category term="历史早读" />
+    <category term="中二病" />
+    <category term="练习题" />
+    <category term="C语言大一上学期期末复习" />
+    <category term="课前演讲" />
+    <category term="鸡汤" />
+    <entry>
+        <id>http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</id>
+        <title>一路向前</title>
+        <link rel="alternate" href="http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/"/>
+        <content type="html">&lt;h1 id=&#34;2022-12-2&#34;&gt;&lt;a href=&#34;#2022-12-2&#34; class=&#34;headerlink&#34; title=&#34;2022 12 2&#34;&gt;&lt;/a&gt;2022 12 2&lt;/h1&gt;&lt;h2 id=&#34;The-higher-I-got-the-more-amazed-I-was-by-the-view&#34;&gt;&lt;a href=&#34;#The-higher-I-got-the-more-amazed-I-was-by-the-view&#34; class=&#34;headerlink&#34; title=&#34;The higher I got ,the more amazed I was by the view&#34;&gt;&lt;/a&gt;The higher I got ,the more amazed I was by the view&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;我爬得越高，眼前的风景便愈发迷人&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="鸡汤" />
+        <updated>2022-12-02T10:16:39.000Z</updated>
+    </entry>
+</feed>

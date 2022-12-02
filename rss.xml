@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Fri, 02 Dec 2022 13:24:04 +0800</pubDate>
-        <lastBuildDate>Fri, 02 Dec 2022 13:24:04 +0800</lastBuildDate>
+        <pubDate>Fri, 02 Dec 2022 18:16:39 +0800</pubDate>
+        <lastBuildDate>Fri, 02 Dec 2022 18:16:39 +0800</lastBuildDate>
         <category>大学计划1</category>
         <category>慢节奏的生活</category>
         <category>C语言实验报告</category>
@@ -19,6 +19,16 @@
         <category>练习题</category>
         <category>C语言大一上学期期末复习</category>
         <category>课前演讲</category>
+        <category>鸡汤</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</guid>
+            <title>一路向前</title>
+            <link>http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</link>
+            <category>鸡汤</category>
+            <pubDate>Fri, 02 Dec 2022 18:16:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;2022-12-2&#34;&gt;&lt;a href=&#34;#2022-12-2&#34; class=&#34;headerlink&#34; title=&#34;2022 12 2&#34;&gt;&lt;/a&gt;2022 12 2&lt;/h1&gt;&lt;h2 id=&#34;The-higher-I-got-the-more-amazed-I-was-by-the-view&#34;&gt;&lt;a href=&#34;#The-higher-I-got-the-more-amazed-I-was-by-the-view&#34; class=&#34;headerlink&#34; title=&#34;The higher I got ,the more amazed I was by the view&#34;&gt;&lt;/a&gt;The higher I got ,the more amazed I was by the view&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;我爬得越高，眼前的风景便愈发迷人&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/</guid>
             <title>课前五分钟中英双版</title>
@@ -1234,26 +1244,11 @@ were silent.&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</guid>
-            <title>大学进阶英语</title>
-            <link>http://example.com/2022/11/08/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</link>
-            <pubDate>Tue, 08 Nov 2022 01:16:39 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">http://example.com/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/</guid>
             <title>形势与政策</title>
             <link>http://example.com/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/</link>
             <pubDate>Tue, 08 Nov 2022 01:15:40 +0800</pubDate>
             <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</guid>
-            <title>中国近现代史纲要</title>
-            <link>http://example.com/2022/11/08/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</link>
-            <pubDate>Tue, 08 Nov 2022 01:14:44 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;中国近代史分类成立&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#中国近代史分类成立&#34;&gt;#&lt;/a&gt; 中国近代史分类成立&lt;/h1&gt;
- ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</guid>
