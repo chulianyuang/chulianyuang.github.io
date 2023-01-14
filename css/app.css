@@ -2235,11 +2235,23 @@ main >.inner {
 .social .item.github i {
   color: #191717;
 }
+.social .item.zhihu::before {
+  background-color: #1e88e5;
+}
+.social .item.zhihu i {
+  color: #1e88e5;
+}
 .social .item.email::before {
   background-color: #55acd5;
 }
 .social .item.email i {
   color: #55acd5;
+}
+.social .item.douban::before {
+  background-color: ouba;
+}
+.social .item.douban i {
+  color: ouba;
 }
 .social .item:focus i,
 .social .item:hover i {
