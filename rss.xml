@@ -5,28 +5,94 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sat, 14 Jan 2023 19:24:05 +0800</pubDate>
-        <lastBuildDate>Sat, 14 Jan 2023 19:24:05 +0800</lastBuildDate>
+        <pubDate>Sat, 04 Feb 2023 17:01:06 +0800</pubDate>
+        <lastBuildDate>Sat, 04 Feb 2023 17:01:06 +0800</lastBuildDate>
+        <category>C语言函数复习</category>
         <category>三省吾身</category>
-        <category>C语言大一上学期期末复习</category>
         <category>小白学C语言</category>
+        <category>C语言大一上学期期末复习</category>
         <category>练习题</category>
         <category>中二病</category>
-        <category>历史早读</category>
-        <category>鸡汤</category>
         <category>大学计划1</category>
-        <category>性理解</category>
+        <category>鸡汤</category>
+        <category>历史早读</category>
         <category>慢节奏的生活</category>
+        <category>性理解</category>
+        <category>C语言指针复习</category>
         <category>日常小作</category>
         <category>矩阵与求解</category>
         <category>慢慢就爱上的科目</category>
         <category>课前演讲</category>
         <category>C语言实验报告</category>
         <item>
+            <guid isPermalink="true">http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</guid>
+            <title>指向一维数组的指针变量</title>
+            <link>http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</link>
+            <category>C语言指针复习</category>
+            <pubDate>Sat, 04 Feb 2023 17:01:06 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;指向一维数组的指针变量定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指向一维数组的指针变量定义&#34;&gt;#&lt;/a&gt; 指向一维数组的指针变量定义：&lt;/h2&gt;
+&lt;p&gt;如果定义一个指针变量，使其指向一个一维数组的首地址，或指向某个数组元素的地址，则称该指针变量为指向一维数组的指针变量。&lt;br&gt;
+代码实例：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;],*p;&lt;span class=&#34;comment&#34;&gt;//首先对他们的类型做一个定义&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    p=a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    p=&amp;amp;a[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;];&lt;span class=&#34;comment&#34;&gt;//这两种规定都是符合的。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;以上这个是指向数组的首地址输出的都只是 a [0] 的值。&lt;br&gt;
+对于上面所写 &amp;amp; a [i] 的表示形式，由于数组元素访问运算符 [] 的优先级更高，所以这里不必写成 &amp;amp;(a [i]) 点形式。&lt;br&gt;
+&lt;strong&gt;插入优先级排序：由高到低为：！，算术运算符，关系运算符，&amp;amp;&amp;amp;，||，赋值运算符。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;可以得到数组元素ai地址的方式有四种-接下来我就只会用代码来介绍常用的三种&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#可以得到数组元素ai地址的方式有四种-接下来我就只会用代码来介绍常用的三种&#34;&gt;#&lt;/a&gt; 可以得到数组元素 a [i] 地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。&lt;/h2&gt;
+&lt;h3 id=&#34;第一种是通过数组的下标来引用数组元素这也是我们之前学数组时一直用的方法这里就不过多介绍了如下所示&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一种是通过数组的下标来引用数组元素这也是我们之前学数组时一直用的方法这里就不过多介绍了如下所示&#34;&gt;#&lt;/a&gt; ‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：&lt;/h3&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;]=&amp;#123;&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;8&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;9&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(i=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;i&amp;lt;&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;i++)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%5d&amp;quot;&lt;/span&gt;,a[i]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;第二种是可以通过数组名来访问数组元素-例如-ai与ai等价&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二种是可以通过数组名来访问数组元素-例如-ai与ai等价&#34;&gt;#&lt;/a&gt; ‌第二种是可以通过数组名来访问数组元素。例如：* (a+i) 与 a [i] 等价。&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;注意：使用数组名时，不能用 a++ 的方式，因为在这里的 a 是地址常量，而常量不能被重新赋值。&lt;/strong&gt;&lt;br&gt;
+实例：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;]=&amp;#123;&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;8&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;9&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(i=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;i&amp;lt;&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;i++)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%5d&amp;quot;&lt;/span&gt;,*(a+i));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;第三种如果定义了指针变量pint-p并使p指向数组a的首地址即pa则可以用指针变量来访问数组元素元素p0即与a0等价~~~~pi与ai等价&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第三种如果定义了指针变量pint-p并使p指向数组a的首地址即pa则可以用指针变量来访问数组元素元素p0即与a0等价~~~~pi与ai等价&#34;&gt;#&lt;/a&gt; ‌第三种，如果定义了指针变量 p (int p;), 并使 p 指向数组 a 的首地址 (即 p=a), 则可以用指针变量来访问数组元素元素，(p+0)(即 §) 与 a [0] 等价～～～～(p+i) 与 a [i] 等价。&lt;/h3&gt;
+&lt;p&gt;实例：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;]=&amp;#123;&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;8&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;9&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; *p; p=a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(i=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;i&amp;lt;&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;i++)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%5d&amp;quot;&lt;/span&gt;,*(p+i));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;例题使用指向数组的指针变量计算数组元素的平均值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#例题使用指向数组的指针变量计算数组元素的平均值&#34;&gt;#&lt;/a&gt; 例题，使用指向数组的指针变量，计算数组元素的平均值。&lt;/h2&gt;
+&lt;h3 id=&#34;提示定义数组和指针变量后让指针变量指向数组循环求和&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#提示定义数组和指针变量后让指针变量指向数组循环求和&#34;&gt;#&lt;/a&gt; 提示：定义数组和指针变量后，让指针变量指向数组，循环求和。&lt;/h3&gt;
+&lt;p&gt;代码&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;],*p,k;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;float&lt;/span&gt; aver=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    p=a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(k=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;k&amp;lt;&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;k++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     &lt;span class=&#34;built_in&#34;&gt;scanf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;,p+k); &lt;span class=&#34;comment&#34;&gt;/*p+k等价于&amp;amp;a[k]*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     aver=aver+*(p+k);  &lt;span class=&#34;comment&#34;&gt;/*  *(p+k)等价于a[k]*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    aver=aver/&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(k=&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;k&amp;lt;&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;k++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d\t&amp;quot;&lt;/span&gt;,*(p+k));  &lt;span class=&#34;comment&#34;&gt;/*  *(p+k)等价于a[k] */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;\n平均值=%f\n&amp;quot;&lt;/span&gt;,aver);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;在该程序运行过程中指针变量p的值不变化-接下来我将为你们展示我另一种指针变量p的值发生变化的答案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在该程序运行过程中指针变量p的值不变化-接下来我将为你们展示我另一种指针变量p的值发生变化的答案&#34;&gt;#&lt;/a&gt; 在该程序运行过程中，指针变量 p 的值不变化。接下来我将为你们展示我另一种指针变量 p 的值发生变化的答案。&lt;/h3&gt;
+&lt;p&gt;程序代码如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#include&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    int a[10],*p=a,i;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    float aver=0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    for(i=0;i&amp;lt;10;i++,p++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     scanf(&amp;quot;%d&amp;quot;,p); /*p+k等价于&amp;amp;a[k]*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;     aver=aver+*(p);  /*  *(p+k)等价于a[k]*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;aver=aver/10;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;p=a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;for(i=0;i&amp;lt;10;i++,p++)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; printf(&amp;quot;%d\t&amp;quot;,*(p));  /*  *(p+k)等价于a[k] */&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;printf(&amp;quot;\n平均值=%f\n&amp;quot;,aver);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;注意：在这个程序使用第二个 for 循环输出数组元素的值 (即&lt;/em&gt; p，&lt;/em&gt; p 与 a [i 等价] 之前，一定要让指针变量 p 重新指向数组的第一个元素 (即执行语句 “p=a;”)，否则会出错。**&lt;br&gt;
+ 从上面两个程序可以看出：使用指针变量 p 引用数组元素时，既可以用 p+i 方式，也可以用 p&lt;ins&gt; 方式。用 p+i 方式时，p 的值不变 (p 中存放数组首地址)。用 p&lt;/ins&gt; 方式时，p 的初值是数组首地址 (a [0] 的地址)，后续按顺序取其它数组元素的地址。这两种方式都可以按顺序访问数组的每个元素。&lt;/p&gt;
+&lt;h2 id=&#34;指针使用的几个小细节&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指针使用的几个小细节&#34;&gt;#&lt;/a&gt; 指针使用的几个小细节：&lt;/h2&gt;
+&lt;h3 id=&#34;1指针初始化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1指针初始化&#34;&gt;#&lt;/a&gt; 〈1〉指针初始化。&lt;/h3&gt;
+&lt;p&gt;在定义指针变量时，可以用合法的指针值对它进行初始化。例如：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; n, * p = &amp;amp;n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2空指针&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2空指针&#34;&gt;#&lt;/a&gt; &amp;lt;2&amp;gt; 空指针&lt;/h3&gt;
+&lt;p&gt;空指针是一个特殊的值，也是唯一一个对任何指针类型都合法的值。一个指针变量具有空值，表示它当时没有被赋予有意义的地址，处于闲置状态。&lt;/p&gt;
+&lt;p&gt;空指针值用 0 表示。将空值赋予一个指针变量，说明该指针变量不再是一个不确定的值，而是一个有效的值。&lt;/p&gt;
+&lt;p&gt;为了提高程序的可读性，C 语言标准库定义了一个与 0 等价的符号常量 NULL，当 p 是一个指针变量时，在程序中有两种形式：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; n, * p = &amp;amp;n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = &lt;span class=&#34;literal&#34;&gt;NULL&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//第一种&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;span class=&#34;comment&#34;&gt;//第二种&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这两种写法都是将指针 p 放置为空指针值，前一种写法使读该程序的人容易意识到这里是一个指针赋值。采用前一种写法时，必须通过 #include &amp;lt;stdio.h&amp;gt; 包含相应的标准头文件。&lt;/p&gt;
+&lt;h3 id=&#34;3如果指针变量p指向数组a的元素ai即pai则需要注意以下几点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3如果指针变量p指向数组a的元素ai即pai则需要注意以下几点&#34;&gt;#&lt;/a&gt; &amp;lt;3&amp;gt; 如果指针变量 p 指向数组 a 的元素 a [i]（即 p=&amp;amp;a [i]），则需要注意以下几点：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;*(p–) 相当于 a [i–], 先取 *p，再使 p 减 1。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;*（++p）相当于 a [++i], 先使 p 加 1，再取 *p。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;*（–p）相当于 a [–i]，先使 p 减 1，再取 *p。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;4如果指针变量p指向数组a的首地址即pa则需要注意以下几点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4如果指针变量p指向数组a的首地址即pa则需要注意以下几点&#34;&gt;#&lt;/a&gt; &amp;lt;4&amp;gt; 如果指针变量 p 指向数组 a 的首地址（即 p=a），则需要注意以下几点：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;执行 p++(或 p+=1) 后，p 指向数组的下一个元素。&lt;/li&gt;
+&lt;li&gt;*p&lt;ins&gt; 相当于 *(p&lt;/ins&gt;)。因为 * 和 ++ 的优先级相同，++ 是右结合运算符。&lt;/li&gt;
+&lt;li&gt;*(p++) 与 *(&lt;ins&gt;p) 的作用不同。 *(p&lt;/ins&gt;) 为先取 *p, 再使 p 加 1； *(++p) 为先使 p 加 1，再取 *p。&lt;/li&gt;
+&lt;li&gt;(*p)++ 表示 p 指向的数组元素的值加 1。&lt;strong&gt;// 这个可别学懵逼了&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;5当两个指针变量指向同一个数组时可以求他们的差得到的结果是对应的两个数组元素的下标之差可能时负整数-当指向的不是同一个数组时对他们的比较将毫无意义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5当两个指针变量指向同一个数组时可以求他们的差得到的结果是对应的两个数组元素的下标之差可能时负整数-当指向的不是同一个数组时对他们的比较将毫无意义&#34;&gt;#&lt;/a&gt; &amp;lt;5&amp;gt; 当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。&lt;/h3&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</guid>
             <title>指针变量的定义</title>
             <link>http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</link>
-            <category>C语言大一上学期期末复习</category>
+            <category>C语言指针复习</category>
             <pubDate>Sat, 14 Jan 2023 19:24:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;指针变量的定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指针变量的定义&#34;&gt;#&lt;/a&gt; 指针变量的定义&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;在程序执行过程中，由于是通过变量的地址来找到存储变量值的内存单元从而取的变量的值，因此将变量的地址又称为变量的指针。&lt;/strong&gt;&lt;/p&gt;
@@ -110,13 +176,6 @@
 &lt;li&gt;最后也是最重要的一点，不要让爱情成为你进步的绊脚石。你有了伴侣更要努力变优秀。&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2022/12/12/%E9%AB%98%E6%95%B0%E5%B0%8F%E6%94%B6%E8%8E%B7/</guid>
-            <title>高数小收获</title>
-            <link>http://example.com/2022/12/12/%E9%AB%98%E6%95%B0%E5%B0%8F%E6%94%B6%E8%8E%B7/</link>
-            <pubDate>Mon, 12 Dec 2022 20:00:56 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</guid>
@@ -637,7 +696,7 @@
             <guid isPermalink="true">http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
             <title>C语言函数模块知识总结</title>
             <link>http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
-            <category>C语言大一上学期期末复习</category>
+            <category>C语言函数复习</category>
             <pubDate>Fri, 25 Nov 2022 18:21:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
 &lt;p&gt;相信大家对现在 IT 公司的项目完成方式都已经有所了解，一个项目的工作量绝不是一个人可以完成的，它是把这个项目里面的很多功能都一一拆解出来，然后交到一个个精英的手中，项目的最终产物一定是很多人努力成果的汇总。而想要实现这个过程，就得充分利用好函数的功能。&lt;/p&gt;
@@ -1521,38 +1580,10 @@ were silent.&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/</guid>
-            <title>形势与政策</title>
-            <link>http://example.com/2022/11/08/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96/</link>
-            <pubDate>Tue, 08 Nov 2022 01:15:40 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</guid>
-            <title>高等数学</title>
-            <link>http://example.com/2022/11/08/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</link>
-            <pubDate>Tue, 08 Nov 2022 01:13:57 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">http://example.com/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
             <title>网站搭建</title>
             <link>http://example.com/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
             <pubDate>Tue, 08 Nov 2022 01:13:09 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/java%E5%AD%A6%E4%B9%A0/</guid>
-            <title>java学习</title>
-            <link>http://example.com/2022/11/08/java%E5%AD%A6%E4%B9%A0/</link>
-            <pubDate>Tue, 08 Nov 2022 01:12:33 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/</guid>
-            <title>计算机导论</title>
-            <link>http://example.com/2022/11/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/</link>
-            <pubDate>Tue, 08 Nov 2022 01:10:21 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
