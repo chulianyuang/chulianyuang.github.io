@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>welcome to my world • Posts by &#34;c语言复习&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-02-07T21:26:09.000Z</updated>
+    <category term="三省吾身" />
+    <category term="C语言函数复习" />
+    <category term="小白学C语言" />
+    <category term="C语言大一上学期期末复习" />
+    <category term="练习题" />
+    <category term="中二病" />
+    <category term="历史早读" />
+    <category term="大学计划1" />
+    <category term="鸡汤" />
+    <category term="性理解" />
+    <category term="C语言指针复习" />
+    <category term="慢节奏的生活" />
+    <category term="日常小作" />
+    <category term="矩阵与求解" />
+    <category term="慢慢就爱上的科目" />
+    <category term="C语言实验报告" />
+    <category term="课前演讲" />
+    <category term="C语言探索" />
+    <category term="C语言复习" />
+    <entry>
+        <id>http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>结构体的使用</title>
+        <link rel="alternate" href="http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;p&gt;今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。&lt;br&gt;
+结构体的诞生：因为在游戏中（这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是 C++ 进行开发的，同源）的一个角色的数据类型十分复杂，比如我曾经打到深圳市 33 名的一个角色干将莫邪（小小臭屁一下 hhh），它本身包含了&lt;/p&gt;
+</content>
+        <category term="C语言复习" />
+        <updated>2023-02-07T21:26:09.000Z</updated>
+    </entry>
+</feed>

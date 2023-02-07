@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 07 Feb 2023 20:38:01 +0800</pubDate>
-        <lastBuildDate>Tue, 07 Feb 2023 20:38:01 +0800</lastBuildDate>
+        <pubDate>Wed, 08 Feb 2023 05:26:09 +0800</pubDate>
+        <lastBuildDate>Wed, 08 Feb 2023 05:26:09 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>C语言函数复习</category>
         <category>小白学C语言</category>
@@ -25,6 +25,17 @@
         <category>C语言实验报告</category>
         <category>课前演讲</category>
         <category>C语言探索</category>
+        <category>C语言复习</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+            <title>结构体的使用</title>
+            <link>http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+            <category>C语言复习</category>
+            <pubDate>Wed, 08 Feb 2023 05:26:09 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。&lt;br&gt;
+结构体的诞生：因为在游戏中（这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是 C++ 进行开发的，同源）的一个角色的数据类型十分复杂，比如我曾经打到深圳市 33 名的一个角色干将莫邪（小小臭屁一下 hhh），它本身包含了&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
             <title>对printf和scanf两函数的理解</title>
