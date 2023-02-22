@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 08 Feb 2023 05:26:09 +0800</pubDate>
-        <lastBuildDate>Wed, 08 Feb 2023 05:26:09 +0800</lastBuildDate>
+        <pubDate>Wed, 22 Feb 2023 17:17:38 +0800</pubDate>
+        <lastBuildDate>Wed, 22 Feb 2023 17:17:38 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>C语言函数复习</category>
         <category>小白学C语言</category>
@@ -27,13 +27,55 @@
         <category>C语言探索</category>
         <category>C语言复习</category>
         <item>
+            <guid isPermalink="true">http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</guid>
+            <title>股票入门</title>
+            <link>http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</link>
+            <pubDate>Wed, 22 Feb 2023 17:17:38 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;股票交易时间：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;股票交易时间为每周一到周五&lt;/li&gt;
+&lt;li&gt;周六日休市不交易（国家法定节假日不交易）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;（集合竞价）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;19：15 到 9：20 随便挂单随便撤单。&lt;/p&gt;
+&lt;p&gt;9：20 到 9：25 可以挂单不可以撤单。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;股票分类:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我国上市公司的股票有：A 股，B 股，H 股，N 股，S 股等。（不用都了解，我们要做的一般只有泸深 A 股）&lt;/p&gt;
+&lt;p&gt;我们做的股票一般就是泸深 A 股，也就是在上海和深圳上市交易的 A 股。&lt;/p&gt;
+&lt;p&gt;60 开头的股票 — 上证 A 股&lt;/p&gt;
+&lt;p&gt;0 开头的股票  — 深证 A 股&lt;/p&gt;
+&lt;p&gt;3 开头的股票 ----- 创业板（证券公司去开通）&lt;/p&gt;
+&lt;p&gt;688 开头的股票 — 科创版（最低交易金额为 50w 的软妹币）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;股票交易规则：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;股票最低是买一手&lt;/p&gt;
+&lt;p&gt;1 手 = 100 股&lt;/p&gt;
+&lt;p&gt;也就是说，我们买股票都是按 100 的整数倍来买的。&lt;/p&gt;
+&lt;p&gt;很多小白都想知道的问题无疑是进股市的门槛高不高，买股票最低需要多少钱，我只能说这个问题没有固定答案，目前泸深 A 股，价格最低的一只非 ST 股票（这种股票是即将退市的股票）价格比方是 1.13 元，我们最低就要 1.13*100=113 软妹币来买股票。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;买股票手续费&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;印花税：千分之一（卖的时候才收取，此为国家税收，全国统一）。&lt;/li&gt;
+&lt;li&gt;过户税：深圳交易所无此项费用，上海交易所收费标准是成交金额的千分之 0.02 软妹币。&lt;/li&gt;
+&lt;li&gt;交易佣金：最高收费为万分之三，最低收费为 5 元。各家卷商收费标准不一，所以在决定开户之前一定要问清楚这方面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;有意思的是：在泸深 A 股中最高的一支股票是茅台，哈哈哈，牛逼&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;看盘软件的基本操作：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;查询股票：一般输入股票名称的首字母。&lt;/p&gt;
+&lt;p&gt;比方说 “第一创业” 输入 dycy 四个首字母按回车即可，也可以输入股票代码 002797 按回车即可。&lt;/p&gt;
+&lt;p&gt;想关注的几只股票，我们可以加入 “自选股” 方便后面观察。找到你想添加的股票，点击鼠标右击加入即可。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
             <title>结构体的使用</title>
             <link>http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
             <category>C语言复习</category>
             <pubDate>Wed, 08 Feb 2023 05:26:09 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。&lt;br&gt;
-结构体的诞生：因为在游戏中（这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是 C++ 进行开发的，同源）的一个角色的数据类型十分复杂，比如我曾经打到深圳市 33 名的一个角色干将莫邪（小小臭屁一下 hhh），它本身包含了&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结构体的诞生：因为在游戏中（&lt;em&gt;这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是 C++ 进行开发的，同源&lt;/em&gt;）的一个角色的数据类型十分复杂，比如我曾经打到深圳市 33 名的一个角色干将莫邪（&lt;em&gt;小小臭屁一下 hhh&lt;/em&gt;），它本身包含了名字，生命，物攻，法强，物抗，法抗，法术吸血等等。角色本身的建模那与我们没有关系。我们如果要在代码中实现，是不是要定义一个 char（字符串）来装名字，定义五个 int 来装生命，物攻，法强，定义一个浮点型来装法术吸血。一个游戏有很多个角色，我们之前所学的数组什么的只能用来装同一类型的数据，单独定义又很麻烦，还要自己去记住各个变量本身对应的量是哪个。因此结构体的出现就因为人们的需求出现啦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;代码如下:&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Stu&lt;/span&gt;/*定义一个结构体*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;char&lt;/span&gt; name[&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;];&lt;span class=&#34;comment&#34;&gt;//姓名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; shengming;&lt;span class=&#34;comment&#34;&gt;//生命值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; wugong;&lt;span class=&#34;comment&#34;&gt;//物攻&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; faqian;&lt;span class=&#34;comment&#34;&gt;//法强&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;float&lt;/span&gt; fashuxixue;&lt;span class=&#34;comment&#34;&gt;//法术吸血&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;现在你就已经定义完了一个结构体，那接下来就是要把它用上，这里我来为大家展示一下干将莫邪的定义。上代码&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
