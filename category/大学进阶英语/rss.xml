@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 28 Feb 2023 22:15:04 +0800</pubDate>
-        <lastBuildDate>Tue, 28 Feb 2023 22:15:04 +0800</lastBuildDate>
+        <pubDate>Fri, 03 Mar 2023 17:47:19 +0800</pubDate>
+        <lastBuildDate>Fri, 03 Mar 2023 17:47:19 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>小白学C语言</category>
         <category>C语言函数复习</category>
@@ -29,6 +29,17 @@
         <category>C语言实验报告</category>
         <category>关于创业的一条路</category>
         <category>全国英语四级考试</category>
+        <category>环境保护</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</guid>
+            <title>环境保护小作</title>
+            <link>http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</link>
+            <category>环境保护</category>
+            <pubDate>Fri, 03 Mar 2023 17:47:19 +0800</pubDate>
+            <description><![CDATA[ &lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;In high school, I was impressed by a word in a magazine, “The earth does not need humans, but humans cannot do without the earth, at least for now.” &amp;quot;In my opinion,the earth is sick today, and protecting the environment and recycling is a very important and urgent thing. Mother Earth is tolerance that she rarely gets angry at us for doing something that hurts it, but we can’t take this love for granted. It is time for us to make environment-friendly choices, such as sorting garbage into recyclable groups, saving water and electricity, using less plastic bags, plant more trees, and take more public transportation. I believe that with our efforts, the blue sky will definitely be bluer.&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/</guid>
             <title>英语角</title>
