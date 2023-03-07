@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Fri, 11 Nov 2022 20:23:53 +0800</pubDate>
-        <lastBuildDate>Fri, 11 Nov 2022 20:23:53 +0800</lastBuildDate>
+        <pubDate>Tue, 07 Mar 2023 16:35:02 +0800</pubDate>
+        <lastBuildDate>Tue, 07 Mar 2023 16:35:02 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>小白学C语言</category>
         <category>C语言函数复习</category>
@@ -30,6 +30,17 @@
         <category>关于创业的一条路</category>
         <category>全国英语四级考试</category>
         <category>环境保护</category>
+        <category>英语角</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
+            <title>画画</title>
+            <link>http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
+            <pubDate>Tue, 07 Mar 2023 16:35:02 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;学会新技能用typora画流程图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#学会新技能用typora画流程图&#34;&gt;#&lt;/a&gt; 学会新技能，用 typora 画流程图&lt;/h1&gt;
+&lt;h2 id=&#34;牛逼&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#牛逼&#34;&gt;#&lt;/a&gt; 牛逼&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;st=&amp;gt;start: 闹钟响起&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;op=&amp;gt;operation: 与床板分离&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond=&amp;gt;condition: 分离成功?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;e=&amp;gt;end: 快乐的一天&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;st-&amp;gt;op-&amp;gt;cond&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond(yes)-&amp;gt;e&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond(no)-&amp;gt;op&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</guid>
             <title>一些童年回忆</title>
