@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"数据结构与算法\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/",
+            "url": "http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/",
+            "title": "绪论",
+            "date_published": "2023-03-07T09:15:42.000Z",
+            "content_html": "<h1 id=\"绪论\"><a class=\"markdownIt-Anchor\" href=\"#绪论\">#</a> 绪论</h1>\n<h2 id=\"树状图总结\"><a class=\"markdownIt-Anchor\" href=\"#树状图总结\">#</a> 树状图总结</h2>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">graph LR</span><br><span class=\"line\"> </span><br><span class=\"line\">A[绪论] --&gt;B(数据结构)--&gt;C(逻辑结构)--&gt;a(线性结构)--&gt;d&#123;线性表&#125;</span><br><span class=\"line\">a--&gt;q&#123;栈和队列&#125; </span><br><span class=\"line\">a--&gt;w&#123;字符串&#125;</span><br><span class=\"line\">C--&gt;b(非线性结构)--&gt;e&#123;树状图&#125;</span><br><span class=\"line\">b--&gt;r&#123;图结构&#125;</span><br><span class=\"line\">B--&gt;D(存储结构)--&gt;t&#123;顺序存储结构&#125;</span><br><span class=\"line\">D--&gt;y&#123;链式存储结构&#125;</span><br><span class=\"line\">A[绪论] --&gt;c(算法)--&gt;u(定义)</span><br><span class=\"line\">  c--&gt;o(特性)</span><br><span class=\"line\">  c--&gt;p(评价标准)</span><br><span class=\"line\">  c--&gt;s(效率度量)--&gt;f&#123;时间复杂度&#125;</span><br><span class=\"line\">  s--&gt;g&#123;空间复杂度&#125;</span><br><span class=\"line\">  </span><br><span class=\"line\">   </span><br></pre></td></tr></table></figure>\n<p>在这一章中主要介绍了</p>\n",
+            "tags": [
+                "知识点总结"
+            ]
+        }
+    ]
+}

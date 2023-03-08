@@ -31,6 +31,7 @@
         <category>全国英语四级考试</category>
         <category>环境保护</category>
         <category>英语角</category>
+        <category>知识点总结</category>
         <category>细化操作</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</guid>
@@ -315,8 +316,13 @@
             <guid isPermalink="true">http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
             <title>绪论</title>
             <link>http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
+            <category>知识点总结</category>
             <pubDate>Tue, 07 Mar 2023 17:15:42 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;h1 id=&#34;绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绪论&#34;&gt;#&lt;/a&gt; 绪论&lt;/h1&gt;
+&lt;h2 id=&#34;树状图总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#树状图总结&#34;&gt;#&lt;/a&gt; 树状图总结&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;graph LR&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;A[绪论] --&amp;gt;B(数据结构)--&amp;gt;C(逻辑结构)--&amp;gt;a(线性结构)--&amp;gt;d&amp;#123;线性表&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a--&amp;gt;q&amp;#123;栈和队列&amp;#125; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a--&amp;gt;w&amp;#123;字符串&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;C--&amp;gt;b(非线性结构)--&amp;gt;e&amp;#123;树状图&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;b--&amp;gt;r&amp;#123;图结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;B--&amp;gt;D(存储结构)--&amp;gt;t&amp;#123;顺序存储结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D--&amp;gt;y&amp;#123;链式存储结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;A[绪论] --&amp;gt;c(算法)--&amp;gt;u(定义)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;o(特性)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;p(评价标准)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;s(效率度量)--&amp;gt;f&amp;#123;时间复杂度&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  s--&amp;gt;g&amp;#123;空间复杂度&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在这一章中主要介绍了&lt;/p&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/03/07/%E7%94%BB%E5%AE%B6/</guid>
