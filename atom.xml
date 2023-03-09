@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world</title>
     <link href="http://example.com" />
-    <updated>2023-03-07T09:40:11.000Z</updated>
+    <updated>2023-03-09T08:58:16.000Z</updated>
     <category term="三省吾身" />
     <category term="小白学C语言" />
     <category term="C语言函数复习" />
@@ -30,6 +30,41 @@
     <category term="英语角" />
     <category term="知识点总结" />
     <category term="细化操作" />
+    <entry>
+        <id>http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</id>
+        <title>c语言malloc函数的用法和意义</title>
+        <link rel="alternate" href="http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/"/>
+        <content type="html">&lt;p&gt;当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。&lt;br&gt;
+为了应对上述问题，我们引入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1tYWxsb2MmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt; malloc&lt;/span&gt; 函数。&lt;br&gt;
+&lt;strong&gt;malloc 时动态内存分配函数，用于申请一块连续的指定大小的内存块区域以 void * 类型返回分配的内存区域地址&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数原型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数原型&#34;&gt;#&lt;/a&gt; malloc 函数原型&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;extern void *malloc(unsigned int num_bytes);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;意为分配长度为 num_bytes 字节的内存块&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数头文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数头文件&#34;&gt;#&lt;/a&gt; malloc 函数头文件&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#include&amp;lt;malloc.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;malloc函数返回值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数返回值&#34;&gt;#&lt;/a&gt; malloc 函数返回值&lt;/h2&gt;
+&lt;p&gt;如果分配成功则返回指向被分配内存的指针，否则返回空指针 NULL。&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数使用注意事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数使用注意事项&#34;&gt;#&lt;/a&gt; malloc 函数使用注意事项&lt;/h2&gt;
+&lt;p&gt;malloc 函数的返回的是无类型指针，在使用时一定要强制转换为所需要的类型。&lt;br&gt;
+&lt;strong&gt;（敲黑板）重点：在使用 malloc 开辟空间时，使用完成一定要释放空间，如果不释放会造内存泄漏。&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;在使用 malloc 函数开辟的空间中，不要进行指针的移动，因为一旦移动之后可能出现申请的空间和释放空间大小的不匹配&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数使用形式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数使用形式&#34;&gt;#&lt;/a&gt; malloc 函数使用形式&lt;/h2&gt;
+&lt;p&gt;关于 malloc 所开辟空间类型：malloc 只开辟空间，不进行类型检查，只是在使用的时候进行类型的强转。&lt;br&gt;
+举个例子：‘我’开辟你所需要大小的字节大小空间，至于怎么使用是你的事&lt;br&gt;
+ mallo 函数返回的实际是一个无类型指针，必须在其前面加上指针类型强制转换才可以使用&lt;br&gt;
+指针自身 = (指针类型 *）malloc（sizeof（指针类型）* 数据数量）&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;	int *p = NULL;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int n = 10;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = (int *)malloc(sizeof(int)*n);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;123&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在使用 malloc 函数之前我们一定要&lt;strong&gt;计算字节数&lt;/strong&gt;，malloc 开辟的是用户所需求的字节数大小的空间。&lt;br&gt;
+如果多次申请空间那么系统是如何做到空间的不重复使用呢？&lt;br&gt;
+在使用 malloc 开辟一段空间之后，系统会在这段空间之前做一个标记（0 或 1），当 malloc 函数开辟空间如果遇到标记为 0 就在此开辟，如果为 1 说明此空间正在被使用。&lt;/p&gt;
+&lt;h2 id=&#34;free函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#free函数&#34;&gt;#&lt;/a&gt; free 函数&lt;/h2&gt;
+&lt;p&gt;作用：释放 malloc (或 calloc、realloc) 函数给指针变量分配的内存空间。&lt;br&gt;
+注意：使用后该&lt;strong&gt;指针变量一定要重新指向 NULL&lt;/strong&gt;，防止悬空指针（失效指针）出现，有效规避错误操作。&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int *p = (int *)malloc(sizeof(int));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	*p = 100;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	free(p);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = NULL;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1234567&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;free 函数在释放空间之后，把内存前的标志变为 0，且为了防止数据泄露，它会把所释放的空间用 cd 进行填充。&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <updated>2023-03-09T08:58:16.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</id>
         <title>typora用法再深化</title>
@@ -316,7 +351,43 @@
         <content type="html">&lt;h1 id=&#34;绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绪论&#34;&gt;#&lt;/a&gt; 绪论&lt;/h1&gt;
 &lt;h2 id=&#34;树状图总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#树状图总结&#34;&gt;#&lt;/a&gt; 树状图总结&lt;/h2&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;graph LR&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;A[绪论] --&amp;gt;B(数据结构)--&amp;gt;C(逻辑结构)--&amp;gt;a(线性结构)--&amp;gt;d&amp;#123;线性表&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a--&amp;gt;q&amp;#123;栈和队列&amp;#125; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a--&amp;gt;w&amp;#123;字符串&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;C--&amp;gt;b(非线性结构)--&amp;gt;e&amp;#123;树状图&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;b--&amp;gt;r&amp;#123;图结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;B--&amp;gt;D(存储结构)--&amp;gt;t&amp;#123;顺序存储结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D--&amp;gt;y&amp;#123;链式存储结构&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;A[绪论] --&amp;gt;c(算法)--&amp;gt;u(定义)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;o(特性)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;p(评价标准)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  c--&amp;gt;s(效率度量)--&amp;gt;f&amp;#123;时间复杂度&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  s--&amp;gt;g&amp;#123;空间复杂度&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;在这一章中主要介绍了&lt;/p&gt;
+&lt;h2 id=&#34;在这一章中主要介绍了数据结构的基本概念和术语以及算法和算法时间复杂度的分析方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在这一章中主要介绍了数据结构的基本概念和术语以及算法和算法时间复杂度的分析方法&#34;&gt;#&lt;/a&gt; 在这一章中主要介绍了数据结构的基本概念和术语，以及算法和算法时间复杂度的分析方法。&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数据结构是一门研究非数值计算程序设计中操作对象，以及这些对象之间的关系和操作对象，以及这些对象之间的关系和操作的学科。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据结构包括两个方面的内容：数据的逻辑结构和存储结构。同一逻辑结构采用不同的储存方法，可以得到不同的存储结构&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;逻辑结构是从具体问题抽象出来的数学模型，从逻辑关系上描述数据，它与数据的存储无关。根据数据元素之间关系的不同特性，通常有四类基本逻辑结构：集合结构，线性结构，树形结构和图状结构。&lt;/li&gt;
+&lt;li&gt;存储结构是逻辑结构在计算机中的存储表示，有两类存储结构：顺序粗出结构和链式存储结构。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;抽象数据类型是指由用户定义的，表示应用问题的数学模型，以及定义在这个模型上的一组操作的总称，具体包括三部分：数据对象，数据对象上关系的集合，以及对数据对象的基本操作的集合。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;算法是为了解决某类问题而规定的一个有限长的操作数列。算法具有四个特性：正确性，可读性，健壮性和高效性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;算法分析的两个主要方面是分析算法的时间发杂度和空间复杂度，以考察算法的时间和空间效率。一般情况下，鉴于运算空间较为充足，故将算法的时间复杂度作为分析的重点。算法执行时间的数量级称为算法的渐近时间复杂度，T (n)=O (f (n))，它表示随着问题 n 的增大，算法执行时间的增长率和 f (n) 的增长率相同，简称时间复杂度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;这一章的知识点并不多我着重讲一下时间复杂度的相关知识&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#这一章的知识点并不多我着重讲一下时间复杂度的相关知识&#34;&gt;#&lt;/a&gt; 这一章的知识点并不多，我着重讲一下时间复杂度的相关知识&lt;/h3&gt;
+&lt;p&gt;在描述算法复杂度时，经常用到 O (1) , O ( n ) , O ( l o g n ) , O ( n l o g n ) 来表示对应复杂度程度，不过目前大家默认也通过这几个方式表示&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTclQTklQkElRTklOTclQjQlRTUlQTQlOEQlRTYlOUQlODIlRTUlQkElQTYmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt;空间复杂度&lt;/span&gt; 。&lt;/p&gt;
+&lt;p&gt;那么，O (1) , O ( n ) , O ( l o g n ) , O ( n l o g n ) 就可以看作既可表示算法复杂度，也可以表示空间复杂度。&lt;/p&gt;
+&lt;p&gt;大 O 加上（）的形式，里面其实包裹的是一个函数 f () , O （ f () ） f (),O（f ()）f (),O（f ()）, 指明某个算法的耗时 / 耗空间与数据增长量之间的关系。其中的 n  代表输入数据的量。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20200415110541459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTY5Nzc3NA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果 ax=N（a&amp;gt;0，且 a≠1），那么数 x 叫做以 a 为底 N 的对数，记作 x=logaN，读作以 a 为底 N 的对数，其中 a 叫做对数的底数，N 叫做真数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20200415110548576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTY5Nzc3NA==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+比如线段树复杂度 O (l o g n + n) ，查询修改都是 O ( l o g n ) &lt;strong&gt;刚学的时候简直惊为天人&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;i&amp;lt;=n;++i)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; j=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;j&amp;lt;=i;++j)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; k=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;k&amp;lt;=j;++k)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                x=x+&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;number&#34;&gt;1234&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTYlOTclQjYlRTklOTclQjQlRTUlQTQlOEQlRTYlOUQlODIlRTUlQkElQTYmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt;时间复杂度&lt;/span&gt;是 O (n^3)&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(i&amp;lt;=n)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        i*=&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;number&#34;&gt;1234&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;时间复杂度 O (l o g 2 n)−&amp;gt;O ( l o g n )&lt;br&gt;
+ 评测机一般能过 10&lt;sup&gt;8~10&lt;/sup&gt;9 ，根据评测机的性能以及程序的常数而定&lt;/p&gt;
 </content>
         <category term="知识点总结" />
         <updated>2023-03-07T09:15:42.000Z</updated>
