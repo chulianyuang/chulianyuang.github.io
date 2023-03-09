@@ -35,13 +35,12 @@
         <category>细化操作</category>
         <category>巧思</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E5%BD%92%E7%BA%B3/</guid>
-            <title>线性表归纳</title>
-            <link>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E5%BD%92%E7%BA%B3/</link>
+            <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
+            <title>线性表的类型定义</title>
+            <link>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</link>
             <category>知识点总结</category>
             <pubDate>Thu, 09 Mar 2023 19:54:04 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;线性表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h1&gt;
-&lt;h2 id=&#34;线性表的类型定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性表的类型定义&#34;&gt;#&lt;/a&gt; 线性表的类型定义&lt;/h2&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;线性表的类型定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性表的类型定义&#34;&gt;#&lt;/a&gt; 线性表的类型定义&lt;/h1&gt;
 &lt;h3 id=&#34;c语言实现线性表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#c语言实现线性表&#34;&gt;#&lt;/a&gt; C 语言实现线性表&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MDc0MzQxL2FydGljbGUvZGV0YWlscy8xMjQ3NTM0Nzk/b3BzX3JlcXVlc3RfbWlzYz0mYW1wO3JlcXVlc3RfaWQ9JmFtcDtiaXpfaWQ9MTAyJmFtcDt1dG1fdGVybT0lRTclQkElQkYlRTYlODAlQTclRTglQTElQThjJUU4JUFGJUFEJUU4JUE4JTgwJUU1JUFFJTlFJUU3JThFJUIwJmFtcDt1dG1fbWVkaXVtPWRpc3RyaWJ1dGUucGNfc2VhcmNoX3Jlc3VsdC5ub25lLXRhc2stYmxvZy0yfmFsbH5zb2JhaWR1d2VifmRlZmF1bHQtMC0xMjQ3NTM0NzkuMTQyJTVFdjczJTVFY29udHJvbCwyMDElNUV2NCU1RWFkZF9hc2ssMjM5JTVFdjIlNUVpbnNlcnRfY2hhdGdwdCZhbXA7c3BtPTEwMTguMjIyNi4zMDAxLjQxODcjXzQ=&#34;&gt;定义&lt;/span&gt;&lt;/li&gt;
