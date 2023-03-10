@@ -35,6 +35,8 @@
         <category>细化操作</category>
         <category>巧思</category>
         <category>微积分复习</category>
+        <category>细解</category>
+        <category>顺序表中基本操作的实现</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
             <title>对printf和scanf两函数的理解</title>

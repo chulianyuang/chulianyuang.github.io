@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>welcome to my world • Posts by &#34;顺序表中基本操作的实现&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-03-09T13:06:54.000Z</updated>
+    <category term="三省吾身" />
+    <category term="小白学C语言" />
+    <category term="C语言函数复习" />
+    <category term="C语言大一上学期期末复习" />
+    <category term="中二病" />
+    <category term="练习题" />
+    <category term="大学计划1" />
+    <category term="历史早读" />
+    <category term="C语言探索" />
+    <category term="鸡汤" />
+    <category term="性理解" />
+    <category term="慢节奏的生活" />
+    <category term="C语言指针复习" />
+    <category term="矩阵与求解" />
+    <category term="日常小作" />
+    <category term="慢慢就爱上的科目" />
+    <category term="C语言复习" />
+    <category term="课前演讲" />
+    <category term="从年头红到年尾" />
+    <category term="C语言实验报告" />
+    <category term="关于创业的一条路" />
+    <category term="全国英语四级考试" />
+    <category term="环境保护" />
+    <category term="英语角" />
+    <category term="知识点总结" />
+    <category term="细化操作" />
+    <category term="巧思" />
+    <category term="微积分复习" />
+    <category term="细解" />
+    <category term="顺序表中基本操作的实现" />
+    <entry>
+        <id>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%A4%BA%E5%92%8C%E5%AE%9E%E7%8E%B0/</id>
+        <title>线性表的顺序表示和实现</title>
+        <link rel="alternate" href="http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%A4%BA%E5%92%8C%E5%AE%9E%E7%8E%B0/"/>
+        <content type="html">&lt;h1 id=&#34;顺序表中基本操作的实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顺序表中基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序表中基本操作的实现&lt;/h1&gt;
+</content>
+        <category term="顺序表中基本操作的实现" />
+        <updated>2023-03-09T13:06:54.000Z</updated>
+    </entry>
+</feed>

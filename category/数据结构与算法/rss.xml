@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Thu, 09 Mar 2023 19:54:04 +0800</pubDate>
-        <lastBuildDate>Thu, 09 Mar 2023 19:54:04 +0800</lastBuildDate>
+        <pubDate>Fri, 10 Mar 2023 07:32:22 +0800</pubDate>
+        <lastBuildDate>Fri, 10 Mar 2023 07:32:22 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>小白学C语言</category>
         <category>C语言函数复习</category>
@@ -35,6 +35,33 @@
         <category>细化操作</category>
         <category>巧思</category>
         <category>微积分复习</category>
+        <category>细解</category>
+        <category>顺序表中基本操作的实现</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</guid>
+            <title>ElemType是什么？</title>
+            <link>http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</link>
+            <category>细解</category>
+            <pubDate>Fri, 10 Mar 2023 07:32:22 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;在定义结构体 array 的时候有这样一段：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;typedef&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;struct&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   ElemType data[maxsize];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; length;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125; &lt;span class=&#34;built_in&#34;&gt;array&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在《数据结构》中，关于数据元素的类型定义均用 “ElemType e；” 来表示，其中 e 是表示数据元素的变量，而 ElemType 则是它的类型，ElemType 的含义就是 “数据元素的类型”，是一个抽象的概念，是表示我们所要使用的数据元素应有的类型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用：typedef int ElemType;// 定义 ElemType 为 int 类型&lt;br&gt;
+你想让它是什么类型自己用 typedef 重定义就行。&lt;br&gt;
+也可以用模板表示，类似 template&lt;class T&gt;里面的 T。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这对于初学数据结构的学生来说理解起来有些难度，为了利于理解，我们可以把”ElemType “等同于” 一套房子 “来理解：&lt;br&gt;
+“一套房子” 的含义大家都非常清楚，但一套房子的具体含义是因人而异的，有的认为是 “四室二厅”，有的认为是 “二室一厅”，也有的认为是 “一室一厅”，对此大家也没有任何异议！其实 ElemType 也是这样的，它有时表示 “整型”，有时表示 “用户自定义的结构体”，也可以是其他形式的类型自由表示！&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%A4%BA%E5%92%8C%E5%AE%9E%E7%8E%B0/</guid>
+            <title>线性表的顺序表示和实现</title>
+            <link>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%A4%BA%E5%92%8C%E5%AE%9E%E7%8E%B0/</link>
+            <category>顺序表中基本操作的实现</category>
+            <pubDate>Thu, 09 Mar 2023 21:06:54 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;顺序表中基本操作的实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顺序表中基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序表中基本操作的实现&lt;/h1&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
             <title>线性表的类型定义</title>
