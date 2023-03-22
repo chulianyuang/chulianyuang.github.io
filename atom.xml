@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world</title>
     <link href="http://example.com" />
-    <updated>2023-03-18T05:55:50.000Z</updated>
+    <updated>2023-03-20T15:48:48.000Z</updated>
     <category term="三省吾身" />
     <category term="小白学C语言" />
     <category term="C语言函数复习" />
@@ -35,6 +35,13 @@
     <category term="细解" />
     <category term="知识总结" />
     <category term="动态规划" />
+    <entry>
+        <id>http://example.com/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/</id>
+        <title>数据结构第二章线性表习题</title>
+        <link rel="alternate" href="http://example.com/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/"/>
+        <content type="html"></content>
+        <updated>2023-03-20T15:48:48.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</id>
         <title>《幸福的方法》笔记</title>
