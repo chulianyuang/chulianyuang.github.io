@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"数据结构与算法实训报告（c语言版）\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/03/22/%E5%AE%9E%E8%AE%AD%E6%8A%A5%E5%91%8A/",
+            "url": "http://example.com/2023/03/22/%E5%AE%9E%E8%AE%AD%E6%8A%A5%E5%91%8A/",
+            "title": "实训报告",
+            "date_published": "2023-03-22T14:31:29.000Z",
+            "content_html": "",
+            "tags": [
+                "数据结构与算法实训报告（C语言版）"
+            ]
+        }
+    ]
+}
