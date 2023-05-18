@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?709643"></li>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?111369"></li>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?892456"></li>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?873300"></li>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?811911"></li>
-          <li class="item" data-background-image="https://api.ixiaowai.cn/api/api.php?390092"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?50475"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?155974"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?787569"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?688076"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?631172"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?187801"></li>
         </ul>
       </div>
     </header>
@@ -153,12 +153,14 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p>今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。</p>
-<p><strong>结构体的诞生：因为在游戏中（<em>这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是 C++ 进行开发的，同源</em>）的一个角色的数据类型十分复杂，比如我曾经打到深圳市 33 名的一个角色干将莫邪（<em>小小臭屁一下 hhh</em>），它本身包含了名字，生命，物攻，法强，物抗，法抗，法术吸血等等。角色本身的建模那与我们没有关系。我们如果要在代码中实现，是不是要定义一个 char（字符串）来装名字，定义五个 int 来装生命，物攻，法强，定义一个浮点型来装法术吸血。一个游戏有很多个角色，我们之前所学的数组什么的只能用来装同一类型的数据，单独定义又很麻烦，还要自己去记住各个变量本身对应的量是哪个。因此结构体的出现就因为人们的需求出现啦</strong></p>
+    <p>今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时C语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。</p>
+<p><strong>结构体的诞生：因为在游戏中（<em>这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是C++进行开发的，同源</em>）的一个角色的数据类型十分复杂，比如我曾经打到深圳市33名的一个角色干将莫邪（<em>小小臭屁一下hhh</em>），它本身包含了名字，生命，物攻，法强，物抗，法抗，法术吸血等等。角色本身的建模那与我们没有关系。我们如果要在代码中实现，是不是要定义一个char（字符串）来装名字，定义五个int来装生命，物攻，法强，定义一个浮点型来装法术吸血。一个游戏有很多个角色，我们之前所学的数组什么的只能用来装同一类型的数据，单独定义又很麻烦，还要自己去记住各个变量本身对应的量是哪个。因此结构体的出现就因为人们的需求出现啦</strong></p>
 <p>代码如下:</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Stu</span>/*定义一个结构体*/</span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="type">char</span> name[<span class="number">10</span>];<span class="comment">//姓名</span></span><br><span class="line">	<span class="type">int</span> shengming;<span class="comment">//生命值</span></span><br><span class="line">	<span class="type">int</span> wugong;<span class="comment">//物攻</span></span><br><span class="line">	<span class="type">int</span> faqian;<span class="comment">//法强</span></span><br><span class="line">	<span class="type">float</span> fashuxixue;<span class="comment">//法术吸血</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>现在你就已经定义完了一个结构体，那接下来就是要把它用上，这里我来为大家展示一下干将莫邪的定义。上代码</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Stu</span>/*定义一个结构体*/</span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="type">int</span> shengming;<span class="comment">//生命值</span></span><br><span class="line">	<span class="type">int</span> wugong;<span class="comment">//物攻</span></span><br><span class="line">	<span class="type">int</span> faqian;<span class="comment">//法强</span></span><br><span class="line">	<span class="type">float</span> fashuxixue;<span class="comment">//法术吸血</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//结构体也可以嵌套</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Birthday</span> &#123;</span></span><br><span class="line">	<span class="type">int</span> year;</span><br><span class="line">	<span class="type">int</span> month;</span><br><span class="line">	<span class="type">int</span> day;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Student</span> &#123;</span></span><br><span class="line">	<span class="type">char</span> name[<span class="number">30</span>];</span><br><span class="line">	<span class="type">int</span> num;</span><br><span class="line">	<span class="type">float</span> score;</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Birthday</span> <span class="title">birthday</span>;</span><span class="comment">//访问出生年份</span></span><br><span class="line">&#125;stu1;</span><br><span class="line"></span><br><span class="line"><span class="comment">//结构体的初始化也可以育定义同时，这样子就不用进行强制转换</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Studen</span> &#123;</span></span><br><span class="line">	<span class="type">char</span> name[<span class="number">20</span>];</span><br><span class="line">	<span class="type">int</span> num;</span><br><span class="line">	<span class="type">float</span> score;</span><br><span class="line">&#125;stu = &#123; <span class="string">&quot;Mike&quot;</span>,<span class="number">15</span>,<span class="number">98.9</span> &#125;;</span><br><span class="line"><span class="comment">/*有意思的是你也可以用一个结构体完整复刻另一个结构体*/</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Stu</span> <span class="title">ganjiangmoye</span> =</span> &#123; <span class="number">10000</span>,<span class="number">0</span>,<span class="number">500</span>,<span class="number">23.4</span> &#125;;<span class="comment">//简单定义</span></span><br><span class="line">	stu1 =(<span class="keyword">struct</span> Student) &#123;<span class="string">&quot;luozifeng&quot;</span>,<span class="number">19</span>,<span class="number">98.3</span> &#125;;<span class="comment">/*此处要用到强制转换，因为数组也是这样子赋值的，不这样做系统无法区分*/</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Studen</span> <span class="title">stu3</span>;</span><span class="comment">//完整复刻</span></span><br><span class="line">	<span class="comment">//记住两结构体内部成员类型必须一致</span></span><br><span class="line">	stu3 = stu;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;stu.name:%s\tstu3.name:%s\n&quot;</span>,stu.name, stu3.name);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;stu.num:%d\tstu3.num:%d\n&quot;</span>, stu.num, stu3.num);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;stu.score:%lf\tstu3.score:%lf\n&quot;</span>, stu.score, stu3.score);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
       <div class="tags">
           <a href="/tags/C%E8%AF%AD%E8%A8%80%E5%A4%8D%E4%B9%A0/" rel="tag"><i class="ic i-tag"></i> C语言复习</a>
@@ -223,7 +225,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;api.ixiaowai.cn&#x2F;api&#x2F;api.php?18218" title="对printf和scanf两函数的理解">
+  <a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?231196" title="对printf和scanf两函数的理解">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>对printf和scanf两函数的理解</h3>
@@ -233,7 +235,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;api.ixiaowai.cn&#x2F;api&#x2F;api.php?968891" title="股票入门">
+  <a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?914492" title="股票入门">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 金融学</span>
   <h3>股票入门</h3>
@@ -371,10 +373,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></span>
   </li>
 
       
@@ -384,7 +396,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/" title="我喜欢的一些课外书">我喜欢的一些课外书</a></span>
+    <span><a href="/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/" title="一些童年回忆">一些童年回忆</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
   </li>
 
       
@@ -401,20 +423,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
 </div>
 
-    <span><a href="/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" title="困扰我的C语言难题">困扰我的C语言难题</a></span>
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
   </li>
 
       
@@ -424,16 +436,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/" title="制药公司可以合法开始销售可卡因、海洛因和摇头丸">制药公司可以合法开始销售可卡因、海洛因和摇头丸</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/" title="性心理健康作业">性心理健康作业</a></span>
+    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
   </li>
 
       
@@ -443,7 +446,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
   </li>
 
       
@@ -460,10 +463,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" title="英语复习">英语复习</a></span>
+    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
   </li>
 
   </ul>
