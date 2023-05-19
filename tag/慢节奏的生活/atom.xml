@@ -14,26 +14,24 @@
     <category term="中二病" />
     <category term="练习题" />
     <category term="动态规划" />
-    <category term="微积分复习" />
+    <category term="鸡汤" />
     <category term="历史早读" />
     <category term="大学计划1" />
-    <category term="鸡汤" />
-    <category term="实验报告" />
     <category term="C语言探索" />
     <category term="性理解" />
     <category term="慢节奏的生活" />
     <category term="C语言指针复习" />
-    <category term="日常小作" />
     <category term="习题答案" />
+    <category term="日常小作" />
     <category term="环境保护" />
     <category term="矩阵与求解" />
     <category term="慢慢就爱上的科目" />
     <category term="知识点总结" />
     <category term="C语言复习" />
     <category term="从年头红到年尾" />
-    <category term="课前演讲" />
-    <category term="全国英语四级考试" />
     <category term="英语角" />
+    <category term="全国英语四级考试" />
+    <category term="课前演讲" />
     <category term="C语言实验报告" />
     <category term="知识总结" />
     <category term="关于创业的一条路" />
@@ -41,10 +39,19 @@
         <id>http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</id>
         <title>我喜欢的一些课外书</title>
         <link rel="alternate" href="http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/"/>
-        <content type="html">&lt;h1 id=&#34;如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&#34;&gt;&lt;a href=&#34;#如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&#34; class=&#34;headerlink&#34; title=&#34;如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&#34;&gt;&lt;/a&gt;如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&lt;/h1&gt;&lt;h2 id=&#34;SLEEP-STEALER&#34;&gt;&lt;a href=&#34;#SLEEP-STEALER&#34; class=&#34;headerlink&#34; title=&#34;SLEEP-STEALER&#34;&gt;&lt;/a&gt;SLEEP-STEALER&lt;/h2&gt;&lt;h3 id=&#34;偷眠者&#34;&gt;&lt;a href=&#34;#偷眠者&#34; class=&#34;headerlink&#34; title=&#34;偷眠者&#34;&gt;&lt;/a&gt;偷眠者&lt;/h3&gt;&lt;p&gt; Who stole sleep from baby’s eyes? I must know.&lt;br&gt; 谁从孩子的眼里把睡眠偷了去呢？我一定要知道。&lt;/p&gt;
-&lt;p&gt; Clasping her pitcher to her waist ,mother went to fetch water from&lt;br&gt; the village near by.&lt;br&gt; 妈妈把她的水罐夹在腰间，走到近村汲水去了。&lt;/p&gt;
-&lt;p&gt; It was noon.The children’s playtime was over ; the ducks in the pond&lt;br&gt; were silent.&lt;br&gt; 这是正午的时候。孩子们游戏的时间已经过去了；池子中的鸭子沉默无声。&lt;/p&gt;
-&lt;p&gt; The shepherd boy lay asleep under the shadow of the banyan tree.&lt;br&gt; 牧童躺在榕树下睡着了。&lt;/p&gt;
+        <content type="html">&lt;h1 id=&#34;如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;#&lt;/a&gt; 如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&lt;/h1&gt;
+&lt;h2 id=&#34;sleep-stealer&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sleep-stealer&#34;&gt;#&lt;/a&gt; SLEEP-STEALER&lt;/h2&gt;
+&lt;h3 id=&#34;偷眠者&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#偷眠者&#34;&gt;#&lt;/a&gt; 偷眠者&lt;/h3&gt;
+&lt;p&gt;Who stole sleep from baby’s eyes? I must know.&lt;br&gt;
+ 谁从孩子的眼里把睡眠偷了去呢？我一定要知道。&lt;/p&gt;
+&lt;p&gt;Clasping her pitcher to her waist ,mother went to fetch water from&lt;br&gt;
+the village near by.&lt;br&gt;
+ 妈妈把她的水罐夹在腰间，走到近村汲水去了。&lt;/p&gt;
+&lt;p&gt;It was noon.The children’s playtime was over ; the ducks in the pond&lt;br&gt;
+were silent.&lt;br&gt;
+ 这是正午的时候。孩子们游戏的时间已经过去了；池子中的鸭子沉默无声。&lt;/p&gt;
+&lt;p&gt;The shepherd boy lay asleep under the shadow of the banyan tree.&lt;br&gt;
+ 牧童躺在榕树下睡着了。&lt;/p&gt;
 </content>
         <category term="慢节奏的生活" />
         <updated>2022-11-07T17:17:22.000Z</updated>
