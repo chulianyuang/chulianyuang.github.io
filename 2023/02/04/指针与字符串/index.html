@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?232906"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?364956"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?933298"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?822012"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?818625"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?10585"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?514911"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?999206"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?712446"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?488453"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?935876"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?207899"></li>
         </ul>
       </div>
     </header>
@@ -154,59 +154,57 @@ Luo的小世界 = welcome to my world</title>
     
 
     <p><strong>定义：字符串在内存中的起始地址称为字符串的指针，可以定义一个字符型指针变量来指向一个字符串。</strong></p>
-<h1 id="使用指针处理字符串"><a class="markdownIt-Anchor" href="#使用指针处理字符串">#</a> 使用指针处理字符串</h1>
-<p>我们之前是怎么数出一个字符串的捏，看下面代码。</p>
+<h1 id="使用指针处理字符串"><a href="#使用指针处理字符串" class="headerlink" title="使用指针处理字符串"></a>使用指针处理字符串</h1><p>我们之前是怎么数出一个字符串的捏，看下面代码。</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> str[] = <span class="string">&quot;We do something by conputer.&quot;</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,str);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>是不是这样子用一个字符数组来输出字符串？但是在学完指针后，我们将学习使用字符型数组来输出一个字符串。</p>
 <p>直接上代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	char* pstr = &quot;We do something by computer.&quot;;</span><br><span class="line">	printf(&quot;%s\n&quot;, pstr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>注意：用字符指针后是将字符串常量的首地址赋给指针变量，千万不要理解为将字符串常量赋值给指针变量。这个很 impotant。</strong></p>
+
+<p><strong>注意：用字符指针后是将字符串常量的首地址赋给指针变量，千万不要理解为将字符串常量赋值给指针变量。这个很impotant。</strong></p>
 <p>字符型数组与字符型指针变量两者的概念不一样，字符型数组可以存放字符串的每个具体的字符值，而字符型指针变量是存放字符串的首地址（也可以存放字符串中某个字符的地址）</p>
-<p>对于字符型数组与字符型指针变量，都可以使用 % s 格式控制符进行整体输入输出。</p>
+<p>对于字符型数组与字符型指针变量，都可以使用%s格式控制符进行整体输入输出。</p>
 <p>例题：分析下面程序中使用字符型指针变量的情况。</p>
 <p>程序代码如下：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> *pc,str[<span class="number">30</span>] = &#123;<span class="string">&quot;We do something by conputer.&quot;</span>&#125;;</span><br><span class="line">	<span class="type">int</span> n = <span class="number">0</span>;</span><br><span class="line">	pc = &amp;str[<span class="number">0</span>];</span><br><span class="line">	<span class="keyword">while</span> (*pc != <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (*pc == <span class="number">32</span>)</span><br><span class="line">			n++;<span class="comment">/*空格的ASCII码的值为32*/</span></span><br><span class="line">		pc++;<span class="comment">/*改变地址*/</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, n);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <table>
 <thead>
 <tr>
 <th>程序运行结果如下：</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td>n=6</td>
+<tbody><tr>
+<td>n&#x3D;6</td>
 </tr>
-</tbody>
-</table>
-<p>【分析】循环前，字符型指针变量 pc 指向数组 str 中存放的字符串的每一个字符，即存放字符’W’的地址，循环的条件是 “*pc!=’\0’“，循环依次处理数组 str 中存放的每一个字符，并统计该字符串中空格的个数。</p>
-<h1 id="字符型指针变量作函数参数"><a class="markdownIt-Anchor" href="#字符型指针变量作函数参数">#</a> 字符型指针变量作函数参数</h1>
-<table>
+</tbody></table>
+<p>【分析】循环前，字符型指针变量pc指向数组str中存放的字符串的每一个字符，即存放字符’W’的地址，循环的条件是“*pc!&#x3D;’\0’“，循环依次处理数组str中存放的每一个字符，并统计该字符串中空格的个数。</p>
+<h1 id="字符型指针变量作函数参数"><a href="#字符型指针变量作函数参数" class="headerlink" title="字符型指针变量作函数参数"></a>字符型指针变量作函数参数</h1><table>
 <thead>
 <tr>
-<th>从一个函数将一个字符串传递到另一个函数，可以用字符型数组名或字符型指针变量作为参数。共有以下 4 种情况：</th>
+<th>从一个函数将一个字符串传递到另一个函数，可以用字符型数组名或字符型指针变量作为参数。共有以下4种情况：</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>1. 字符型数组名做实参和形参。</td>
 </tr>
 <tr>
-<td>2. 字符型指针变量作实参，字符型数组名作形参。</td>
+<td>2.字符型指针变量作实参，字符型数组名作形参。</td>
 </tr>
 <tr>
-<td>3. 字符型指针变量作实参和形参。</td>
+<td>3.字符型指针变量作实参和形参。</td>
 </tr>
 <tr>
-<td>4. 字符型数组名作实参和字符型指针变量作形参。</td>
+<td>4.字符型数组名作实参和字符型指针变量作形参。</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>接下来我将开始通过程序示例详细展示这几种情况。</p>
 <p>例题：以字符型数组名做实参和形参，在被调用函数中统计字符个数。</p>
-<p>【分析】可以定义函数 tongji 完成字符统计，在主函数中使用语句”sum=tongji (a);“调用函数 tongji，用字符型数组名 a 作实参。被调函数的形参是字符型数组名 str。在被调函数中完成字符统计之后，用 return 语句返回统计值。</p>
+<p>【分析】可以定义函数tongji完成字符统计，在主函数中使用语句”sum&#x3D;tongji(a);“调用函数tongji，用字符型数组名a作实参。被调函数的形参是字符型数组名str。在被调函数中完成字符统计之后，用return语句返回统计值。</p>
 <p>程序代码如下：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">taozi</span><span class="params">(<span class="type">char</span> str[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> n = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span> (str[n] != <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">		n++;</span><br><span class="line">	<span class="keyword">return</span> n;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> a[<span class="number">40</span>] = <span class="string">&quot;you are reading a book.&quot;</span>;</span><br><span class="line">	<span class="type">int</span> sum;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>, a);</span><br><span class="line">	sum = taozi(a);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, sum);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个程序中有意思的是无论你 a 这个数组后面改成多少位它最终输出的结果都是一样的，都是 23. 因为在系统读完你写的字符串后在后面都是会填补‘\0’进行补充。</p>
+
+<p>这个程序中有意思的是无论你a这个数组后面改成多少位它最终输出的结果都是一样的，都是23.因为在系统读完你写的字符串后在后面都是会填补‘\0’进行补充。</p>
 
       <div class="tags">
           <a href="/tags/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E5%A4%8D%E4%B9%A0/" rel="tag"><i class="ic i-tag"></i> C语言指针复习</a>
@@ -271,7 +269,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?649839" title="指向一维数组的指针变量">
+  <a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?934432" title="指向一维数组的指针变量">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>指向一维数组的指针变量</h3>
@@ -281,7 +279,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?390631" title="对printf和scanf两函数的理解">
+  <a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?261863" title="对printf和scanf两函数的理解">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>对printf和scanf两函数的理解</h3>
@@ -303,7 +301,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%8C%87%E9%92%88%E5%A4%84%E7%90%86%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.</span> <span class="toc-text"> 使用指针处理字符串</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E5%9E%8B%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E4%BD%9C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text"> 字符型指针变量作函数参数</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%8C%87%E9%92%88%E5%A4%84%E7%90%86%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.</span> <span class="toc-text">使用指针处理字符串</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E5%9E%8B%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E4%BD%9C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">字符型指针变量作函数参数</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -420,30 +418,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">ElemType是什么？</a></span>
+    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/typora/" title="分类于 typora">typora</a>
+<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
 </div>
 
-    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" title="绪论">绪论</a></span>
+    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
   </li>
 
       
@@ -453,17 +441,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
+    <span><a href="/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/" title="C语言函数调用困惑">C语言函数调用困惑</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" title="画画">画画</a></span>
+    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
   </li>
 
       
@@ -483,27 +471,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" title="枚举">枚举</a></span>
+    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/" title="线性表的类型定义">线性表的类型定义</a></span>
+    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
   </li>
 
       
@@ -513,7 +491,27 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
+    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" title="指向一维数组的指针变量">指向一维数组的指针变量</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/typora/" title="分类于 typora">typora</a>
+</div>
+
+    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
   </li>
 
   </ul>
