@@ -35,6 +35,7 @@
     <category term="从年头红到年尾" />
     <category term="知识总结" />
     <category term="关于创业的一条路" />
+    <category term="课前五分钟" />
     <entry>
         <id>http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</id>
         <title>c语言malloc函数的用法和意义</title>
