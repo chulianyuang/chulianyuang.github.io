@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?160786"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?607301"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?138666"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?971317"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?453034"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?940399"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?595992"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?861319"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?144760"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?446260"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?634046"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?66600"></li>
         </ul>
       </div>
     </header>
@@ -155,11 +155,11 @@ Luo的小世界 = welcome to my world</title>
 
     <p>2022 12 5</p>
 <p>查过了原因，数组下标溢出</p>
-<p>但是它只是在电脑的VS运行出问题，在手机上是正常的，就很离谱，希望未来的我可以找到答案。</p>
+<p>但是它只是在电脑的 VS 运行出问题，在手机上是正常的，就很离谱，希望未来的我可以找到答案。</p>
 <p>代码为：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//功能：对a[10]赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[])</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> i;</span><br><span class="line"> <span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line"> &#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数据:&quot;</span>, i + <span class="number">1</span>);</span><br><span class="line">  scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;a[i]);</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//功能：对a[10]进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> c[])</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> i;</span><br><span class="line"> <span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;%d \t&quot;</span>, c[i]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//功能：将数组的数从小到大排列</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">bidaxiao</span><span class="params">(<span class="type">int</span> a[])</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> i, t, n = <span class="number">9</span>;</span><br><span class="line"> <span class="keyword">do</span> &#123;</span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">  &#123;</span><br><span class="line">   <span class="keyword">if</span> (a[i] &lt;a[i + <span class="number">1</span>])<span class="keyword">continue</span>;<span class="comment">//这里要是改成&gt;又没事了。靠</span></span><br><span class="line">   t = a[i];</span><br><span class="line">   a[i] = a[i + <span class="number">1</span>];</span><br><span class="line">   a[i + <span class="number">1</span>] = t;</span><br><span class="line">  &#125;</span><br><span class="line">  n--;</span><br><span class="line"> &#125; <span class="keyword">while</span> (n &gt;= <span class="number">0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> a[<span class="number">10</span>];</span><br><span class="line"> input(a);</span><br><span class="line"> bidaxiao(a);</span><br><span class="line"> output(a);</span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="错误分析："><a href="#错误分析：" class="headerlink" title="错误分析："></a>错误分析：</h3><p>第30行：当i&#x3D;9时，a[i+1]&#x3D;a[10],int a[10]不包括a[10]</p>
+<h3 id="错误分析"><a class="markdownIt-Anchor" href="#错误分析">#</a> 错误分析：</h3>
+<p>第 30 行：当 i=9 时，a [i+1]=a [10],int a [10] 不包括 a [10]</p>
 
       <div class="tags">
           <a href="/tags/%E4%B8%89%E7%9C%81%E5%90%BE%E8%BA%AB/" rel="tag"><i class="ic i-tag"></i> 三省吾身</a>
@@ -224,7 +224,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?355530" title="项目四~数组的应用">
+  <a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?408975" title="项目四~数组的应用">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>项目四~数组的应用</h3>
@@ -234,7 +234,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?928297" title="项目五~模块化程序设计">
+  <a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?438090" title="项目五~模块化程序设计">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>项目五~模块化程序设计</h3>
@@ -256,7 +256,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%E5%88%86%E6%9E%90%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">错误分析：</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%E5%88%86%E6%9E%90"><span class="toc-number">1.</span> <span class="toc-text"> 错误分析：</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -274,7 +274,7 @@ Luo的小世界 = welcome to my world</title>
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">50</span>
+        <span class="count">51</span>
         <span class="name">文章</span>
       </a>
     </div>
@@ -286,7 +286,7 @@ Luo的小世界 = welcome to my world</title>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">32</span>
+        <span class="count">33</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -376,17 +376,27 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
+    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></span>
+    <span><a href="/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/" title="C语言函数调用困惑">C语言函数调用困惑</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
   </li>
 
       
@@ -403,39 +413,19 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/" title="性心理健康作业">性心理健康作业</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/" title="制药公司可以合法开始销售可卡因、海洛因和摇头丸">制药公司可以合法开始销售可卡因、海洛因和摇头丸</a></span>
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
   </li>
 
       
@@ -452,20 +442,30 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" title="画画">画画</a></span>
+    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+<a href="/categories/%E5%8A%9B%E6%89%A3/" title="分类于 力扣">力扣</a>
 </div>
 
-    <span><a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" title="英语复习">英语复习</a></span>
+    <span><a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" title="力扣题型试水">力扣题型试水</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
   </li>
 
   </ul>

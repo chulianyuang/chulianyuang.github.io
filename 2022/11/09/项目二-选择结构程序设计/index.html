@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?948809"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?171742"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?354488"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?420661"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?925575"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?384484"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?520709"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?937840"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?425183"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?389834"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?407855"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?114520"></li>
         </ul>
       </div>
     </header>
@@ -153,38 +153,29 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="项目二-本人用的是VS"><a href="#项目二-本人用的是VS" class="headerlink" title="项目二   本人用的是VS"></a>项目二   本人用的是VS</h1><h2 id="1-输入a、b、c三个整数，求最小值并验证结果"><a href="#1-输入a、b、c三个整数，求最小值并验证结果" class="headerlink" title="1,输入a、b、c三个整数，求最小值并验证结果"></a>1,输入a、b、c三个整数，求最小值并验证结果</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a, b, c;</span><br><span class="line">	scanf_s(<span class="string">&quot;%d%d%d&quot;</span>, &amp;a,&amp;b,&amp;c);<span class="comment">//少了&amp;</span></span><br><span class="line">	<span class="keyword">if</span> ((a &gt; b) &amp;&amp; (a &gt; c))</span><br><span class="line">		<span class="keyword">if</span> (b &lt; c)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, b);</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;min=%d&quot;</span>, c);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> ((a &lt; b) &amp;&amp; (a &lt; c))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, a);</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">if</span> ((a&gt;b)&amp;&amp;(a&lt;c)) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, b);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d&quot;</span>, b);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="2-用scanf函数输入一个年份year，计算这一年2月份的天数days，然后用输出函数printf输出days"><a href="#2-用scanf函数输入一个年份year，计算这一年2月份的天数days，然后用输出函数printf输出days" class="headerlink" title="2,用scanf函数输入一个年份year，计算这一年2月份的天数days，然后用输出函数printf输出days"></a>2,用scanf函数输入一个年份year，计算这一年2月份的天数days，然后用输出函数printf输出days</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> year;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入年份year&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;year);</span><br><span class="line">	<span class="keyword">if</span> ((year % <span class="number">4</span> == <span class="number">0</span> &amp;&amp; year % <span class="number">100</span> != <span class="number">0</span>)||(year % <span class="number">400</span> == <span class="number">0</span>))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你输入的%d年是闰年,恭喜你这一年的二月份一共有29天，你可以多玩一天啦&quot;</span>, year);</span><br><span class="line">      <span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你输入的%d年是平年,这一年的二月只有28天，请好好珍惜&quot;</span>,year);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="3-输入三角形三边-a、b、c，判断a、b、c能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形"><a href="#3-输入三角形三边-a、b、c，判断a、b、c能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形" class="headerlink" title="3,输入三角形三边 a、b、c，判断a、b、c能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形"></a>3,输入三角形三边 a、b、c，判断a、b、c能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span>                                         <span class="comment">//引用头文件</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span>           <span class="comment">//数学公式函数</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> a, b, c;           <span class="comment">//定义三角形的三条边</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;请输入您想判断的三角形的三条边:&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%f%f%f&quot;</span>, &amp;a, &amp;b, &amp;c);                              <span class="comment">//输入三条边</span></span><br><span class="line">    <span class="comment">//第一步：</span></span><br><span class="line">    <span class="keyword">if</span> (a + b &gt; c &amp;&amp; a + c &gt; b &amp;&amp; b + c &gt; a)        <span class="comment">//判定三角形是否成立的条件</span></span><br><span class="line">    &#123;  </span><br><span class="line">        <span class="keyword">if</span> (a == b &amp;&amp; a == c)         <span class="comment">//先判断三角形是否为等边三角形</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;此三角形是等边三角形\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="keyword">if</span> (a == b || a == c || b == c)                           <span class="comment">//再判断三角形是否为等腰三角形</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;此三角形是等腰三角形\n&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                <span class="keyword">if</span> (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)    <span class="comment">//判断三角形是否为直角三角形</span></span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;此三角形是直角三角形\n&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;此三角形为一般三角形\n&quot;</span>);               <span class="comment">//如果都不是则为一般三角形</span></span><br><span class="line">                &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;此三边构不成三角形!!!\n&quot;</span>);                  <span class="comment">//三边不能构成三角形</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="4，编写程序，输入月薪数a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到3500元。要求计算下列表格中空白项。"><a href="#4，编写程序，输入月薪数a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到3500元。要求计算下列表格中空白项。" class="headerlink" title="4，编写程序，输入月薪数a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到3500元。要求计算下列表格中空白项。"></a>4，编写程序，输入月薪数a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到3500元。要求计算下列表格中空白项。</h2><table>
+    <h1 id="项目二-本人用的是vs"><a class="markdownIt-Anchor" href="#项目二-本人用的是vs">#</a> 项目二   本人用的是 VS</h1>
+<h2 id="1输入a-b-c三个整数求最小值并验证结果"><a class="markdownIt-Anchor" href="#1输入a-b-c三个整数求最小值并验证结果">#</a> 1, 输入 a、b、c 三个整数，求最小值并验证结果</h2>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a, b, c;</span><br><span class="line">	scanf_s(<span class="string">&quot;%d%d%d&quot;</span>, &amp;a,&amp;b,&amp;c);<span class="comment">//少了&amp;</span></span><br><span class="line">	<span class="keyword">if</span> ((a &gt; b) &amp;&amp; (a &gt; c))</span><br><span class="line">		<span class="keyword">if</span> (b &lt; c)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, b);</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;min=%d&quot;</span>, c);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> ((a &lt; b) &amp;&amp; (a &lt; c))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, a);</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">if</span> ((a&gt;b)&amp;&amp;(a&lt;c)) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d\n&quot;</span>, b);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;min=%d&quot;</span>, b);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="2用scanf函数输入一个年份year计算这一年2月份的天数days然后用输出函数printf输出days"><a class="markdownIt-Anchor" href="#2用scanf函数输入一个年份year计算这一年2月份的天数days然后用输出函数printf输出days">#</a> 2, 用 scanf 函数输入一个年份 year，计算这一年 2 月份的天数 days，然后用输出函数 printf 输出 days</h2>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> year;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入年份year&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;year);</span><br><span class="line">	<span class="keyword">if</span> ((year % <span class="number">4</span> == <span class="number">0</span> &amp;&amp; year % <span class="number">100</span> != <span class="number">0</span>)||(year % <span class="number">400</span> == <span class="number">0</span>))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你输入的%d年是闰年,恭喜你这一年的二月份一共有29天，你可以多玩一天啦&quot;</span>, year);</span><br><span class="line">      <span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你输入的%d年是平年,这一年的二月只有28天，请好好珍惜&quot;</span>,year);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="3输入三角形三边-a-b-c判断a-b-c能否构成三角形若不能则输出相应的信息若能则判断组成的是等腰-等边-直角还是一般三角形"><a class="markdownIt-Anchor" href="#3输入三角形三边-a-b-c判断a-b-c能否构成三角形若不能则输出相应的信息若能则判断组成的是等腰-等边-直角还是一般三角形">#</a> 3, 输入三角形三边 a、b、c，判断 a、b、c 能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形</h2>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span>                                         <span class="comment">//引用头文件</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span>           <span class="comment">//数学公式函数</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> a, b, c;           <span class="comment">//定义三角形的三条边</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;请输入您想判断的三角形的三条边:&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%f%f%f&quot;</span>, &amp;a, &amp;b, &amp;c);                              <span class="comment">//输入三条边</span></span><br><span class="line">    <span class="comment">//第一步：</span></span><br><span class="line">    <span class="keyword">if</span> (a + b &gt; c &amp;&amp; a + c &gt; b &amp;&amp; b + c &gt; a)        <span class="comment">//判定三角形是否成立的条件</span></span><br><span class="line">    &#123;  </span><br><span class="line">        <span class="keyword">if</span> (a == b &amp;&amp; a == c)         <span class="comment">//先判断三角形是否为等边三角形</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;此三角形是等边三角形\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="keyword">if</span> (a == b || a == c || b == c)                           <span class="comment">//再判断三角形是否为等腰三角形</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;此三角形是等腰三角形\n&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                <span class="keyword">if</span> (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)    <span class="comment">//判断三角形是否为直角三角形</span></span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;此三角形是直角三角形\n&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;此三角形为一般三角形\n&quot;</span>);               <span class="comment">//如果都不是则为一般三角形</span></span><br><span class="line">                &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;此三边构不成三角形!!!\n&quot;</span>);                  <span class="comment">//三边不能构成三角形</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="4编写程序输入月薪数a计算并输出税率-应缴税款和实得奖金数-工薪所得扣除标准提高到3500元-要求计算下列表格中空白项"><a class="markdownIt-Anchor" href="#4编写程序输入月薪数a计算并输出税率-应缴税款和实得奖金数-工薪所得扣除标准提高到3500元-要求计算下列表格中空白项">#</a> 4，编写程序，输入月薪数 a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到 3500 元。要求计算下列表格中空白项。</h2>
+<table>
 <thead>
 <tr>
 <th>级数</th>
 <th>全月应纳税所得额（含税级距）</th>
-<th>税率%</th>
+<th>税率 %</th>
 <th>超出金额（元）</th>
 <th>纳税金额（元）</th>
 <th>实得金额（元）</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>一</td>
-<td>不超过3500元的</td>
+<td>不超过 3500 元的</td>
 <td>0</td>
 <td></td>
 <td></td>
@@ -192,7 +183,7 @@ Luo的小世界 = welcome to my world</title>
 </tr>
 <tr>
 <td>二</td>
-<td>超过3500元至5000元的部分</td>
+<td>超过 3500 元至 5000 元的部分</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -200,24 +191,22 @@ Luo的小世界 = welcome to my world</title>
 </tr>
 <tr>
 <td>三</td>
-<td>超过5000元至8000元的部分</td>
+<td>超过 5000 元至 8000 元的部分</td>
 <td>10</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">float</span> a = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请悄咪咪的输入你的月薪&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%f&quot;</span>, &amp;a);</span><br><span class="line">	<span class="keyword">if</span> (a &lt;= <span class="number">3500</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>, a * <span class="number">0</span>, a - <span class="number">0</span>);</span><br><span class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">3500</span> &lt; a&amp;&amp;a &lt;= <span class="number">5000</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.03,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>,(a<span class="number">-3500</span>)*<span class="number">0.03</span>,a- (a - <span class="number">3500</span>) * <span class="number">0.03</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">5000</span>&lt;a &amp;&amp; a&lt;=<span class="number">8000</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.1,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>, (a<span class="number">-5000</span>) * <span class="number">0.1</span>, a - (a - <span class="number">5000</span>) * <span class="number">0.1</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">8000</span>&lt;a &amp;&amp; a&lt;=<span class="number">12500</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.2,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>,( a<span class="number">-8000</span>) * <span class="number">0.2</span>, a - (a - <span class="number">8000</span>) * <span class="number">0.2</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">12500</span>&lt;a&amp;&amp;a&lt;=<span class="number">38500</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.25,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>, (a<span class="number">-12500</span>) * <span class="number">0.25</span>, a - (a - <span class="number">12500</span>) * <span class="number">0.25</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">38500</span>&lt;a&amp;&amp;a&lt;=<span class="number">58500</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.3,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>, (a<span class="number">-38500</span>) * <span class="number">0.3</span>, a - (a - <span class="number">12500</span>) * <span class="number">0.25</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">58500</span>&lt;a&amp;&amp;a&lt;=<span class="number">83500</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.35,你的纳税金额为%f元,你的实际工资为%f\n&quot;</span>,( a<span class="number">-58500</span>) * <span class="number">0.35</span>, a - (a - <span class="number">58500</span>) * <span class="number">0.35</span>);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;你的税率为0.45,你的纳税金额为%.3f元,你的实际工资为%f\n&quot;</span>,( a<span class="number">-83500</span>) * <span class="number">0.45</span>, a - (a - <span class="number">83500</span>) * <span class="number">0.45</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="5-每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。"><a href="#5-每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。" class="headerlink" title="5,*每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。*"></a>5,<em><strong>*每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。*</strong></em></h2><p><em><strong>*设faHeight为其父身高，moHeight为其母身高，身高预测公式为：*</strong></em></p>
-<p><em><strong>*男性成人时身高 &#x3D; (faHeight + moHeight) * 0.54(cm)*</strong></em></p>
-<p><em><strong>*女性成人时身高 &#x3D; (faHeight * 0.923 + moHeight) &#x2F; 2(cm)*</strong></em></p>
-<p><em><strong>*此外，如果喜爱体育锻炼，那么可增加身高2%，如果有良好的卫生饮食习惯，那么可增加身高1.5%。*</strong></em></p>
-<p><em><strong>*编程从键盘输入你的性别（用字符型变量gender存储，输入字符F表示女性，输入字符M表示男性）、父母身高（用实型变量存储，faHeight为其父身高，moHeight为其母身高）、是否喜爱体育锻炼（用字符型变量sports存储，输入字符Y表示喜爱，输入字符N表示不喜爱）、是否有良好的饮食习惯等条件（用字符型变量diet存储，输入字符Y表示喜爱，输入字符N表示不喜爱），利用给定公式和身高预测方法对你的身高进行预测。*</strong></em></p>
+<h2 id="5每个做父母的都关心自己孩子成人后的身高据有关生理卫生知识与数理统计分析表明影响小孩成人后身高的因素有遗传-饮食习惯与坚持体育锻炼等-小孩成人后的身高与其父母的身高和自身的性别密切相关"><a class="markdownIt-Anchor" href="#5每个做父母的都关心自己孩子成人后的身高据有关生理卫生知识与数理统计分析表明影响小孩成人后身高的因素有遗传-饮食习惯与坚持体育锻炼等-小孩成人后的身高与其父母的身高和自身的性别密切相关">#</a> 5,<em><strong>* 每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。*</strong></em></h2>
+<p><em><strong>* 设 faHeight 为其父身高，moHeight 为其母身高，身高预测公式为：*</strong></em></p>
+<p><em><strong>* 男性成人时身高 = (faHeight + moHeight) * 0.54 (cm)*</strong></em></p>
+<p><em><strong>* 女性成人时身高 = (faHeight * 0.923 + moHeight) / 2 (cm)*</strong></em></p>
+<p><em><strong>* 此外，如果喜爱体育锻炼，那么可增加身高 2%，如果有良好的卫生饮食习惯，那么可增加身高 1.5%。*</strong></em></p>
+<p><em><strong>* 编程从键盘输入你的性别（用字符型变量 gender 存储，输入字符 F 表示女性，输入字符 M 表示男性）、父母身高（用实型变量存储，faHeight 为其父身高，moHeight 为其母身高）、是否喜爱体育锻炼（用字符型变量 sports 存储，输入字符 Y 表示喜爱，输入字符 N 表示不喜爱）、是否有良好的饮食习惯等条件（用字符型变量 diet 存储，输入字符 Y 表示喜爱，输入字符 N 表示不喜爱），利用给定公式和身高预测方法对你的身高进行预测。*</strong></em></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;conio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> faHeight, moHeight, bHeight;</span><br><span class="line">    <span class="type">char</span> sex, sport, diet;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;请输入你的性别:\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;M表示女性，F表示男性\n&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%c&quot;</span>, &amp;sex);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;性别是:%c\n&quot;</span>, sex);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">         *   ┏┓　　　┏┓</span></span><br><span class="line"><span class="comment">         * ┏┛┻━━━┛┻┓</span></span><br><span class="line"><span class="comment">         * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">         * ┃　　　━　　　┃</span></span><br><span class="line"><span class="comment">         * ┃　＞　　　＜　┃</span></span><br><span class="line"><span class="comment">         * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">         * ┃...　⌒　...　┃</span></span><br><span class="line"><span class="comment">         * ┃　　　　　　　┃</span></span><br><span class="line"><span class="comment">         * ┗━┓　　　┏━┛</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃　</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃  神兽保佑</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃  代码无bug　　</span></span><br><span class="line"><span class="comment">         *     ┃　　　┃</span></span><br><span class="line"><span class="comment">         *     ┃　　　┗━━━┓</span></span><br><span class="line"><span class="comment">         *     ┃　　　　　　　┣┓</span></span><br><span class="line"><span class="comment">         *     ┃　　　　　　　┏┛</span></span><br><span class="line"><span class="comment">         *     ┗┓┓┏━┳┓┏┛</span></span><br><span class="line"><span class="comment">         *       ┃┫┫　┃┫┫</span></span><br><span class="line"><span class="comment">         *       ┗┻┛　┗┻┛</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;please input faHeight and moHeight:\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;输入父亲和母亲的身高，用空格隔开\n&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%f%f&quot;</span>, &amp;faHeight, &amp;moHeight);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;父亲身高是:%f，母亲身高是:%f\n&quot;</span>, faHeight, moHeight);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    fflush(<span class="built_in">stdin</span>);</span><br><span class="line">    <span class="comment">// fflush(stdin)的功能：清空输入缓冲区，通常是为了确保不影响后面的数据读取（例如在读完一个字符串后紧接着又要读取一个字符，此时应该先将输入缓冲区清空。</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Do you like sport?\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;喜欢输入Y，否则输入N\n&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%c&quot;</span>, &amp;sport);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;运动:%c\n&quot;</span>, sport);</span><br><span class="line">    fflush(<span class="built_in">stdin</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Do you eat a healthy diet?\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;健康输入Y，否则输入N\n&quot;</span>);</span><br><span class="line">    scanf_s(<span class="string">&quot;%c&quot;</span>, &amp;diet);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;饮食:%c\n&quot;</span>, sport);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (sex == <span class="string">&#x27;F&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (sport == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (diet == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = (faHeight + moHeight) * <span class="number">0.54</span> * (<span class="number">1</span> + <span class="number">0.02</span>) * (<span class="number">1</span> + <span class="number">0.015</span>);<span class="comment">//男性，运动，饮食健康</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = (faHeight + moHeight) * <span class="number">0.54</span> * (<span class="number">1</span> + <span class="number">0.02</span>);<span class="comment">//男性，运动，饮食不健康</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (diet == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = (faHeight + moHeight) * <span class="number">0.54</span> * (<span class="number">1</span> + <span class="number">0.015</span>);<span class="comment">//男性，不运动，饮食健康</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = (faHeight + moHeight) * <span class="number">0.54</span>;<span class="comment">//男性，不运动，饮食不健康</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (sport == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (diet == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = ((faHeight * <span class="number">0.923</span> + moHeight) / <span class="number">2</span>) * (<span class="number">1</span> + <span class="number">0.02</span>) * (<span class="number">1</span> + <span class="number">0.015</span>);<span class="comment">//女性，运动，饮食健康</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = ((faHeight * <span class="number">0.923</span> + moHeight) / <span class="number">2</span>) * (<span class="number">1</span> + <span class="number">0.02</span>);<span class="comment">//女性，运动，饮食不健康</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (diet == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = ((faHeight * <span class="number">0.923</span> + moHeight) / <span class="number">2</span>) * (<span class="number">1</span> + <span class="number">0.015</span>);<span class="comment">//女性，不运动，饮食</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                bHeight = ((faHeight * <span class="number">0.923</span> + moHeight) / <span class="number">2</span>);<span class="comment">//女性，不运动，饮食不健康</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;预测孩子的身高是：%f\n\n&quot;</span>, bHeight);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//system(&quot;pause&quot;)就是从程序里调用“pause”命令；</span></span><br><span class="line">    <span class="comment">//而“pause”这个系统命令的功能是在命令行上输出一行类似于“按任意键结束”的字，</span></span><br><span class="line">    <span class="comment">//等待用户按一个键，然后返回。包含着头文件&lt;stdlib.h&gt;中</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 
       <div class="tags">
           <a href="/tags/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" rel="tag"><i class="ic i-tag"></i> C语言实验报告</a>
@@ -282,7 +271,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?715346" title="简明线性代数第二章小节1">
+  <a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?521096" title="简明线性代数第二章小节1">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 线性代数</span>
   <h3>简明线性代数第二章小节1</h3>
@@ -292,7 +281,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?139966" title="C语言题目由简单到复杂">
+  <a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?517483" title="C语言题目由简单到复杂">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言题目由简单到复杂</h3>
@@ -314,7 +303,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E6%9C%AC%E4%BA%BA%E7%94%A8%E7%9A%84%E6%98%AFVS"><span class="toc-number">1.</span> <span class="toc-text">项目二   本人用的是VS</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%BE%93%E5%85%A5a%E3%80%81b%E3%80%81c%E4%B8%89%E4%B8%AA%E6%95%B4%E6%95%B0%EF%BC%8C%E6%B1%82%E6%9C%80%E5%B0%8F%E5%80%BC%E5%B9%B6%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text">1,输入a、b、c三个整数，求最小值并验证结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%94%A8scanf%E5%87%BD%E6%95%B0%E8%BE%93%E5%85%A5%E4%B8%80%E4%B8%AA%E5%B9%B4%E4%BB%BDyear%EF%BC%8C%E8%AE%A1%E7%AE%97%E8%BF%99%E4%B8%80%E5%B9%B42%E6%9C%88%E4%BB%BD%E7%9A%84%E5%A4%A9%E6%95%B0days%EF%BC%8C%E7%84%B6%E5%90%8E%E7%94%A8%E8%BE%93%E5%87%BA%E5%87%BD%E6%95%B0printf%E8%BE%93%E5%87%BAdays"><span class="toc-number">1.2.</span> <span class="toc-text">2,用scanf函数输入一个年份year，计算这一年2月份的天数days，然后用输出函数printf输出days</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%BE%93%E5%85%A5%E4%B8%89%E8%A7%92%E5%BD%A2%E4%B8%89%E8%BE%B9-a%E3%80%81b%E3%80%81c%EF%BC%8C%E5%88%A4%E6%96%ADa%E3%80%81b%E3%80%81c%E8%83%BD%E5%90%A6%E6%9E%84%E6%88%90%E4%B8%89%E8%A7%92%E5%BD%A2%E8%8B%A5%E4%B8%8D%E8%83%BD%E5%88%99%E8%BE%93%E5%87%BA%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%8C%E8%8B%A5%E8%83%BD%E5%88%99%E5%88%A4%E6%96%AD%E7%BB%84%E6%88%90%E7%9A%84%E6%98%AF%E7%AD%89%E8%85%B0%E3%80%81%E7%AD%89%E8%BE%B9%E3%80%81%E7%9B%B4%E8%A7%92%E8%BF%98%E6%98%AF%E4%B8%80%E8%88%AC%E4%B8%89%E8%A7%92%E5%BD%A2"><span class="toc-number">1.3.</span> <span class="toc-text">3,输入三角形三边 a、b、c，判断a、b、c能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%EF%BC%8C%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%BE%93%E5%85%A5%E6%9C%88%E8%96%AA%E6%95%B0a%EF%BC%8C%E8%AE%A1%E7%AE%97%E5%B9%B6%E8%BE%93%E5%87%BA%E7%A8%8E%E7%8E%87%E3%80%81%E5%BA%94%E7%BC%B4%E7%A8%8E%E6%AC%BE%E5%92%8C%E5%AE%9E%E5%BE%97%E5%A5%96%E9%87%91%E6%95%B0%E3%80%82%E5%B7%A5%E8%96%AA%E6%89%80%E5%BE%97%E6%89%A3%E9%99%A4%E6%A0%87%E5%87%86%E6%8F%90%E9%AB%98%E5%88%B03500%E5%85%83%E3%80%82%E8%A6%81%E6%B1%82%E8%AE%A1%E7%AE%97%E4%B8%8B%E5%88%97%E8%A1%A8%E6%A0%BC%E4%B8%AD%E7%A9%BA%E7%99%BD%E9%A1%B9%E3%80%82"><span class="toc-number">1.4.</span> <span class="toc-text">4，编写程序，输入月薪数a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到3500元。要求计算下列表格中空白项。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%AF%8F%E4%B8%AA%E5%81%9A%E7%88%B6%E6%AF%8D%E7%9A%84%E9%83%BD%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1%E5%AD%A9%E5%AD%90%E6%88%90%E4%BA%BA%E5%90%8E%E7%9A%84%E8%BA%AB%E9%AB%98%EF%BC%8C%E6%8D%AE%E6%9C%89%E5%85%B3%E7%94%9F%E7%90%86%E5%8D%AB%E7%94%9F%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E8%A1%A8%E6%98%8E%EF%BC%8C%E5%BD%B1%E5%93%8D%E5%B0%8F%E5%AD%A9%E6%88%90%E4%BA%BA%E5%90%8E%E8%BA%AB%E9%AB%98%E7%9A%84%E5%9B%A0%E7%B4%A0%E6%9C%89%E9%81%97%E4%BC%A0%E3%80%81%E9%A5%AE%E9%A3%9F%E4%B9%A0%E6%83%AF%E4%B8%8E%E5%9D%9A%E6%8C%81%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC%E7%AD%89%E3%80%82%E5%B0%8F%E5%AD%A9%E6%88%90%E4%BA%BA%E5%90%8E%E7%9A%84%E8%BA%AB%E9%AB%98%E4%B8%8E%E5%85%B6%E7%88%B6%E6%AF%8D%E7%9A%84%E8%BA%AB%E9%AB%98%E5%92%8C%E8%87%AA%E8%BA%AB%E7%9A%84%E6%80%A7%E5%88%AB%E5%AF%86%E5%88%87%E7%9B%B8%E5%85%B3%E3%80%82"><span class="toc-number">1.5.</span> <span class="toc-text">5,*每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。*</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E6%9C%AC%E4%BA%BA%E7%94%A8%E7%9A%84%E6%98%AFvs"><span class="toc-number">1.</span> <span class="toc-text"> 项目二   本人用的是 VS</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E8%BE%93%E5%85%A5a-b-c%E4%B8%89%E4%B8%AA%E6%95%B4%E6%95%B0%E6%B1%82%E6%9C%80%E5%B0%8F%E5%80%BC%E5%B9%B6%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text"> 1, 输入 a、b、c 三个整数，求最小值并验证结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E7%94%A8scanf%E5%87%BD%E6%95%B0%E8%BE%93%E5%85%A5%E4%B8%80%E4%B8%AA%E5%B9%B4%E4%BB%BDyear%E8%AE%A1%E7%AE%97%E8%BF%99%E4%B8%80%E5%B9%B42%E6%9C%88%E4%BB%BD%E7%9A%84%E5%A4%A9%E6%95%B0days%E7%84%B6%E5%90%8E%E7%94%A8%E8%BE%93%E5%87%BA%E5%87%BD%E6%95%B0printf%E8%BE%93%E5%87%BAdays"><span class="toc-number">1.2.</span> <span class="toc-text"> 2, 用 scanf 函数输入一个年份 year，计算这一年 2 月份的天数 days，然后用输出函数 printf 输出 days</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E8%BE%93%E5%85%A5%E4%B8%89%E8%A7%92%E5%BD%A2%E4%B8%89%E8%BE%B9-a-b-c%E5%88%A4%E6%96%ADa-b-c%E8%83%BD%E5%90%A6%E6%9E%84%E6%88%90%E4%B8%89%E8%A7%92%E5%BD%A2%E8%8B%A5%E4%B8%8D%E8%83%BD%E5%88%99%E8%BE%93%E5%87%BA%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BF%A1%E6%81%AF%E8%8B%A5%E8%83%BD%E5%88%99%E5%88%A4%E6%96%AD%E7%BB%84%E6%88%90%E7%9A%84%E6%98%AF%E7%AD%89%E8%85%B0-%E7%AD%89%E8%BE%B9-%E7%9B%B4%E8%A7%92%E8%BF%98%E6%98%AF%E4%B8%80%E8%88%AC%E4%B8%89%E8%A7%92%E5%BD%A2"><span class="toc-number">1.3.</span> <span class="toc-text"> 3, 输入三角形三边 a、b、c，判断 a、b、c 能否构成三角形若不能则输出相应的信息，若能则判断组成的是等腰、等边、直角还是一般三角形</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%E8%BE%93%E5%85%A5%E6%9C%88%E8%96%AA%E6%95%B0a%E8%AE%A1%E7%AE%97%E5%B9%B6%E8%BE%93%E5%87%BA%E7%A8%8E%E7%8E%87-%E5%BA%94%E7%BC%B4%E7%A8%8E%E6%AC%BE%E5%92%8C%E5%AE%9E%E5%BE%97%E5%A5%96%E9%87%91%E6%95%B0-%E5%B7%A5%E8%96%AA%E6%89%80%E5%BE%97%E6%89%A3%E9%99%A4%E6%A0%87%E5%87%86%E6%8F%90%E9%AB%98%E5%88%B03500%E5%85%83-%E8%A6%81%E6%B1%82%E8%AE%A1%E7%AE%97%E4%B8%8B%E5%88%97%E8%A1%A8%E6%A0%BC%E4%B8%AD%E7%A9%BA%E7%99%BD%E9%A1%B9"><span class="toc-number">1.4.</span> <span class="toc-text"> 4，编写程序，输入月薪数 a，计算并输出税率、应缴税款和实得奖金数。工薪所得扣除标准提高到 3500 元。要求计算下列表格中空白项。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E6%AF%8F%E4%B8%AA%E5%81%9A%E7%88%B6%E6%AF%8D%E7%9A%84%E9%83%BD%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1%E5%AD%A9%E5%AD%90%E6%88%90%E4%BA%BA%E5%90%8E%E7%9A%84%E8%BA%AB%E9%AB%98%E6%8D%AE%E6%9C%89%E5%85%B3%E7%94%9F%E7%90%86%E5%8D%AB%E7%94%9F%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E8%A1%A8%E6%98%8E%E5%BD%B1%E5%93%8D%E5%B0%8F%E5%AD%A9%E6%88%90%E4%BA%BA%E5%90%8E%E8%BA%AB%E9%AB%98%E7%9A%84%E5%9B%A0%E7%B4%A0%E6%9C%89%E9%81%97%E4%BC%A0-%E9%A5%AE%E9%A3%9F%E4%B9%A0%E6%83%AF%E4%B8%8E%E5%9D%9A%E6%8C%81%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC%E7%AD%89-%E5%B0%8F%E5%AD%A9%E6%88%90%E4%BA%BA%E5%90%8E%E7%9A%84%E8%BA%AB%E9%AB%98%E4%B8%8E%E5%85%B6%E7%88%B6%E6%AF%8D%E7%9A%84%E8%BA%AB%E9%AB%98%E5%92%8C%E8%87%AA%E8%BA%AB%E7%9A%84%E6%80%A7%E5%88%AB%E5%AF%86%E5%88%87%E7%9B%B8%E5%85%B3"><span class="toc-number">1.5.</span> <span class="toc-text"> 5,* 每个做父母的都关心自己孩子成人后的身高，据有关生理卫生知识与数理统计分析表明，影响小孩成人后身高的因素有遗传、饮食习惯与坚持体育锻炼等。小孩成人后的身高与其父母的身高和自身的性别密切相关。*</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -332,7 +321,7 @@ Luo的小世界 = welcome to my world</title>
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">50</span>
+        <span class="count">51</span>
         <span class="name">文章</span>
       </a>
     </div>
@@ -344,7 +333,7 @@ Luo的小世界 = welcome to my world</title>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">32</span>
+        <span class="count">33</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -431,26 +420,6 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" title="指向一维数组的指针变量">指向一维数组的指针变量</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
@@ -464,57 +433,27 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
+    <span><a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" title="对printf和scanf两函数的理解">对printf和scanf两函数的理解</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
+    <span><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">ElemType是什么？</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%8A%9B%E6%89%A3/" title="分类于 力扣">力扣</a>
-</div>
-
-    <span><a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" title="力扣题型试水">力扣题型试水</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></span>
+    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
   </li>
 
       
@@ -524,7 +463,57 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
+    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
+</div>
+
+    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+</div>
+
+    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/" title="英语演讲">英语演讲</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/typora/" title="分类于 typora">typora</a>
+</div>
+
+    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></span>
   </li>
 
   </ul>

@@ -88,12 +88,12 @@
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?423656"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?818167"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?537828"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?158082"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?449009"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?557354"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?986530"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?408925"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?107360"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?690483"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?321867"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?134645"></li>
         </ul>
       </div>
     </header>
@@ -119,7 +119,42 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" itemprop="url" title="typora用法再深化"><img data-src="https://t.lizi.moe/pc?3309"></a>
+    <a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" itemprop="url" title="c语言malloc函数的用法和意义"><img data-src="https://t.lizi.moe/pc?539822"></a>
+  </div>
+  <div class="info">
+    
+<div class="meta">
+  <span class="item" title="创建时间：2023-03-09 16:58:16">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <time itemprop="dateCreated datePublished" datetime="2023-03-09T16:58:16+08:00">2023-03-09</time>
+  </span>
+</div>
+
+    <h3><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" itemprop="url" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></h3>
+    <div class="excerpt">
+        当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。
+为了应对上述问题，我们引入 malloc 函数。
+malloc 时动态内存分配函数，用于申请一块连续的指定大小的内存块区域以 void * 类型返回分配的内存区域地址
+# malloc 函数原型
+12extern void *malloc(unsigned int num_bytes);1
+意为分配长度为 num_bytes 字节的内存块
+# malloc...
+    </div>
+    <div class="meta footer">
+      <span>
+        <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" itemprop="url" title="数据结构与算法"><i class="ic i-flag"></i>数据结构与算法</a>
+      </span>
+    </div>
+    <a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" itemprop="url" title="c语言malloc函数的用法和意义" class="btn">more...</a>
+  </div>
+</article>
+
+        
+<article class="item">
+  <div class="cover">
+    <a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" itemprop="url" title="typora用法再深化"><img data-src="https://t.lizi.moe/pc?752872"></a>
   </div>
   <div class="info">
     
@@ -134,14 +169,13 @@
 
     <h3><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" itemprop="url" title="typora用法再深化">typora用法再深化</a></h3>
     <div class="excerpt">
-        本文旨在分享使用Typora做笔记的一些心得
+        本文旨在分享使用 Typora 做笔记的一些心得
 
 一、介绍
 
-为什么要用Typora
+为什么要用 Typora
 
-作为一个程序员,在学习过程中打交道的不单单是文字,还有各种语言的代码块和公式,以及一些简单的流程图和思维导图(就目前而言),就其内容的复杂性而言,远远不是一个word文档就可以解决的.此外,更重要的是,我们往往还需要对笔记进行编辑以发布到个人的博客上(这样有助于在需要时查阅).可以看到,在许多博客都提供了md(Markdown语言)以方便我们进行编辑.然而,纵观大部分的网页版md编辑器,编辑与视图都是分离的——即需要在编辑完之后切换窗口以进行查看语法是否有误(这种情况在编辑公式时更是尤为明显).
-而typor...
+作为一个程序员，在学习过程中打交道的不单单是文字，还有各种语言的代码块和公式，以及一些简单的流程图和思维导图 (就目前而言), 就其内容的复杂性而言，远远不是一个 word 文档就可以解决的。此外，更重要的是，我们往往还需要对笔记进行编辑以发布到个人的博客上 (这样有助于在需要时查阅). 可以看到，在许多博客都提供了 md (Markdown 语言) 以方便我们进行编辑。然而，纵观大部分的网页版 md 编辑器，编辑与视图都是分离的 —— 即需要在编辑完之后切换窗口以进行查看语法是否有误...
     </div>
     <div class="meta footer">
       <span>
@@ -155,7 +189,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" itemprop="url" title="绪论"><img data-src="https://t.lizi.moe/pc?915384"></a>
+    <a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" itemprop="url" title="绪论"><img data-src="https://t.lizi.moe/pc?467077"></a>
   </div>
   <div class="info">
     
@@ -170,7 +204,9 @@
 
     <h3><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" itemprop="url" title="绪论">绪论</a></h3>
     <div class="excerpt">
-        绪论树状图总结12345678910111213141516graph LR A[绪论] --&amp;gt;B(数据结构)--&amp;gt;C(逻辑结构)--&amp;gt;a(线性结构)--&amp;gt;d&amp;#123;线性表&amp;#125;a--&amp;gt;q&amp;#123;栈和队列&amp;#125;...
+        # 绪论
+# 树状图总结
+12345678910111213141516graph LR A[绪论] --&amp;gt;B(数据结构)--&amp;gt;C(逻辑结构)--&amp;gt;a(线性结构)--&amp;gt;d&amp;#123;线性表&amp;#125;a--&amp;gt;q&amp;#123;栈和队列&amp;#125;...
     </div>
     <div class="meta footer">
       <span>
@@ -184,7 +220,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" itemprop="url" title="画画"><img data-src="https://t.lizi.moe/pc?960500"></a>
+    <a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" itemprop="url" title="画画"><img data-src="https://t.lizi.moe/pc?17856"></a>
   </div>
   <div class="info">
     
@@ -199,7 +235,9 @@
 
     <h3><a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" itemprop="url" title="画画">画画</a></h3>
     <div class="excerpt">
-        学会新技能，用typora画流程图牛逼12345678910111213st=&amp;gt;start: 闹钟响起op=&amp;gt;operation: 与床板分离cond=&amp;gt;condition: 分离成功?e=&amp;gt;end: 快乐的一天st-&amp;gt;op-&amp;gt;condcond(yes)-&amp;gt;econd(no)-&amp;gt;op
+        # 学会新技能，用 typora 画流程图
+# 牛逼
+12345678910111213st=&amp;gt;start: 闹钟响起op=&amp;gt;operation: 与床板分离cond=&amp;gt;condition: 分离成功?e=&amp;gt;end: 快乐的一天st-&amp;gt;op-&amp;gt;condcond(yes)-&amp;gt;econd(no)-&amp;gt;op
     </div>
     <div class="meta footer">
       <span>
@@ -213,7 +251,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/" itemprop="url" title="环境保护小作"><img data-src="https://t.lizi.moe/pc?362684"></a>
+    <a href="/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/" itemprop="url" title="环境保护小作"><img data-src="https://t.lizi.moe/pc?816990"></a>
   </div>
   <div class="info">
     
@@ -228,7 +266,7 @@
 
     <h3><a href="/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/" itemprop="url" title="环境保护小作">环境保护小作</a></h3>
     <div class="excerpt">
-        In high school, I was impressed by a word in a magazine, “The earth does not need humans, but humans cannot do without the earth, at least for now.” “In my opinion,the earth is sick today, and protecting the environment and recycling is a very important and urgent thing. Mother Earth is tolerance...
+        In high school, I was impressed by a word in a magazine, “The earth does not need humans, but humans cannot do without the earth, at least for now.” &amp;quot;In my opinion,the earth is sick today, and protecting the environment and recycling is a very important and urgent thing. Mother Earth is...
     </div>
     <div class="meta footer">
       <span>
@@ -242,7 +280,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/" itemprop="url" title="制药公司可以合法开始销售可卡因、海洛因和摇头丸"><img data-src="https://t.lizi.moe/pc?312555"></a>
+    <a href="/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/" itemprop="url" title="制药公司可以合法开始销售可卡因、海洛因和摇头丸"><img data-src="https://t.lizi.moe/pc?626364"></a>
   </div>
   <div class="info">
     
@@ -271,7 +309,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" itemprop="url" title="英语复习"><img data-src="https://t.lizi.moe/pc?374922"></a>
+    <a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" itemprop="url" title="英语复习"><img data-src="https://t.lizi.moe/pc?741469"></a>
   </div>
   <div class="info">
     
@@ -286,7 +324,9 @@
 
     <h3><a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" itemprop="url" title="英语复习">英语复习</a></h3>
     <div class="excerpt">
-        课文再复习Living off the grid :How a Family of City-Dwellers Discovered the Simple LifeAfter living in the 24-hour city of Las Vegas , Nevada for nearly ten years,my family and I decided to slow things down. My daughter wanted a horse .My husband wanted property .My son wanted a dirt bike. I wanted our...
+        # 课文再复习
+# Living off the grid :How a Family of City-Dwellers Discovered the Simple Life
+After living in the 24-hour city of Las Vegas , Nevada for nearly ten years,my family and I decided to slow things down. My daughter wanted a horse .My husband wanted property .My son wanted a dirt bike. I wanted...
     </div>
     <div class="meta footer">
       <span>
@@ -300,7 +340,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" itemprop="url" title="鬼点子"><img data-src="https://t.lizi.moe/pc?887479"></a>
+    <a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" itemprop="url" title="鬼点子"><img data-src="https://t.lizi.moe/pc?177815"></a>
   </div>
   <div class="info">
     
@@ -316,7 +356,7 @@
     <h3><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" itemprop="url" title="鬼点子">鬼点子</a></h3>
     <div class="excerpt">
         作为一名受过高等教育的学子，我深刻明白生活的方方面面都充满了宝藏。并不是我们等不到机会，而是我们发现不了它。生活中一个人无意中的一句话可能就蕴含着恐怖的商机。我们无数人都想成为成功者，成为动动脚，整片陆地都要为我们震一震的存在。但我们都忽略了现在很多的成功者都是崛起于微末。他们遇到的机遇别人也遇到了，但别人左耳进右耳出，而他们却是紧紧抓住了机会，最终一跃成龙。
-1学过政治的我们应该知道只有需求才会拉动商机，这句话是定理。现在的同辈着在一次次内卷中已经有一大部分人因为看不到希望而选择了躺平，作为一个商人我不可能逆时代趋势，事情的出现必有其道理，但塞翁失马焉知非福，我在这种趋势的出现了一个商机，或...
+#...
     </div>
     <div class="meta footer">
       <span>
@@ -330,7 +370,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" itemprop="url" title="枚举"><img data-src="https://t.lizi.moe/pc?2166"></a>
+    <a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" itemprop="url" title="枚举"><img data-src="https://t.lizi.moe/pc?423233"></a>
   </div>
   <div class="info">
     
@@ -347,11 +387,11 @@
     <div class="excerpt">
         定义：枚举是 C 语言中的一种基本数据类型，用于定义一组具有离散值的常量。
 优点：它可以让数据更简洁，更易读。
-主要用途：枚举类型通常用于为程序中的一组相关的常量取名字，以便于程序的可读性和维护性。
+** 主要用途：** 枚举类型通常用于为程序中的一组相关的常量取名字，以便于程序的可读性和维护性。
 定义一个枚举类型，需要使用 enum 关键字，后面跟着枚举类型的名称，以及用大括号 {} 括起来的一组枚举常量。每个枚举常量可以用一个标识符来表示，也可以为它们指定一个整数值，如果没有指定，那么默认从 0 开始递增。
 例子：
 
-enum　枚举名　{枚举元素1,枚举元素2,……};
+enum　枚举名　{枚举元素 1, 枚举元素 2,……};
 
 接下来我们举个例子，比如：一星期有 7 天，如果不用枚举，我们需要使用 #define...
     </div>
@@ -367,7 +407,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
         
 <article class="item">
   <div class="cover">
-    <a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" itemprop="url" title="股票入门"><img data-src="https://t.lizi.moe/pc?584119"></a>
+    <a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" itemprop="url" title="股票入门"><img data-src="https://t.lizi.moe/pc?381030"></a>
   </div>
   <div class="info">
     
@@ -388,13 +428,15 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
 周六日休市不交易（国家法定节假日不交易）
 
 （集合竞价）
-19：15到9：20 随便挂单随便撤单。
-9：20到9：25可以挂单不可以撤单。
+19：15 到 9：20 随便挂单随便撤单。
+9：20 到 9：25 可以挂单不可以撤单。
 股票分类:
-我国上市公司的股票有：A股，B股，H股，N股，S股等。（不用都了解，我们要做的一般只有泸深A股）
-我们做的股票一般就是泸深A股，也就是在上海和深圳上市交易的A股。
-60开头的股票—上证A股
-0开头的股票...
+我国上市公司的股票有：A 股，B 股，H 股，N 股，S 股等。（不用都了解，我们要做的一般只有泸深 A 股）
+我们做的股票一般就是泸深 A 股，也就是在上海和深圳上市交易的 A 股。
+60 开头的股票 — 上证 A 股
+0 开头的股票 — 深证 A 股
+3 开头的股票 ----- 创业板（证券公司去开通）
+688 开头的股票 — 科创版（最低交易金额为 50w...
     </div>
     <div class="meta footer">
       <span>
@@ -405,36 +447,6 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
   </div>
 </article>
 
-        
-<article class="item">
-  <div class="cover">
-    <a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="url" title="结构体的使用"><img data-src="https://t.lizi.moe/pc?253497"></a>
-  </div>
-  <div class="info">
-    
-<div class="meta">
-  <span class="item" title="创建时间：2023-02-08 05:26:09">
-    <span class="icon">
-      <i class="ic i-calendar"></i>
-    </span>
-    <time itemprop="dateCreated datePublished" datetime="2023-02-08T05:26:09+08:00">2023-02-08</time>
-  </span>
-</div>
-
-    <h3><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="url" title="结构体的使用">结构体的使用</a></h3>
-    <div class="excerpt">
-        今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时C语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。
-结构体的诞生：因为在游戏中（这里我将使用大家比较熟悉的一款游戏王者荣耀为例子，因为王者荣耀使用的是C++进行开发的，同源）的一个角色的数据类型十分复杂，比如我曾经打到深圳市33名的一个角色干将莫邪（小小臭屁一下hhh），它本身包含了名字，生命，物攻，法强，物抗，法抗，法术吸血等等。角色本身的建模那与我们没有关系。我们如果要在代码中实现，是不是要定义一个char（字符串）来装名字，定义...
-    </div>
-    <div class="meta footer">
-      <span>
-        <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" itemprop="url" title="C语言程序设计"><i class="ic i-flag"></i>C语言程序设计</a>
-      </span>
-    </div>
-    <a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="url" title="结构体的使用" class="btn">more...</a>
-  </div>
-</article>
-
     </div>
 
   </div>
@@ -442,7 +454,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
   
   <nav class="pagination">
     <div class="inner">
-    <a class="extend prev" rel="prev" href="/"><i class="ic i-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><i class="ic i-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="ic i-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/3/"><i class="ic i-angle-right" aria-label="下一页"></i></a>
     </div>
   </nav>
 
@@ -470,7 +482,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">50</span>
+        <span class="count">51</span>
         <span class="name">文章</span>
       </a>
     </div>
@@ -482,7 +494,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">32</span>
+        <span class="count">33</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -570,17 +582,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
-</div>
-
-    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
+    <span><a href="/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/" title="英语演讲">英语演讲</a></span>
   </li>
 
       
@@ -590,46 +592,7 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
 <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">ElemType是什么？</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/" title="英语演讲">英语演讲</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
+    <span><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" title="绪论">绪论</a></span>
   </li>
 
       
@@ -646,10 +609,40 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/" title="制药公司可以合法开始销售可卡因、海洛因和摇头丸">制药公司可以合法开始销售可卡因、海洛因和摇头丸</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
+</div>
+
+    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
   </li>
 
       
@@ -659,7 +652,27 @@ enum　枚举名　{枚举元素1,枚举元素2,……};
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></span>
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
   </li>
 
   </ul>

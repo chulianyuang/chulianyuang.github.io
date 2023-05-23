@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?367311"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?23731"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?745654"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?781298"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?793455"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?367098"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?424640"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?211499"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?933552"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?726373"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?580058"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?185013"></li>
         </ul>
       </div>
     </header>
@@ -153,37 +153,44 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h1><p>因为比较简单，所以分类的话我给它弄到了小白学C语言那里了</p>
-<h2 id="编程计算1-3-5-······-101的值，并输出计算结果。"><a href="#编程计算1-3-5-······-101的值，并输出计算结果。" class="headerlink" title="编程计算1+3+5+······+101的值，并输出计算结果。"></a>编程计算1+3+5+······+101的值，并输出计算结果。</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i, sum = 0;</span><br><span class="line">	for (i = 1;i &lt;= 101;i = i + 2) </span><br><span class="line">	sum = sum + i;</span><br><span class="line">	printf(&quot;sum=%d\n&quot;, sum);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="要求：输出100-200之间的不能被3整除的数。"><a href="#要求：输出100-200之间的不能被3整除的数。" class="headerlink" title="要求：输出100~200之间的不能被3整除的数。"></a>要求：输出100~200之间的不能被3整除的数。</h2><h2 id="编程思路："><a href="#编程思路：" class="headerlink" title="编程思路："></a>编程思路：</h2><p>对100到200之间的每一个整数进行检查，如果不能被3整除，输出，否则不输出。无论是否输出此数，都要接着检查下一个数（直到200为止）。</p>
+    <h1 id="第四章"><a class="markdownIt-Anchor" href="#第四章">#</a> 第四章</h1>
+<p>因为比较简单，所以分类的话我给它弄到了小白学 C 语言那里了</p>
+<h2 id="编程计算135101的值并输出计算结果"><a class="markdownIt-Anchor" href="#编程计算135101的值并输出计算结果">#</a> 编程计算 1+3+5+・・・・・・+101 的值，并输出计算结果。</h2>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i, sum = 0;</span><br><span class="line">	for (i = 1;i &lt;= 101;i = i + 2) </span><br><span class="line">	sum = sum + i;</span><br><span class="line">	printf(&quot;sum=%d\n&quot;, sum);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="要求输出100~200之间的不能被3整除的数"><a class="markdownIt-Anchor" href="#要求输出100~200之间的不能被3整除的数">#</a> 要求：输出 100~200 之间的不能被 3 整除的数。</h2>
+<h2 id="编程思路"><a class="markdownIt-Anchor" href="#编程思路">#</a> 编程思路：</h2>
+<p>对 100 到 200 之间的每一个整数进行检查，如果不能被 3 整除，输出，否则不输出。无论是否输出此数，都要接着检查下一个数（直到 200 为止）。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int n;</span><br><span class="line">	for (n = 100;n &lt;= 200;n++) &#123;</span><br><span class="line">		if (n % 3 == 0) continue;</span><br><span class="line">		printf(&quot;%d &quot;, n);</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="输出以下4-5的矩阵。"><a href="#输出以下4-5的矩阵。" class="headerlink" title="输出以下4*5的矩阵。"></a>输出以下4*5的矩阵。</h2><p>1 2 3 4 5</p>
+<h2 id="输出以下45的矩阵"><a class="markdownIt-Anchor" href="#输出以下45的矩阵">#</a> 输出以下 4*5 的矩阵。</h2>
+<p>1 2 3 4 5</p>
 <p>2 4 6 8 10</p>
 <p>3 6 9  12 15</p>
 <p>4 8 12 16 20</p>
-<h2 id="解题思路："><a href="#解题思路：" class="headerlink" title="解题思路："></a>解题思路：</h2><p>可以用循环的嵌套来处理此问题，用外循环来输出一行数据，用内循环来输出一列数据，按矩阵的格式（每行5个数据）输出。</p>
+<h2 id="解题思路"><a class="markdownIt-Anchor" href="#解题思路">#</a> 解题思路：</h2>
+<p>可以用循环的嵌套来处理此问题，用外循环来输出一行数据，用内循环来输出一列数据，按矩阵的格式（每行 5 个数据）输出。</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i,j,n;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=<span class="number">4</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=<span class="number">5</span>;j++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d  &quot;</span>,i*j);</span><br><span class="line">    &#125;&#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="对10个数组元素依次赋值为0，1，2，3，4，5，6，7，8，9，要求按逆序输出。"><a href="#对10个数组元素依次赋值为0，1，2，3，4，5，6，7，8，9，要求按逆序输出。" class="headerlink" title="对10个数组元素依次赋值为0，1，2，3，4，5，6，7，8，9，要求按逆序输出。"></a>对10个数组元素依次赋值为0，1，2，3，4，5，6，7，8，9，要求按逆序输出。</h2><figure class="highlight cc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, a[<span class="number">10</span>];</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">		a[i] = i;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">9</span>;i &gt;= <span class="number">0</span>;i--)</span><br><span class="line">	</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, a[i]);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="有10个地区的面积，要求对它们按由小到大的顺序排列。"><a href="#有10个地区的面积，要求对它们按由小到大的顺序排列。" class="headerlink" title="有10个地区的面积，要求对它们按由小到大的顺序排列。"></a>有10个地区的面积，要求对它们按由小到大的顺序排列。</h2><h3 id="解题思路：-1"><a href="#解题思路：-1" class="headerlink" title="解题思路："></a>解题思路：</h3><p><strong>排序的规律有两种：一种是“升序”，从小到大；另一种是“降序”，从大到小</strong></p>
-<p><strong>把题目抽象为：“对n个数按升序排序”</strong></p>
+<h1 id="第五章"><a class="markdownIt-Anchor" href="#第五章">#</a> 第五章</h1>
+<h2 id="对10个数组元素依次赋值为0123456789要求按逆序输出"><a class="markdownIt-Anchor" href="#对10个数组元素依次赋值为0123456789要求按逆序输出">#</a> 对 10 个数组元素依次赋值为 0，1，2，3，4，5，6，7，8，9，要求按逆序输出。</h2>
+<figure class="highlight cc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, a[<span class="number">10</span>];</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">		a[i] = i;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">9</span>;i &gt;= <span class="number">0</span>;i--)</span><br><span class="line">	</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, a[i]);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="有10个地区的面积要求对它们按由小到大的顺序排列"><a class="markdownIt-Anchor" href="#有10个地区的面积要求对它们按由小到大的顺序排列">#</a> 有 10 个地区的面积，要求对它们按由小到大的顺序排列。</h2>
+<h3 id="解题思路-2"><a class="markdownIt-Anchor" href="#解题思路-2">#</a> 解题思路：</h3>
+<p><strong>排序的规律有两种：一种是 “升序”，从小到大；另一种是 “降序”，从大到小</strong></p>
+<p><strong>把题目抽象为：“对 n 个数按升序排序”</strong></p>
 <p><strong>采用起泡法排序</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[])</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> c[])</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">bidaxiao</span><span class="params">(<span class="type">int</span> a[])</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i, a[<span class="number">10</span>];</span><br><span class="line">	input(a);</span><br><span class="line">	bidaxiao(a);</span><br><span class="line">	output(a);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//功能：对a[10]赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;请输入第%d个数据:&quot;</span>, i + <span class="number">1</span>);</span><br><span class="line">		scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;a[i]);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//功能：对a[10]进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> c[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d \t&quot;</span>, c[i]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//功能：将数组的数进行大小比较</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">bidaxiao</span><span class="params">(<span class="type">int</span> a[])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i,t,n=<span class="number">9</span>,b=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span> (a[i] &gt; a[i + <span class="number">1</span>])<span class="keyword">continue</span>;</span><br><span class="line">			t = a[i];</span><br><span class="line">			a[i] = a[i + <span class="number">1</span>];</span><br><span class="line">			a[i + <span class="number">1</span>] = t;	</span><br><span class="line">		&#125;</span><br><span class="line">		n--;</span><br><span class="line">		b++;</span><br><span class="line">	&#125; <span class="keyword">while</span> (n &gt;= <span class="number">0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="有一个3×4的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。"><a href="#有一个3×4的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。" class="headerlink" title="有一个3×4的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。"></a>有一个3×4的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。</h2><h3 id="解题思路：-2"><a href="#解题思路：-2" class="headerlink" title="解题思路："></a>解题思路：</h3><p><strong>采用“打擂台算法”</strong></p>
-<p><strong>先把a[0][0]的值赋给变量max</strong></p>
-<p><strong>max用来存放当前已知的最大值</strong></p>
-<p><strong>a[0][1]与max比较，如果a[0][1]&gt;max，则表示a[0][1]是已经比过的数据中值最大的，把它的值赋给max，取代了max的原值</strong></p>
-<p><strong>以后依此处理，最后max就是最大的值</strong></p>
+<h2 id="有一个34的矩阵要求编程序求出其中值最大的那个元素的值以及其所在的行号和列号"><a class="markdownIt-Anchor" href="#有一个34的矩阵要求编程序求出其中值最大的那个元素的值以及其所在的行号和列号">#</a> 有一个 3×4 的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。</h2>
+<h3 id="解题思路-3"><a class="markdownIt-Anchor" href="#解题思路-3">#</a> 解题思路：</h3>
+<p><strong>采用 “打擂台算法”</strong></p>
+<p><strong>先把 a [0][0] 的值赋给变量 max</strong></p>
+<p><strong>max 用来存放当前已知的最大值</strong></p>
+<p><strong>a [0][1] 与 max 比较，如果 a [0][1]&gt;max，则表示 a [0][1] 是已经比过的数据中值最大的，把它的值赋给 max，取代了 max 的原值</strong></p>
+<p><strong>以后依此处理，最后 max 就是最大的值</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[][<span class="number">4</span>])</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> b[][<span class="number">4</span>])</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">bidaxiao</span><span class="params">(<span class="type">int</span> a[][<span class="number">4</span>])</span>;</span><br><span class="line"><span class="type">void</span>  <span class="title function_">find</span><span class="params">(<span class="type">int</span> c, <span class="type">int</span> a[][<span class="number">4</span>])</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a[<span class="number">3</span>][<span class="number">4</span>],c;</span><br><span class="line">	input(a);</span><br><span class="line">	output(a);</span><br><span class="line">	bidaxiao(a);</span><br><span class="line">	c = bidaxiao(a);</span><br><span class="line">	find(c, a);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请珍惜我的成果哦，感谢你的使用&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//函数功能：对数组进行赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[][<span class="number">4</span>])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i, j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;请给第%d行第%d列的数赋值\n&quot;</span>, i + <span class="number">1</span>, j + <span class="number">1</span>);</span><br><span class="line">			scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//函数功能:对数组进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> b[][<span class="number">4</span>])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;你输入的数组为：\n&quot;</span>);</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>, b[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//找出最大的那个数的值</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">bidaxiao</span><span class="params">(<span class="type">int</span> a[][<span class="number">4</span>])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> b = a[<span class="number">0</span>][<span class="number">0</span>], i, j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span> (b &lt; a[i][j])</span><br><span class="line">			&#123;</span><br><span class="line">				b = a[i][j];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;最大的那个数位为：%d\n&quot;</span>, b);</span><br><span class="line">	<span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//找出最大数的行列数</span></span><br><span class="line"><span class="type">void</span>  <span class="title function_">find</span><span class="params">(<span class="type">int</span> c,<span class="type">int</span> a[][<span class="number">4</span>])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i, j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span> (c != a[i][j])<span class="keyword">continue</span>;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;数组中最大的数%d所在的行数为%d,列数为%d\n&quot;</span>, c, i+<span class="number">1</span>, j+<span class="number">1</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="输出一个菱形图。"><a href="#输出一个菱形图。" class="headerlink" title="输出一个菱形图。"></a>输出一个菱形图。</h2><h3 id="解题思路：-3"><a href="#解题思路：-3" class="headerlink" title="解题思路："></a>解题思路：</h3><p><strong>定义一个字符型的二维数组，用“初始化列表”进行初始化</strong></p>
-<p><strong>用嵌套的for循环输出字符数组中的所有元素。</strong></p>
+<h2 id="输出一个菱形图"><a class="markdownIt-Anchor" href="#输出一个菱形图">#</a> 输出一个菱形图。</h2>
+<h3 id="解题思路-4"><a class="markdownIt-Anchor" href="#解题思路-4">#</a> 解题思路：</h3>
+<p><strong>定义一个字符型的二维数组，用 “初始化列表” 进行初始化</strong></p>
+<p><strong>用嵌套的 for 循环输出字符数组中的所有元素。</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a[<span class="number">3</span>][<span class="number">4</span>],i,j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++) </span><br><span class="line">		&#123;</span><br><span class="line">			scanf_s(<span class="string">&quot;%c&quot;</span>, &amp;a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; <span class="number">4</span>;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;%c\t&quot;</span>, a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 
       <div class="tags">
           <a href="/tags/%E5%B0%8F%E7%99%BD%E5%AD%A6C%E8%AF%AD%E8%A8%80/" rel="tag"><i class="ic i-tag"></i> 小白学C语言</a>
@@ -248,7 +255,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?81728" title="困扰我的C语言难题">
+  <a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?680191" title="困扰我的C语言难题">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>困扰我的C语言难题</h3>
@@ -258,7 +265,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?384165" title="C语言函数模块知识总结">
+  <a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?467123" title="C语言函数模块知识总结">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言函数模块知识总结</h3>
@@ -280,7 +287,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0"><span class="toc-number">1.</span> <span class="toc-text">第四章</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E8%AE%A1%E7%AE%971-3-5-%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7-101%E7%9A%84%E5%80%BC%EF%BC%8C%E5%B9%B6%E8%BE%93%E5%87%BA%E8%AE%A1%E7%AE%97%E7%BB%93%E6%9E%9C%E3%80%82"><span class="toc-number">1.1.</span> <span class="toc-text">编程计算1+3+5+······+101的值，并输出计算结果。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E6%B1%82%EF%BC%9A%E8%BE%93%E5%87%BA100-200%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%8D%E8%83%BD%E8%A2%AB3%E6%95%B4%E9%99%A4%E7%9A%84%E6%95%B0%E3%80%82"><span class="toc-number">1.2.</span> <span class="toc-text">要求：输出100~200之间的不能被3整除的数。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E6%80%9D%E8%B7%AF%EF%BC%9A"><span class="toc-number">1.3.</span> <span class="toc-text">编程思路：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B4-5%E7%9A%84%E7%9F%A9%E9%98%B5%E3%80%82"><span class="toc-number">1.4.</span> <span class="toc-text">输出以下4*5的矩阵。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A"><span class="toc-number">1.5.</span> <span class="toc-text">解题思路：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0"><span class="toc-number">2.</span> <span class="toc-text">第五章</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B910%E4%B8%AA%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E8%B5%8B%E5%80%BC%E4%B8%BA0%EF%BC%8C1%EF%BC%8C2%EF%BC%8C3%EF%BC%8C4%EF%BC%8C5%EF%BC%8C6%EF%BC%8C7%EF%BC%8C8%EF%BC%8C9%EF%BC%8C%E8%A6%81%E6%B1%82%E6%8C%89%E9%80%86%E5%BA%8F%E8%BE%93%E5%87%BA%E3%80%82"><span class="toc-number">2.1.</span> <span class="toc-text">对10个数组元素依次赋值为0，1，2，3，4，5，6，7，8，9，要求按逆序输出。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8910%E4%B8%AA%E5%9C%B0%E5%8C%BA%E7%9A%84%E9%9D%A2%E7%A7%AF%EF%BC%8C%E8%A6%81%E6%B1%82%E5%AF%B9%E5%AE%83%E4%BB%AC%E6%8C%89%E7%94%B1%E5%B0%8F%E5%88%B0%E5%A4%A7%E7%9A%84%E9%A1%BA%E5%BA%8F%E6%8E%92%E5%88%97%E3%80%82"><span class="toc-number">2.2.</span> <span class="toc-text">有10个地区的面积，要求对它们按由小到大的顺序排列。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A-1"><span class="toc-number">2.2.1.</span> <span class="toc-text">解题思路：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E4%B8%80%E4%B8%AA3%C3%974%E7%9A%84%E7%9F%A9%E9%98%B5%EF%BC%8C%E8%A6%81%E6%B1%82%E7%BC%96%E7%A8%8B%E5%BA%8F%E6%B1%82%E5%87%BA%E5%85%B6%E4%B8%AD%E5%80%BC%E6%9C%80%E5%A4%A7%E7%9A%84%E9%82%A3%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84%E5%80%BC%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%85%B6%E6%89%80%E5%9C%A8%E7%9A%84%E8%A1%8C%E5%8F%B7%E5%92%8C%E5%88%97%E5%8F%B7%E3%80%82"><span class="toc-number">2.3.</span> <span class="toc-text">有一个3×4的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A-2"><span class="toc-number">2.3.1.</span> <span class="toc-text">解题思路：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E8%8F%B1%E5%BD%A2%E5%9B%BE%E3%80%82"><span class="toc-number">2.4.</span> <span class="toc-text">输出一个菱形图。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF%EF%BC%9A-3"><span class="toc-number">2.4.1.</span> <span class="toc-text">解题思路：</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0"><span class="toc-number">1.</span> <span class="toc-text"> 第四章</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E8%AE%A1%E7%AE%97135101%E7%9A%84%E5%80%BC%E5%B9%B6%E8%BE%93%E5%87%BA%E8%AE%A1%E7%AE%97%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text"> 编程计算 1+3+5+・・・・・・+101 的值，并输出计算结果。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A6%81%E6%B1%82%E8%BE%93%E5%87%BA100~200%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%8D%E8%83%BD%E8%A2%AB3%E6%95%B4%E9%99%A4%E7%9A%84%E6%95%B0"><span class="toc-number">1.2.</span> <span class="toc-text"> 要求：输出 100~200 之间的不能被 3 整除的数。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E6%80%9D%E8%B7%AF"><span class="toc-number">1.3.</span> <span class="toc-text"> 编程思路：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B45%E7%9A%84%E7%9F%A9%E9%98%B5"><span class="toc-number">1.4.</span> <span class="toc-text"> 输出以下 4*5 的矩阵。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="toc-number">1.5.</span> <span class="toc-text"> 解题思路：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0"><span class="toc-number">2.</span> <span class="toc-text"> 第五章</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B910%E4%B8%AA%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E8%B5%8B%E5%80%BC%E4%B8%BA0123456789%E8%A6%81%E6%B1%82%E6%8C%89%E9%80%86%E5%BA%8F%E8%BE%93%E5%87%BA"><span class="toc-number">2.1.</span> <span class="toc-text"> 对 10 个数组元素依次赋值为 0，1，2，3，4，5，6，7，8，9，要求按逆序输出。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8910%E4%B8%AA%E5%9C%B0%E5%8C%BA%E7%9A%84%E9%9D%A2%E7%A7%AF%E8%A6%81%E6%B1%82%E5%AF%B9%E5%AE%83%E4%BB%AC%E6%8C%89%E7%94%B1%E5%B0%8F%E5%88%B0%E5%A4%A7%E7%9A%84%E9%A1%BA%E5%BA%8F%E6%8E%92%E5%88%97"><span class="toc-number">2.2.</span> <span class="toc-text"> 有 10 个地区的面积，要求对它们按由小到大的顺序排列。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-2"><span class="toc-number">2.2.1.</span> <span class="toc-text"> 解题思路：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E4%B8%80%E4%B8%AA34%E7%9A%84%E7%9F%A9%E9%98%B5%E8%A6%81%E6%B1%82%E7%BC%96%E7%A8%8B%E5%BA%8F%E6%B1%82%E5%87%BA%E5%85%B6%E4%B8%AD%E5%80%BC%E6%9C%80%E5%A4%A7%E7%9A%84%E9%82%A3%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84%E5%80%BC%E4%BB%A5%E5%8F%8A%E5%85%B6%E6%89%80%E5%9C%A8%E7%9A%84%E8%A1%8C%E5%8F%B7%E5%92%8C%E5%88%97%E5%8F%B7"><span class="toc-number">2.3.</span> <span class="toc-text"> 有一个 3×4 的矩阵，要求编程序求出其中值最大的那个元素的值，以及其所在的行号和列号。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-3"><span class="toc-number">2.3.1.</span> <span class="toc-text"> 解题思路：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E8%8F%B1%E5%BD%A2%E5%9B%BE"><span class="toc-number">2.4.</span> <span class="toc-text"> 输出一个菱形图。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF-4"><span class="toc-number">2.4.1.</span> <span class="toc-text"> 解题思路：</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -298,7 +305,7 @@ Luo的小世界 = welcome to my world</title>
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">50</span>
+        <span class="count">51</span>
         <span class="name">文章</span>
       </a>
     </div>
@@ -310,7 +317,7 @@ Luo的小世界 = welcome to my world</title>
     </div>
     <div class="item tags">
       <a href="/tags/">
-        <span class="count">32</span>
+        <span class="count">33</span>
         <span class="name">标签</span>
       </a>
     </div>
@@ -397,84 +404,6 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/05/18/a/" title="图片上传github仓库测试">图片上传github仓库测试</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/03/09/%E5%8B%BE%E9%AD%82%E5%B0%8F%E9%AB%98/" title="未命名">未命名</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/typora/" title="分类于 typora">typora</a>
-</div>
-
-    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" title="绪论">绪论</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
@@ -488,7 +417,87 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/" title="入门级C语言练习题">入门级C语言练习题</a></span>
+    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+</div>
+
+    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
+</div>
+
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
+</div>
+
+    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/typora/" title="分类于 typora">typora</a>
+</div>
+
+    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
   </li>
 
   </ul>
