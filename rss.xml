@@ -41,6 +41,7 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>期末复习</category>
+        <category>软件设计师考核</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
             <title>数据结构与算法习题汇总</title>
@@ -415,6 +416,21 @@ C 图如下：&lt;br&gt;
 排序&lt;br&gt;
 其功能是将一个数据元素（或记录）的任意序列，重新排列成一个按关键字有序的序列。&lt;/p&gt;
  ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/</guid>
+            <title>MySQL概述</title>
+            <link>http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/</link>
+            <category>软件设计师考核</category>
+            <pubDate>Thu, 25 May 2023 07:35:18 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/</guid>
+            <title>网页设计简介</title>
+            <link>http://example.com/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/</link>
+            <pubDate>Thu, 25 May 2023 07:32:14 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</guid>

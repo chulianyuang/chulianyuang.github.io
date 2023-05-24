@@ -38,6 +38,7 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="期末复习" />
+    <category term="软件设计师考核" />
     <entry>
         <id>http://example.com/2023/05/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</id>
         <title>数据结构与算法习题汇总</title>
@@ -412,6 +413,21 @@ C 图如下：&lt;br&gt;
 </content>
         <category term="期末复习" />
         <updated>2023-05-25T05:00:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/</id>
+        <title>MySQL概述</title>
+        <link rel="alternate" href="http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/"/>
+        <content type="html"></content>
+        <category term="软件设计师考核" />
+        <updated>2023-05-24T23:35:18.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/</id>
+        <title>网页设计简介</title>
+        <link rel="alternate" href="http://example.com/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/"/>
+        <content type="html"></content>
+        <updated>2023-05-24T23:32:14.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</id>
