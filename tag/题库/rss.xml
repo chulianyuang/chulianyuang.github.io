@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>welcome to my world • Posts by &#34;题库&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 29 May 2023 23:00:48 +0800</pubDate>
+        <lastBuildDate>Mon, 29 May 2023 23:00:48 +0800</lastBuildDate>
+        <category>三省吾身</category>
+        <category>C语言函数复习</category>
+        <category>小白学C语言</category>
+        <category>细解</category>
+        <category>巧思</category>
+        <category>细化操作</category>
+        <category>C语言大一上学期期末复习</category>
+        <category>中二病</category>
+        <category>练习题</category>
+        <category>动态规划</category>
+        <category>大学计划1</category>
+        <category>鸡汤</category>
+        <category>C语言探索</category>
+        <category>慢节奏的生活</category>
+        <category>历史早读</category>
+        <category>性理解</category>
+        <category>C语言指针复习</category>
+        <category>习题答案</category>
+        <category>栈和队列</category>
+        <category>日常小作</category>
+        <category>矩阵与求解</category>
+        <category>环境保护</category>
+        <category>慢慢就爱上的科目</category>
+        <category>知识点总结</category>
+        <category>C语言复习</category>
+        <category>从年头红到年尾</category>
+        <category>课前五分钟</category>
+        <category>全国英语四级考试</category>
+        <category>英语角</category>
+        <category>课前演讲</category>
+        <category>C语言实验报告</category>
+        <category>关于创业的一条路</category>
+        <category>知识总结</category>
+        <category>期末复习</category>
+        <category>软件设计师考核</category>
+        <category>题库</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <title>第三个Java程序</title>
+            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <category>题库</category>
+            <pubDate>Mon, 29 May 2023 23:00:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;三元运算符练习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三元运算符练习&#34;&gt;#&lt;/a&gt; 三元运算符练习&lt;/h1&gt;
+&lt;h2 id=&#34;两只老虎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#两只老虎&#34;&gt;#&lt;/a&gt; 两只老虎&lt;/h2&gt;
+&lt;p&gt;程序要求：动物园里有两只老虎，体重分别为通过键盘录入获得，&lt;/p&gt;
+&lt;p&gt;请用程序实现判断两只老虎的体重是否相同。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;package&lt;/span&gt; hello;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;text3&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        String a=&lt;span class=&#34;string&#34;&gt;&amp;quot;相同&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        String b=&lt;span class=&#34;string&#34;&gt;&amp;quot;不相同&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Scanner sc=&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Scanner&lt;/span&gt;(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;第一只老虎的体重：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; tiger1=sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;第二只老虎的体重：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; tiger2=sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(tiger1==tiger2?a:b);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;输出最高和尚的身高&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#输出最高和尚的身高&#34;&gt;#&lt;/a&gt; 输出最高和尚的身高&lt;/h2&gt;
+&lt;p&gt;程序要求：&lt;/p&gt;
+&lt;p&gt;一个神庙里面有三个和尚，请用程序实现获取这三个和尚的最高身高。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;package&lt;/span&gt; hello;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;texe4&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        Scanner sc=&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Scanner&lt;/span&gt;(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;输入第一个和尚身高：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; heshang1= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;输入第二个和尚身高：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; heshang2= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;输入第三个和尚身高：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; heshang3= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; high=(heshang1&amp;gt;heshang2?heshang1:heshang2)&amp;gt;heshang3?(heshang1&amp;gt;heshang2?heshang1:heshang2):heshang3;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(high);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;顺带一提优先级&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305292327950.png&#34; alt=&#34;image-20230529232533316&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <title>第二个Java程序</title>
+            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <category>题库</category>
+            <pubDate>Mon, 29 May 2023 22:39:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;数字6&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数字6&#34;&gt;#&lt;/a&gt; 数字 6&lt;/h1&gt;
+&lt;p&gt;程序要求：&lt;/p&gt;
+&lt;p&gt;数字 6 是一个真正伟大的数字，键盘录入两个整数。&lt;/p&gt;
+&lt;p&gt;如果其中一个为 6，最终结果输出 ture。&lt;/p&gt;
+&lt;p&gt;如果它们的和为 6 的倍数，最终结果输出也为 ture。&lt;/p&gt;
+&lt;p&gt;其它情况都是 false。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;package&lt;/span&gt; hello;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;text2&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;输入两个数字&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;Scanner&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;sc&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Scanner&lt;/span&gt;(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; num1=sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; num2= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println((num2+num1)%&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;==&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;||num2==&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;||num1==&lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <title>第一个Java程序</title>
+            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <category>题库</category>
+            <pubDate>Mon, 29 May 2023 17:57:22 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;今天是个很特别的日子，看了有一会视频了，今天就开始上传第一篇关于 Java 入门的博文，其实在我看来学了 C 语言之后再来学 Java 感觉真的不要太简单。不过从小到大家人们都对我说不要眼高手低，所以我还是系统的从头到尾学一遍，当复习了。&lt;/p&gt;
+&lt;p&gt;今天给大家带来的是斯坦福大学的入门级练习题：&lt;/p&gt;
+&lt;h1 id=&#34;约会&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#约会&#34;&gt;#&lt;/a&gt; 约会&lt;/h1&gt;
+&lt;p&gt;您和您的约会对象在餐厅里面正在约会。&lt;/p&gt;
+&lt;p&gt;键盘录入两个整数，表示你和你约会对象衣服的时髦度。（手动录入 0~10 之间的整数，不能录入其他）&lt;/p&gt;
+&lt;p&gt;如果你的时髦程度大于你对象的时髦程度，相亲就成功，输出 true。&lt;/p&gt;
+&lt;p&gt;否则输出 false.&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;package&lt;/span&gt; hello;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;texe&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;输入你和约会对象的时髦度：1~10&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;Scanner&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;sc&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Scanner&lt;/span&gt;(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;您的时髦度：&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; boy= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;您相亲对象的时髦度:&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; girl= sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(boy&amp;gt;girl);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;加油～&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

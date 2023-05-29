@@ -42,9 +42,10 @@
         <category>知识总结</category>
         <category>期末复习</category>
         <category>软件设计师考核</category>
+        <category>题库</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
-            <title>数据结构与算法习题汇总</title>
+            <title>数据结构与算法知识点汇总</title>
             <link>http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</link>
             <category>期末复习</category>
             <pubDate>Tue, 23 May 2023 13:00:35 +0800</pubDate>
