@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"java入门\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/06/17/Java%E4%BD%9C%E4%B8%9A4/",
+            "url": "http://example.com/2023/06/17/Java%E4%BD%9C%E4%B8%9A4/",
+            "title": "第四个Java程序",
+            "date_published": "2023-06-17T15:24:54.000Z",
+            "content_html": "<h1 id=\"面向对象编程\"><a class=\"markdownIt-Anchor\" href=\"#面向对象编程\">#</a> 面向对象编程</h1>\n<h2 id=\"用java完成以下需求\"><a class=\"markdownIt-Anchor\" href=\"#用java完成以下需求\">#</a> 用 java 完成以下需求</h2>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306172326429.png\" alt=\"image-20230617232635119\"></p>\n<figure class=\"highlight java\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"></span><br></pre></td></tr></table></figure>\n",
+            "tags": [
+                "Java入门"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>welcome to my world • Posts by &#34;java入门&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-06-17T15:24:54.000Z</updated>
+    <category term="三省吾身" />
+    <category term="C语言函数复习" />
+    <category term="小白学C语言" />
+    <category term="细解" />
+    <category term="巧思" />
+    <category term="细化操作" />
+    <category term="C语言大一上学期期末复习" />
+    <category term="中二病" />
+    <category term="练习题" />
+    <category term="动态规划" />
+    <category term="大学计划1" />
+    <category term="鸡汤" />
+    <category term="C语言探索" />
+    <category term="慢节奏的生活" />
+    <category term="历史早读" />
+    <category term="性理解" />
+    <category term="C语言指针复习" />
+    <category term="习题答案" />
+    <category term="栈和队列" />
+    <category term="日常小作" />
+    <category term="矩阵与求解" />
+    <category term="环境保护" />
+    <category term="慢慢就爱上的科目" />
+    <category term="知识点总结" />
+    <category term="C语言复习" />
+    <category term="从年头红到年尾" />
+    <category term="课前五分钟" />
+    <category term="全国英语四级考试" />
+    <category term="英语角" />
+    <category term="课前演讲" />
+    <category term="C语言实验报告" />
+    <category term="关于创业的一条路" />
+    <category term="知识总结" />
+    <category term="期末复习" />
+    <category term="软件设计师考核" />
+    <category term="题库" />
+    <category term="Java入门" />
+    <entry>
+        <id>http://example.com/2023/06/17/Java%E4%BD%9C%E4%B8%9A4/</id>
+        <title>第四个Java程序</title>
+        <link rel="alternate" href="http://example.com/2023/06/17/Java%E4%BD%9C%E4%B8%9A4/"/>
+        <content type="html">&lt;h1 id=&#34;面向对象编程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#面向对象编程&#34;&gt;#&lt;/a&gt; 面向对象编程&lt;/h1&gt;
+&lt;h2 id=&#34;用java完成以下需求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#用java完成以下需求&#34;&gt;#&lt;/a&gt; 用 java 完成以下需求&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306172326429.png&#34; alt=&#34;image-20230617232635119&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="Java入门" />
+        <updated>2023-06-17T15:24:54.000Z</updated>
+    </entry>
+</feed>
