@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;大学进阶英语&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-05-23T08:14:51.000Z</updated>
+    <updated>2023-08-05T17:16:38.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
     <category term="小白学C语言" />
@@ -41,6 +41,19 @@
     <category term="软件设计师考核" />
     <category term="题库" />
     <category term="Java入门" />
+    <category term="网页设计" />
+    <category term="《Me for you》翻译" />
+    <entry>
+        <id>http://example.com/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/</id>
+        <title>暑假规划</title>
+        <link rel="alternate" href="http://example.com/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/"/>
+        <content type="html">&lt;h1 id=&#34;me-for-you&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#me-for-you&#34;&gt;#&lt;/a&gt; ME FOR YOU&lt;/h1&gt;
+&lt;p&gt;暑假还有一个月就结束了，接下来的我就是大二的老牛了，我总感觉大一好像并没有学到什么，比赛也没有怎么参加，我知道自身的情况，但我可以保证我大一确实没有荒废时间，不得不说，还是比较喜欢高中被老师撵着前行的日子，进入大学后基本上就是自学了，老师不怎么管你，但是自学真的好乱啊，我是准备参加大三的秋招的，但以我现在的实力，我真的不知到应该怎么写才能被企业招聘。&lt;/p&gt;
+&lt;p&gt;最近我逛招聘网站发现大型的 IT 公司贴出来的人才需求上写着四六级英语优先，现在大家这么卷，优先在这个时代就是基础要求的意思，所以我准备学英语啦，先把四六级考试证书拿下再说，我本来是想大一去考的，但我实力差了点，上学期考试不给力，没有考到 A 班，所以连参加考试的资格都没有。但大二就是我们 B 班去考试了，我争取一次过，所以从今天开始，我明天都会自己试着去翻译一章英语名著。不过现在得先睡觉，hh。&lt;/p&gt;
+</content>
+        <category term="《Me for you》翻译" />
+        <updated>2023-08-05T17:16:38.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</id>
         <title>英语演讲</title>

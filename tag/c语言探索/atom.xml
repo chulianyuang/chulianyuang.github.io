@@ -41,6 +41,8 @@
     <category term="软件设计师考核" />
     <category term="题库" />
     <category term="Java入门" />
+    <category term="网页设计" />
+    <category term="《Me for you》翻译" />
     <entry>
         <id>http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</id>
         <title>对printf和scanf两函数的理解</title>
