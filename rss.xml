@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 09 Aug 2023 11:34:21 +0800</pubDate>
-        <lastBuildDate>Wed, 09 Aug 2023 11:34:21 +0800</lastBuildDate>
+        <pubDate>Thu, 10 Aug 2023 21:45:43 +0800</pubDate>
+        <lastBuildDate>Thu, 10 Aug 2023 21:45:43 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>C语言函数复习</category>
         <category>小白学C语言</category>
@@ -41,11 +41,21 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>期末复习</category>
-        <category>软件设计师考核</category>
         <category>题库</category>
         <category>Java入门</category>
         <category>网页设计</category>
         <category>《Me for you》翻译</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/08/10/%E5%98%80-%E5%AE%BF%E4%B8%BB%EF%BC%8C%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%88%B0%E4%BA%86/</guid>
+            <title>嘀~宿主，你的系统到了</title>
+            <link>http://example.com/2023/08/10/%E5%98%80-%E5%AE%BF%E4%B8%BB%EF%BC%8C%E4%BD%A0%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%88%B0%E4%BA%86/</link>
+            <category>中二病</category>
+            <pubDate>Thu, 10 Aug 2023 21:45:43 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;自我介绍&#34;&gt;&lt;a href=&#34;#自我介绍&#34; class=&#34;headerlink&#34; title=&#34;自我介绍&#34;&gt;&lt;/a&gt;自我介绍&lt;/h1&gt;&lt;p&gt;技术没有到位，没办法修改博客的自我介绍页面，导致现在那个页面还是彩云飘飘。现在这里弄好数据，等那边页面弄号我再将数据迁移。&lt;/p&gt;
+&lt;h2 id=&#34;2023-8-10&#34;&gt;&lt;a href=&#34;#2023-8-10&#34; class=&#34;headerlink&#34; title=&#34;2023.8.10&#34;&gt;&lt;/a&gt;2023.8.10&lt;/h2&gt;&lt;p&gt;宿主：罗梓丰（大学生）&lt;/p&gt;
+&lt;p&gt;性别：男&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/</guid>
             <title>Vue框架 小作品</title>
@@ -262,14 +272,6 @@
 &lt;p&gt;还有就是你也可以把你的个人所学用在完善你的个人网站上，相当于把理论知识实践。&lt;/p&gt;
 &lt;p&gt;最后一点就是对秋招有加分。&lt;/p&gt;
  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/</guid>
-            <title>MySQL概述</title>
-            <link>http://example.com/2023/05/25/MySQL%E6%A6%82%E8%BF%B0/</link>
-            <category>软件设计师考核</category>
-            <pubDate>Thu, 25 May 2023 07:35:18 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/</guid>
