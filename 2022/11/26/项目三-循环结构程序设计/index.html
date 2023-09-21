@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?213079"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?779356"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?959400"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?694120"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?848014"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?268920"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?778670"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?142752"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?966745"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?875231"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?147404"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?450709"></li>
         </ul>
       </div>
     </header>
@@ -153,33 +153,31 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="1分别用while语句-do-while语句-for语句编写程序计算e111121n"><a class="markdownIt-Anchor" href="#1分别用while语句-do-while语句-for语句编写程序计算e111121n">#</a> 1. 分别用 while 语句、do-while 语句、for 语句编写程序，计算 e≈1+1/1!+1/2!+…+1/n!</h1>
-<h2 id="for循环示例"><a class="markdownIt-Anchor" href="#for循环示例">#</a> for 循环示例</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//计算e≈1 + 1 / 1!+ 1 / 2!+ ... + 1 / n!</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;用for循环计算e的值:&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入n的值&quot;</span>);</span><br><span class="line">	<span class="type">int</span> n,i,a;</span><br><span class="line">	<span class="type">int</span> k = <span class="number">1</span>;</span><br><span class="line">	<span class="type">float</span> num = <span class="number">0</span>;</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">1</span>;i &lt;= n;i++) &#123;</span><br><span class="line">		<span class="keyword">for</span> (a = i;a &gt;= <span class="number">1</span>;a--) &#123;</span><br><span class="line">			k*= a;</span><br><span class="line">		&#125;</span><br><span class="line">		num =num+ <span class="number">1.0</span>/ k;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;e的值为%f&quot;</span>,num+<span class="number">1</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="while循环示例"><a class="markdownIt-Anchor" href="#while循环示例">#</a> While 循环示例</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> a=<span class="number">1</span>,n;</span><br><span class="line"> <span class="type">double</span> sum=<span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line"> scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line"> <span class="keyword">while</span> (a&lt;=n)</span><br><span class="line"> &#123; </span><br><span class="line">  sum *= a;</span><br><span class="line">  b+= <span class="number">1.0</span> / sum;</span><br><span class="line">  a++;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> <span class="built_in">printf</span>(<span class="string">&quot;%lf&quot;</span>,b);</span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="do-while-循环示例"><a class="markdownIt-Anchor" href="#do-while-循环示例">#</a> do while 循环示例</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">1</span>, n;</span><br><span class="line">	<span class="type">double</span> sum = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入n的值：&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">	<span class="keyword">do</span></span><br><span class="line">	&#123;</span><br><span class="line">		sum *= a;</span><br><span class="line">		b += <span class="number">1.0</span> / sum;</span><br><span class="line">		a++;</span><br><span class="line">	&#125; <span class="keyword">while</span> (a &lt;= n);</span><br><span class="line"></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%lf&quot;</span>, b);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//注意我用的是VS编辑器，使用其他的需要你改一下scanf_s</span></span><br></pre></td></tr></table></figure>
-<h1 id="2如果一个数恰好等于它的所有因子包括1但不包括自身之和则称之为完数-例如6的因子是123且6123因此6是完数-编写程序找出1000之内的所有完数及这些完数的和"><a class="markdownIt-Anchor" href="#2如果一个数恰好等于它的所有因子包括1但不包括自身之和则称之为完数-例如6的因子是123且6123因此6是完数-编写程序找出1000之内的所有完数及这些完数的和">#</a> 2. 如果一个数恰好等于它的所有因子（包括 1 但不包括自身）之和，则称之为 “完数”。例如 6 的因子是 1，2，3，且 6=1+2+3，因此 6 是完数。编写程序找出 1000 之内的所有完数及这些完数的和。</h1>
-<h2 id="解析题目任务"><a class="markdownIt-Anchor" href="#解析题目任务">#</a> 解析题目任务：</h2>
-<ol>
+    <h1 id="1-分别用while语句、do-while语句、for语句编写程序，计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n"><a href="#1-分别用while语句、do-while语句、for语句编写程序，计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n" class="headerlink" title="1.分别用while语句、do-while语句、for语句编写程序，计算e≈1+1&#x2F;1!+1&#x2F;2!+…+1&#x2F;n!"></a>1.分别用while语句、do-while语句、for语句编写程序，计算e≈1+1&#x2F;1!+1&#x2F;2!+…+1&#x2F;n!</h1><h2 id="for循环示例"><a href="#for循环示例" class="headerlink" title="for循环示例"></a>for循环示例</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//计算e≈1 + 1 / 1!+ 1 / 2!+ ... + 1 / n!</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;用for循环计算e的值:&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入n的值&quot;</span>);</span><br><span class="line">	<span class="type">int</span> n,i,a;</span><br><span class="line">	<span class="type">int</span> k = <span class="number">1</span>;</span><br><span class="line">	<span class="type">float</span> num = <span class="number">0</span>;</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">1</span>;i &lt;= n;i++) &#123;</span><br><span class="line">		<span class="keyword">for</span> (a = i;a &gt;= <span class="number">1</span>;a--) &#123;</span><br><span class="line">			k*= a;</span><br><span class="line">		&#125;</span><br><span class="line">		num =num+ <span class="number">1.0</span>/ k;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;e的值为%f&quot;</span>,num+<span class="number">1</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="While循环示例"><a href="#While循环示例" class="headerlink" title="While循环示例"></a>While循环示例</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"> <span class="type">int</span> a=<span class="number">1</span>,n;</span><br><span class="line"> <span class="type">double</span> sum=<span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line"> scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line"> <span class="keyword">while</span> (a&lt;=n)</span><br><span class="line"> &#123; </span><br><span class="line">  sum *= a;</span><br><span class="line">  b+= <span class="number">1.0</span> / sum;</span><br><span class="line">  a++;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> <span class="built_in">printf</span>(<span class="string">&quot;%lf&quot;</span>,b);</span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="do-while-循环示例"><a href="#do-while-循环示例" class="headerlink" title="do while 循环示例"></a>do while 循环示例</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">1</span>, n;</span><br><span class="line">	<span class="type">double</span> sum = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入n的值：&quot;</span>);</span><br><span class="line">	scanf_s(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">	<span class="keyword">do</span></span><br><span class="line">	&#123;</span><br><span class="line">		sum *= a;</span><br><span class="line">		b += <span class="number">1.0</span> / sum;</span><br><span class="line">		a++;</span><br><span class="line">	&#125; <span class="keyword">while</span> (a &lt;= n);</span><br><span class="line"></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%lf&quot;</span>, b);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//注意我用的是VS编辑器，使用其他的需要你改一下scanf_s</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="2-如果一个数恰好等于它的所有因子（包括1但不包括自身）之和，则称之为“完数”。例如6的因子是1，2，3，且6-x3D-1-2-3，因此6是完数。编写程序找出1000之内的所有完数及这些完数的和。"><a href="#2-如果一个数恰好等于它的所有因子（包括1但不包括自身）之和，则称之为“完数”。例如6的因子是1，2，3，且6-x3D-1-2-3，因此6是完数。编写程序找出1000之内的所有完数及这些完数的和。" class="headerlink" title="2.如果一个数恰好等于它的所有因子（包括1但不包括自身）之和，则称之为“完数”。例如6的因子是1，2，3，且6&#x3D;1+2+3，因此6是完数。编写程序找出1000之内的所有完数及这些完数的和。"></a>2.如果一个数恰好等于它的所有因子（包括1但不包括自身）之和，则称之为“完数”。例如6的因子是1，2，3，且6&#x3D;1+2+3，因此6是完数。编写程序找出1000之内的所有完数及这些完数的和。</h1><h2 id="解析题目任务："><a href="#解析题目任务：" class="headerlink" title="解析题目任务："></a>解析题目任务：</h2><ol>
 <li><strong>先教会代码判断一个数是否是完数</strong></li>
 <li><strong>让代码将完数相加，并输出。</strong></li>
 </ol>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">pangDuan</span><span class="params">(<span class="type">int</span> h)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i,a,sum=<span class="number">0</span>,n=<span class="number">0</span>,j=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">1</span>;i &lt;= <span class="number">1000</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">/*for (a = 1;a &lt; i;a++)</span></span><br><span class="line"><span class="comment">		&#123;</span></span><br><span class="line"><span class="comment">			if (i % a == 0) </span></span><br><span class="line"><span class="comment">			&#123;</span></span><br><span class="line"><span class="comment">				sum += a;</span></span><br><span class="line"><span class="comment">			&#125;</span></span><br><span class="line"><span class="comment">		&#125;</span></span><br><span class="line"><span class="comment">		if (sum - 1 == i)</span></span><br><span class="line"><span class="comment">		&#123;</span></span><br><span class="line"><span class="comment">			printf(&quot;%d是完数  &quot;, i);</span></span><br><span class="line"><span class="comment">			n += i;</span></span><br><span class="line"><span class="comment">		&#125;*/</span></span><br><span class="line">		j+=pangDuan(i);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;1000以内所有的完数之和为%d&quot;</span>, j);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数不知道错在哪里了，我在外面写一个新的调用函数先用着。</span></span><br><span class="line"><span class="comment">//功能：判断一个数是否是完数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">pangDuan</span><span class="params">(<span class="type">int</span> h)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a, sum = <span class="number">0</span>, i = <span class="number">0</span>,g;</span><br><span class="line">	<span class="keyword">for</span> (a = <span class="number">1</span>;a &lt; h;a++) &#123;</span><br><span class="line">		<span class="keyword">if</span> (h % a == <span class="number">0</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			sum += a;<span class="comment">//1,3,6</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> (sum == h)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d是完数  &quot;</span>, h);</span><br><span class="line">		g = h;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> g = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> g;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p><strong>等我找出主函数错误再更新正确答案</strong></p>
-<h2 id="正确答案"><a class="markdownIt-Anchor" href="#正确答案">#</a> 正确答案</h2>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="3-输入并运行下面的程序观察程序的运行结果"><a class="markdownIt-Anchor" href="#3-输入并运行下面的程序观察程序的运行结果">#</a> 3、输入并运行下面的程序，观察程序的运行结果。</h1>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//输入并运行下面的程序，观察程序的运行结果。</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"><span class="keyword">while</span> (<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Enter a number:&quot;</span>);</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line"><span class="keyword">if</span> (n%<span class="number">2</span>==<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;I said&quot;</span>);</span><br><span class="line"><span class="keyword">continue</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Thanks. I needed that!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="正确答案"><a href="#正确答案" class="headerlink" title="正确答案"></a>正确答案</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="3、输入并运行下面的程序，观察程序的运行结果。"><a href="#3、输入并运行下面的程序，观察程序的运行结果。" class="headerlink" title="3、输入并运行下面的程序，观察程序的运行结果。"></a>3、输入并运行下面的程序，观察程序的运行结果。</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//输入并运行下面的程序，观察程序的运行结果。</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"><span class="keyword">while</span> (<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Enter a number:&quot;</span>);</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line"><span class="keyword">if</span> (n%<span class="number">2</span>==<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;I said&quot;</span>);</span><br><span class="line"><span class="keyword">continue</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Thanks. I needed that!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>运行报告：</p>
 <p>根据运行后的结果：</p>
 <p>可以判断这是一个筛选偶数的程序，当输入的是奇数时会让用户继续进行输入，直到用户输入的是偶数为止。</p>
 <p>根据程序本身：</p>
 <ol>
-<li>我尝试对 while 的限制条件进行修改，发现把括号里的 1 改成 2，程序照样正常运行，由此可以猜测它只是为了满足 while 循环运行规则的一个无关紧要的数，因此可以得出结论，表达式可以是一个整形。</li>
-<li>这个程序将 while 循环的作用进行拓展，我们可以把这个小窍门用在任何程序的外面就可以让一个程序不断地重复运行，不需要重复启动。</li>
-<li>continue 是直接回到循环的开始处，不是回到 if 条件语句的开始处</li>
+<li>我尝试对while的限制条件进行修改，发现把括号里的1改成2，程序照样正常运行，由此可以猜测它只是为了满足while循环运行规则的一个无关紧要的数，因此可以得出结论，表达式可以是一个整形。</li>
+<li>这个程序将while循环的作用进行拓展，我们可以把这个小窍门用在任何程序的外面就可以让一个程序不断地重复运行，不需要重复启动。</li>
+<li>continue是直接回到循环的开始处，不是回到if条件语句的开始处</li>
 </ol>
 
       <div class="tags">
@@ -245,7 +243,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?256295" title="C语言函数模块知识总结">
+  <a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?339653" title="C语言函数模块知识总结">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言函数模块知识总结</h3>
@@ -255,7 +253,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?187543" title="C语言数组模块知识总结">
+  <a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?864008" title="C语言数组模块知识总结">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言数组模块知识总结</h3>
@@ -277,7 +275,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1%E5%88%86%E5%88%AB%E7%94%A8while%E8%AF%AD%E5%8F%A5-do-while%E8%AF%AD%E5%8F%A5-for%E8%AF%AD%E5%8F%A5%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%E8%AE%A1%E7%AE%97e111121n"><span class="toc-number">1.</span> <span class="toc-text"> 1. 分别用 while 语句、do-while 语句、for 语句编写程序，计算 e≈1+1&#x2F;1!+1&#x2F;2!+…+1&#x2F;n!</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#for%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.1.</span> <span class="toc-text"> for 循环示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#while%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.2.</span> <span class="toc-text"> While 循环示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#do-while-%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.3.</span> <span class="toc-text"> do while 循环示例</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2%E5%A6%82%E6%9E%9C%E4%B8%80%E4%B8%AA%E6%95%B0%E6%81%B0%E5%A5%BD%E7%AD%89%E4%BA%8E%E5%AE%83%E7%9A%84%E6%89%80%E6%9C%89%E5%9B%A0%E5%AD%90%E5%8C%85%E6%8B%AC1%E4%BD%86%E4%B8%8D%E5%8C%85%E6%8B%AC%E8%87%AA%E8%BA%AB%E4%B9%8B%E5%92%8C%E5%88%99%E7%A7%B0%E4%B9%8B%E4%B8%BA%E5%AE%8C%E6%95%B0-%E4%BE%8B%E5%A6%826%E7%9A%84%E5%9B%A0%E5%AD%90%E6%98%AF123%E4%B8%946123%E5%9B%A0%E6%AD%A46%E6%98%AF%E5%AE%8C%E6%95%B0-%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%E6%89%BE%E5%87%BA1000%E4%B9%8B%E5%86%85%E7%9A%84%E6%89%80%E6%9C%89%E5%AE%8C%E6%95%B0%E5%8F%8A%E8%BF%99%E4%BA%9B%E5%AE%8C%E6%95%B0%E7%9A%84%E5%92%8C"><span class="toc-number">2.</span> <span class="toc-text"> 2. 如果一个数恰好等于它的所有因子（包括 1 但不包括自身）之和，则称之为 “完数”。例如 6 的因子是 1，2，3，且 6&#x3D;1+2+3，因此 6 是完数。编写程序找出 1000 之内的所有完数及这些完数的和。</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E6%9E%90%E9%A2%98%E7%9B%AE%E4%BB%BB%E5%8A%A1"><span class="toc-number">2.1.</span> <span class="toc-text"> 解析题目任务：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88"><span class="toc-number">2.2.</span> <span class="toc-text"> 正确答案</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E8%BE%93%E5%85%A5%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%B8%8B%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%A7%82%E5%AF%9F%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">3.</span> <span class="toc-text"> 3、输入并运行下面的程序，观察程序的运行结果。</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%88%86%E5%88%AB%E7%94%A8while%E8%AF%AD%E5%8F%A5%E3%80%81do-while%E8%AF%AD%E5%8F%A5%E3%80%81for%E8%AF%AD%E5%8F%A5%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%AE%A1%E7%AE%97e%E2%89%881-1-x2F-1-1-x2F-2-%E2%80%A6-1-x2F-n"><span class="toc-number">1.</span> <span class="toc-text">1.分别用while语句、do-while语句、for语句编写程序，计算e≈1+1&#x2F;1!+1&#x2F;2!+…+1&#x2F;n!</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#for%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.1.</span> <span class="toc-text">for循环示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#While%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.2.</span> <span class="toc-text">While循环示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#do-while-%E5%BE%AA%E7%8E%AF%E7%A4%BA%E4%BE%8B"><span class="toc-number">1.3.</span> <span class="toc-text">do while 循环示例</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E5%A6%82%E6%9E%9C%E4%B8%80%E4%B8%AA%E6%95%B0%E6%81%B0%E5%A5%BD%E7%AD%89%E4%BA%8E%E5%AE%83%E7%9A%84%E6%89%80%E6%9C%89%E5%9B%A0%E5%AD%90%EF%BC%88%E5%8C%85%E6%8B%AC1%E4%BD%86%E4%B8%8D%E5%8C%85%E6%8B%AC%E8%87%AA%E8%BA%AB%EF%BC%89%E4%B9%8B%E5%92%8C%EF%BC%8C%E5%88%99%E7%A7%B0%E4%B9%8B%E4%B8%BA%E2%80%9C%E5%AE%8C%E6%95%B0%E2%80%9D%E3%80%82%E4%BE%8B%E5%A6%826%E7%9A%84%E5%9B%A0%E5%AD%90%E6%98%AF1%EF%BC%8C2%EF%BC%8C3%EF%BC%8C%E4%B8%946-x3D-1-2-3%EF%BC%8C%E5%9B%A0%E6%AD%A46%E6%98%AF%E5%AE%8C%E6%95%B0%E3%80%82%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%E6%89%BE%E5%87%BA1000%E4%B9%8B%E5%86%85%E7%9A%84%E6%89%80%E6%9C%89%E5%AE%8C%E6%95%B0%E5%8F%8A%E8%BF%99%E4%BA%9B%E5%AE%8C%E6%95%B0%E7%9A%84%E5%92%8C%E3%80%82"><span class="toc-number">2.</span> <span class="toc-text">2.如果一个数恰好等于它的所有因子（包括1但不包括自身）之和，则称之为“完数”。例如6的因子是1，2，3，且6&#x3D;1+2+3，因此6是完数。编写程序找出1000之内的所有完数及这些完数的和。</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E6%9E%90%E9%A2%98%E7%9B%AE%E4%BB%BB%E5%8A%A1%EF%BC%9A"><span class="toc-number">2.1.</span> <span class="toc-text">解析题目任务：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88"><span class="toc-number">2.2.</span> <span class="toc-text">正确答案</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3%E3%80%81%E8%BE%93%E5%85%A5%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%B8%8B%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%EF%BC%8C%E8%A7%82%E5%AF%9F%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E3%80%82"><span class="toc-number">3.</span> <span class="toc-text">3、输入并运行下面的程序，观察程序的运行结果。</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -394,40 +392,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/" title="环境保护小作">环境保护小作</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/" title="英语复习">英语复习</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
-</div>
-
-    <span><a href="/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/" title="Vue框架 小作品">Vue框架 小作品</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E9%87%91%E8%9E%8D%E5%AD%A6/" title="分类于 金融学">金融学</a>
-</div>
-
-    <span><a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" title="股票入门">股票入门</a></span>
+    <span><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第四个Java程序">第四个Java程序</a></span>
   </li>
 
       
@@ -437,16 +405,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
+    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
   </li>
 
       
@@ -456,37 +415,77 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></span>
+    <span><a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" title="对printf和scanf两函数的理解">对printf和scanf两函数的理解</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">ElemType是什么？</a></span>
+    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
+    <span><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" title="Java第一次小测">Java第一次小测</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" title="枚举">枚举</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
+</div>
+
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
   </li>
 
   </ul>

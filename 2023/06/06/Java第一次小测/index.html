@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?835022"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?17490"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?898643"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?185115"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?92671"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?762271"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?845992"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?444818"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?787331"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?203184"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?373690"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?654311"></li>
         </ul>
       </div>
     </header>
@@ -153,13 +153,12 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="小测"><a class="markdownIt-Anchor" href="#小测">#</a> 小测</h1>
-<h2 id="no1"><a class="markdownIt-Anchor" href="#no1">#</a> No.1</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306070000797.png" alt="image-20230607000052700"></p>
+    <h1 id="小测"><a href="#小测" class="headerlink" title="小测"></a>小测</h1><h2 id="No-1"><a href="#No-1" class="headerlink" title="No.1"></a>No.1</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306070000797.png" alt="image-20230607000052700"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> hello2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Random;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">a1</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"></span><br><span class="line">        <span class="type">char</span> []a=<span class="keyword">new</span> <span class="title class_">char</span>[<span class="number">52</span>];</span><br><span class="line">        <span class="comment">//大写字母</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">52</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(i&lt;<span class="number">26</span>) &#123;</span><br><span class="line">                a[i] = (<span class="type">char</span>) (<span class="number">65</span> + i);</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;<span class="comment">//小写字母</span></span><br><span class="line">                a[i]=(<span class="type">char</span>) (<span class="number">71</span>+i);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        Random r=<span class="keyword">new</span> <span class="title class_">Random</span>();</span><br><span class="line">        <span class="comment">//获取随机字母</span></span><br><span class="line">        String result=<span class="string">&quot;&quot;</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">4</span>;i++)&#123;</span><br><span class="line">            <span class="type">int</span> num= r.nextInt(a.length);</span><br><span class="line">            result=result+a[num];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//获取随机数字</span></span><br><span class="line">        <span class="type">int</span> num2= r.nextInt(<span class="number">10</span>);</span><br><span class="line">        <span class="comment">//两者结合最终成果</span></span><br><span class="line">        result=result+num2;</span><br><span class="line">        System.out.println(result);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="no2"><a class="markdownIt-Anchor" href="#no2">#</a> No.2</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306091058422.png" alt="屏幕截图 2023-06-09 105546"></p>
+
+<h2 id="No-2"><a href="#No-2" class="headerlink" title="No.2"></a>No.2</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306091058422.png" alt="屏幕截图 2023-06-09 105546"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> hello2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Random;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">a3</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//定义数组奖池</span></span><br><span class="line">        <span class="type">int</span> []a=&#123;<span class="number">2</span>,<span class="number">588</span>,<span class="number">888</span>,<span class="number">1000</span>,<span class="number">10000</span>&#125;;</span><br><span class="line">       <span class="comment">//定义一个新的数组存储无效奖项</span></span><br><span class="line">        <span class="type">int</span> []b=<span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">5</span>];</span><br><span class="line">        Random r=<span class="keyword">new</span> <span class="title class_">Random</span>();</span><br><span class="line">        <span class="comment">//定义一个循环抽奖5次</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">5</span>;)&#123;</span><br><span class="line">            <span class="comment">//生成新的随机数</span></span><br><span class="line">            <span class="type">int</span> New1= r.nextInt(<span class="number">5</span>);</span><br><span class="line">            <span class="type">int</span> price=a[New1];</span><br><span class="line">            <span class="keyword">if</span>(!judge(b,price)) &#123;</span><br><span class="line">                b[i]=price;</span><br><span class="line">                i++;</span><br><span class="line">                System.out.println(price);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//定义一个函数判断奖项是否无效</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">judge</span><span class="params">(<span class="type">int</span> b[],<span class="type">int</span> price)</span>&#123;</span><br><span class="line">        <span class="comment">//用循环遍历其中元素并比较</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">5</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(price==b[i]) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
       <div class="tags">
           <a href="/tags/%E9%A2%98%E5%BA%93/" rel="tag"><i class="ic i-tag"></i> 题库</a>
@@ -224,7 +223,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?195347" title="第四个Java程序">
+  <a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?173231" title="第四个Java程序">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>第四个Java程序</h3>
@@ -234,7 +233,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?814126" title="大一第二学期实训作业">
+  <a href="/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?174452" title="大一第二学期实训作业">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 数据结构实践课程</span>
   <h3>大一第二学期实训作业</h3>
@@ -256,7 +255,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%8F%E6%B5%8B"><span class="toc-number">1.</span> <span class="toc-text"> 小测</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#no1"><span class="toc-number">1.1.</span> <span class="toc-text"> No.1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#no2"><span class="toc-number">1.2.</span> <span class="toc-text"> No.2</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%8F%E6%B5%8B"><span class="toc-number">1.</span> <span class="toc-text">小测</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#No-1"><span class="toc-number">1.1.</span> <span class="toc-text">No.1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#No-2"><span class="toc-number">1.2.</span> <span class="toc-text">No.2</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -373,20 +372,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
+<a href="/categories/typora/" title="分类于 typora">typora</a>
 </div>
 
-    <span><a href="/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/" title="Vue框架 小作品">Vue框架 小作品</a></span>
+    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2023/05/25/%E7%8E%B0%E5%9C%A8%E6%90%9E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%98%E6%9C%89%E6%B2%A1%E6%9C%89%E6%84%8F%E4%B9%89/" title="现在搞个人博客还有没有意义">现在搞个人博客还有没有意义</a></span>
+    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
   </li>
 
       
@@ -403,49 +402,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/" title="网页设计简介">网页设计简介</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" title="蓝桥杯Java日常练习记录0">蓝桥杯Java日常练习记录0</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
-</div>
-
-    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" title="Java第一次小测">Java第一次小测</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/" title="英语演讲">英语演讲</a></span>
+    <span><a href="/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/" title="数据结构与算法知识点汇总">数据结构与算法知识点汇总</a></span>
   </li>
 
       
@@ -455,7 +415,47 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
+    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/05/22/%E9%98%9F%E5%88%97/" title="队列">队列</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/" title="C语言函数调用困惑">C语言函数调用困惑</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
   </li>
 
       
@@ -465,7 +465,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第四个Java程序">第四个Java程序</a></span>
+    <span><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></span>
   </li>
 
   </ul>
