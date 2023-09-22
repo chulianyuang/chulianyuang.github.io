@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?958166"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?973271"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?143950"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?447515"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?298668"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?270502"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?855852"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?365267"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?911046"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?51063"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?840030"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?578974"></li>
         </ul>
       </div>
     </header>
@@ -153,19 +153,19 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="顺序表中基本操作的实现"><a href="#顺序表中基本操作的实现" class="headerlink" title="顺序表中基本操作的实现"></a>顺序表中基本操作的实现</h1><p>线性表的顺序表示指的是用一组地址连续的存储单元依次存储线性表的数据元素，这种表示也称作线性表的顺序存储结构或顺序映像。通常，称这种存储结构的线性表为<strong>顺序表</strong>。起特点是，逻辑上相邻的数据元素，其物理次序也是相邻的。</p>
+    <h1 id="顺序表中基本操作的实现"><a class="markdownIt-Anchor" href="#顺序表中基本操作的实现">#</a> 顺序表中基本操作的实现</h1>
+<p>线性表的顺序表示指的是用一组地址连续的存储单元依次存储线性表的数据元素，这种表示也称作线性表的顺序存储结构或顺序映像。通常，称这种存储结构的线性表为<strong>顺序表</strong>。起特点是，逻辑上相邻的数据元素，其物理次序也是相邻的。</p>
 <p>线性表的每一个数据元素的存储位置都和线性表的起始位置相差一个常数，这个常数和数据元素在线性表中的位序成正比。由此，只要确定了存储线性表的起始位置，线性表中任一数据元素都可随机存取，所以线性表的顺序存储结构是一种<strong>随机存取</strong>的存储结构。</p>
-<p>由于线性表的长度可变，且所需最大存储空间随问题不同而不同，则在C语言中可用动态分配的一维数组来表示线性表，格式如下：</p>
+<p>由于线性表的长度可变，且所需最大存储空间随问题不同而不同，则在 C 语言中可用动态分配的一维数组来表示线性表，格式如下：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//顺序表的存储结构</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXISIZE 100 <span class="comment">//顺序表可能达到的最大长度</span></span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	ElemType* elem;<span class="comment">//等同于ElemType elem[MAXISIZE]</span></span><br><span class="line">	<span class="type">int</span> length;<span class="comment">//当前长度</span></span><br><span class="line">&#125;sqlist;</span><br></pre></td></tr></table></figure>
 <p><strong>注意</strong></p>
 <ol>
-<li><strong>数组空间通过后面算法初始化动态分配得到，初始化完成后，数组指针elem指示顺序表的基地址，数组空间大小为MAXSIZE。</strong></li>
-<li><strong>元素类型定义中的ElemType数据类型是为了描述统一而自定的，在实际应用中，用户可根据实际需要具体定义表中数据元素的数据类型，可以是基本数据类型，如int ,float ,char 等，也可以是构造数据类型，如struct结构体类型。</strong></li>
-<li><strong>length表示顺序表中当前数据元素的个数。</strong></li>
+<li><strong>数组空间通过后面算法初始化动态分配得到，初始化完成后，数组指针 elem 指示顺序表的基地址，数组空间大小为 MAXSIZE。</strong></li>
+<li><strong>元素类型定义中的 ElemType 数据类型是为了描述统一而自定的，在实际应用中，用户可根据实际需要具体定义表中数据元素的数据类型，可以是基本数据类型，如 int ,float ,char 等，也可以是构造数据类型，如 struct 结构体类型。</strong></li>
+<li><strong>length 表示顺序表中当前数据元素的个数。</strong></li>
 </ol>
 <p><strong>线性表初始化，取值，查找，插入，删除的完整代码</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXSIZE 100</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> OVERFLOW 0</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> OK 1</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="type">int</span>* elem;</span><br><span class="line">	<span class="type">int</span> length;</span><br><span class="line">&#125;SqList;</span><br><span class="line"><span class="comment">//初始化</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">InitList</span><span class="params">(SqList&amp; L)</span></span><br><span class="line">&#123;</span><br><span class="line">	L.elem = new <span class="type">int</span>[MAXSIZE];</span><br><span class="line">	<span class="keyword">if</span> (!L.elem) <span class="built_in">exit</span> (OVERFLOW);</span><br><span class="line">	L.length = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//取值</span></span><br><span class="line"><span class="type">char</span> <span class="title function_">GetElem</span><span class="params">(SqList L, <span class="type">int</span> i, <span class="type">int</span> e)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span> (i&lt;<span class="number">1</span> || i&gt;L.length) <span class="keyword">return</span> ERROR;</span><br><span class="line">	e = L.elem[i - <span class="number">1</span>];</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//查找</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">LocateElem</span><span class="params">(SqList L, <span class="type">int</span> e)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; L.length;i++) &#123;</span><br><span class="line">		<span class="keyword">if</span> (L.elem[i] == e)<span class="keyword">return</span> i + <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//插入</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">ListInsert</span><span class="params">(SqList&amp; L, <span class="type">int</span> i, <span class="type">int</span> e)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> j;</span><br><span class="line">	<span class="keyword">if</span> ((i &lt; <span class="number">1</span>) || (i &gt; L.length + <span class="number">1</span>))<span class="keyword">return</span> ERROR;</span><br><span class="line">	<span class="keyword">if</span> (L.length == MAXSIZE) <span class="keyword">return</span> ERROR;</span><br><span class="line">	<span class="keyword">for</span> (j = L.length - <span class="number">1</span>;j &gt;= i - <span class="number">1</span>;j--)</span><br><span class="line">		L.elem[j + <span class="number">1</span>] = L.elem[j];</span><br><span class="line">	L.elem[i - <span class="number">1</span>] = e;</span><br><span class="line">	++L.length;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//删除</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">ListDelete</span><span class="params">(SqList&amp; L, <span class="type">int</span> i)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> j;</span><br><span class="line">	<span class="keyword">if</span> ((i &lt; <span class="number">1</span>) || (i &gt; L.length)) <span class="keyword">return</span> ERROR;</span><br><span class="line">	<span class="keyword">for</span> (j = i;j &lt;= L.length - <span class="number">1</span>;j++)</span><br><span class="line">		L.elem[j - <span class="number">1</span>] = L.elem[j];</span><br><span class="line">	--L.length;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="comment">//还没有调用，按需求调用</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 
       <div class="tags">
           <a href="/tags/%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" rel="tag"><i class="ic i-tag"></i> 知识总结</a>
@@ -230,7 +230,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?438337" title="线性表的类型定义">
+  <a href="/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?624690" title="线性表的类型定义">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 数据结构与算法</span>
   <h3>线性表的类型定义</h3>
@@ -240,7 +240,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?833174" title="ElemType是什么？">
+  <a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?15349" title="ElemType是什么？">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 数据结构与算法</span>
   <h3>ElemType是什么？</h3>
@@ -262,7 +262,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0"><span class="toc-number">1.</span> <span class="toc-text">顺序表中基本操作的实现</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0"><span class="toc-number">1.</span> <span class="toc-text"> 顺序表中基本操作的实现</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -379,6 +379,46 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/" title="分类于 数据结构实践课程">数据结构实践课程</a>
+</div>
+
+    <span><a href="/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/" title="大一第二学期实训作业">大一第二学期实训作业</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2023/05/25/%E7%8E%B0%E5%9C%A8%E6%90%9E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%98%E6%9C%89%E6%B2%A1%E6%9C%89%E6%84%8F%E4%B9%89/" title="现在搞个人博客还有没有意义">现在搞个人博客还有没有意义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/05/22/%E9%98%9F%E5%88%97/" title="队列">队列</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" title="蓝桥杯Java日常练习记录0">蓝桥杯Java日常练习记录0</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
@@ -392,17 +432,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
+    <span><a href="/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="C语言周末作业">C语言周末作业</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
+    <span><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第四个Java程序">第四个Java程序</a></span>
   </li>
 
       
@@ -412,37 +452,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
+    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="指针与字符串">指针与字符串</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
-</div>
-
-    <span><a href="/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/" title="暑假规划">暑假规划</a></span>
+    <span><a href="/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/" title="我喜欢的一些课外书">我喜欢的一些课外书</a></span>
   </li>
 
       
@@ -453,26 +473,6 @@ Luo的小世界 = welcome to my world</title>
 </div>
 
     <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" title="枚举">枚举</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
-</div>
-
-    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
   </li>
 
   </ul>

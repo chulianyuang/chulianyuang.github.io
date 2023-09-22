@@ -7,46 +7,46 @@
         <language>zh-CN</language>
         <pubDate>Wed, 22 Feb 2023 17:17:38 +0800</pubDate>
         <lastBuildDate>Wed, 22 Feb 2023 17:17:38 +0800</lastBuildDate>
-        <category>C语言函数复习</category>
         <category>三省吾身</category>
+        <category>C语言函数复习</category>
         <category>小白学C语言</category>
         <category>C语言大一上学期期末复习</category>
-        <category>Java入门</category>
         <category>细解</category>
         <category>习题汇总</category>
-        <category>巧思</category>
+        <category>Java入门</category>
         <category>网页设计</category>
         <category>题库</category>
+        <category>巧思</category>
         <category>细化操作</category>
-        <category>练习题</category>
         <category>中二病</category>
+        <category>练习题</category>
         <category>动态规划</category>
         <category>历史早读</category>
-        <category>鸡汤</category>
         <category>大学计划1</category>
-        <category>C语言探索</category>
-        <category>慢节奏的生活</category>
         <category>性理解</category>
+        <category>鸡汤</category>
+        <category>慢节奏的生活</category>
+        <category>C语言探索</category>
         <category>C语言指针复习</category>
-        <category>期末复习</category>
         <category>习题答案</category>
+        <category>期末复习</category>
         <category>《Me for you》翻译</category>
-        <category>栈和队列</category>
         <category>日常小作</category>
+        <category>栈和队列</category>
         <category>环境保护</category>
         <category>矩阵与求解</category>
-        <category>慢慢就爱上的科目</category>
-        <category>知识点总结</category>
         <category>C语言复习</category>
+        <category>知识点总结</category>
+        <category>慢慢就爱上的科目</category>
         <category>从年头红到年尾</category>
         <category>全国英语四级考试</category>
         <category>课前五分钟</category>
-        <category>蓝桥杯</category>
         <category>英语角</category>
+        <category>蓝桥杯</category>
         <category>课前演讲</category>
         <category>C语言实验报告</category>
-        <category>知识总结</category>
         <category>关于创业的一条路</category>
+        <category>知识总结</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</guid>
             <title>股票入门</title>
@@ -59,44 +59,47 @@
 &lt;li&gt;周六日休市不交易（国家法定节假日不交易）&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;（集合竞价）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;19：15到9：20 随便挂单随便撤单。&lt;/p&gt;
-&lt;p&gt;9：20到9：25可以挂单不可以撤单。&lt;/p&gt;
+&lt;p&gt;19：15 到 9：20 随便挂单随便撤单。&lt;/p&gt;
+&lt;p&gt;9：20 到 9：25 可以挂单不可以撤单。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;股票分类:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我国上市公司的股票有：A股，B股，H股，N股，S股等。（不用都了解，我们要做的一般只有泸深A股）&lt;/p&gt;
-&lt;p&gt;我们做的股票一般就是泸深A股，也就是在上海和深圳上市交易的A股。&lt;/p&gt;
-&lt;p&gt;60开头的股票—上证A股&lt;/p&gt;
-&lt;p&gt;0开头的股票  —深证A股&lt;/p&gt;
-&lt;p&gt;3开头的股票—–创业板（证券公司去开通）&lt;/p&gt;
-&lt;p&gt;688开头的股票—科创版（最低交易金额为50w的软妹币）&lt;/p&gt;
+&lt;p&gt;我国上市公司的股票有：A 股，B 股，H 股，N 股，S 股等。（不用都了解，我们要做的一般只有泸深 A 股）&lt;/p&gt;
+&lt;p&gt;我们做的股票一般就是泸深 A 股，也就是在上海和深圳上市交易的 A 股。&lt;/p&gt;
+&lt;p&gt;60 开头的股票 — 上证 A 股&lt;/p&gt;
+&lt;p&gt;0 开头的股票  — 深证 A 股&lt;/p&gt;
+&lt;p&gt;3 开头的股票 ----- 创业板（证券公司去开通）&lt;/p&gt;
+&lt;p&gt;688 开头的股票 — 科创版（最低交易金额为 50w 的软妹币）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;股票交易规则：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;股票最低是买一手&lt;/p&gt;
-&lt;p&gt;1手&amp;#x3D;100股&lt;/p&gt;
-&lt;p&gt;也就是说，我们买股票都是按100的整数倍来买的。&lt;/p&gt;
-&lt;p&gt;很多小白都想知道的问题无疑是进股市的门槛高不高，买股票最低需要多少钱，我只能说这个问题没有固定答案，目前泸深A股，价格最低的一只非ST股票（这种股票是即将退市的股票）价格比方是1.13元，我们最低就要1.13*100&amp;#x3D;113软妹币来买股票。&lt;/p&gt;
+&lt;p&gt;1 手 = 100 股&lt;/p&gt;
+&lt;p&gt;也就是说，我们买股票都是按 100 的整数倍来买的。&lt;/p&gt;
+&lt;p&gt;很多小白都想知道的问题无疑是进股市的门槛高不高，买股票最低需要多少钱，我只能说这个问题没有固定答案，目前泸深 A 股，价格最低的一只非 ST 股票（这种股票是即将退市的股票）价格比方是 1.13 元，我们最低就要 1.13*100=113 软妹币来买股票。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;买股票手续费&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;印花税：千分之一（卖的时候才收取，此为国家税收，全国统一）。&lt;/li&gt;
-&lt;li&gt;过户税：深圳交易所无此项费用，上海交易所收费标准是成交金额的千分之0.02软妹币。&lt;/li&gt;
-&lt;li&gt;交易佣金：最高收费为万分之三，最低收费为5元。各家卷商收费标准不一，所以在决定开户之前一定要问清楚这方面。&lt;/li&gt;
+&lt;li&gt;过户税：深圳交易所无此项费用，上海交易所收费标准是成交金额的千分之 0.02 软妹币。&lt;/li&gt;
+&lt;li&gt;交易佣金：最高收费为万分之三，最低收费为 5 元。各家卷商收费标准不一，所以在决定开户之前一定要问清楚这方面。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;有意思的是：在泸深A股中最高的一支股票是茅台，哈哈哈，牛逼&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有意思的是：在泸深 A 股中最高的一支股票是茅台，哈哈哈，牛逼&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;看盘软件的基本操作：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;查询股票：一般输入股票名称的首字母。&lt;/p&gt;
-&lt;p&gt;比方说“第一创业”输入dycy四个首字母按回车即可，也可以输入股票代码002797按回车即可。&lt;/p&gt;
-&lt;p&gt;想关注的几只股票，我们可以加入“自选股”方便后面观察。找到你想添加的股票，点击鼠标右击加入即可。&lt;/p&gt;
-&lt;p&gt;看K线图的时候，我们可以利用键盘上面的上下键来对图像进行放大和缩小。&lt;/p&gt;
-&lt;p&gt;返回按键盘左上角的ESC来实现。&lt;/p&gt;
+&lt;p&gt;比方说 “第一创业” 输入 dycy 四个首字母按回车即可，也可以输入股票代码 002797 按回车即可。&lt;/p&gt;
+&lt;p&gt;想关注的几只股票，我们可以加入 “自选股” 方便后面观察。找到你想添加的股票，点击鼠标右击加入即可。&lt;/p&gt;
+&lt;p&gt;看 K 线图的时候，我们可以利用键盘上面的上下键来对图像进行放大和缩小。&lt;/p&gt;
+&lt;p&gt;返回按键盘左上角的 ESC 来实现。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：股票不是赌博不要随意买入卖出，要细心分析市场信息，跟着市场走，谨慎下场&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;看盘软件界面分析：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;均线&lt;/p&gt;
-&lt;p&gt; 比如5日均线，这5天的收盘价相加再除以5得到的数值。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;均线&lt;/p&gt;
+&lt;p&gt;比如 5 日均线，这 5 天的收盘价相加再除以 5 得到的数值。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;成交量&lt;/p&gt;
-&lt;p&gt; 比如120日成交量：120天的所有成交量相加，再2除以120得到的数值用线连接起来。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;成交量&lt;/p&gt;
+&lt;p&gt;比如 120 日成交量：120 天的所有成交量相加，再 2 除以 120 得到的数值用线连接起来。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;MACD&lt;/p&gt;
-&lt;p&gt; 比较复杂，没有必要去记住它的计算值，记住它存在的意义即可。白线到黄线上面，后面上涨的概率就大。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;MACD&lt;/p&gt;
+&lt;p&gt;比较复杂，没有必要去记住它的计算值，记住它存在的意义即可。白线到黄线上面，后面上涨的概率就大。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;支撑位和压力位&lt;/strong&gt;&lt;/p&gt;
@@ -105,13 +108,15 @@
 &lt;p&gt;&lt;strong&gt;突破和跌破&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;突破：当股价上涨过程中，价格冲过上一次上涨趋势的高位时，称之为突破，上涨力量很大，可以考虑买入该股票。这种情况应该跟公司有很大的关系，多关注时事新闻。&lt;/p&gt;
 &lt;p&gt;跌破：当股票下跌过程中，股票下跌冲过上一次的下跌趋势低位时，称之为跌破，下跌力量很大，可以考虑卖出股票。&lt;/p&gt;
-&lt;h2 id=&#34;股票买卖机制&#34;&gt;&lt;a href=&#34;#股票买卖机制&#34; class=&#34;headerlink&#34; title=&#34;股票买卖机制&#34;&gt;&lt;/a&gt;股票买卖机制&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;仓位：&lt;/strong&gt;股市里面的资金就是仓位&lt;/p&gt;
-&lt;p&gt;比如说你有100万，半仓就是50万 1&amp;#x2F;3仓就是33.3万依次类推&lt;/p&gt;
+&lt;h2 id=&#34;股票买卖机制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#股票买卖机制&#34;&gt;#&lt;/a&gt; 股票买卖机制&lt;/h2&gt;
+&lt;p&gt;** 仓位：** 股市里面的资金就是仓位&lt;/p&gt;
+&lt;p&gt;比如说你有 100 万，半仓就是 50 万 1/3 仓就是 33.3 万依次类推&lt;/p&gt;
 &lt;p&gt;可以输入我们想要买入的一个价格，等待成交。如果没有成交，也是可以撤单的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;股价交易是T+1机制&lt;/strong&gt;：今天是不可以卖出的，必须过完今天后等到明天才能卖出。&lt;/p&gt;
-&lt;h2 id=&#34;如何选股票&#34;&gt;&lt;a href=&#34;#如何选股票&#34; class=&#34;headerlink&#34; title=&#34;如何选股票&#34;&gt;&lt;/a&gt;如何选股票&lt;/h2&gt;&lt;p&gt;股票的基本知识也就这么多了，其实我也是新手，在试错中，我用的炒股软件是同花顺，在这里我会大概说一下我知道的一些选股票的方法，具体的你们可以去B站学习。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;股价交易是 T+1 机制&lt;/strong&gt;：今天是不可以卖出的，必须过完今天后等到明天才能卖出。&lt;/p&gt;
+&lt;h2 id=&#34;如何选股票&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何选股票&#34;&gt;#&lt;/a&gt; 如何选股票&lt;/h2&gt;
+&lt;p&gt;股票的基本知识也就这么多了，其实我也是新手，在试错中，我用的炒股软件是同花顺，在这里我会大概说一下我知道的一些选股票的方法，具体的你们可以去 B 站学习。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;基本面选股：根据股票K线图的走势来选股。&lt;/li&gt;
+&lt;li&gt;基本面选股：根据股票 K 线图的走势来选股。&lt;/li&gt;
 &lt;li&gt;热点题材选股：根据目前市场行情热点板块来选股。&lt;/li&gt;
 &lt;li&gt;事件突发选股：根据突发情况来选对应的股票。&lt;/li&gt;
 &lt;/ol&gt;

@@ -4,53 +4,54 @@
     <title>welcome to my world • Posts by &#34;练习题&#34; tag</title>
     <link href="http://example.com" />
     <updated>2022-11-12T10:32:01.000Z</updated>
-    <category term="C语言函数复习" />
     <category term="三省吾身" />
+    <category term="C语言函数复习" />
     <category term="小白学C语言" />
     <category term="C语言大一上学期期末复习" />
-    <category term="Java入门" />
     <category term="细解" />
     <category term="习题汇总" />
-    <category term="巧思" />
+    <category term="Java入门" />
     <category term="网页设计" />
     <category term="题库" />
+    <category term="巧思" />
     <category term="细化操作" />
-    <category term="练习题" />
     <category term="中二病" />
+    <category term="练习题" />
     <category term="动态规划" />
     <category term="历史早读" />
-    <category term="鸡汤" />
     <category term="大学计划1" />
-    <category term="C语言探索" />
-    <category term="慢节奏的生活" />
     <category term="性理解" />
+    <category term="鸡汤" />
+    <category term="慢节奏的生活" />
+    <category term="C语言探索" />
     <category term="C语言指针复习" />
-    <category term="期末复习" />
     <category term="习题答案" />
+    <category term="期末复习" />
     <category term="《Me for you》翻译" />
-    <category term="栈和队列" />
     <category term="日常小作" />
+    <category term="栈和队列" />
     <category term="环境保护" />
     <category term="矩阵与求解" />
-    <category term="慢慢就爱上的科目" />
-    <category term="知识点总结" />
     <category term="C语言复习" />
+    <category term="知识点总结" />
+    <category term="慢慢就爱上的科目" />
     <category term="从年头红到年尾" />
     <category term="全国英语四级考试" />
     <category term="课前五分钟" />
-    <category term="蓝桥杯" />
     <category term="英语角" />
+    <category term="蓝桥杯" />
     <category term="课前演讲" />
     <category term="C语言实验报告" />
-    <category term="知识总结" />
     <category term="关于创业的一条路" />
+    <category term="知识总结" />
     <entry>
         <id>http://example.com/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/</id>
         <title>入门级C语言练习题</title>
         <link rel="alternate" href="http://example.com/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
-        <content type="html">&lt;p&gt;不会的话可以去看小白学C语言&lt;/p&gt;
-&lt;h1 id=&#34;入门级C语言练习题&#34;&gt;&lt;a href=&#34;#入门级C语言练习题&#34; class=&#34;headerlink&#34; title=&#34;入门级C语言练习题&#34;&gt;&lt;/a&gt;入门级C语言练习题&lt;/h1&gt;&lt;h2 id=&#34;给定不超过6的正整数A，考虑从A开始的连续4个数字，请输出所有由它们组成的无重复数字的三位数&#34;&gt;&lt;a href=&#34;#给定不超过6的正整数A，考虑从A开始的连续4个数字，请输出所有由它们组成的无重复数字的三位数&#34; class=&#34;headerlink&#34; title=&#34;给定不超过6的正整数A，考虑从A开始的连续4个数字，请输出所有由它们组成的无重复数字的三位数&#34;&gt;&lt;/a&gt;给定不超过6的正整数A，考虑从A开始的连续4个数字，请输出所有由它们组成的无重复数字的三位数&lt;/h2&gt;&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	scanf_s(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;, &amp;amp;a);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i, j, k;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	i = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (i &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		j = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (j &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			k = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (k &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (i != j) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;					&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(i != k)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;						&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (j != k) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;							&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d%d%d &amp;quot;&lt;/span&gt;, i, j, k);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;						&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;					&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				k++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			j++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		i++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
+        <content type="html">&lt;p&gt;不会的话可以去看小白学 C 语言&lt;/p&gt;
+&lt;h1 id=&#34;入门级c语言练习题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#入门级c语言练习题&#34;&gt;#&lt;/a&gt; 入门级 C 语言练习题&lt;/h1&gt;
+&lt;h2 id=&#34;给定不超过6的正整数a考虑从a开始的连续4个数字请输出所有由它们组成的无重复数字的三位数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#给定不超过6的正整数a考虑从a开始的连续4个数字请输出所有由它们组成的无重复数字的三位数&#34;&gt;#&lt;/a&gt; 给定不超过 6 的正整数 A，考虑从 A 开始的连续 4 个数字，请输出所有由它们组成的无重复数字的三位数&lt;/h2&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	scanf_s(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;, &amp;amp;a);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; i, j, k;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	i = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (i &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		j = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (j &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			k = a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (k &amp;lt;= a + &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (i != j) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;					&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(i != k)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;						&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (j != k) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;							&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%d%d%d &amp;quot;&lt;/span&gt;, i, j, k);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;						&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;					&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				k++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			j++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		i++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
         <category term="练习题" />
         <updated>2022-11-12T10:32:01.000Z</updated>

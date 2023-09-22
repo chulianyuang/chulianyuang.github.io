@@ -9,7 +9,7 @@
             "url": "http://example.com/2023/06/17/Java%E4%BD%9C%E4%B8%9A4/",
             "title": "第五个Java程序",
             "date_published": "2023-06-17T15:24:54.000Z",
-            "content_html": "<h1 id=\"面向对象编程\"><a href=\"#面向对象编程\" class=\"headerlink\" title=\"面向对象编程\"></a>面向对象编程</h1><h2 id=\"用java完成以下需求\"><a href=\"#用java完成以下需求\" class=\"headerlink\" title=\"用java完成以下需求\"></a>用java完成以下需求</h2><p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306241933329.png\" alt=\"image-20230624193314181\"></p>\n",
+            "content_html": "<h1 id=\"面向对象编程\"><a class=\"markdownIt-Anchor\" href=\"#面向对象编程\">#</a> 面向对象编程</h1>\n<h2 id=\"用java完成以下需求\"><a class=\"markdownIt-Anchor\" href=\"#用java完成以下需求\">#</a> 用 java 完成以下需求</h2>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306241933329.png\" alt=\"image-20230624193314181\"></p>\n",
             "tags": [
                 "Java入门"
             ]

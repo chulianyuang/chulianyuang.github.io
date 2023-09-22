@@ -7,68 +7,80 @@
         <language>zh-CN</language>
         <pubDate>Thu, 09 Mar 2023 16:58:16 +0800</pubDate>
         <lastBuildDate>Thu, 09 Mar 2023 16:58:16 +0800</lastBuildDate>
-        <category>C语言函数复习</category>
         <category>三省吾身</category>
+        <category>C语言函数复习</category>
         <category>小白学C语言</category>
         <category>C语言大一上学期期末复习</category>
-        <category>Java入门</category>
         <category>细解</category>
         <category>习题汇总</category>
-        <category>巧思</category>
+        <category>Java入门</category>
         <category>网页设计</category>
         <category>题库</category>
+        <category>巧思</category>
         <category>细化操作</category>
-        <category>练习题</category>
         <category>中二病</category>
+        <category>练习题</category>
         <category>动态规划</category>
         <category>历史早读</category>
-        <category>鸡汤</category>
         <category>大学计划1</category>
-        <category>C语言探索</category>
-        <category>慢节奏的生活</category>
         <category>性理解</category>
+        <category>鸡汤</category>
+        <category>慢节奏的生活</category>
+        <category>C语言探索</category>
         <category>C语言指针复习</category>
-        <category>期末复习</category>
         <category>习题答案</category>
+        <category>期末复习</category>
         <category>《Me for you》翻译</category>
-        <category>栈和队列</category>
         <category>日常小作</category>
+        <category>栈和队列</category>
         <category>环境保护</category>
         <category>矩阵与求解</category>
-        <category>慢慢就爱上的科目</category>
-        <category>知识点总结</category>
         <category>C语言复习</category>
+        <category>知识点总结</category>
+        <category>慢慢就爱上的科目</category>
         <category>从年头红到年尾</category>
         <category>全国英语四级考试</category>
         <category>课前五分钟</category>
-        <category>蓝桥杯</category>
         <category>英语角</category>
+        <category>蓝桥杯</category>
         <category>课前演讲</category>
         <category>C语言实验报告</category>
-        <category>知识总结</category>
         <category>关于创业的一条路</category>
+        <category>知识总结</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</guid>
             <title>c语言malloc函数的用法和意义</title>
             <link>http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</link>
             <category>巧思</category>
             <pubDate>Thu, 09 Mar 2023 16:58:16 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。&lt;br&gt;为了应对上述问题，我们引入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1tYWxsb2Mmc3BtPTEwMDEuMjEwMS4zMDAxLjcwMjA=&#34;&gt;malloc&lt;/span&gt;函数。&lt;br&gt;&lt;strong&gt;malloc时动态内存分配函数，用于申请一块连续的指定大小的内存块区域以void*类型返回分配的内存区域地址&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;malloc函数原型&#34;&gt;&lt;a href=&#34;#malloc函数原型&#34; class=&#34;headerlink&#34; title=&#34;malloc函数原型&#34;&gt;&lt;/a&gt;malloc函数原型&lt;/h2&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;extern void *malloc(unsigned int num_bytes);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;意为分配长度为num_bytes字节的内存块&lt;/p&gt;
-&lt;h2 id=&#34;malloc函数头文件&#34;&gt;&lt;a href=&#34;#malloc函数头文件&#34; class=&#34;headerlink&#34; title=&#34;malloc函数头文件&#34;&gt;&lt;/a&gt;malloc函数头文件&lt;/h2&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#include&amp;lt;malloc.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&#34;malloc函数返回值&#34;&gt;&lt;a href=&#34;#malloc函数返回值&#34; class=&#34;headerlink&#34; title=&#34;malloc函数返回值&#34;&gt;&lt;/a&gt;malloc函数返回值&lt;/h2&gt;&lt;p&gt;如果分配成功则返回指向被分配内存的指针，否则返回空指针NULL。&lt;/p&gt;
-&lt;h2 id=&#34;malloc函数使用注意事项&#34;&gt;&lt;a href=&#34;#malloc函数使用注意事项&#34; class=&#34;headerlink&#34; title=&#34;malloc函数使用注意事项&#34;&gt;&lt;/a&gt;malloc函数使用注意事项&lt;/h2&gt;&lt;p&gt;malloc函数的返回的是无类型指针，在使用时一定要强制转换为所需要的类型。&lt;br&gt;&lt;strong&gt;（敲黑板）重点：在使用malloc开辟空间时，使用完成一定要释放空间，如果不释放会造内存泄漏。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;在使用malloc函数开辟的空间中，不要进行指针的移动，因为一旦移动之后可能出现申请的空间和释放空间大小的不匹配&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;malloc函数使用形式&#34;&gt;&lt;a href=&#34;#malloc函数使用形式&#34; class=&#34;headerlink&#34; title=&#34;malloc函数使用形式&#34;&gt;&lt;/a&gt;malloc函数使用形式&lt;/h2&gt;&lt;p&gt;关于malloc所开辟空间类型：malloc只开辟空间，不进行类型检查，只是在使用的时候进行类型的强转。&lt;br&gt;举个例子：‘我’开辟你所需要大小的字节大小空间，至于怎么使用是你的事&lt;br&gt;mallo函数返回的实际是一个无类型指针，必须在其前面加上指针类型强制转换才可以使用&lt;br&gt;指针自身 &amp;#x3D; (指针类型&lt;em&gt;）malloc（sizeof（指针类型）&lt;/em&gt;数据数量）&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。&lt;br&gt;
+为了应对上述问题，我们引入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1tYWxsb2MmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt; malloc&lt;/span&gt; 函数。&lt;br&gt;
+&lt;strong&gt;malloc 时动态内存分配函数，用于申请一块连续的指定大小的内存块区域以 void * 类型返回分配的内存区域地址&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数原型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数原型&#34;&gt;#&lt;/a&gt; malloc 函数原型&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;extern void *malloc(unsigned int num_bytes);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;意为分配长度为 num_bytes 字节的内存块&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数头文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数头文件&#34;&gt;#&lt;/a&gt; malloc 函数头文件&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#include&amp;lt;malloc.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;malloc函数返回值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数返回值&#34;&gt;#&lt;/a&gt; malloc 函数返回值&lt;/h2&gt;
+&lt;p&gt;如果分配成功则返回指向被分配内存的指针，否则返回空指针 NULL。&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数使用注意事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数使用注意事项&#34;&gt;#&lt;/a&gt; malloc 函数使用注意事项&lt;/h2&gt;
+&lt;p&gt;malloc 函数的返回的是无类型指针，在使用时一定要强制转换为所需要的类型。&lt;br&gt;
+&lt;strong&gt;（敲黑板）重点：在使用 malloc 开辟空间时，使用完成一定要释放空间，如果不释放会造内存泄漏。&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;在使用 malloc 函数开辟的空间中，不要进行指针的移动，因为一旦移动之后可能出现申请的空间和释放空间大小的不匹配&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;malloc函数使用形式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#malloc函数使用形式&#34;&gt;#&lt;/a&gt; malloc 函数使用形式&lt;/h2&gt;
+&lt;p&gt;关于 malloc 所开辟空间类型：malloc 只开辟空间，不进行类型检查，只是在使用的时候进行类型的强转。&lt;br&gt;
+举个例子：‘我’开辟你所需要大小的字节大小空间，至于怎么使用是你的事&lt;br&gt;
+ mallo 函数返回的实际是一个无类型指针，必须在其前面加上指针类型强制转换才可以使用&lt;br&gt;
+指针自身 = (指针类型 *）malloc（sizeof（指针类型）* 数据数量）&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;	int *p = NULL;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int n = 10;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = (int *)malloc(sizeof(int)*n);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;123&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;在使用malloc函数之前我们一定要&lt;strong&gt;计算字节数&lt;/strong&gt;，malloc开辟的是用户所需求的字节数大小的空间。&lt;br&gt;如果多次申请空间那么系统是如何做到空间的不重复使用呢？&lt;br&gt;在使用malloc开辟一段空间之后，系统会在这段空间之前做一个标记（0或1），当malloc函数开辟空间如果遇到标记为0就在此开辟，如果为1说明此空间正在被使用。&lt;/p&gt;
-&lt;h2 id=&#34;free函数&#34;&gt;&lt;a href=&#34;#free函数&#34; class=&#34;headerlink&#34; title=&#34;free函数&#34;&gt;&lt;/a&gt;free函数&lt;/h2&gt;&lt;p&gt;作用：释放malloc(或calloc、realloc)函数给指针变量分配的内存空间。&lt;br&gt;注意：使用后该&lt;strong&gt;指针变量一定要重新指向NULL&lt;/strong&gt;，防止悬空指针（失效指针）出现，有效规避错误操作。&lt;/p&gt;
+&lt;p&gt;在使用 malloc 函数之前我们一定要&lt;strong&gt;计算字节数&lt;/strong&gt;，malloc 开辟的是用户所需求的字节数大小的空间。&lt;br&gt;
+如果多次申请空间那么系统是如何做到空间的不重复使用呢？&lt;br&gt;
+在使用 malloc 开辟一段空间之后，系统会在这段空间之前做一个标记（0 或 1），当 malloc 函数开辟空间如果遇到标记为 0 就在此开辟，如果为 1 说明此空间正在被使用。&lt;/p&gt;
+&lt;h2 id=&#34;free函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#free函数&#34;&gt;#&lt;/a&gt; free 函数&lt;/h2&gt;
+&lt;p&gt;作用：释放 malloc (或 calloc、realloc) 函数给指针变量分配的内存空间。&lt;br&gt;
+注意：使用后该&lt;strong&gt;指针变量一定要重新指向 NULL&lt;/strong&gt;，防止悬空指针（失效指针）出现，有效规避错误操作。&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int *p = (int *)malloc(sizeof(int));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	*p = 100;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	free(p);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = NULL;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1234567&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;free函数在释放空间之后，把内存前的标志变为0，且为了防止数据泄露，它会把所释放的空间用cd进行填充。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;free 函数在释放空间之后，把内存前的标志变为 0，且为了防止数据泄露，它会把所释放的空间用 cd 进行填充。&lt;/strong&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

@@ -7,53 +7,55 @@
         <language>zh-CN</language>
         <pubDate>Tue, 08 Nov 2022 16:12:55 +0800</pubDate>
         <lastBuildDate>Tue, 08 Nov 2022 16:12:55 +0800</lastBuildDate>
-        <category>C语言函数复习</category>
         <category>三省吾身</category>
+        <category>C语言函数复习</category>
         <category>小白学C语言</category>
         <category>C语言大一上学期期末复习</category>
-        <category>Java入门</category>
         <category>细解</category>
         <category>习题汇总</category>
-        <category>巧思</category>
+        <category>Java入门</category>
         <category>网页设计</category>
         <category>题库</category>
+        <category>巧思</category>
         <category>细化操作</category>
-        <category>练习题</category>
         <category>中二病</category>
+        <category>练习题</category>
         <category>动态规划</category>
         <category>历史早读</category>
-        <category>鸡汤</category>
         <category>大学计划1</category>
-        <category>C语言探索</category>
-        <category>慢节奏的生活</category>
         <category>性理解</category>
+        <category>鸡汤</category>
+        <category>慢节奏的生活</category>
+        <category>C语言探索</category>
         <category>C语言指针复习</category>
-        <category>期末复习</category>
         <category>习题答案</category>
+        <category>期末复习</category>
         <category>《Me for you》翻译</category>
-        <category>栈和队列</category>
         <category>日常小作</category>
+        <category>栈和队列</category>
         <category>环境保护</category>
         <category>矩阵与求解</category>
-        <category>慢慢就爱上的科目</category>
-        <category>知识点总结</category>
         <category>C语言复习</category>
+        <category>知识点总结</category>
+        <category>慢慢就爱上的科目</category>
         <category>从年头红到年尾</category>
         <category>全国英语四级考试</category>
         <category>课前五分钟</category>
-        <category>蓝桥杯</category>
         <category>英语角</category>
+        <category>蓝桥杯</category>
         <category>课前演讲</category>
         <category>C语言实验报告</category>
-        <category>知识总结</category>
         <category>关于创业的一条路</category>
+        <category>知识总结</category>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
             <title>简明线性代数第二章小节1</title>
             <link>http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
             <category>慢慢就爱上的科目</category>
             <pubDate>Tue, 08 Nov 2022 16:12:55 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a href=&#34;#线性方程组与矩阵的初等变换&#34; class=&#34;headerlink&#34; title=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;/a&gt;线性方程组与矩阵的初等变换&lt;/h1&gt;&lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a href=&#34;#线性方程组消元法的形式化&#34; class=&#34;headerlink&#34; title=&#34;线性方程组消元法的形式化&#34;&gt;&lt;/a&gt;线性方程组消元法的形式化&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 线性方程组与矩阵的初等变换&lt;/h1&gt;
+&lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组消元法的形式化&#34;&gt;#&lt;/a&gt; 线性方程组消元法的形式化&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;实际上就是把线性方程组的消元法加以形式化处理，将同解方程组的变换过程表示成与相应的增广矩阵的初等行变换过程。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -63,54 +65,61 @@
 &lt;th&gt;矩阵的初等行变换&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1，交换矩阵的第i,j行&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1，交换矩阵的第 i,j 行&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2, 用非零矩阵k乘以矩阵的第i行&lt;/td&gt;
+&lt;td&gt;2, 用非零矩阵 k 乘以矩阵的第 i 行&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;3，用常数k乘以矩阵的第i行元素后加到第i行相应的元素上，若矩阵A经过有限次初等行变换化为矩阵B,则称矩阵A与B行等价。&lt;/td&gt;
+&lt;td&gt;3，用常数 k 乘以矩阵的第 i 行元素后加到第 i 行相应的元素上，若矩阵 A 经过有限次初等行变换化为矩阵 B, 则称矩阵 A 与 B 行等价。&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;等价矩阵的线性方程组同解&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;如果线性方程组的一组未知元具备如下两个条件，那么称这组未知元为改线性方程组的自由元&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;这组未知元取任意一组值，方程组总有解；&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取任意一组值，方程组总有解；&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;这组未知元取定一组值之后，方程组的解是唯一的；&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;这组未知元取定一组值之后，方程组的解是唯一的；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;  &lt;em&gt;&lt;strong&gt;注意：线性方程组的自由未知元选择不唯一，对应通解表示式也不唯一。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注意：线性方程组的自由未知元选择不唯一，对应通解表示式也不唯一。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;行阶梯形矩阵的定义&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1. 零行（元素全为0的行）都位于矩阵的下方。&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. 零行（元素全为 0 的行）都位于矩阵的下方。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2. 各非零矩阵的首非零元（自左向右的首个不为0的元素）的列表随着行标的增大而严格增大。&lt;/td&gt;
+&lt;td&gt;2. 各非零矩阵的首非零元（自左向右的首个不为 0 的元素）的列表随着行标的增大而严格增大。&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
 &lt;tr&gt;
-&lt;th&gt;行最简型矩阵的定义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;1，各非零行的首非零元都是1；&lt;/td&gt;
+&lt;td&gt;行最简型矩阵的定义&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;2，每个非零元所在列的其余元素都是0。&lt;/td&gt;
+&lt;td&gt;------------------------------------&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;我们称与矩阵A行等价的行最简型矩阵为矩阵A的行最简型&lt;/strong&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;1，各非零行的首非零元都是 1；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2，每个非零元所在列的其余元素都是 0。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;我们称与矩阵 A 行等价的行最简型矩阵为矩阵 A 的行最简型&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;任何矩阵总可以经过有限次初等行换化为最简矩阵&lt;/strong&gt;&lt;/p&gt;
  ]]></description>
         </item>
