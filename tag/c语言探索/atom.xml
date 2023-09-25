@@ -10,7 +10,6 @@
     <category term="C语言大一上学期期末复习" />
     <category term="细解" />
     <category term="习题汇总" />
-    <category term="Java入门" />
     <category term="网页设计" />
     <category term="题库" />
     <category term="巧思" />
@@ -44,6 +43,7 @@
     <category term="C语言实验报告" />
     <category term="关于创业的一条路" />
     <category term="知识总结" />
+    <category term="实训报告" />
     <entry>
         <id>http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</id>
         <title>对printf和scanf两函数的理解</title>
