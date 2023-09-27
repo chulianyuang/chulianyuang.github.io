@@ -24,15 +24,13 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="细解" />
 
-
-<link rel="canonical" href="http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/">
+<link rel="canonical" href="http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/">
 
 
 
   <title>
-ElemType是什么？ - 数据结构与算法 |
+字符串转数组的几种方法 - Java入门 |
 Luo的小世界 = welcome to my world</title>
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -60,16 +58,16 @@ Luo的小世界 = welcome to my world</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">ElemType是什么？
+  <h1 itemprop="name headline">字符串转数组的几种方法
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2023-03-10 07:32:22">
+  <span class="item" title="创建时间：2023-09-27 17:23:19">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2023-03-10T07:32:22+08:00">2023-03-10</time>
+    <time itemprop="dateCreated datePublished" datetime="2023-09-27T17:23:19+08:00">2023-09-27</time>
   </span>
 </div>
 
@@ -102,12 +100,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?302139"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?216530"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?621004"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?831800"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?50787"></li>
-          <li class="item" data-background-image="https://t.lizi.moe/pc?587951"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?336676"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?761683"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?231835"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?435977"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?43448"></li>
+          <li class="item" data-background-image="https://t.lizi.moe/pc?462043"></li>
         </ul>
       </div>
     </header>
@@ -133,12 +131,12 @@ Luo的小世界 = welcome to my world</title>
 <div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
 <i class="ic i-home"></i>
 <span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
-<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" itemprop="item" rel="index" title="分类于 数据结构与算法"><span itemprop="name">数据结构与算法</span></a>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/Java%E5%85%A5%E9%97%A8/" itemprop="item" rel="index" title="分类于 Java入门"><span itemprop="name">Java入门</span></a>
 <meta itemprop="position" content="1" /></span>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -153,18 +151,18 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p>在定义结构体 array 的时候有这样一段：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">   ElemType data[maxsize];</span><br><span class="line">   <span class="type">int</span> length;</span><br><span class="line">&#125; <span class="built_in">array</span>;</span><br></pre></td></tr></table></figure>
-<p>在《数据结构》中，关于数据元素的类型定义均用 “ElemType e；” 来表示，其中 e 是表示数据元素的变量，而 ElemType 则是它的类型，ElemType 的含义就是 “数据元素的类型”，是一个抽象的概念，是表示我们所要使用的数据元素应有的类型。</p>
-<p><strong>使用：typedef int ElemType;// 定义 ElemType 为 int 类型<br>
-你想让它是什么类型自己用 typedef 重定义就行。<br>
-也可以用模板表示，类似 template<class T>里面的 T。</strong></p>
-<p>这对于初学数据结构的学生来说理解起来有些难度，为了利于理解，我们可以把”ElemType “等同于” 一套房子 “来理解：<br>
-“一套房子” 的含义大家都非常清楚，但一套房子的具体含义是因人而异的，有的认为是 “四室二厅”，有的认为是 “二室一厅”，也有的认为是 “一室一厅”，对此大家也没有任何异议！其实 ElemType 也是这样的，它有时表示 “整型”，有时表示 “用户自定义的结构体”，也可以是其他形式的类型自由表示！</p>
+    <h1 id="字符串转数组"><a class="markdownIt-Anchor" href="#字符串转数组">#</a> 字符串转数组</h1>
+<h2 id="split方法"><a class="markdownIt-Anchor" href="#split方法">#</a> split () 方法</h2>
+<p>使用 <code>split()</code>  方法，该方法可以根据指定的分隔符将字符串分割为子字符串，并返回一个新的数组。例如， <code>&quot;abc&quot;.split(&quot;&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>
+<h2 id="es6的展开运算符"><a class="markdownIt-Anchor" href="#es6的展开运算符">#</a> ES6 的展开运算符…</h2>
+<p>使用 ES6 的展开运算符 <code>...</code> ，该运算符可以将一个可迭代对象（如字符串）展开为多个元素，并放在一个数组字面量中。例如， <code>[...&quot;abc&quot;]</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>
+<h2 id="arrayfrom方法"><a class="markdownIt-Anchor" href="#arrayfrom方法">#</a> Array.from () 方法</h2>
+<p>使用 <code>Array.from()</code>  方法，该方法可以从一个类似数组或可迭代对象创建一个新的数组实例。例如， <code>Array.from(&quot;abc&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>
+<h2 id="objectassign方法"><a class="markdownIt-Anchor" href="#objectassign方法">#</a> Object.assign () 方法</h2>
+<p>使用 <code>Object.assign()</code>  方法，该方法可以将一个或多个源对象的可枚举属性复制到目标对象中。例如， <code>Object.assign([], &quot;abc&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code> 。</p>
+<h2 id="tochararray方法"><a class="markdownIt-Anchor" href="#tochararray方法">#</a> toCharArray () 方法</h2>
+<p>使用 <code>toCharArray()</code>  方法，该方法可以将字符串转换为字符数组。例如， <code>&quot;abc&quot;.toCharArray()</code>  会返回 <code>['a', 'b', 'c']</code> 。</p>
 
-      <div class="tags">
-          <a href="/tags/%E7%BB%86%E8%A7%A3/" rel="tag"><i class="ic i-tag"></i> 细解</a>
-      </div>
   </div>
 
    <footer>
@@ -175,7 +173,7 @@ Luo的小世界 = welcome to my world</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-03-10 07:34:27" itemprop="dateModified" datetime="2023-03-10T07:34:27+08:00">2023-03-10</time>
+    <time title="修改时间：2023-09-27 17:30:01" itemprop="dateModified" datetime="2023-09-27T17:30:01+08:00">2023-09-27</time>
   </span>
 </div>
 
@@ -206,7 +204,7 @@ Luo的小世界 = welcome to my world</title>
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">http://example.com/2023/03/10/ElemType是什么？/</a>
+    <a href="http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" title="字符串转数组的几种方法">http://example.com/2023/09/27/字符串转数组的几种方法/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -225,22 +223,14 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?806871" title="顺序表中基本操作的实现">
+  <a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?672230" title="项目一  Java 编程基础">
   <span class="type">上一篇</span>
-  <span class="category"><i class="ic i-flag"></i> 数据结构与算法</span>
-  <h3>顺序表中基本操作的实现</h3>
+  <span class="category"><i class="ic i-flag"></i> Java入门</span>
+  <h3>项目一  Java 编程基础</h3>
   </a>
 
     </div>
     <div class="item right">
-      
-
-  <a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.lizi.moe&#x2F;pc?54833" title="力扣题型试水">
-  <span class="type">下一篇</span>
-  <span class="category"><i class="ic i-flag"></i> 力扣</span>
-  <h3>力扣题型试水</h3>
-  </a>
-
     </div>
 </div>
 
@@ -257,10 +247,11 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84"><span class="toc-number">1.</span> <span class="toc-text"> 字符串转数组</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#split%E6%96%B9%E6%B3%95"><span class="toc-number">1.1.</span> <span class="toc-text"> split () 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#es6%E7%9A%84%E5%B1%95%E5%BC%80%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text"> ES6 的展开运算符…</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#arrayfrom%E6%96%B9%E6%B3%95"><span class="toc-number">1.3.</span> <span class="toc-text"> Array.from () 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#objectassign%E6%96%B9%E6%B3%95"><span class="toc-number">1.4.</span> <span class="toc-text"> Object.assign () 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tochararray%E6%96%B9%E6%B3%95"><span class="toc-number">1.5.</span> <span class="toc-text"> toCharArray () 方法</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" rel="bookmark" title="绪论">绪论</a></li><li><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" rel="bookmark" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></li><li><a href="/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/" rel="bookmark" title="线性表的类型定义">线性表的类型定义</a></li><li><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" rel="bookmark" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></li><li class="active"><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" rel="bookmark" title="ElemType是什么？">ElemType是什么？</a></li><li><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" rel="bookmark" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></li><li><a href="/2023/04/23/%E6%A0%88/" rel="bookmark" title="栈">栈</a></li><li><a href="/2023/05/22/%E9%98%9F%E5%88%97/" rel="bookmark" title="队列">队列</a></li><li><a href="/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/" rel="bookmark" title="数据结构与算法知识点汇总">数据结构与算法知识点汇总</a></li>
+          <li><a href="/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第一个Java程序">第一个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第二个Java程序">第二个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第四个Java程序">第四个Java程序</a></li><li><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" rel="bookmark" title="Java第一次小测">Java第一次小测</a></li><li><a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="bookmark" title="蓝桥杯Java日常练习记录0">蓝桥杯Java日常练习记录0</a></li><li><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" rel="bookmark" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></li><li><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" rel="bookmark" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></li><li><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第五个Java程序">第五个Java程序</a></li><li><a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" rel="bookmark" title="项目一  Java 编程基础">项目一  Java 编程基础</a></li><li class="active"><a href="/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" rel="bookmark" title="字符串转数组的几种方法">字符串转数组的几种方法</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="站点概览">
@@ -346,12 +337,10 @@ Luo的小世界 = welcome to my world</title>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -373,20 +362,60 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/typora/" title="分类于 typora">typora</a>
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
 </div>
 
-    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
+    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
 </div>
 
-    <span><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" title="Java第一次小测">Java第一次小测</a></span>
+    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+</div>
+
+    <span><a href="/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/" title="我喜欢的一些课外书">我喜欢的一些课外书</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%8A%9B%E6%89%A3/" title="分类于 力扣">力扣</a>
+</div>
+
+    <span><a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" title="力扣题型试水">力扣题型试水</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></span>
   </li>
 
       
@@ -405,7 +434,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
+    <span><a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言数组模块知识总结">C语言数组模块知识总结</a></span>
   </li>
 
       
@@ -415,57 +444,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/" title="入门级C语言练习题">入门级C语言练习题</a></span>
+    <span><a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" title="指针变量的定义">指针变量的定义</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
-</div>
-
-    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
-</div>
-
-    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" title="分类于 操作系统">操作系统</a>
-</div>
-
-    <span><a href="/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/" title="操作系统习题汇总">操作系统习题汇总</a></span>
+    <span><a href="/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/" title="数据结构与算法知识点汇总">数据结构与算法知识点汇总</a></span>
   </li>
 
   </ul>
@@ -496,7 +485,7 @@ Luo的小世界 = welcome to my world</title>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2023/03/10/ElemType是什么？/',
+    path: '2023/09/27/字符串转数组的几种方法/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"

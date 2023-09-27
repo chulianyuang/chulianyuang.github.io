@@ -5,6 +5,14 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/",
+            "url": "http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/",
+            "title": "字符串转数组的几种方法",
+            "date_published": "2023-09-27T09:23:19.000Z",
+            "content_html": "<h1 id=\"字符串转数组\"><a class=\"markdownIt-Anchor\" href=\"#字符串转数组\">#</a> 字符串转数组</h1>\n<h2 id=\"split方法\"><a class=\"markdownIt-Anchor\" href=\"#split方法\">#</a> split () 方法</h2>\n<p>使用 <code>split()</code>  方法，该方法可以根据指定的分隔符将字符串分割为子字符串，并返回一个新的数组。例如， <code>&quot;abc&quot;.split(&quot;&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>\n<h2 id=\"es6的展开运算符\"><a class=\"markdownIt-Anchor\" href=\"#es6的展开运算符\">#</a> ES6 的展开运算符…</h2>\n<p>使用 ES6 的展开运算符 <code>...</code> ，该运算符可以将一个可迭代对象（如字符串）展开为多个元素，并放在一个数组字面量中。例如， <code>[...&quot;abc&quot;]</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>\n<h2 id=\"arrayfrom方法\"><a class=\"markdownIt-Anchor\" href=\"#arrayfrom方法\">#</a> Array.from () 方法</h2>\n<p>使用 <code>Array.from()</code>  方法，该方法可以从一个类似数组或可迭代对象创建一个新的数组实例。例如， <code>Array.from(&quot;abc&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code></p>\n<h2 id=\"objectassign方法\"><a class=\"markdownIt-Anchor\" href=\"#objectassign方法\">#</a> Object.assign () 方法</h2>\n<p>使用 <code>Object.assign()</code>  方法，该方法可以将一个或多个源对象的可枚举属性复制到目标对象中。例如， <code>Object.assign([], &quot;abc&quot;)</code>  会返回 <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code> 。</p>\n<h2 id=\"tochararray方法\"><a class=\"markdownIt-Anchor\" href=\"#tochararray方法\">#</a> toCharArray () 方法</h2>\n<p>使用 <code>toCharArray()</code>  方法，该方法可以将字符串转换为字符数组。例如， <code>&quot;abc&quot;.toCharArray()</code>  会返回 <code>['a', 'b', 'c']</code> 。</p>\n",
+            "tags": []
+        },
+        {
             "id": "http://example.com/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/",
             "url": "http://example.com/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/",
             "title": "项目一  Java 编程基础",
