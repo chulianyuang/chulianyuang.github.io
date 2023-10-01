@@ -5,6 +5,16 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
+            "url": "http://example.com/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
+            "title": "第六个Java程序",
+            "date_published": "2023-10-01T08:20:11.000Z",
+            "content_html": "<h2 id=\"敏感词替换\"><a class=\"markdownIt-Anchor\" href=\"#敏感词替换\">#</a> 敏感词替换</h2>\n<figure class=\"highlight java\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"keyword\">package</span> asd;</span><br><span class=\"line\"></span><br><span class=\"line\"><span class=\"keyword\">public</span> <span class=\"keyword\">class</span> <span class=\"title class_\">demo1</span> &#123;</span><br><span class=\"line\">    <span class=\"keyword\">public</span> <span class=\"keyword\">static</span> <span class=\"keyword\">void</span> <span class=\"title function_\">main</span><span class=\"params\">(String[] args)</span> &#123;</span><br><span class=\"line\">        <span class=\"comment\">//获取说的话</span></span><br><span class=\"line\">        String word=<span class=\"string\">&quot;我cnm的臭逼，你全家都是人才，傻帽&quot;</span>;</span><br><span class=\"line\">        <span class=\"comment\">//定义一个脏字数组作为数据库</span></span><br><span class=\"line\">        String []arrword=&#123;<span class=\"string\">&quot;cnm&quot;</span>,<span class=\"string\">&quot;臭逼&quot;</span>,<span class=\"string\">&quot;傻帽&quot;</span>&#125;;</span><br><span class=\"line\">        <span class=\"comment\">//用for循环进行替换</span></span><br><span class=\"line\">        <span class=\"keyword\">for</span> (<span class=\"type\">int</span> <span class=\"variable\">i</span> <span class=\"operator\">=</span> <span class=\"number\">0</span>; i &lt; arrword.length; i++) &#123;</span><br><span class=\"line\">           word= word.replace(arrword[i],<span class=\"string\">&quot;***&quot;</span>);</span><br><span class=\"line\">        &#125;</span><br><span class=\"line\">        System.out.println(word);</span><br><span class=\"line\">    &#125;</span><br><span class=\"line\">&#125;</span><br><span class=\"line\"></span><br></pre></td></tr></table></figure>\n<h2 id=\"转换罗马数字\"><a class=\"markdownIt-Anchor\" href=\"#转换罗马数字\">#</a> 转换罗马数字</h2>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202310011732337.png\" alt=\"屏幕截图 2023-10-01 173047\"></p>\n",
+            "tags": [
+                "题库"
+            ]
+        },
+        {
             "id": "http://example.com/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
             "url": "http://example.com/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
             "title": "第五个Java程序",
