@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;数据结构与算法&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 23 May 2023 13:00:35 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
             <title>数据结构与算法知识点汇总</title>
-            <link>http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</link>
+            <link>https://www.acy.moe/api/2/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</link>
             <category>期末复习</category>
             <pubDate>Tue, 23 May 2023 13:00:35 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一章-数据结构概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-数据结构概述&#34;&gt;#&lt;/a&gt; 第一章 数据结构概述&lt;/h1&gt;
@@ -423,9 +424,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/22/%E9%98%9F%E5%88%97/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/22/%E9%98%9F%E5%88%97/</guid>
             <title>队列</title>
-            <link>http://example.com/2023/05/22/%E9%98%9F%E5%88%97/</link>
+            <link>https://www.acy.moe/api/2/2023/05/22/%E9%98%9F%E5%88%97/</link>
             <category>栈和队列</category>
             <pubDate>Mon, 22 May 2023 17:30:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;2-队列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-队列&#34;&gt;#&lt;/a&gt; 2、队列&lt;/h1&gt;
@@ -555,9 +556,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/04/23/%E6%A0%88/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/04/23/%E6%A0%88/</guid>
             <title>栈</title>
-            <link>http://example.com/2023/04/23/%E6%A0%88/</link>
+            <link>https://www.acy.moe/api/2/2023/04/23/%E6%A0%88/</link>
             <category>栈和队列</category>
             <pubDate>Sun, 23 Apr 2023 17:14:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;关于栈的那些事&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于栈的那些事&#34;&gt;#&lt;/a&gt; 关于栈的那些事&lt;/h1&gt;
@@ -621,9 +622,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/</guid>
             <title>数据结构第二章线性表习题</title>
-            <link>http://example.com/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/</link>
+            <link>https://www.acy.moe/api/2/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/</link>
             <category>习题答案</category>
             <pubDate>Mon, 20 Mar 2023 23:48:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1将两个递增的有序链表合并为一个递增的有序链表-要求结果链表仍使用原来两个链表的存储空间不另外占用其他的存储空间-表中不允许有重复数据&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1将两个递增的有序链表合并为一个递增的有序链表-要求结果链表仍使用原来两个链表的存储空间不另外占用其他的存储空间-表中不允许有重复数据&#34;&gt;#&lt;/a&gt; 1. 将两个递增的有序链表合并为一个递增的有序链表。要求结果链表仍使用原来两个链表的存储空间，不另外占用其他的存储空间。表中不允许有重复数据&lt;/h1&gt;
@@ -632,9 +633,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</guid>
             <title>ElemType是什么？</title>
-            <link>http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</link>
+            <link>https://www.acy.moe/api/2/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</link>
             <category>细解</category>
             <pubDate>Fri, 10 Mar 2023 07:32:22 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;在定义结构体 array 的时候有这样一段：&lt;/p&gt;
@@ -648,9 +649,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
             <title>顺序表中基本操作的实现</title>
-            <link>http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+            <link>https://www.acy.moe/api/2/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
             <category>知识总结</category>
             <pubDate>Thu, 09 Mar 2023 21:06:54 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;顺序表中基本操作的实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顺序表中基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序表中基本操作的实现&lt;/h1&gt;
@@ -669,9 +670,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
             <title>线性表的类型定义</title>
-            <link>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</link>
+            <link>https://www.acy.moe/api/2/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</link>
             <category>知识点总结</category>
             <pubDate>Thu, 09 Mar 2023 19:54:04 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;线性表的类型定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性表的类型定义&#34;&gt;#&lt;/a&gt; 线性表的类型定义&lt;/h1&gt;
@@ -704,9 +705,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</guid>
             <title>c语言malloc函数的用法和意义</title>
-            <link>http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</link>
+            <link>https://www.acy.moe/api/2/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</link>
             <category>巧思</category>
             <pubDate>Thu, 09 Mar 2023 16:58:16 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。&lt;br&gt;
@@ -740,9 +741,9 @@ C 图如下：&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
             <title>绪论</title>
-            <link>http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
+            <link>https://www.acy.moe/api/2/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
             <category>知识点总结</category>
             <pubDate>Tue, 07 Mar 2023 17:15:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绪论&#34;&gt;#&lt;/a&gt; 绪论&lt;/h1&gt;

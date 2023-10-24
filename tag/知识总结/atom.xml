@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://www.acy.moe/api/2</id>
     <title>welcome to my world • Posts by &#34;知识总结&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://www.acy.moe/api/2" />
     <updated>2023-03-09T13:06:54.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -44,10 +44,11 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="实训报告" />
+    <category term="小测" />
     <entry>
-        <id>http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
+        <id>https://www.acy.moe/api/2/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
         <title>顺序表中基本操作的实现</title>
-        <link rel="alternate" href="http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
         <content type="html">&lt;h1 id=&#34;顺序表中基本操作的实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顺序表中基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序表中基本操作的实现&lt;/h1&gt;
 &lt;p&gt;线性表的顺序表示指的是用一组地址连续的存储单元依次存储线性表的数据元素，这种表示也称作线性表的顺序存储结构或顺序映像。通常，称这种存储结构的线性表为&lt;strong&gt;顺序表&lt;/strong&gt;。起特点是，逻辑上相邻的数据元素，其物理次序也是相邻的。&lt;/p&gt;
 &lt;p&gt;线性表的每一个数据元素的存储位置都和线性表的起始位置相差一个常数，这个常数和数据元素在线性表中的位序成正比。由此，只要确定了存储线性表的起始位置，线性表中任一数据元素都可随机存取，所以线性表的顺序存储结构是一种&lt;strong&gt;随机存取&lt;/strong&gt;的存储结构。&lt;/p&gt;

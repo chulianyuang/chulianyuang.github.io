@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://www.acy.moe/api/2</id>
     <title>welcome to my world • Posts by &#34;线性代数&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://www.acy.moe/api/2" />
     <updated>2022-11-10T17:23:22.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -44,10 +44,11 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="实训报告" />
+    <category term="小测" />
     <entry>
-        <id>http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</id>
+        <id>https://www.acy.moe/api/2/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</id>
         <title>简明线性代数第二章小节2</title>
-        <link rel="alternate" href="http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/"/>
         <content type="html">&lt;h1 id=&#34;第二章-线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二章-线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 第二章 线性方程组与矩阵的初等变换&lt;/h1&gt;
 &lt;h2 id=&#34;矩阵的初等变换与初等矩阵&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#矩阵的初等变换与初等矩阵&#34;&gt;#&lt;/a&gt; 矩阵的初等变换与初等矩阵&lt;/h2&gt;
 &lt;p&gt;若矩阵 A 经过有限次初等列变换化为矩阵 B，则称矩阵 A 与 B 列等价，&lt;strong&gt;并不能说矩阵 A 与矩阵 B 相等&lt;/strong&gt;，两个矩阵相等必须得每个元素都一样。&lt;/p&gt;
@@ -126,9 +127,9 @@
         <updated>2022-11-10T17:23:22.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</id>
+        <id>https://www.acy.moe/api/2/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</id>
         <title>简明线性代数第二章小节1</title>
-        <link rel="alternate" href="http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/"/>
         <content type="html">&lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 线性方程组与矩阵的初等变换&lt;/h1&gt;
 &lt;h2 id=&#34;线性方程组消元法的形式化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组消元法的形式化&#34;&gt;#&lt;/a&gt; 线性方程组消元法的形式化&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;高斯消元法：在线性方程组消元的过程中，同解方程组的变换可用相应的增广矩阵的变换来表示，这样显得更清晰。&lt;/strong&gt;&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;知识点总结&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 09 Mar 2023 19:54:04 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</guid>
             <title>线性表的类型定义</title>
-            <link>http://example.com/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</link>
+            <link>https://www.acy.moe/api/2/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/</link>
             <category>知识点总结</category>
             <pubDate>Thu, 09 Mar 2023 19:54:04 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;线性表的类型定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性表的类型定义&#34;&gt;#&lt;/a&gt; 线性表的类型定义&lt;/h1&gt;
@@ -83,9 +84,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/07/%E7%BB%AA%E8%AE%BA/</guid>
             <title>绪论</title>
-            <link>http://example.com/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
+            <link>https://www.acy.moe/api/2/2023/03/07/%E7%BB%AA%E8%AE%BA/</link>
             <category>知识点总结</category>
             <pubDate>Tue, 07 Mar 2023 17:15:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绪论&#34;&gt;#&lt;/a&gt; 绪论&lt;/h1&gt;

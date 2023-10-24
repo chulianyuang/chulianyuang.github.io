@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;java入门&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sun, 01 Oct 2023 16:20:11 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第六个Java程序</title>
-            <link>http://example.com/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Sun, 01 Oct 2023 16:20:11 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;敏感词替换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#敏感词替换&#34;&gt;#&lt;/a&gt; 敏感词替换&lt;/h2&gt;
@@ -60,9 +61,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
             <title>字符串转数组的几种方法</title>
-            <link>http://example.com/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
+            <link>https://www.acy.moe/api/2/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
             <pubDate>Wed, 27 Sep 2023 17:23:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;字符串转数组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#字符串转数组&#34;&gt;#&lt;/a&gt; 字符串转数组&lt;/h1&gt;
 &lt;h2 id=&#34;split方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#split方法&#34;&gt;#&lt;/a&gt; split () 方法&lt;/h2&gt;
@@ -78,9 +79,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</guid>
             <title>项目一  Java 编程基础</title>
-            <link>http://example.com/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</link>
+            <link>https://www.acy.moe/api/2/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</link>
             <category>实训报告</category>
             <pubDate>Tue, 26 Sep 2023 00:10:40 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1：编写程序，根据输入的性别，身高，体重，计算体重指数BMI&#34;&gt;&lt;a href=&#34;#1：编写程序，根据输入的性别，身高，体重，计算体重指数BMI&#34; class=&#34;headerlink&#34; title=&#34;1：编写程序，根据输入的性别，身高，体重，计算体重指数BMI&#34;&gt;&lt;/a&gt;1：编写程序，根据输入的性别，身高，体重，计算体重指数BMI&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;BMI 是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准，算法：kg&amp;#x2F;m2&lt;/strong&gt;&lt;/p&gt;
@@ -98,9 +99,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第五个Java程序</title>
-            <link>http://example.com/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Mon, 25 Sep 2023 19:42:51 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;对称字符串&#34;&gt;&lt;a href=&#34;#对称字符串&#34; class=&#34;headerlink&#34; title=&#34;对称字符串&#34;&gt;&lt;/a&gt;对称字符串&lt;/h2&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309241614019.png&#34; alt=&#34;image-20230924161431880&#34;&gt;&lt;/p&gt;
@@ -116,9 +117,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/</guid>
             <title>Java入门（全书习题答案汇总）</title>
-            <link>http://example.com/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/</link>
+            <link>https://www.acy.moe/api/2/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/</link>
             <category>习题汇总</category>
             <pubDate>Sat, 23 Sep 2023 21:37:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一章-java开发入门&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-java开发入门&#34;&gt;#&lt;/a&gt; 第一章 Java 开发入门&lt;/h1&gt;
@@ -156,9 +157,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</guid>
             <title>蓝桥杯Java日常练习记录1</title>
-            <link>http://example.com/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</link>
+            <link>https://www.acy.moe/api/2/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</link>
             <category>蓝桥杯</category>
             <pubDate>Sat, 16 Sep 2023 17:47:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第二题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二题&#34;&gt;#&lt;/a&gt; 第二题&lt;/h1&gt;
@@ -173,9 +174,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
             <title>蓝桥杯Java日常练习记录0</title>
-            <link>http://example.com/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+            <link>https://www.acy.moe/api/2/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
             <category>蓝桥杯</category>
             <pubDate>Mon, 11 Sep 2023 00:47:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一题&#34;&gt;#&lt;/a&gt; 第一题&lt;/h1&gt;
@@ -184,9 +185,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/</guid>
             <title>Java第一次小测</title>
-            <link>http://example.com/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/</link>
+            <link>https://www.acy.moe/api/2/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/</link>
             <category>题库</category>
             <pubDate>Tue, 06 Jun 2023 14:04:36 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;小测&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小测&#34;&gt;#&lt;/a&gt; 小测&lt;/h1&gt;
@@ -199,9 +200,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第四个Java程序</title>
-            <link>http://example.com/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Sat, 03 Jun 2023 19:42:51 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202306031943986.png&#34; alt=&#34;image-20230603194337881&#34;&gt;&lt;/p&gt;
@@ -216,9 +217,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/</guid>
             <title>第三个Java程序</title>
-            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/</link>
+            <link>https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/</link>
             <category>题库</category>
             <pubDate>Mon, 29 May 2023 23:53:21 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;老丈人选女婿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#老丈人选女婿&#34;&gt;#&lt;/a&gt; 老丈人选女婿&lt;/h2&gt;
@@ -265,9 +266,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第三个Java程序</title>
-            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Mon, 29 May 2023 23:00:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;三元运算符练习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三元运算符练习&#34;&gt;#&lt;/a&gt; 三元运算符练习&lt;/h1&gt;
@@ -284,9 +285,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第二个Java程序</title>
-            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Mon, 29 May 2023 22:39:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数字6&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数字6&#34;&gt;#&lt;/a&gt; 数字 6&lt;/h1&gt;
@@ -299,9 +300,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第一个Java程序</title>
-            <link>http://example.com/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
+            <link>https://www.acy.moe/api/2/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</link>
             <category>题库</category>
             <pubDate>Mon, 29 May 2023 17:57:22 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;今天是个很特别的日子，看了有一会视频了，今天就开始上传第一篇关于 Java 入门的博文，其实在我看来学了 C 语言之后再来学 Java 感觉真的不要太简单。不过从小到大家人们都对我说不要眼高手低，所以我还是系统的从头到尾学一遍，当复习了。&lt;/p&gt;

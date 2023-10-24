@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;蓝桥杯&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sat, 16 Sep 2023 17:47:47 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</guid>
             <title>蓝桥杯Java日常练习记录1</title>
-            <link>http://example.com/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</link>
+            <link>https://www.acy.moe/api/2/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/</link>
             <category>蓝桥杯</category>
             <pubDate>Sat, 16 Sep 2023 17:47:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第二题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二题&#34;&gt;#&lt;/a&gt; 第二题&lt;/h1&gt;
@@ -65,9 +66,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
             <title>蓝桥杯Java日常练习记录0</title>
-            <link>http://example.com/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+            <link>https://www.acy.moe/api/2/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
             <category>蓝桥杯</category>
             <pubDate>Mon, 11 Sep 2023 00:47:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一题&#34;&gt;#&lt;/a&gt; 第一题&lt;/h1&gt;

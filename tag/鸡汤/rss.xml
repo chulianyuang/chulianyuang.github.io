@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;鸡汤&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 02 Dec 2022 18:16:39 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</guid>
             <title>一路向前</title>
-            <link>http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</link>
+            <link>https://www.acy.moe/api/2/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</link>
             <category>鸡汤</category>
             <pubDate>Fri, 02 Dec 2022 18:16:39 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;2022-12-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2022-12-2&#34;&gt;#&lt;/a&gt; 2022 12 2&lt;/h1&gt;

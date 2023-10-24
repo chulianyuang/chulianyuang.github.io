@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://www.acy.moe/api/2</id>
     <title>welcome to my world • Posts by &#34;中二病&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://www.acy.moe/api/2" />
     <updated>2022-11-11T12:23:53.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -44,10 +44,11 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="实训报告" />
+    <category term="小测" />
     <entry>
-        <id>http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</id>
+        <id>https://www.acy.moe/api/2/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</id>
         <title>一些童年回忆</title>
-        <link rel="alternate" href="http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/"/>
         <content type="html">&lt;h1 id=&#34;震惊我竟然从小就开始上哲理课&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#震惊我竟然从小就开始上哲理课&#34;&gt;#&lt;/a&gt; 震惊：我竟然从小就开始上哲理课&lt;/h1&gt;
 &lt;p&gt;这个标题形式首先得问候一波搜狐那个标题党。&lt;/p&gt;
 &lt;p&gt;这一篇没什么营养的，它的诞生在于今天周五了，明天没有课，有点闲，中二病发作。&lt;/p&gt;

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://www.acy.moe/api/2</id>
     <title>welcome to my world • Posts by &#34;期末复习&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://www.acy.moe/api/2" />
     <updated>2023-05-24T04:59:44.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -44,10 +44,11 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="实训报告" />
+    <category term="小测" />
     <entry>
-        <id>http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</id>
+        <id>https://www.acy.moe/api/2/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</id>
         <title>操作系统习题汇总</title>
-        <link rel="alternate" href="http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/"/>
         <content type="html">&lt;h1 id=&#34;第一章-操作系统概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-操作系统概述&#34;&gt;#&lt;/a&gt; 第一章 操作系统概述&lt;/h1&gt;
 &lt;p&gt;1）一个完整的计算机系统是由硬件系统和软件系统两大部分组成&lt;/p&gt;
 &lt;p&gt;2）计算机软件是指程序和与程序相关的文档的集合&lt;/p&gt;
@@ -809,9 +810,9 @@
         <updated>2023-05-24T04:59:44.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</id>
+        <id>https://www.acy.moe/api/2/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</id>
         <title>数据结构与算法知识点汇总</title>
-        <link rel="alternate" href="http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/"/>
         <content type="html">&lt;h1 id=&#34;第一章-数据结构概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-数据结构概述&#34;&gt;#&lt;/a&gt; 第一章 数据结构概述&lt;/h1&gt;
 &lt;p&gt;基本概念与术语&lt;/p&gt;
 &lt;ol&gt;

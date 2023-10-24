@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://www.acy.moe/api/2</id>
     <title>welcome to my world • Posts by &#34;从年头红到年尾&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://www.acy.moe/api/2" />
     <updated>2023-02-22T09:17:38.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -44,10 +44,11 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="实训报告" />
+    <category term="小测" />
     <entry>
-        <id>http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</id>
+        <id>https://www.acy.moe/api/2/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</id>
         <title>股票入门</title>
-        <link rel="alternate" href="http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://www.acy.moe/api/2/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;股票交易时间：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;股票交易时间为每周一到周五&lt;/li&gt;

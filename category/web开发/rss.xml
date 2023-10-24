@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;web开发&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 09 Aug 2023 11:34:21 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/</guid>
             <title>Vue框架 小作品</title>
-            <link>http://example.com/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/</link>
+            <link>https://www.acy.moe/api/2/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/</link>
             <category>网页设计</category>
             <pubDate>Wed, 09 Aug 2023 11:34:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;javaweb-vue框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#javaweb-vue框架&#34;&gt;#&lt;/a&gt; JavaWeb Vue 框架&lt;/h1&gt;
@@ -59,9 +60,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/</guid>
             <title>自主作品2</title>
-            <link>http://example.com/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/</link>
+            <link>https://www.acy.moe/api/2/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/</link>
             <category>网页设计</category>
             <pubDate>Sun, 06 Aug 2023 15:40:59 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;作业&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#作业&#34;&gt;#&lt;/a&gt; 作业&lt;/h2&gt;
@@ -69,9 +70,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/07/21/%E6%A8%A1%E4%BB%BF%E6%96%B0%E6%B5%AA%E7%BD%91%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BD%9C%E5%93%81/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/07/21/%E6%A8%A1%E4%BB%BF%E6%96%B0%E6%B5%AA%E7%BD%91%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BD%9C%E5%93%81/</guid>
             <title>模仿新浪网的一个作品</title>
-            <link>http://example.com/2023/07/21/%E6%A8%A1%E4%BB%BF%E6%96%B0%E6%B5%AA%E7%BD%91%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BD%9C%E5%93%81/</link>
+            <link>https://www.acy.moe/api/2/2023/07/21/%E6%A8%A1%E4%BB%BF%E6%96%B0%E6%B5%AA%E7%BD%91%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BD%9C%E5%93%81/</link>
             <category>网页设计</category>
             <pubDate>Fri, 21 Jul 2023 20:21:59 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;学了前端开发两天半，写了第一个网页设计作品&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;力扣&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 15 Mar 2023 16:22:22 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</guid>
             <title>力扣题型试水</title>
-            <link>http://example.com/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</link>
+            <link>https://www.acy.moe/api/2/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</link>
             <category>动态规划</category>
             <pubDate>Wed, 15 Mar 2023 16:22:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;279-完全平方数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#279-完全平方数&#34;&gt;#&lt;/a&gt; [279. 完全平方数]&lt;/h1&gt;

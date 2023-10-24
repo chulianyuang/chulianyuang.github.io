@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;数据结构实践课程&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 08 Jun 2023 23:22:52 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/</guid>
             <title>大一第二学期实训作业</title>
-            <link>http://example.com/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/</link>
+            <link>https://www.acy.moe/api/2/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/</link>
             <pubDate>Thu, 08 Jun 2023 23:22:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;银行窗口排队管理系统&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#银行窗口排队管理系统&#34;&gt;#&lt;/a&gt; 银行窗口排队管理系统&lt;/h1&gt;
 &lt;h2 id=&#34;草稿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#草稿&#34;&gt;#&lt;/a&gt; 草稿&lt;/h2&gt;

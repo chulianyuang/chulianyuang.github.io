@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;矩阵与求解&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://www.acy.moe/api/2</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 11 Nov 2022 01:23:22 +0800</pubDate>
@@ -47,10 +47,11 @@
         <category>关于创业的一条路</category>
         <category>知识总结</category>
         <category>实训报告</category>
+        <category>小测</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
+            <guid isPermalink="true">https://www.acy.moe/api/2/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
             <title>简明线性代数第二章小节2</title>
-            <link>http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
+            <link>https://www.acy.moe/api/2/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
             <category>矩阵与求解</category>
             <pubDate>Fri, 11 Nov 2022 01:23:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第二章-线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二章-线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 第二章 线性方程组与矩阵的初等变换&lt;/h1&gt;
