@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;金融学&#34; category</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 22 Feb 2023 17:17:38 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</guid>
+            <guid isPermalink="true">http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</guid>
             <title>股票入门</title>
-            <link>https://www.acy.moe/api/2/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</link>
+            <link>http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</link>
             <category>从年头红到年尾</category>
             <pubDate>Wed, 22 Feb 2023 17:17:38 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;股票交易时间：&lt;/strong&gt;&lt;/p&gt;

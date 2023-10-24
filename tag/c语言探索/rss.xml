@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;c语言探索&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 07 Feb 2023 20:38:01 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
+            <guid isPermalink="true">http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
             <title>对printf和scanf两函数的理解</title>
-            <link>https://www.acy.moe/api/2/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</link>
+            <link>http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</link>
             <category>C语言探索</category>
             <pubDate>Tue, 07 Feb 2023 20:38:01 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;printf 和 scanf 这两个函数我们经常在编写程序的过程中用到，printf 函数还好理解，但是 scanf 呢，直接上代码。&lt;/p&gt;

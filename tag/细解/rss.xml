@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;细解&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 10 Mar 2023 07:32:22 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</guid>
+            <guid isPermalink="true">http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</guid>
             <title>ElemType是什么？</title>
-            <link>https://www.acy.moe/api/2/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</link>
+            <link>http://example.com/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</link>
             <category>细解</category>
             <pubDate>Fri, 10 Mar 2023 07:32:22 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;在定义结构体 array 的时候有这样一段：&lt;/p&gt;

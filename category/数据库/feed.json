@@ -2,11 +2,11 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "welcome to my world • All posts by \"数据库\" category",
     "description": "",
-    "home_page_url": "https://www.acy.moe/api/2",
+    "home_page_url": "http://example.com",
     "items": [
         {
-            "id": "https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/",
-            "url": "https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/",
+            "id": "http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/",
+            "url": "http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/",
             "title": "数据库作业0",
             "date_published": "2023-10-24T05:10:10.000Z",
             "content_html": "<h1 id=\"小测1\"><a class=\"markdownIt-Anchor\" href=\"#小测1\">#</a> 小测 1</h1>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202310241311062.png\" alt=\"image-20231024131059900\"></p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">select * from employee where age in (20,21,22,23)and gender=&#x27;女&#x27;;</span><br><span class=\"line\"></span><br><span class=\"line\">select * from employee where gender=&#x27;男&#x27; and age between 20 and 40 and name like &#x27;___&#x27;;</span><br><span class=\"line\"></span><br><span class=\"line\">select gender, count(*) from employee where age&lt;60 group by gender;</span><br><span class=\"line\"></span><br><span class=\"line\">select * from employee where age&lt;=35 order by age asc ,enterday desc ;</span><br><span class=\"line\"></span><br><span class=\"line\">select name from employee where gender=&#x27;男&#x27; and age between 20 and 40 order by age  ,enterday desc limit 5;</span><br><span class=\"line\"></span><br></pre></td></tr></table></figure>\n",

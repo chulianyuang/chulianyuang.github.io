@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;数据库&#34; category</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2023-10-24T05:10:10.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</id>
+        <id>http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</id>
         <title>数据库作业0</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/"/>
+        <link rel="alternate" href="http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/"/>
         <content type="html">&lt;h1 id=&#34;小测1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小测1&#34;&gt;#&lt;/a&gt; 小测 1&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202310241311062.png&#34; alt=&#34;image-20231024131059900&#34;&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select * from employee where age in (20,21,22,23)and gender=&amp;#x27;女&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select * from employee where gender=&amp;#x27;男&amp;#x27; and age between 20 and 40 and name like &amp;#x27;___&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select gender, count(*) from employee where age&amp;lt;60 group by gender;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select * from employee where age&amp;lt;=35 order by age asc ,enterday desc ;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select name from employee where gender=&amp;#x27;男&amp;#x27; and age between 20 and 40 order by age  ,enterday desc limit 5;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;

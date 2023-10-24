@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;小测&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 24 Oct 2023 13:10:10 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</guid>
+            <guid isPermalink="true">http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</guid>
             <title>数据库作业0</title>
-            <link>https://www.acy.moe/api/2/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</link>
+            <link>http://example.com/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/</link>
             <category>小测</category>
             <pubDate>Tue, 24 Oct 2023 13:10:10 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;小测1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小测1&#34;&gt;#&lt;/a&gt; 小测 1&lt;/h1&gt;

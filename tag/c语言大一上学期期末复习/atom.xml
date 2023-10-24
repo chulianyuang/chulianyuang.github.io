@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;c语言大一上学期期末复习&#34; tag</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2022-11-29T06:22:03.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <id>http://example.com/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
         <title>C语言数组模块知识总结</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <link rel="alternate" href="http://example.com/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
         <content type="html">&lt;h1 id=&#34;数组知识总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数组知识总结&#34;&gt;#&lt;/a&gt; 数组知识总结&lt;/h1&gt;
 &lt;h2 id=&#34;个人感受在我个人看来数组的重要性是显而易见的特别是在现在这个信息爆炸的时代我们要想让自己的写的程序的可用性上升那就必然离不开数组的使用它能把具有相同类型的若干元素按无序的形式组织起来-在程序中合理地使用数组会使程序的结构比较整齐而且可以把较为复杂的运算转化成简单的数组来表示总之数组很nice&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#个人感受在我个人看来数组的重要性是显而易见的特别是在现在这个信息爆炸的时代我们要想让自己的写的程序的可用性上升那就必然离不开数组的使用它能把具有相同类型的若干元素按无序的形式组织起来-在程序中合理地使用数组会使程序的结构比较整齐而且可以把较为复杂的运算转化成简单的数组来表示总之数组很nice&#34;&gt;#&lt;/a&gt; 个人感受：在我个人看来，数组的重要性是显而易见的，特别是在现在这个信息爆炸的时代，我们要想让自己的写的程序的可用性上升，那就必然离不开数组的使用，它能把具有相同类型的若干元素按无序的形式组织起来。在程序中合理地使用数组，会使程序的结构比较整齐，而且可以把较为复杂的运算，转化成简单的数组来表示，总之数组很 nice&lt;/h2&gt;
 &lt;h1 id=&#34;一维数组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一维数组&#34;&gt;#&lt;/a&gt; 一维数组&lt;/h1&gt;

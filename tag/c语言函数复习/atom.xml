@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;c语言函数复习&#34; tag</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2022-11-25T10:21:15.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
+        <id>http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</id>
         <title>C语言函数模块知识总结</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+        <link rel="alternate" href="http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
         <content type="html">&lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
 &lt;p&gt;相信大家对现在 IT 公司的项目完成方式都已经有所了解，一个项目的工作量绝不是一个人可以完成的，它是把这个项目里面的很多功能都一一拆解出来，然后交到一个个精英的手中，项目的最终产物一定是很多人努力成果的汇总。而想要实现这个过程，就得充分利用好函数的功能。&lt;/p&gt;
 &lt;p&gt;之前的章节我没有写总结是因为太简单了，没有必要写。有在函数方面薄弱的可以看看当复习，这篇文章是写给你们的，也是写给我自己的，方便四年后有考研想法的自己可以更好的复习。&lt;/p&gt;

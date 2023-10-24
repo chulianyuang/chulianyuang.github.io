@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;生活小絮&#34; category</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sat, 18 Mar 2023 13:55:50 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</guid>
+            <guid isPermalink="true">http://example.com/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</guid>
             <title>《幸福的方法》笔记</title>
-            <link>https://www.acy.moe/api/2/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</link>
+            <link>http://example.com/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</link>
             <pubDate>Sat, 18 Mar 2023 13:55:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;心得体会&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#心得体会&#34;&gt;#&lt;/a&gt; 心得体会&lt;/h1&gt;
 &lt;p&gt;改革开放后，我们祖国迎来了经济高速发展阶段，民国时期饿死人的现象早已在当今的小康社会销声匿迹。人们在满足了口腹之欲后开始追求精神的富足。我也不例外，这两周让我感触最深的书籍那肯定是《幸福的方法》这本书了。&lt;/p&gt;
@@ -63,9 +63,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/03/07/%E7%94%BB%E5%AE%B6/</guid>
+            <guid isPermalink="true">http://example.com/2023/03/07/%E7%94%BB%E5%AE%B6/</guid>
             <title>画画</title>
-            <link>https://www.acy.moe/api/2/2023/03/07/%E7%94%BB%E5%AE%B6/</link>
+            <link>http://example.com/2023/03/07/%E7%94%BB%E5%AE%B6/</link>
             <pubDate>Tue, 07 Mar 2023 16:35:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;学会新技能用typora画流程图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#学会新技能用typora画流程图&#34;&gt;#&lt;/a&gt; 学会新技能，用 typora 画流程图&lt;/h1&gt;
 &lt;h2 id=&#34;牛逼&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#牛逼&#34;&gt;#&lt;/a&gt; 牛逼&lt;/h2&gt;
@@ -73,9 +73,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</guid>
+            <guid isPermalink="true">http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</guid>
             <title>一些童年回忆</title>
-            <link>https://www.acy.moe/api/2/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</link>
+            <link>http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</link>
             <category>中二病</category>
             <pubDate>Fri, 11 Nov 2022 20:23:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;震惊我竟然从小就开始上哲理课&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#震惊我竟然从小就开始上哲理课&#34;&gt;#&lt;/a&gt; 震惊：我竟然从小就开始上哲理课&lt;/h1&gt;
@@ -283,9 +283,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</guid>
+            <guid isPermalink="true">http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</guid>
             <title>我喜欢的一些课外书</title>
-            <link>https://www.acy.moe/api/2/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</link>
+            <link>http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</link>
             <category>慢节奏的生活</category>
             <pubDate>Tue, 08 Nov 2022 01:17:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;#&lt;/a&gt; 如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&lt;/h1&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;课前五分钟&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 23 May 2023 16:14:51 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</guid>
+            <guid isPermalink="true">http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</guid>
             <title>英语演讲</title>
-            <link>https://www.acy.moe/api/2/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</link>
+            <link>http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</link>
             <category>课前五分钟</category>
             <pubDate>Tue, 23 May 2023 16:14:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;#&lt;/a&gt; AI 创作歌曲火出圈，引发音乐行业恐慌&lt;/h1&gt;

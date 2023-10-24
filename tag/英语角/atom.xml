@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;英语角&#34; tag</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2023-02-28T14:15:04.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/</id>
+        <id>http://example.com/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/</id>
         <title>制药公司可以合法开始销售可卡因、海洛因和摇头丸</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/"/>
+        <link rel="alternate" href="http://example.com/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/"/>
         <content type="html">&lt;hr&gt;
 &lt;p&gt;*&lt;em&gt;An anonymous reader quotes a report from Motherboard:&lt;em&gt;At least two companies in British Columbia, Canada, say they’ve received exemptions from the federal government &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS85M2s5NTcvY2FuYWRhLWJjLWNvY2FpbmUtc2FsZQ==&#34;&gt;allowing them to produce and distribute cocaine, heroin, MDMA, or magic mushrooms&lt;/span&gt;. But it’s not clear under what circumstances the companies will be able to sell the drugs, and B.C. Premier David Eby said he was “astonished” to hear the announcement. On Thursday, Sunshine Earth Labs, a psychedelics manufacturer &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubmV3c3dpcmUuY2EvbmV3cy1yZWxlYXNlcy9zdW5zaGluZS1lYXJ0aC1sYWJzLWx0ZC1wcm92aWRlcy1jb3Jwb3JhdGUtdXBkYXRlLTg0OTEzMjE1Ny5odG1s&#34;&gt;announced&lt;/span&gt; that Health Canada, a federal government agency, is allowing the company to legally produce and distribute the coca leaf and cocaine; MDMA; opium; morphine, heroin and psilocybin, the active ingredient in shrooms. The company said it plans to “bring a safer supply of drugs to the global market.”&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Meanwhile, cannabis extractions company Adastra &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hZGFzdHJhaG9sZGluZ3MuY2EvYWRhc3RyYS1sYWJzLXJlY2VpdmVzLWhlYWx0aC1jYW5hZGEtYXBwcm92YWwtZm9yLXRoZS1hbWVuZG1lbnQtdG8taW5jbHVkZS1jb2NhaW5lLXVuZGVyLWl0cy1jb250cm9sbGVkLXN1YnN0YW5jZXMtZGVhbGVycy1saWNlbnNlLw==&#34;&gt;announced&lt;/span&gt; it’s now legally allowed to both produce and distribute psilocybin and cocaine. In a statement to VICE News, Health Canada said Adastra is licensed to produce the drugs for scientific and medical purposes but cannot sell products to the general public. “They are only permitted for sale to other licence holders who have cocaine listed on their licence, pharmacists, practitioners, hospitals, or the holder of a section 56(1) exemption for research purposes,” the agency said.&lt;/strong&gt;&lt;/p&gt;

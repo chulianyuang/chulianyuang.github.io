@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;c语言指针复习&#34; tag</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2023-02-24T12:59:06.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2023/02/24/%E6%9E%9A%E4%B8%BE/</id>
+        <id>http://example.com/2023/02/24/%E6%9E%9A%E4%B8%BE/</id>
         <title>枚举</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/02/24/%E6%9E%9A%E4%B8%BE/"/>
+        <link rel="alternate" href="http://example.com/2023/02/24/%E6%9E%9A%E4%B8%BE/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;定义：枚举是 C 语言中的一种基本数据类型，用于定义一组具有离散值的常量。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;优点：它可以让数据更简洁，更易读。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;** 主要用途：** 枚举类型通常用于为程序中的一组相关的常量取名字，以便于程序的可读性和维护性。&lt;/p&gt;
@@ -148,9 +148,9 @@
         <updated>2023-02-24T12:59:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.acy.moe/api/2/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</id>
+        <id>http://example.com/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</id>
         <title>指针与字符串</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+        <link rel="alternate" href="http://example.com/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;定义：字符串在内存中的起始地址称为字符串的指针，可以定义一个字符型指针变量来指向一个字符串。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;使用指针处理字符串&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用指针处理字符串&#34;&gt;#&lt;/a&gt; 使用指针处理字符串&lt;/h1&gt;
 &lt;p&gt;我们之前是怎么数出一个字符串的捏，看下面代码。&lt;/p&gt;
@@ -210,9 +210,9 @@
         <updated>2023-02-04T11:57:16.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.acy.moe/api/2/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</id>
+        <id>http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</id>
         <title>指向一维数组的指针变量</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/"/>
+        <link rel="alternate" href="http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/"/>
         <content type="html">&lt;h2 id=&#34;指向一维数组的指针变量定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指向一维数组的指针变量定义&#34;&gt;#&lt;/a&gt; 指向一维数组的指针变量定义：&lt;/h2&gt;
 &lt;p&gt;如果定义一个指针变量，使其指向一个一维数组的首地址，或指向某个数组元素的地址，则称该指针变量为指向一维数组的指针变量。&lt;br&gt;
 代码实例：&lt;/p&gt;
@@ -274,9 +274,9 @@
         <updated>2023-02-04T09:01:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.acy.moe/api/2/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</id>
+        <id>http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</id>
         <title>指针变量的定义</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/"/>
+        <link rel="alternate" href="http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/"/>
         <content type="html">&lt;h1 id=&#34;指针变量的定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指针变量的定义&#34;&gt;#&lt;/a&gt; 指针变量的定义&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;在程序执行过程中，由于是通过变量的地址来找到存储变量值的内存单元从而取的变量的值，因此将变量的地址又称为变量的指针。&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;test1&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	test1();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	system(&lt;span class=&#34;string&#34;&gt;&amp;quot;pause&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;test1&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; num = &lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//取变量地址用&amp;amp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//&amp;amp;num代表标量的num的起始地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%p&amp;quot;&lt;/span&gt;, &amp;amp;num);&lt;span class=&#34;comment&#34;&gt;//输出num的起始地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//需求：定义一个指针变量 保存num的空间地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//在定义的时候：*说明p是指针变量 而不是普通变量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; *p=&lt;span class=&#34;literal&#34;&gt;NULL&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;sizeof(p)=%d\n&amp;quot;&lt;/span&gt;, &lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(p));&lt;span class=&#34;comment&#34;&gt;//输出指针占用的字节数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//num的地址与p建立关系&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	p = &amp;amp;num;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//效果演示&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;num=%d&amp;quot;&lt;/span&gt;, num);&lt;span class=&#34;comment&#34;&gt;//100&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;comment&#34;&gt;//使用中：*p表示取p报存的地址编号对应的空间内容&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;*p=%d&amp;quot;&lt;/span&gt;, *p);&lt;span class=&#34;comment&#34;&gt;//100&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;

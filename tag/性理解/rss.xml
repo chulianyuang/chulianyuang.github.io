@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;性理解&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 21 Dec 2022 22:20:14 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</guid>
+            <guid isPermalink="true">http://example.com/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</guid>
             <title>性心理健康作业</title>
-            <link>https://www.acy.moe/api/2/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</link>
+            <link>http://example.com/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</link>
             <category>性理解</category>
             <pubDate>Wed, 21 Dec 2022 22:20:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;性心理健康作业&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#性心理健康作业&#34;&gt;#&lt;/a&gt; 性心理健康作业&lt;/h1&gt;

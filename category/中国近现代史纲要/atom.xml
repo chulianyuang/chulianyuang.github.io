@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;中国近现代史纲要&#34; category</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2022-11-11T10:58:21.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/</id>
+        <id>http://example.com/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/</id>
         <title>第一章 进入近代后中华民族的磨难与抗争</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/"/>
+        <link rel="alternate" href="http://example.com/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;上岸呀！！&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;小点心热身&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小点心热身&#34;&gt;#&lt;/a&gt; 小点心：热身&lt;/h1&gt;
 &lt;table&gt;

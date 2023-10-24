@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.acy.moe/api/2</id>
+    <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;性理解&#34; tag</title>
-    <link href="https://www.acy.moe/api/2" />
+    <link href="http://example.com" />
     <updated>2022-12-21T14:20:14.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -46,9 +46,9 @@
     <category term="实训报告" />
     <category term="小测" />
     <entry>
-        <id>https://www.acy.moe/api/2/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</id>
+        <id>http://example.com/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/</id>
         <title>性心理健康作业</title>
-        <link rel="alternate" href="https://www.acy.moe/api/2/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/"/>
+        <link rel="alternate" href="http://example.com/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/"/>
         <content type="html">&lt;h1 id=&#34;性心理健康作业&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#性心理健康作业&#34;&gt;#&lt;/a&gt; 性心理健康作业&lt;/h1&gt;
 &lt;p&gt;受传统文化影响，我们中国的学生总是谈性色变，即使现在风气开放了不少，但是也没有见到明显改变。当然这需要我们一起去改善，而不是一味的对性知识进行打压，我们可以在学校开一些讲座，让同学们知道其中的优劣处，对它有一定的理解才能做到预防自己在懵懵懂懂中做错事。正所谓堵不如疏是吧。&lt;/p&gt;
 &lt;p&gt;首先我们需要了解什么是性心理健康？世界卫生组织作为最具权威的几大组织之一，它对性心理健康有自己独到的见解。1974 年，世界卫生组织 (WHO) 在一次关于性问题的研究会上，对性健康的概念作了如下论述： “所谓健康的性 (Sexual health)，它融合了有关性的生理面、情绪面、知识面及社会面，可以此提升人格发展，人际沟通和爱等等。” 由此可见，性心理健康是指个体具有正常的性欲望，能够正确认识性的有关问题，并且具有较强的性适应能力，能和异性进行恰当的交往，在免受性问题困扰的同时，还能使之增进自身人格和完善，促进自身身心健康的发展。&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;栈和队列&#34; tag</title>
-        <link>https://www.acy.moe/api/2</link>
+        <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Mon, 22 May 2023 17:30:12 +0800</pubDate>
@@ -49,9 +49,9 @@
         <category>实训报告</category>
         <category>小测</category>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/05/22/%E9%98%9F%E5%88%97/</guid>
+            <guid isPermalink="true">http://example.com/2023/05/22/%E9%98%9F%E5%88%97/</guid>
             <title>队列</title>
-            <link>https://www.acy.moe/api/2/2023/05/22/%E9%98%9F%E5%88%97/</link>
+            <link>http://example.com/2023/05/22/%E9%98%9F%E5%88%97/</link>
             <category>栈和队列</category>
             <pubDate>Mon, 22 May 2023 17:30:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;2-队列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-队列&#34;&gt;#&lt;/a&gt; 2、队列&lt;/h1&gt;
@@ -181,9 +181,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.acy.moe/api/2/2023/04/23/%E6%A0%88/</guid>
+            <guid isPermalink="true">http://example.com/2023/04/23/%E6%A0%88/</guid>
             <title>栈</title>
-            <link>https://www.acy.moe/api/2/2023/04/23/%E6%A0%88/</link>
+            <link>http://example.com/2023/04/23/%E6%A0%88/</link>
             <category>栈和队列</category>
             <pubDate>Sun, 23 Apr 2023 17:14:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;关于栈的那些事&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于栈的那些事&#34;&gt;#&lt;/a&gt; 关于栈的那些事&lt;/h1&gt;
