@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world</title>
     <link href="http://example.com" />
-    <updated>2023-10-24T07:54:12.000Z</updated>
+    <updated>2023-10-27T07:28:25.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
     <category term="小白学C语言" />
@@ -45,6 +45,51 @@
     <category term="知识总结" />
     <category term="实训报告" />
     <category term="小测" />
+    <category term="概念介绍" />
+    <entry>
+        <id>http://example.com/2023/10/27/%E9%9B%86%E5%90%88/</id>
+        <title>集合</title>
+        <link rel="alternate" href="http://example.com/2023/10/27/%E9%9B%86%E5%90%88/"/>
+        <content type="html">&lt;h1 id=&#34;新概念-集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#新概念-集合&#34;&gt;#&lt;/a&gt; 新概念 - 集合&lt;/h1&gt;
+&lt;p&gt;集合是可变的数组（嗯，在我看来可以这样子认为）。不过它不能装基础数据类型&lt;/p&gt;
+&lt;p&gt;以下是集合的一些基本操作，增删改查&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.ArrayList;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;demol1_jihe&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        ArrayList&amp;lt;String&amp;gt; s=&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;ArrayList&lt;/span&gt;&amp;lt;&amp;gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.add(&lt;span class=&#34;string&#34;&gt;&amp;quot;aaa&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.add(&lt;span class=&#34;string&#34;&gt;&amp;quot;aaa&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.add(&lt;span class=&#34;string&#34;&gt;&amp;quot;bbb&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.add(&lt;span class=&#34;string&#34;&gt;&amp;quot;ddd&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;//删除&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.remove(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.remove(&lt;span class=&#34;string&#34;&gt;&amp;quot;aaa&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;//改&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        s.set(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;lll&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(s.get(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;; i &amp;lt; s.size(); i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            String s1=s.get(i);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            System.out.println(s1);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="概念介绍" />
+        <updated>2023-10-27T07:28:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A6%82%E5%BF%B5%E9%A2%98%E5%9E%8B/</id>
+        <title>数据库概念题型</title>
+        <link rel="alternate" href="http://example.com/2023/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A6%82%E5%BF%B5%E9%A2%98%E5%9E%8B/"/>
+        <content type="html">&lt;h1 id=&#34;期中复习的概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#期中复习的概念&#34;&gt;#&lt;/a&gt; 期中复习的概念&lt;/h1&gt;
+&lt;p&gt;1，数据库管理系统与操作系统有关，操作系统的类型决定了能够运行的数据库管理系统的类型。&lt;/p&gt;
+&lt;p&gt;2，数据库管理系统对数据库文件的访问必须经过操作系统实现才能实现。&lt;/p&gt;
+&lt;p&gt;3，数据库管理系统对用户隐藏了数据库文件的存放位置和文件名。&lt;/p&gt;
+&lt;p&gt;4，用文件管理数据，难以提供应用程序对数据的独立性。&lt;/p&gt;
+&lt;p&gt;5，当存储数据的文件名发生变化时，必须修改访问数据文件的应用程序。、&lt;/p&gt;
+&lt;p&gt;6，用文件存储数据的方式难以实现数据访问的安全控制。&lt;/p&gt;
+&lt;p&gt;7，数据库管理系统提供了应用程序和数据的独立性，能够保证数据库数据的可靠性，即使在数据的硬盘出现故障时，也能防止数据丢失。在数据库管理系统中，所有的数据作为一个整体考虑，因此                是相互关联的数据的集合。&lt;/p&gt;
+&lt;p&gt;8，在数据库系统中，数据库管理系统和操作系统之间的关系是并发运行。&lt;/p&gt;
+&lt;p&gt;9，数据库系统的物理独立性是指不会因为数据逻辑结构的变化而影响应用程序。&lt;/p&gt;
+&lt;p&gt;10，数据库管理系统是数据库系统的核心，他负责有效地组织、存储和管理数据，它位于用户和操作系统之间，属于系统软件。&lt;/p&gt;
+&lt;p&gt;11，数据库系统是由若干部分组成的，分别为数据库、应用程序和数据库管理系统等。&lt;/p&gt;
+&lt;p&gt;12，客户 / 服务器结构讲数据库存储在服务器端，文件服务器结构将数据库存储在客户端。&lt;/p&gt;
+&lt;p&gt;13，客户 / 服务器结构返回给客户端的是处理后的结果数据，文件服务器结构返回给客户端的是包含客户所需数据的文件。&lt;/p&gt;
+&lt;p&gt;14，客户 / 服务器结构比文件服务器结构的网络开销小。&lt;/p&gt;
+&lt;p&gt;15，数据库中不但需要保存数据，而且还需要保存数据之间的关联关系。&lt;/p&gt;
+&lt;p&gt;16，数据库中数据存储结构的变化不会影响到应用程序。&lt;/p&gt;
+&lt;p&gt;17，数据库中的数据具有较小的数据冗余。&lt;/p&gt;
+&lt;p&gt;18，数据库三级模式结构的划分，有利于数据的独立性。&lt;/p&gt;
+&lt;p&gt;19，在数据库的三级模式中，描述数据库中全体数据的逻辑结构和特征的是模式。&lt;/p&gt;
+&lt;p&gt;20，数据库系统中奖数据分为三个模式，从而提供了数据的独立性，当模式发生变化时，应用程序可以不变。&lt;/p&gt;
+&lt;p&gt;21，为最大限度地保证数据库数据的正确性，关系数据库实现了三个完整性约束，用于保证实体完整性的是主码。&lt;/p&gt;
+&lt;p&gt;22，主码包含的属性一定是主属性。&lt;/p&gt;
+&lt;p&gt;23，外码所引用的属性一定是主属性。&lt;/p&gt;
+&lt;p&gt;24，候选码所包含的属性都是主属性。&lt;/p&gt;
+</content>
+        <updated>2023-10-25T14:33:23.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/</id>
         <title>备用图床API</title>
