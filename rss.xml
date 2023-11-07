@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 05 Nov 2023 16:28:55 +0800</pubDate>
-        <lastBuildDate>Sun, 05 Nov 2023 16:28:55 +0800</lastBuildDate>
+        <pubDate>Tue, 07 Nov 2023 15:49:06 +0800</pubDate>
+        <lastBuildDate>Tue, 07 Nov 2023 15:49:06 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>C语言函数复习</category>
         <category>小白学C语言</category>
@@ -50,6 +50,17 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</guid>
+            <title>多态综合练习</title>
+            <link>http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</link>
+            <category>题库</category>
+            <pubDate>Tue, 07 Nov 2023 15:49:06 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;多态-综合练习题&#34;&gt;&lt;a href=&#34;#多态-综合练习题&#34; class=&#34;headerlink&#34; title=&#34;多态-综合练习题&#34;&gt;&lt;/a&gt;多态-综合练习题&lt;/h1&gt;&lt;h2 id=&#34;资料文档&#34;&gt;&lt;a href=&#34;#资料文档&#34; class=&#34;headerlink&#34; title=&#34;资料文档&#34;&gt;&lt;/a&gt;资料文档&lt;/h2&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311071549304.png&#34; alt=&#34;image-20231107154926139&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;代码如下&#34;&gt;&lt;a href=&#34;#代码如下&#34; class=&#34;headerlink&#34; title=&#34;代码如下&#34;&gt;&lt;/a&gt;代码如下&lt;/h3&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</guid>
             <title>第七个Java程序</title>

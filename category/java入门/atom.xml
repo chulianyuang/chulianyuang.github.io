@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>welcome to my world • Posts by &#34;java入门&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-11-05T08:28:55.000Z</updated>
+    <updated>2023-11-07T07:49:06.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
     <category term="小白学C语言" />
@@ -47,6 +47,17 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <entry>
+        <id>http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</id>
+        <title>多态综合练习</title>
+        <link rel="alternate" href="http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/"/>
+        <content type="html">&lt;h1 id=&#34;多态-综合练习题&#34;&gt;&lt;a href=&#34;#多态-综合练习题&#34; class=&#34;headerlink&#34; title=&#34;多态-综合练习题&#34;&gt;&lt;/a&gt;多态-综合练习题&lt;/h1&gt;&lt;h2 id=&#34;资料文档&#34;&gt;&lt;a href=&#34;#资料文档&#34; class=&#34;headerlink&#34; title=&#34;资料文档&#34;&gt;&lt;/a&gt;资料文档&lt;/h2&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311071549304.png&#34; alt=&#34;image-20231107154926139&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;代码如下&#34;&gt;&lt;a href=&#34;#代码如下&#34; class=&#34;headerlink&#34; title=&#34;代码如下&#34;&gt;&lt;/a&gt;代码如下&lt;/h3&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+</content>
+        <category term="题库" />
+        <updated>2023-11-07T07:49:06.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/</id>
         <title>第七个Java程序</title>

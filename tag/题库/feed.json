@@ -5,6 +5,16 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/",
+            "url": "http://example.com/2023/11/07/%E5%A4%9A%E6%80%81%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/",
+            "title": "多态综合练习",
+            "date_published": "2023-11-07T07:49:06.000Z",
+            "content_html": "<h1 id=\"多态-综合练习题\"><a href=\"#多态-综合练习题\" class=\"headerlink\" title=\"多态-综合练习题\"></a>多态-综合练习题</h1><h2 id=\"资料文档\"><a href=\"#资料文档\" class=\"headerlink\" title=\"资料文档\"></a>资料文档</h2><p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311071549304.png\" alt=\"image-20231107154926139\"></p>\n<h3 id=\"代码如下\"><a href=\"#代码如下\" class=\"headerlink\" title=\"代码如下\"></a>代码如下</h3><figure class=\"highlight java\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"></span><br></pre></td></tr></table></figure>\n\n",
+            "tags": [
+                "题库"
+            ]
+        },
+        {
             "id": "http://example.com/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
             "url": "http://example.com/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/",
             "title": "第七个Java程序",
