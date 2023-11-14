@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;typora&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-03-07T09:40:11.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</id>
+        <id>https://chulianyuang.github.io/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</id>
         <title>typora用法再深化</title>
-        <link rel="alternate" href="http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;本文旨在分享使用 Typora 做笔记的一些心得&lt;/p&gt;
 &lt;/blockquote&gt;

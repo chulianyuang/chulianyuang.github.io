@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;c语言实验报告&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 06 Dec 2022 12:13:13 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目五~模块化程序设计</title>
-            <link>http://example.com/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Tue, 06 Dec 2022 12:13:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-编写一个函数判断一个数是不是素数-在主函数中输入一个整数输出是否是素数的信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-编写一个函数判断一个数是不是素数-在主函数中输入一个整数输出是否是素数的信息&#34;&gt;#&lt;/a&gt; 1、 编写一个函数，判断一个数是不是素数。在主函数中输入一个整数，输出是否是素数的信息。&lt;/h1&gt;
@@ -113,9 +114,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
             <title>项目四~数组的应用</title>
-            <link>http://example.com/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+            <link>https://chulianyuang.github.io/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</link>
             <category>C语言实验报告</category>
             <pubDate>Mon, 05 Dec 2022 16:50:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-编写程序对n个数从小到大排序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-编写程序对n个数从小到大排序&#34;&gt;#&lt;/a&gt; 1． 编写程序，对 n 个数从小到大排序。&lt;/h1&gt;
@@ -148,9 +149,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目三 循环结构程序设计</title>
-            <link>http://example.com/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Sat, 26 Nov 2022 18:39:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1分别用while语句-do-while语句-for语句编写程序计算e111121n&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1分别用while语句-do-while语句-for语句编写程序计算e111121n&#34;&gt;#&lt;/a&gt; 1. 分别用 while 语句、do-while 语句、for 语句编写程序，计算 e≈1+1/1!+1/2!+…+1/n!&lt;/h1&gt;
@@ -184,9 +185,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目二  选择结构程序设计</title>
-            <link>http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Wed, 09 Nov 2022 00:19:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;项目二-本人用的是vs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#项目二-本人用的是vs&#34;&gt;#&lt;/a&gt; 项目二   本人用的是 VS&lt;/h1&gt;

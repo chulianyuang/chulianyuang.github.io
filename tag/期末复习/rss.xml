@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;期末复习&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 24 May 2023 12:59:44 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</guid>
             <title>操作系统习题汇总</title>
-            <link>http://example.com/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</link>
+            <link>https://chulianyuang.github.io/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/</link>
             <category>期末复习</category>
             <pubDate>Wed, 24 May 2023 12:59:44 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一章-操作系统概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-操作系统概述&#34;&gt;#&lt;/a&gt; 第一章 操作系统概述&lt;/h1&gt;
@@ -815,9 +816,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</guid>
             <title>数据结构与算法知识点汇总</title>
-            <link>http://example.com/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</link>
+            <link>https://chulianyuang.github.io/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/</link>
             <category>期末复习</category>
             <pubDate>Tue, 23 May 2023 13:00:35 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第一章-数据结构概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章-数据结构概述&#34;&gt;#&lt;/a&gt; 第一章 数据结构概述&lt;/h1&gt;

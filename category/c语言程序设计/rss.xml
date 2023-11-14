@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;c语言程序设计&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 24 Feb 2023 20:59:06 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/24/%E6%9E%9A%E4%B8%BE/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/02/24/%E6%9E%9A%E4%B8%BE/</guid>
             <title>枚举</title>
-            <link>http://example.com/2023/02/24/%E6%9E%9A%E4%B8%BE/</link>
+            <link>https://chulianyuang.github.io/2023/02/24/%E6%9E%9A%E4%B8%BE/</link>
             <category>C语言指针复习</category>
             <pubDate>Fri, 24 Feb 2023 20:59:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;定义：枚举是 C 语言中的一种基本数据类型，用于定义一组具有离散值的常量。&lt;/strong&gt;&lt;/p&gt;
@@ -153,9 +154,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
             <title>结构体的使用</title>
-            <link>http://example.com/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+            <link>https://chulianyuang.github.io/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
             <category>C语言复习</category>
             <pubDate>Wed, 08 Feb 2023 05:26:09 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;今天我们要学的新知识是结构体，相信大家都没有忘记我们期末时 C 语言项目实践要我们做的一个小游戏，我做的是贪吃蛇，里面就用上了结构体。我会在最后面带上我们小组写的贪吃蛇代码，让大家看看结构体在一个项目中如何真正实践。&lt;/p&gt;
@@ -167,9 +168,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
             <title>对printf和scanf两函数的理解</title>
-            <link>http://example.com/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</link>
+            <link>https://chulianyuang.github.io/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/</link>
             <category>C语言探索</category>
             <pubDate>Tue, 07 Feb 2023 20:38:01 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;printf 和 scanf 这两个函数我们经常在编写程序的过程中用到，printf 函数还好理解，但是 scanf 呢，直接上代码。&lt;/p&gt;
@@ -178,9 +179,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
             <title>指针与字符串</title>
-            <link>http://example.com/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+            <link>https://chulianyuang.github.io/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
             <category>C语言指针复习</category>
             <pubDate>Sat, 04 Feb 2023 19:57:16 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;定义：字符串在内存中的起始地址称为字符串的指针，可以定义一个字符型指针变量来指向一个字符串。&lt;/strong&gt;&lt;/p&gt;
@@ -240,9 +241,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</guid>
             <title>指向一维数组的指针变量</title>
-            <link>http://example.com/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</link>
+            <link>https://chulianyuang.github.io/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/</link>
             <category>C语言指针复习</category>
             <pubDate>Sat, 04 Feb 2023 17:01:06 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;指向一维数组的指针变量定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指向一维数组的指针变量定义&#34;&gt;#&lt;/a&gt; 指向一维数组的指针变量定义：&lt;/h2&gt;
@@ -304,9 +305,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</guid>
             <title>指针变量的定义</title>
-            <link>http://example.com/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</link>
+            <link>https://chulianyuang.github.io/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/</link>
             <category>C语言指针复习</category>
             <pubDate>Sat, 14 Jan 2023 19:24:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;指针变量的定义&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指针变量的定义&#34;&gt;#&lt;/a&gt; 指针变量的定义&lt;/h1&gt;
@@ -371,9 +372,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目五~模块化程序设计</title>
-            <link>http://example.com/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Tue, 06 Dec 2022 12:13:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-编写一个函数判断一个数是不是素数-在主函数中输入一个整数输出是否是素数的信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-编写一个函数判断一个数是不是素数-在主函数中输入一个整数输出是否是素数的信息&#34;&gt;#&lt;/a&gt; 1、 编写一个函数，判断一个数是不是素数。在主函数中输入一个整数，输出是否是素数的信息。&lt;/h1&gt;
@@ -433,9 +434,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/</guid>
             <title>C语言数组难题</title>
-            <link>http://example.com/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/</link>
+            <link>https://chulianyuang.github.io/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/</link>
             <category>三省吾身</category>
             <pubDate>Mon, 05 Dec 2022 16:58:05 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;2022 12 5&lt;/p&gt;
@@ -448,9 +449,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
             <title>项目四~数组的应用</title>
-            <link>http://example.com/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+            <link>https://chulianyuang.github.io/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/</link>
             <category>C语言实验报告</category>
             <pubDate>Mon, 05 Dec 2022 16:50:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1-编写程序对n个数从小到大排序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-编写程序对n个数从小到大排序&#34;&gt;#&lt;/a&gt; 1． 编写程序，对 n 个数从小到大排序。&lt;/h1&gt;
@@ -483,9 +484,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/</guid>
             <title>C语言函数调用困惑</title>
-            <link>http://example.com/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/</link>
+            <link>https://chulianyuang.github.io/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/</link>
             <category>三省吾身</category>
             <pubDate>Wed, 30 Nov 2022 08:56:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;函数声明的错误&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数声明的错误&#34;&gt;#&lt;/a&gt; 函数声明的错误&lt;/h1&gt;
@@ -505,9 +506,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
             <title>C语言数组模块知识总结</title>
-            <link>http://example.com/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
+            <link>https://chulianyuang.github.io/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
             <category>C语言大一上学期期末复习</category>
             <pubDate>Tue, 29 Nov 2022 14:22:03 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数组知识总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数组知识总结&#34;&gt;#&lt;/a&gt; 数组知识总结&lt;/h1&gt;
@@ -570,9 +571,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目三 循环结构程序设计</title>
-            <link>http://example.com/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Sat, 26 Nov 2022 18:39:51 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;1分别用while语句-do-while语句-for语句编写程序计算e111121n&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1分别用while语句-do-while语句-for语句编写程序计算e111121n&#34;&gt;#&lt;/a&gt; 1. 分别用 while 语句、do-while 语句、for 语句编写程序，计算 e≈1+1/1!+1/2!+…+1/n!&lt;/h1&gt;
@@ -606,9 +607,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
             <title>C语言函数模块知识总结</title>
-            <link>http://example.com/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
+            <link>https://chulianyuang.github.io/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
             <category>C语言函数复习</category>
             <pubDate>Fri, 25 Nov 2022 18:21:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
@@ -659,9 +660,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</guid>
             <title>C语言周末作业</title>
-            <link>http://example.com/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</link>
+            <link>https://chulianyuang.github.io/2022/11/23/C%E8%AF%AD%E8%A8%80%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A/</link>
             <category>小白学C语言</category>
             <pubDate>Wed, 23 Nov 2022 13:25:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第四章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第四章&#34;&gt;#&lt;/a&gt; 第四章&lt;/h1&gt;
@@ -705,9 +706,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/</guid>
             <title>困扰我的程序难题</title>
-            <link>http://example.com/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/</link>
+            <link>https://chulianyuang.github.io/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/</link>
             <category>三省吾身</category>
             <pubDate>Wed, 23 Nov 2022 09:18:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一个浪费我一天还找不出问题的程序&#34;&gt;&lt;a href=&#34;#一个浪费我一天还找不出问题的程序&#34; class=&#34;headerlink&#34; title=&#34;一个浪费我一天还找不出问题的程序&#34;&gt;&lt;/a&gt;一个浪费我一天还找不出问题的程序&lt;/h1&gt;&lt;h2 id=&#34;计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n-（只能用while循环）&#34;&gt;&lt;a href=&#34;#计算e≈1-1-x2F-1-1-x2F-2-…-1-x2F-n-（只能用while循环）&#34; class=&#34;headerlink&#34; title=&#34;计算e≈1 + 1 &amp;#x2F; 1!+ 1 &amp;#x2F; 2!+ … + 1 &amp;#x2F; n!（只能用while循环）&#34;&gt;&lt;/a&gt;计算e≈1 + 1 &amp;#x2F; 1!+ 1 &amp;#x2F; 2!+ … + 1 &amp;#x2F; n!（只能用while循环）&lt;/h2&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	double k = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	double b = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	int n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	double sum = 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	scanf_s(&amp;quot;%d&amp;quot;, &amp;amp;n);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	while (n &amp;gt; 1)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		a = n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		while (a &amp;gt;= 1) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			sum *= a;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			a--;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		b = 1.0 / sum;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		k = k + b;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		n--;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	printf(&amp;quot;%lf&amp;quot;,1+ k);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -732,9 +733,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/</guid>
             <title>入门级C语言练习题</title>
-            <link>http://example.com/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/</link>
+            <link>https://chulianyuang.github.io/2022/11/12/%E5%85%A5%E9%97%A8%E7%BA%A7C%E8%AF%AD%E8%A8%80%E7%BB%83%E4%B9%A0%E9%A2%98/</link>
             <category>练习题</category>
             <pubDate>Sat, 12 Nov 2022 18:32:01 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;不会的话可以去看小白学 C 语言&lt;/p&gt;
@@ -744,9 +745,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/</guid>
             <title>C语言学习到现在的所有错误总结</title>
-            <link>http://example.com/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/</link>
+            <link>https://chulianyuang.github.io/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/</link>
             <category>三省吾身</category>
             <pubDate>Fri, 11 Nov 2022 01:45:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;我也是一个小白啊这个贴没啥好看的受一个朋友的话影响-就决定记录我平时犯的一些傻逼错误&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#我也是一个小白啊这个贴没啥好看的受一个朋友的话影响-就决定记录我平时犯的一些傻逼错误&#34;&gt;#&lt;/a&gt; 我也是一个小白啊，这个贴没啥好看的，受一个朋友的话影响。就决定记录我平时犯的一些傻逼错误&lt;/h1&gt;
@@ -762,9 +763,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>C语言题目由简单到复杂</title>
-            <link>http://example.com/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>小白学C语言</category>
             <pubDate>Thu, 10 Nov 2022 01:11:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一个给c语言自学者提供题目的地方希望能帮到你们&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一个给c语言自学者提供题目的地方希望能帮到你们&#34;&gt;#&lt;/a&gt; 一个给 C 语言自学者提供题目的地方，希望能帮到你们&lt;/h1&gt;
@@ -844,9 +845,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
             <title>项目二  选择结构程序设计</title>
-            <link>http://example.com/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
+            <link>https://chulianyuang.github.io/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
             <category>C语言实验报告</category>
             <pubDate>Wed, 09 Nov 2022 00:19:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;项目二-本人用的是vs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#项目二-本人用的是vs&#34;&gt;#&lt;/a&gt; 项目二   本人用的是 VS&lt;/h1&gt;

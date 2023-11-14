@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;知识总结&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 09 Mar 2023 21:06:54 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
             <title>顺序表中基本操作的实现</title>
-            <link>http://example.com/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+            <link>https://chulianyuang.github.io/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
             <category>知识总结</category>
             <pubDate>Thu, 09 Mar 2023 21:06:54 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;顺序表中基本操作的实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顺序表中基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序表中基本操作的实现&lt;/h1&gt;

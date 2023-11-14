@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;日常小作&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2022-12-10T15:06:01.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/</id>
+        <id>https://chulianyuang.github.io/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/</id>
         <title>梦想中的工作</title>
-        <link rel="alternate" href="http://example.com/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
         <content type="html">&lt;h1 id=&#34;my-dream-job&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#my-dream-job&#34;&gt;#&lt;/a&gt; My dream job&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;In fact, my dream job should be to have no job and I can take my partner and my family to travel around the world every day enjoying the beauty of nature and eating all kinds of food. But I know this is unrealistic. Therefore, my dream job become creating an Internet company. Only when I have enough strength can I play at will. I thing dream is a little divorced from reality and can not leave reality. It feels just like science fiction. As a boy, I must have ambition. I want to build an Internet company stronger than Google  which is my dream job. I know it’s almost impossible, but maybe!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;My company job in the Internet company is to maintain the normal operation of the virtual world. In my opinion, people in the future will completely will abandon mobile phones to play games. The mobile phone will return to its original function ,which is communication. People will swim in the virtual world through the equipment provided by our company, and 100% simulate the five senses of players. The main profit of our company will be the percentage of players trading in the virtual world.&lt;/strong&gt;&lt;/p&gt;

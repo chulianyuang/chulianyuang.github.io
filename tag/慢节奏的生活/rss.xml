@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;慢节奏的生活&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 08 Nov 2022 01:17:22 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</guid>
             <title>我喜欢的一些课外书</title>
-            <link>http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</link>
+            <link>https://chulianyuang.github.io/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</link>
             <category>慢节奏的生活</category>
             <pubDate>Tue, 08 Nov 2022 01:17:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;#&lt;/a&gt; 如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&lt;/h1&gt;

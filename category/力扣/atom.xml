@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;力扣&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-03-15T08:22:22.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</id>
+        <id>https://chulianyuang.github.io/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/</id>
         <title>力扣题型试水</title>
-        <link rel="alternate" href="http://example.com/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/"/>
         <content type="html">&lt;h1 id=&#34;279-完全平方数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#279-完全平方数&#34;&gt;#&lt;/a&gt; [279. 完全平方数]&lt;/h1&gt;
 &lt;p&gt;给你一个整数  &lt;code&gt;n&lt;/code&gt;  ，返回 &lt;em&gt;和为  &lt;code&gt;n&lt;/code&gt;  的完全平方数的最少数量&lt;/em&gt; 。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;完全平方数&lt;/strong&gt; 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如， &lt;code&gt;1&lt;/code&gt; 、 &lt;code&gt;4&lt;/code&gt; 、 &lt;code&gt;9&lt;/code&gt;  和  &lt;code&gt;16&lt;/code&gt;  都是完全平方数，而  &lt;code&gt;3&lt;/code&gt;  和  &lt;code&gt;11&lt;/code&gt;  不是。&lt;/p&gt;

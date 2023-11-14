@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;金融学&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-02-22T09:17:38.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</id>
+        <id>https://chulianyuang.github.io/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/</id>
         <title>股票入门</title>
-        <link rel="alternate" href="http://example.com/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;股票交易时间：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;股票交易时间为每周一到周五&lt;/li&gt;

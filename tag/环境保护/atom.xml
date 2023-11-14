@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;环境保护&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-03-03T09:47:19.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</id>
+        <id>https://chulianyuang.github.io/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</id>
         <title>环境保护小作</title>
-        <link rel="alternate" href="http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/"/>
         <content type="html">&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;In high school, I was impressed by a word in a magazine, “The earth does not need humans, but humans cannot do without the earth, at least for now.” &amp;quot;In my opinion,the earth is sick today, and protecting the environment and recycling is a very important and urgent thing. Mother Earth is tolerance that she rarely gets angry at us for doing something that hurts it, but we can’t take this love for granted. It is time for us to make environment-friendly choices, such as sorting garbage into recyclable groups, saving water and electricity, using less plastic bags, plant more trees, and take more public transportation. I believe that with our efforts, the blue sky will definitely be bluer.&lt;/strong&gt;&lt;/p&gt;
 </content>

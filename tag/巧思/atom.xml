@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;巧思&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-03-09T08:58:16.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</id>
+        <id>https://chulianyuang.github.io/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/</id>
         <title>c语言malloc函数的用法和意义</title>
-        <link rel="alternate" href="http://example.com/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/"/>
         <content type="html">&lt;p&gt;当我们需要做一个成绩管理系统，人数可能为全校学生，也可能为一个班的学生，当我们开辟一个班的数组大小时，如果要存储整个学校的人数时，会出现内存不够用的情况；当我们开辟全校人数大小的数组时，输入一个班人数的大小时，会出现内存浪费的情况。&lt;br&gt;
 为了应对上述问题，我们引入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1tYWxsb2MmYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt; malloc&lt;/span&gt; 函数。&lt;br&gt;
 &lt;strong&gt;malloc 时动态内存分配函数，用于申请一块连续的指定大小的内存块区域以 void * 类型返回分配的内存区域地址&lt;/strong&gt;&lt;/p&gt;

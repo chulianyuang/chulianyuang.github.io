@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;线性代数&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 11 Nov 2022 01:23:22 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</guid>
             <title>简明线性代数第二章小节2</title>
-            <link>http://example.com/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
+            <link>https://chulianyuang.github.io/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/</link>
             <category>矩阵与求解</category>
             <pubDate>Fri, 11 Nov 2022 01:23:22 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;第二章-线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二章-线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 第二章 线性方程组与矩阵的初等变换&lt;/h1&gt;
@@ -132,9 +133,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
             <title>简明线性代数第二章小节1</title>
-            <link>http://example.com/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+            <link>https://chulianyuang.github.io/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
             <category>慢慢就爱上的科目</category>
             <pubDate>Tue, 08 Nov 2022 16:12:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;线性方程组与矩阵的初等变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#线性方程组与矩阵的初等变换&#34;&gt;#&lt;/a&gt; 线性方程组与矩阵的初等变换&lt;/h1&gt;

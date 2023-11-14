@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;大学计划1&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sat, 12 Nov 2022 00:33:00 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/</guid>
             <title>大学规划</title>
-            <link>http://example.com/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/</link>
+            <link>https://chulianyuang.github.io/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/</link>
             <category>大学计划1</category>
             <pubDate>Sat, 12 Nov 2022 00:33:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;大一要做的事&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#大一要做的事&#34;&gt;#&lt;/a&gt; 大一要做的事&lt;/h1&gt;

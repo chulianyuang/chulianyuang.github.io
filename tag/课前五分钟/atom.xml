@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;课前五分钟&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-05-23T08:14:51.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</id>
+        <id>https://chulianyuang.github.io/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</id>
         <title>英语演讲</title>
-        <link rel="alternate" href="http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/"/>
         <content type="html">&lt;h1 id=&#34;ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;#&lt;/a&gt; AI 创作歌曲火出圈，引发音乐行业恐慌&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231652128.jpg&#34; alt=&#34;OIP-C&#34; style=&#34;zoom:;&#34; /&gt;&lt;img data-src=&#34;https://ts1.cn.mm.bing.net/th/id/R-C.d2471a686aaae91cc575a242d85a4a30?rik=SIAdrmFbgMT0ag&amp;riu=http%3a%2f%2fwww.tmtage.com%2fwp-content%2fuploads%2f2017%2f12%2f20171213ai.jpg&amp;ehk=a03Ri%2bcpPR4gS%2bu2m%2fR4IUv0gHSJ9JNMD76TNLQKjGo%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&#34; alt=&#34;AI创作物的法律保护不容忽视-蓝时代&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;The viral song “Heart on My Sleeve,” released last week by TikTok user Ghostwriter977  but made popular because of its purported use of Al-generated vocals mimicking superstars Drake and The Weeknd, has caused quite a stir.&lt;/p&gt;

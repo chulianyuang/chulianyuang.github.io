@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;项目一-学生管理系统&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Mon, 30 Oct 2023 20:11:55 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
             <title>学生管理系统</title>
-            <link>http://example.com/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
+            <link>https://chulianyuang.github.io/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
             <category>项目一-学生管理系统</category>
             <pubDate>Mon, 30 Oct 2023 20:11:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;Java-学生管理系统&#34;&gt;&lt;a href=&#34;#Java-学生管理系统&#34; class=&#34;headerlink&#34; title=&#34;Java-学生管理系统&#34;&gt;&lt;/a&gt;Java-学生管理系统&lt;/h1&gt;&lt;h2 id=&#34;需求文档：&#34;&gt;&lt;a href=&#34;#需求文档：&#34; class=&#34;headerlink&#34; title=&#34;需求文档：&#34;&gt;&lt;/a&gt;需求文档：&lt;/h2&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202310302014849.png&#34; alt=&#34;image-20231030201415628&#34;&gt;&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;高等数学&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sat, 10 Dec 2022 23:09:41 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</guid>
             <title>内心独白</title>
-            <link>http://example.com/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</link>
+            <link>https://chulianyuang.github.io/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</link>
             <category>三省吾身</category>
             <pubDate>Sat, 10 Dec 2022 23:09:41 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;对自己说的话&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#对自己说的话&#34;&gt;#&lt;/a&gt; 对自己说的话&lt;/h1&gt;

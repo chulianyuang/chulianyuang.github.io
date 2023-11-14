@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;typora&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 07 Mar 2023 17:40:11 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</guid>
             <title>typora用法再深化</title>
-            <link>http://example.com/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</link>
+            <link>https://chulianyuang.github.io/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/</link>
             <category>细化操作</category>
             <pubDate>Tue, 07 Mar 2023 17:40:11 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;

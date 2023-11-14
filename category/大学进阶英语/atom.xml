@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;大学进阶英语&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-08-05T17:16:38.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,10 +47,11 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/</id>
+        <id>https://chulianyuang.github.io/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/</id>
         <title>暑假规划</title>
-        <link rel="alternate" href="http://example.com/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/"/>
         <content type="html">&lt;h1 id=&#34;me-for-you&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#me-for-you&#34;&gt;#&lt;/a&gt; ME FOR YOU&lt;/h1&gt;
 &lt;p&gt;暑假还有一个月就结束了，接下来的我就是大二的老牛了，我总感觉大一好像并没有学到什么，比赛也没有怎么参加，我知道自身的情况，但我可以保证我大一确实没有荒废时间，不得不说，还是比较喜欢高中被老师撵着前行的日子，进入大学后基本上就是自学了，老师不怎么管你，但是自学真的好乱啊，我是准备参加大三的秋招的，但以我现在的实力，我真的不知到应该怎么写才能被企业招聘。&lt;/p&gt;
 &lt;p&gt;最近我逛招聘网站发现大型的 IT 公司贴出来的人才需求上写着四六级英语优先，现在大家这么卷，优先在这个时代就是基础要求的意思，所以我准备学英语啦，先把四六级考试证书拿下再说，我本来是想大一去考的，但我实力差了点，上学期考试不给力，没有考到 A 班，所以连参加考试的资格都没有。但大二就是我们 B 班去考试了，我争取一次过，所以从今天开始，我明天都会自己试着去翻译一章英语名著。不过现在得先睡觉，hh。&lt;/p&gt;
@@ -59,9 +60,9 @@
         <updated>2023-08-05T17:16:38.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</id>
+        <id>https://chulianyuang.github.io/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/</id>
         <title>英语演讲</title>
-        <link rel="alternate" href="http://example.com/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/"/>
         <content type="html">&lt;h1 id=&#34;ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ai创作歌曲火出圈引发音乐行业恐慌&#34;&gt;#&lt;/a&gt; AI 创作歌曲火出圈，引发音乐行业恐慌&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231652128.jpg&#34; alt=&#34;OIP-C&#34; style=&#34;zoom:;&#34; /&gt;&lt;img data-src=&#34;https://ts1.cn.mm.bing.net/th/id/R-C.d2471a686aaae91cc575a242d85a4a30?rik=SIAdrmFbgMT0ag&amp;riu=http%3a%2f%2fwww.tmtage.com%2fwp-content%2fuploads%2f2017%2f12%2f20171213ai.jpg&amp;ehk=a03Ri%2bcpPR4gS%2bu2m%2fR4IUv0gHSJ9JNMD76TNLQKjGo%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&#34; alt=&#34;AI创作物的法律保护不容忽视-蓝时代&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;The viral song “Heart on My Sleeve,” released last week by TikTok user Ghostwriter977  but made popular because of its purported use of Al-generated vocals mimicking superstars Drake and The Weeknd, has caused quite a stir.&lt;/p&gt;
@@ -81,9 +82,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2023-05-23T08:14:51.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</id>
+        <id>https://chulianyuang.github.io/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/</id>
         <title>环境保护小作</title>
-        <link rel="alternate" href="http://example.com/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/"/>
         <content type="html">&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;In high school, I was impressed by a word in a magazine, “The earth does not need humans, but humans cannot do without the earth, at least for now.” &amp;quot;In my opinion,the earth is sick today, and protecting the environment and recycling is a very important and urgent thing. Mother Earth is tolerance that she rarely gets angry at us for doing something that hurts it, but we can’t take this love for granted. It is time for us to make environment-friendly choices, such as sorting garbage into recyclable groups, saving water and electricity, using less plastic bags, plant more trees, and take more public transportation. I believe that with our efforts, the blue sky will definitely be bluer.&lt;/strong&gt;&lt;/p&gt;
 </content>
@@ -91,9 +92,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2023-03-03T09:47:19.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/</id>
+        <id>https://chulianyuang.github.io/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/</id>
         <title>制药公司可以合法开始销售可卡因、海洛因和摇头丸</title>
-        <link rel="alternate" href="http://example.com/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/02/28/%E8%8B%B1%E8%AF%AD%E8%A7%92/"/>
         <content type="html">&lt;hr&gt;
 &lt;p&gt;*&lt;em&gt;An anonymous reader quotes a report from Motherboard:&lt;em&gt;At least two companies in British Columbia, Canada, say they’ve received exemptions from the federal government &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS85M2s5NTcvY2FuYWRhLWJjLWNvY2FpbmUtc2FsZQ==&#34;&gt;allowing them to produce and distribute cocaine, heroin, MDMA, or magic mushrooms&lt;/span&gt;. But it’s not clear under what circumstances the companies will be able to sell the drugs, and B.C. Premier David Eby said he was “astonished” to hear the announcement. On Thursday, Sunshine Earth Labs, a psychedelics manufacturer &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubmV3c3dpcmUuY2EvbmV3cy1yZWxlYXNlcy9zdW5zaGluZS1lYXJ0aC1sYWJzLWx0ZC1wcm92aWRlcy1jb3Jwb3JhdGUtdXBkYXRlLTg0OTEzMjE1Ny5odG1s&#34;&gt;announced&lt;/span&gt; that Health Canada, a federal government agency, is allowing the company to legally produce and distribute the coca leaf and cocaine; MDMA; opium; morphine, heroin and psilocybin, the active ingredient in shrooms. The company said it plans to “bring a safer supply of drugs to the global market.”&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Meanwhile, cannabis extractions company Adastra &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hZGFzdHJhaG9sZGluZ3MuY2EvYWRhc3RyYS1sYWJzLXJlY2VpdmVzLWhlYWx0aC1jYW5hZGEtYXBwcm92YWwtZm9yLXRoZS1hbWVuZG1lbnQtdG8taW5jbHVkZS1jb2NhaW5lLXVuZGVyLWl0cy1jb250cm9sbGVkLXN1YnN0YW5jZXMtZGVhbGVycy1saWNlbnNlLw==&#34;&gt;announced&lt;/span&gt; it’s now legally allowed to both produce and distribute psilocybin and cocaine. In a statement to VICE News, Health Canada said Adastra is licensed to produce the drugs for scientific and medical purposes but cannot sell products to the general public. “They are only permitted for sale to other licence holders who have cocaine listed on their licence, pharmacists, practitioners, hospitals, or the holder of a section 56(1) exemption for research purposes,” the agency said.&lt;/strong&gt;&lt;/p&gt;
@@ -104,9 +105,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2023-02-28T14:15:04.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/</id>
+        <id>https://chulianyuang.github.io/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/</id>
         <title>英语复习</title>
-        <link rel="alternate" href="http://example.com/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/02/27/%E8%8B%B1%E8%AF%AD%E5%A4%8D%E4%B9%A0/"/>
         <content type="html">&lt;h1 id=&#34;课文再复习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#课文再复习&#34;&gt;#&lt;/a&gt; 课文再复习&lt;/h1&gt;
 &lt;h2 id=&#34;living-off-the-grid-how-a-family-of-city-dwellers-discovered-the-simple-life&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#living-off-the-grid-how-a-family-of-city-dwellers-discovered-the-simple-life&#34;&gt;#&lt;/a&gt; Living off the grid :How a Family of City-Dwellers Discovered the Simple Life&lt;/h2&gt;
 &lt;p&gt;After living in the 24-hour city of Las Vegas , Nevada for nearly ten years,my family and I decided to slow things down. My daughter wanted a horse .My husband wanted property .My son wanted a dirt bike. I wanted our family to be more self-sufficient.&lt;/p&gt;
@@ -118,9 +119,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2023-02-27T13:36:44.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/</id>
+        <id>https://chulianyuang.github.io/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/</id>
         <title>梦想中的工作</title>
-        <link rel="alternate" href="http://example.com/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
         <content type="html">&lt;h1 id=&#34;my-dream-job&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#my-dream-job&#34;&gt;#&lt;/a&gt; My dream job&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;In fact, my dream job should be to have no job and I can take my partner and my family to travel around the world every day enjoying the beauty of nature and eating all kinds of food. But I know this is unrealistic. Therefore, my dream job become creating an Internet company. Only when I have enough strength can I play at will. I thing dream is a little divorced from reality and can not leave reality. It feels just like science fiction. As a boy, I must have ambition. I want to build an Internet company stronger than Google  which is my dream job. I know it’s almost impossible, but maybe!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;My company job in the Internet company is to maintain the normal operation of the virtual world. In my opinion, people in the future will completely will abandon mobile phones to play games. The mobile phone will return to its original function ,which is communication. People will swim in the virtual world through the equipment provided by our company, and 100% simulate the five senses of players. The main profit of our company will be the percentage of players trading in the virtual world.&lt;/strong&gt;&lt;/p&gt;
@@ -137,9 +138,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2022-12-10T15:06:01.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</id>
+        <id>https://chulianyuang.github.io/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/</id>
         <title>一路向前</title>
-        <link rel="alternate" href="http://example.com/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/"/>
         <content type="html">&lt;h1 id=&#34;2022-12-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2022-12-2&#34;&gt;#&lt;/a&gt; 2022 12 2&lt;/h1&gt;
 &lt;h2 id=&#34;the-higher-i-got-the-more-amazed-i-was-by-the-view&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#the-higher-i-got-the-more-amazed-i-was-by-the-view&#34;&gt;#&lt;/a&gt; The higher I got ,the more amazed I was by the view&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;我爬得越高，眼前的风景便愈发迷人&lt;/strong&gt;&lt;/p&gt;
@@ -148,9 +149,9 @@ estimated the song may have earned $9,400 globally across all platforms.&lt;/p&g
         <updated>2022-12-02T10:16:39.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/</id>
+        <id>https://chulianyuang.github.io/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/</id>
         <title>课前五分钟中英双版</title>
-        <link rel="alternate" href="http://example.com/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/"/>
         <content type="html">&lt;h1 id=&#34;the-charm-of-cantonese&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#the-charm-of-cantonese&#34;&gt;#&lt;/a&gt; The charm of Cantonese&lt;/h1&gt;
 &lt;p&gt;Compared to Mandarin, Cantonese has more variability in tone. From a language point of view alone, such a language will make a good impression, so it is more layered into the song. Mainlanders prefer Cantonese songs because the language has a unique charm, and it will be more distinctive when added to the melody. Even if you can’t understand the meaning of the lyrics, you still cannot help  humming along . Cantonese is loved by many audiences and fans.&lt;/p&gt;
 &lt;p&gt;Cantonese itself has a retro flavor. The reason why there is a retro taste is because the elements of ancient Chinese are still retained in the process of development. In order to adapt to the development of the times,many languages are becoming easier and simpler  and some older words will be omitted or abandoned in the process, so that the language becomes more understandable. However, there are still some older words and pronunciations in Cantonese, which will add a historical atmosphere and cultural heritage to the language. Due to the existence of ancient Chinese elements, this language also has a more simple and elegant atmosphere, and adding melody and rhythm to Cantonese songs is more flavorful.&lt;/p&gt;

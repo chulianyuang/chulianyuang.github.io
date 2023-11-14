@@ -1,0 +1,542 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="welcome to my world" href="https://chulianyuang.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="welcome to my world" href="https://chulianyuang.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="welcome to my world" href="https://chulianyuang.github.io/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="Java项目" />
+
+
+<link rel="canonical" href="https://chulianyuang.github.io/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/">
+
+
+
+  <title>
+拼图小游戏.java - Java入门 |
+Luo的小世界 = welcome to my world</title>
+<meta name="generator" content="Hexo 6.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">拼图小游戏.java
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2023-11-12 10:50:15">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2023-11-12T10:50:15+08:00">2023-11-12</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">Luo的小世界</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?172577"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?811777"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?986166"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?352041"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?521206"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?338147"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/Java%E5%85%A5%E9%97%A8/" itemprop="item" rel="index" title="分类于 Java入门"><span itemprop="name">Java入门</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="https://chulianyuang.github.io/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="罗梓丰">
+    <meta itemprop="description" content=", ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="welcome to my world">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h1 id="拼图小游戏-Java-GUI"><a href="#拼图小游戏-Java-GUI" class="headerlink" title="拼图小游戏-Java GUI"></a>拼图小游戏-Java GUI</h1><h2 id="创建主界面"><a href="#创建主界面" class="headerlink" title="创建主界面"></a>创建主界面</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311121052352.png" alt="image-20231112105222250"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Itluo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MWin</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//创建游戏主界面</span></span><br><span class="line">        JFrame game0=<span class="keyword">new</span> <span class="title class_">JFrame</span>();</span><br><span class="line">        game0.setSize(<span class="number">603</span>,<span class="number">680</span>);</span><br><span class="line">        game0.setVisible(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//创建登录界面</span></span><br><span class="line">        JFrame game1=<span class="keyword">new</span> <span class="title class_">JFrame</span>();</span><br><span class="line">        game1.setSize(<span class="number">488</span>,<span class="number">430</span>);</span><br><span class="line">        game1.setVisible(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//创建注册界面</span></span><br><span class="line">        JFrame game2=<span class="keyword">new</span> <span class="title class_">JFrame</span>();</span><br><span class="line">        game2.setSize(<span class="number">488</span>,<span class="number">500</span>);</span><br><span class="line">        game2.setVisible(<span class="literal">true</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="小练习"><a href="#小练习" class="headerlink" title="小练习"></a>小练习</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311130024322.png" alt="屏幕截图 2023-11-13 002124"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">changearr</span><span class="params">()</span> &#123;</span><br><span class="line">       <span class="type">int</span> []arr=&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">11</span>,<span class="number">12</span>,<span class="number">13</span>,<span class="number">14</span>,<span class="number">15</span>&#125;;</span><br><span class="line">       <span class="comment">//设置循环对数组进行打乱</span></span><br><span class="line">       <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">           <span class="comment">//生成0-15的序列号</span></span><br><span class="line">           Random rd=<span class="keyword">new</span> <span class="title class_">Random</span>();</span><br><span class="line">           <span class="type">int</span> x= rd.nextInt(<span class="number">16</span>);</span><br><span class="line">           <span class="comment">//将当前数和x对应的序列数进行交换,创建一个中间载体</span></span><br><span class="line">           <span class="type">int</span> x1=arr[i];</span><br><span class="line">           arr[i]=arr[x];</span><br><span class="line">           arr[x]=x1;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="comment">//将所得一维数组改成二维数组</span></span><br><span class="line"></span><br><span class="line">       <span class="comment">//进行循环录入数据</span></span><br><span class="line">       <span class="type">int</span> y=<span class="number">0</span>;</span><br><span class="line">       <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">4</span>; i++) &#123;</span><br><span class="line">           <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i1</span> <span class="operator">=</span> <span class="number">0</span>; i1 &lt; <span class="number">4</span>; i1++) &#123;</span><br><span class="line">               arr1[i1][i]=arr[y];</span><br><span class="line">               <span class="comment">//登记0图坐标</span></span><br><span class="line">               <span class="keyword">if</span>(arr[y]==<span class="number">0</span>)&#123;</span><br><span class="line">                   x1=i1;</span><br><span class="line">                   y1=i;</span><br><span class="line">               &#125;</span><br><span class="line">               y++;</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="拼图游戏代码"><a href="#拼图游戏代码" class="headerlink" title="拼图游戏代码"></a>拼图游戏代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Itluo.Login;</span><br><span class="line"><span class="keyword">import</span> Itluo.game;</span><br><span class="line"><span class="keyword">import</span> Itluo.regist;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">APP</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">game</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Itluo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"><span class="keyword">import</span> javax.swing.border.BevelBorder;</span><br><span class="line"><span class="keyword">import</span> java.awt.event.ActionEvent;</span><br><span class="line"><span class="keyword">import</span> java.awt.event.ActionListener;</span><br><span class="line"><span class="keyword">import</span> java.awt.event.KeyEvent;</span><br><span class="line"><span class="keyword">import</span> java.awt.event.KeyListener;</span><br><span class="line"><span class="keyword">import</span> java.util.Arrays;</span><br><span class="line"><span class="keyword">import</span> java.util.Objects;</span><br><span class="line"><span class="keyword">import</span> java.util.Random;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">game</span> <span class="keyword">extends</span> <span class="title class_">JFrame</span> <span class="keyword">implements</span> <span class="title class_">ActionListener</span> &#123;</span><br><span class="line">    <span class="comment">//定义一个二维数组容器</span></span><br><span class="line">    <span class="type">int</span> [][]arr1=<span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">4</span>][<span class="number">4</span>];</span><br><span class="line">    <span class="comment">//定义0号拼图坐标</span></span><br><span class="line">    <span class="type">int</span> x1;</span><br><span class="line">    <span class="type">int</span> y1;</span><br><span class="line">    <span class="type">int</span>[][]win1=&#123;</span><br><span class="line">            &#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">9</span>, <span class="number">13</span>&#125;,</span><br><span class="line">            &#123;<span class="number">2</span>, <span class="number">6</span>, <span class="number">10</span>, <span class="number">14</span>&#125;,</span><br><span class="line">            &#123;<span class="number">2</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">15</span>&#125;,</span><br><span class="line">            &#123;<span class="number">4</span>, <span class="number">8</span>, <span class="number">12</span>, <span class="number">0</span>&#125;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//定义步数计数器</span></span><br><span class="line">    <span class="type">int</span> step=<span class="number">0</span>;</span><br><span class="line">    JMenuItem replay=<span class="keyword">new</span> <span class="title class_">JMenuItem</span>(<span class="string">&quot;重新游戏&quot;</span>);</span><br><span class="line">    JMenuItem reLogin=<span class="keyword">new</span> <span class="title class_">JMenuItem</span>(<span class="string">&quot;重新登录&quot;</span>);</span><br><span class="line">    JMenuItem Exsist=<span class="keyword">new</span> <span class="title class_">JMenuItem</span>(<span class="string">&quot;关闭游戏&quot;</span>);</span><br><span class="line">    JMenuItem abouT=<span class="keyword">new</span> <span class="title class_">JMenuItem</span>(<span class="string">&quot;公众号&quot;</span>);</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">game</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="comment">//边框设置</span></span><br><span class="line">        Thelooking();</span><br><span class="line">        <span class="comment">//设置菜单</span></span><br><span class="line">        Menue0();</span><br><span class="line">        <span class="comment">//初始化数据</span></span><br><span class="line">        changearr();</span><br><span class="line"></span><br><span class="line">        <span class="comment">//初始化图片</span></span><br><span class="line">        runimagin();</span><br><span class="line"></span><br><span class="line">        <span class="comment">//将界面展示</span></span><br><span class="line">        <span class="built_in">this</span>.setVisible(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">changearr</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> []arr=&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">11</span>,<span class="number">12</span>,<span class="number">13</span>,<span class="number">14</span>,<span class="number">15</span>&#125;;</span><br><span class="line">        <span class="comment">//设置循环对数组进行打乱</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">            <span class="comment">//生成0-15的序列号</span></span><br><span class="line">            Random rd=<span class="keyword">new</span> <span class="title class_">Random</span>();</span><br><span class="line">            <span class="type">int</span> x= rd.nextInt(<span class="number">16</span>);</span><br><span class="line">            <span class="comment">//将当前数和x对应的序列数进行交换,创建一个中间载体</span></span><br><span class="line">            <span class="type">int</span> x1=arr[i];</span><br><span class="line">            arr[i]=arr[x];</span><br><span class="line">            arr[x]=x1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//将所得一维数组改成二维数组</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">//进行循环录入数据</span></span><br><span class="line">        <span class="type">int</span> y=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">4</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i1</span> <span class="operator">=</span> <span class="number">0</span>; i1 &lt; <span class="number">4</span>; i1++) &#123;</span><br><span class="line">                arr1[i1][i]=arr[y];</span><br><span class="line">                <span class="comment">//登记0图坐标</span></span><br><span class="line">                <span class="keyword">if</span>(arr[y]==<span class="number">0</span>)&#123;</span><br><span class="line">                    x1=i1;</span><br><span class="line">                    y1=i;</span><br><span class="line">                &#125;</span><br><span class="line">                y++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">runimagin</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//清楚原本的图层，因为先加载的图层在上边</span></span><br><span class="line">        <span class="built_in">this</span>.getContentPane().removeAll();</span><br><span class="line">        <span class="keyword">if</span>(win())&#123;</span><br><span class="line">           arr1[<span class="number">3</span>][<span class="number">3</span>]=<span class="number">16</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; <span class="number">4</span>; j++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">4</span>; i++) &#123;</span><br><span class="line">                <span class="comment">//导入一张图片</span></span><br><span class="line">                <span class="comment">//将图片放进管理器</span></span><br><span class="line">                <span class="type">int</span> num=arr1[i][j];</span><br><span class="line">                JLabel run1=<span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="keyword">new</span> <span class="title class_">ImageIcon</span>(<span class="string">&quot;C:\\Users\\luo66\\Desktop\\作业\\blue cup_java\\untitled11\\image\\&quot;</span>+num+<span class="string">&quot;.jpg&quot;</span>));</span><br><span class="line">                <span class="comment">//指定图片位置</span></span><br><span class="line">                run1.setBounds(<span class="number">105</span>*i+<span class="number">83</span>,j*<span class="number">105</span>+<span class="number">134</span>,<span class="number">105</span>,<span class="number">105</span>);</span><br><span class="line">                run1.setBorder(<span class="keyword">new</span> <span class="title class_">BevelBorder</span>(<span class="number">0</span>));</span><br><span class="line">                <span class="built_in">this</span>.getContentPane().add(run1);</span><br><span class="line">                <span class="comment">//刷新一下</span></span><br><span class="line">                <span class="built_in">this</span>.getContentPane().repaint();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        JLabel s=<span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="string">&quot;步数：&quot;</span>+step);</span><br><span class="line">        s.setBounds(<span class="number">10</span>,<span class="number">0</span>,<span class="number">100</span>,<span class="number">50</span>);</span><br><span class="line">        <span class="built_in">this</span>.getContentPane().add(s);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//定义展示最终结果</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">printfall</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="comment">//清楚原本的图层，因为先加载的图层在上边</span></span><br><span class="line">        <span class="built_in">this</span>.getContentPane().removeAll();</span><br><span class="line">                <span class="comment">//导入一张图片</span></span><br><span class="line">                <span class="comment">//将图片放进管理器</span></span><br><span class="line">                JLabel run1=<span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="keyword">new</span> <span class="title class_">ImageIcon</span>(<span class="string">&quot;C:\\Users\\luo66\\Desktop\\作业\\blue cup_java\\untitled11\\image\\all.jpg&quot;</span>));</span><br><span class="line">                <span class="comment">//指定图片位置</span></span><br><span class="line">                run1.setBounds(<span class="number">83</span>,<span class="number">134</span>,<span class="number">420</span>,<span class="number">420</span>);</span><br><span class="line">                <span class="built_in">this</span>.getContentPane().add(run1);</span><br><span class="line">                <span class="comment">//刷新一下</span></span><br><span class="line">                <span class="built_in">this</span>.getContentPane().repaint();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">Menue0</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//初始化菜单</span></span><br><span class="line">        JMenuBar jb=<span class="keyword">new</span> <span class="title class_">JMenuBar</span>();</span><br><span class="line"></span><br><span class="line">        JMenu funcation=<span class="keyword">new</span> <span class="title class_">JMenu</span>(<span class="string">&quot;功能&quot;</span>);</span><br><span class="line">        JMenu about=<span class="keyword">new</span> <span class="title class_">JMenu</span>(<span class="string">&quot;关于&quot;</span>);</span><br><span class="line">        <span class="comment">//事件绑定</span></span><br><span class="line">        replay.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        reLogin.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        Exsist.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        abouT.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        funcation.add(replay);</span><br><span class="line">        funcation.add(reLogin);</span><br><span class="line">        funcation.add(Exsist);</span><br><span class="line"></span><br><span class="line">        about.add(abouT);</span><br><span class="line"></span><br><span class="line">        jb.add(funcation);</span><br><span class="line">        jb.add(about);</span><br><span class="line"><span class="comment">//将对象传回</span></span><br><span class="line">        <span class="built_in">this</span>.setJMenuBar(jb);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">Thelooking</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//设置宽高</span></span><br><span class="line">        <span class="built_in">this</span>.setSize(<span class="number">603</span>,<span class="number">680</span>);</span><br><span class="line">        <span class="comment">//设置界面标题</span></span><br><span class="line">        <span class="built_in">this</span>.setTitle(<span class="string">&quot;丰哥拼图单机模式 v-1.0&quot;</span>);</span><br><span class="line">        <span class="comment">//设置置顶显示</span></span><br><span class="line">        <span class="built_in">this</span>.setAlwaysOnTop(<span class="literal">true</span>);</span><br><span class="line">        <span class="comment">//设置界面居中展示</span></span><br><span class="line">        <span class="built_in">this</span>.setLocationRelativeTo(<span class="literal">null</span>);</span><br><span class="line">        <span class="comment">//设置界面关闭模式</span></span><br><span class="line">        <span class="built_in">this</span>.setDefaultCloseOperation(<span class="number">3</span>);</span><br><span class="line">        <span class="comment">//取消图片居中</span></span><br><span class="line">        <span class="built_in">this</span>.setLayout(<span class="literal">null</span>);</span><br><span class="line">        <span class="comment">//添加监听组件</span></span><br><span class="line">        KeyListener a=<span class="keyword">new</span> <span class="title class_">KeyListener</span>() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">keyTyped</span><span class="params">(KeyEvent e)</span> &#123;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">keyPressed</span><span class="params">(KeyEvent e)</span> &#123;</span><br><span class="line">                <span class="comment">//定义一个变量接受A的值,A=65</span></span><br><span class="line">                <span class="type">int</span> p=e.getKeyCode();</span><br><span class="line">                <span class="keyword">if</span>(p==<span class="number">65</span>)&#123;</span><br><span class="line">                   printfall();</span><br><span class="line"></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">keyReleased</span><span class="params">(KeyEvent e)</span> &#123;</span><br><span class="line">                <span class="comment">//解决顺利后多一个空白的bug</span></span><br><span class="line">                <span class="keyword">if</span>(win())&#123;</span><br><span class="line">                    System.out.println(<span class="string">&quot;胜利啦&quot;</span>);</span><br><span class="line">                    <span class="keyword">return</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="comment">//定义一个变量接收按键信息</span></span><br><span class="line">                <span class="type">int</span> w=e.getKeyCode();</span><br><span class="line">                System.out.println(w);</span><br><span class="line">                <span class="keyword">if</span> (w==<span class="number">37</span>)&#123;</span><br><span class="line">                    <span class="comment">//进行拼图位置变换</span></span><br><span class="line">                    <span class="keyword">if</span>(x1==<span class="number">3</span>)<span class="keyword">return</span>;</span><br><span class="line">                    arr1[x1][y1]=arr1[x1+<span class="number">1</span>][y1];</span><br><span class="line">                    arr1[x1+<span class="number">1</span>][y1]=<span class="number">0</span>;</span><br><span class="line">                    x1++;step++;</span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(w==<span class="number">38</span>)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(y1==<span class="number">3</span>)<span class="keyword">return</span>;</span><br><span class="line">                    <span class="comment">//进行拼图位置变换</span></span><br><span class="line">                    arr1[x1][y1]=arr1[x1][y1+<span class="number">1</span>];</span><br><span class="line">                    arr1[x1][y1+<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">                    y1++;step++;</span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(w==<span class="number">39</span>)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(x1==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">                    <span class="comment">//进行拼图位置变换</span></span><br><span class="line">                    arr1[x1][y1]=arr1[x1-<span class="number">1</span>][y1];</span><br><span class="line">                    arr1[x1-<span class="number">1</span>][y1]=<span class="number">0</span>;</span><br><span class="line">                    x1--;step++;</span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(w==<span class="number">40</span>)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(y1==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">                    <span class="comment">//进行拼图位置变换</span></span><br><span class="line">                    arr1[x1][y1]=arr1[x1][y1-<span class="number">1</span>];</span><br><span class="line">                    arr1[x1][y1-<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">                    y1--;step++;</span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(w==<span class="number">65</span>)&#123;</span><br><span class="line">                    <span class="comment">//不能删，否则无法复原</span></span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(w==<span class="number">81</span>)&#123;</span><br><span class="line">                    <span class="comment">//一键成功</span></span><br><span class="line">                    arr1= <span class="keyword">new</span> <span class="title class_">int</span>[][]&#123;</span><br><span class="line">                            &#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">9</span>, <span class="number">13</span>&#125;,</span><br><span class="line">                            &#123;<span class="number">2</span>, <span class="number">6</span>, <span class="number">10</span>, <span class="number">14</span>&#125;,</span><br><span class="line">                            &#123;<span class="number">2</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">15</span>&#125;,</span><br><span class="line">                            &#123;<span class="number">4</span>, <span class="number">8</span>, <span class="number">12</span>, <span class="number">0</span>&#125;</span><br><span class="line">                    &#125;;</span><br><span class="line">                    runimagin();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="built_in">this</span>.addKeyListener(a);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//定义一个win方法判断是否成功</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">boolean</span> <span class="title function_">win</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">4</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i1</span> <span class="operator">=</span> <span class="number">0</span>; i1 &lt; <span class="number">4</span>; i1++) &#123;</span><br><span class="line">                <span class="keyword">if</span>(i1==<span class="number">3</span>&amp;&amp;i==<span class="number">3</span>)<span class="keyword">continue</span>;</span><br><span class="line">                <span class="keyword">if</span>(arr1[i1][i]!=win1[i1][i])<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">actionPerformed</span><span class="params">(ActionEvent e)</span> &#123;</span><br><span class="line">        Object luo=e.getSource();</span><br><span class="line">        <span class="keyword">if</span>(luo==replay)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;重新游戏&quot;</span>);</span><br><span class="line">            step=<span class="number">0</span>;</span><br><span class="line">            changearr();</span><br><span class="line">            runimagin();</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span>(luo==reLogin)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;重新登录&quot;</span>);</span><br><span class="line">            <span class="comment">//关闭当前窗口</span></span><br><span class="line">            <span class="built_in">this</span>.setVisible(<span class="literal">false</span>);</span><br><span class="line">            <span class="comment">//打开登录界面</span></span><br><span class="line">            JFrame Login1=<span class="keyword">new</span> <span class="title class_">JFrame</span>();</span><br><span class="line">            Login1.setTitle(<span class="string">&quot;登录&quot;</span>);</span><br><span class="line">            Login1.setVisible(<span class="literal">true</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (luo==Exsist) &#123;</span><br><span class="line">            System.exit(<span class="number">0</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (luo==abouT) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;公众号&quot;</span>);</span><br><span class="line">            JDialog t=<span class="keyword">new</span> <span class="title class_">JDialog</span>();</span><br><span class="line">            JLabel s=<span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="keyword">new</span> <span class="title class_">ImageIcon</span>(<span class="string">&quot;C:\\Users\\luo66\\Desktop\\作业\\blue cup_java\\untitled11\\image\\pay.jpg&quot;</span>));</span><br><span class="line">            <span class="comment">//设置管理器宽高</span></span><br><span class="line">            s.setBounds(<span class="number">0</span>,<span class="number">0</span>,<span class="number">451</span>,<span class="number">484</span>);</span><br><span class="line">            t.getContentPane().add(s);</span><br><span class="line">            <span class="comment">//设置宽高</span></span><br><span class="line">            t.setSize(<span class="number">500</span>,<span class="number">500</span>);</span><br><span class="line">            <span class="comment">//让弹窗置顶</span></span><br><span class="line">            t.setAlwaysOnTop(<span class="literal">true</span>);</span><br><span class="line">            <span class="comment">//关闭默认的左上角展示</span></span><br><span class="line">            t.setLocationRelativeTo(<span class="literal">null</span>);</span><br><span class="line">            <span class="comment">//不关闭无法操作</span></span><br><span class="line">            t.setModal(<span class="literal">true</span>);</span><br><span class="line">            <span class="comment">//将弹窗显示出来</span></span><br><span class="line">            t.setVisible(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="会用到的图片资源"><a href="#会用到的图片资源" class="headerlink" title="会用到的图片资源"></a>会用到的图片资源</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141408045.jpg" alt="1"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141408946.jpg" alt="2"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141409954.jpg" alt="3"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141409502.jpg" alt="4"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410348.jpg" alt="5"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410653.jpg" alt="6"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410458.jpg" alt="7"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410578.jpg" alt="8"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410802.jpg" alt="9"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410753.jpg" alt="10"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410619.jpg" alt="11"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410533.jpg" alt="12"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141410831.jpg" alt="13"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141411988.jpg" alt="14"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141411866.jpg" alt="15"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141411272.jpg" alt="16"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141411845.jpg" alt="all"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311141411448.jpg" alt="pay"></p>
+
+      <div class="tags">
+          <a href="/tags/Java%E9%A1%B9%E7%9B%AE/" rel="tag"><i class="ic i-tag"></i> Java项目</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2023-11-14 14:11:44" itemprop="dateModified" datetime="2023-11-14T14:11:44+08:00">2023-11-14</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="罗梓丰 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="罗梓丰 支付宝">
+        <p>支付宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>罗梓丰 <i class="ic i-at"><em>@</em></i>welcome to my world
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="https://chulianyuang.github.io/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/" title="拼图小游戏.java">https://chulianyuang.github.io/2023/11/12/拼图小游戏-java/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?679294" title="第七个Java程序">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> Java入门</span>
+  <h3>第七个Java程序</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-Java-GUI"><span class="toc-number">1.</span> <span class="toc-text">拼图小游戏-Java GUI</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%BB%E7%95%8C%E9%9D%A2"><span class="toc-number">1.1.</span> <span class="toc-text">创建主界面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%BB%83%E4%B9%A0"><span class="toc-number">1.2.</span> <span class="toc-text">小练习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%BC%E5%9B%BE%E6%B8%B8%E6%88%8F%E4%BB%A3%E7%A0%81"><span class="toc-number">1.3.</span> <span class="toc-text">拼图游戏代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BC%9A%E7%94%A8%E5%88%B0%E7%9A%84%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90"><span class="toc-number">1.4.</span> <span class="toc-text">会用到的图片资源</span></a></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li><a href="/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第一个Java程序">第一个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第二个Java程序">第二个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第四个Java程序">第四个Java程序</a></li><li><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" rel="bookmark" title="Java第一次小测">Java第一次小测</a></li><li><a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="bookmark" title="蓝桥杯Java日常练习记录0">蓝桥杯Java日常练习记录0</a></li><li><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" rel="bookmark" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></li><li><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" rel="bookmark" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></li><li><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第五个Java程序">第五个Java程序</a></li><li><a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" rel="bookmark" title="项目一  Java 编程基础">项目一  Java 编程基础</a></li><li><a href="/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" rel="bookmark" title="字符串转数组的几种方法">字符串转数组的几种方法</a></li><li><a href="/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第六个Java程序">第六个Java程序</a></li><li><a href="/2023/10/27/%E9%9B%86%E5%90%88/" rel="bookmark" title="集合">集合</a></li><li><a href="/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" rel="bookmark" title="学生管理系统">学生管理系统</a></li><li><a href="/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第七个Java程序">第七个Java程序</a></li><li class="active"><a href="/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/" rel="bookmark" title="拼图小游戏.java">拼图小游戏.java</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="罗梓丰"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">罗梓丰</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">80</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">17</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">44</span>
+        <span class="name">标签</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL2NodWxpYW55dWFuZw==" title="https:&#x2F;&#x2F;github.com&#x2F;chulianyuang"><i class="ic i-github"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS/kuK3lsbHlpKflrabnmoTnp4DlhL8=" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;中山大学的秀儿"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item email" data-url="bWFpbHRvOmx1bzY2NjY2NjY4QGdtYWlsLmNvbQ==" title="mailto:luo66666668@gmail.com"><i class="ic i-envelope"></i></span>
+      <span class="exturl item douban" data-url="aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9wZW9wbGUvbHVvLw==" title="https:&#x2F;&#x2F;www.douban.com&#x2F;people&#x2F;luo&#x2F;"><i class="ic i-douban"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>自我介绍</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>足迹</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>friends</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" title="分类于 中国近现代史纲要">中国近现代史纲要</a>
+</div>
+
+    <span><a href="/2022/11/11/%E5%A4%A7%E4%B8%80%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/" title="第一章 进入近代后中华民族的磨难与抗争">第一章 进入近代后中华民族的磨难与抗争</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+</div>
+
+    <span><a href="/2023/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A6%82%E5%BF%B5%E9%A2%98%E5%9E%8B/" title="数据库概念题型">数据库概念题型</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/" title="性心理健康作业">性心理健康作业</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
+</div>
+
+    <span><a href="/2023/08/09/Vue%E6%A1%86%E6%9E%B6-%E5%B0%8F%E4%BD%9C%E5%93%81/" title="Vue框架 小作品">Vue框架 小作品</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/" title="暑假规划">暑假规划</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="分类于 高等数学">高等数学</a>
+</div>
+
+    <span><a href="/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/" title="内心独白">内心独白</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/" title="第三个Java程序">第三个Java程序</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/" title="课前五分钟中英双版">课前五分钟中英双版</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第二个Java程序">第二个Java程序</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">罗梓丰 @ Luo的小世界</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2023/11/12/拼图小游戏-java/',
+    favicon: {
+      show: "（●´3｀●）やれやれだぜ",
+      hide: "(´Д｀)大変だ！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>

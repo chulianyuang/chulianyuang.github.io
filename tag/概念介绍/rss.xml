@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>welcome to my world • Posts by &#34;概念介绍&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 27 Oct 2023 15:28:25 +0800</pubDate>
@@ -50,10 +50,11 @@
         <category>小测</category>
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
+        <category>Java项目</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/27/%E9%9B%86%E5%90%88/</guid>
+            <guid isPermalink="true">https://chulianyuang.github.io/2023/10/27/%E9%9B%86%E5%90%88/</guid>
             <title>集合</title>
-            <link>http://example.com/2023/10/27/%E9%9B%86%E5%90%88/</link>
+            <link>https://chulianyuang.github.io/2023/10/27/%E9%9B%86%E5%90%88/</link>
             <category>概念介绍</category>
             <pubDate>Fri, 27 Oct 2023 15:28:25 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;新概念-集合&#34;&gt;&lt;a href=&#34;#新概念-集合&#34; class=&#34;headerlink&#34; title=&#34;新概念-集合&#34;&gt;&lt;/a&gt;新概念-集合&lt;/h1&gt;&lt;p&gt;集合是可变的数组（嗯，在我看来可以这样子认为）。不过它不能装基础数据类型&lt;/p&gt;

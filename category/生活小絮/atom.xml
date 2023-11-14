@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://chulianyuang.github.io</id>
     <title>welcome to my world • Posts by &#34;生活小絮&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://chulianyuang.github.io" />
     <updated>2023-10-24T07:54:12.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
@@ -47,18 +47,19 @@
     <category term="小测" />
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
+    <category term="Java项目" />
     <entry>
-        <id>http://example.com/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/</id>
+        <id>https://chulianyuang.github.io/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/</id>
         <title>备用图床API</title>
-        <link rel="alternate" href="http://example.com/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/"/>
         <content type="html">&lt;h1 id=&#34;图床&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#图床&#34;&gt;#&lt;/a&gt; 图床&lt;/h1&gt;
 </content>
         <updated>2023-10-24T07:54:12.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</id>
+        <id>https://chulianyuang.github.io/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/</id>
         <title>《幸福的方法》笔记</title>
-        <link rel="alternate" href="http://example.com/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
         <content type="html">&lt;h1 id=&#34;心得体会&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#心得体会&#34;&gt;#&lt;/a&gt; 心得体会&lt;/h1&gt;
 &lt;p&gt;改革开放后，我们祖国迎来了经济高速发展阶段，民国时期饿死人的现象早已在当今的小康社会销声匿迹。人们在满足了口腹之欲后开始追求精神的富足。我也不例外，这两周让我感触最深的书籍那肯定是《幸福的方法》这本书了。&lt;/p&gt;
 &lt;p&gt;《幸福的方法》这本书的作者是泰勒・本 - 沙哈尔。这本书在抑郁症患者日益倍增的今天有着不可忽视的地位。有人做过笔记，在这本书传入中国开始的极短的时间内他的阅读量就已经突破了九位数。这在现在都是一个很好的成绩了，对于一本哲学类书籍来说。有人打趣道：“泰勒・本 - 沙哈尔先生用这本书帮助迷茫的现代人能够运用最简单易行的方法，达到幸福的彼岸。”&lt;/p&gt;
@@ -70,9 +71,9 @@
         <updated>2023-03-18T05:55:50.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/03/07/%E7%94%BB%E5%AE%B6/</id>
+        <id>https://chulianyuang.github.io/2023/03/07/%E7%94%BB%E5%AE%B6/</id>
         <title>画画</title>
-        <link rel="alternate" href="http://example.com/2023/03/07/%E7%94%BB%E5%AE%B6/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2023/03/07/%E7%94%BB%E5%AE%B6/"/>
         <content type="html">&lt;h1 id=&#34;学会新技能用typora画流程图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#学会新技能用typora画流程图&#34;&gt;#&lt;/a&gt; 学会新技能，用 typora 画流程图&lt;/h1&gt;
 &lt;h2 id=&#34;牛逼&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#牛逼&#34;&gt;#&lt;/a&gt; 牛逼&lt;/h2&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;st=&amp;gt;start: 闹钟响起&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;op=&amp;gt;operation: 与床板分离&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond=&amp;gt;condition: 分离成功?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;e=&amp;gt;end: 快乐的一天&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;st-&amp;gt;op-&amp;gt;cond&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond(yes)-&amp;gt;e&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cond(no)-&amp;gt;op&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -80,9 +81,9 @@
         <updated>2023-03-07T08:35:02.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</id>
+        <id>https://chulianyuang.github.io/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/</id>
         <title>一些童年回忆</title>
-        <link rel="alternate" href="http://example.com/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/11/11/%E4%B8%80%E4%BA%9B%E7%AB%A5%E5%B9%B4%E5%9B%9E%E5%BF%86/"/>
         <content type="html">&lt;h1 id=&#34;震惊我竟然从小就开始上哲理课&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#震惊我竟然从小就开始上哲理课&#34;&gt;#&lt;/a&gt; 震惊：我竟然从小就开始上哲理课&lt;/h1&gt;
 &lt;p&gt;这个标题形式首先得问候一波搜狐那个标题党。&lt;/p&gt;
 &lt;p&gt;这一篇没什么营养的，它的诞生在于今天周五了，明天没有课，有点闲，中二病发作。&lt;/p&gt;
@@ -290,9 +291,9 @@
         <updated>2022-11-11T12:23:53.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</id>
+        <id>https://chulianyuang.github.io/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/</id>
         <title>我喜欢的一些课外书</title>
-        <link rel="alternate" href="http://example.com/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/"/>
+        <link rel="alternate" href="https://chulianyuang.github.io/2022/11/08/%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%BE%E5%A4%96%E4%B9%A6/"/>
         <content type="html">&lt;h1 id=&#34;如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如果说新月集中谁的翻译让我最舒服那我肯定会说是郑振铎&#34;&gt;#&lt;/a&gt; 如果说《新月集》中谁的翻译让我最舒服，那我肯定会说是郑振铎&lt;/h1&gt;
 &lt;h2 id=&#34;sleep-stealer&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sleep-stealer&#34;&gt;#&lt;/a&gt; SLEEP-STEALER&lt;/h2&gt;
 &lt;h3 id=&#34;偷眠者&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#偷眠者&#34;&gt;#&lt;/a&gt; 偷眠者&lt;/h3&gt;
