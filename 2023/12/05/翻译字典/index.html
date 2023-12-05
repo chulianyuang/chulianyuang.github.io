@@ -1,0 +1,523 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="welcome to my world" href="https://chulianyuang.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="welcome to my world" href="https://chulianyuang.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="welcome to my world" href="https://chulianyuang.github.io/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="Java项目" />
+
+
+<link rel="canonical" href="https://chulianyuang.github.io/2023/12/05/%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8/">
+
+
+
+  <title>
+翻译字典 - Java入门 |
+Luo的小世界 = welcome to my world</title>
+<meta name="generator" content="Hexo 6.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">翻译字典
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2023-12-05 21:41:15">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2023-12-05T21:41:15+08:00">2023-12-05</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">Luo的小世界</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?797328"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?865817"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?24060"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?342819"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?439914"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?549599"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/Java%E5%85%A5%E9%97%A8/" itemprop="item" rel="index" title="分类于 Java入门"><span itemprop="name">Java入门</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="https://chulianyuang.github.io/2023/12/05/%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="罗梓丰">
+    <meta itemprop="description" content=", ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="welcome to my world">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h1 id="中英翻译字典"><a class="markdownIt-Anchor" href="#中英翻译字典">#</a> 中英翻译字典</h1>
+<h2 id="初版已写完基本框架"><a class="markdownIt-Anchor" href="#初版已写完基本框架">#</a> 初版（已写完基本框架）</h2>
+<p>一个合格的程序员都是会写注释的，当然这是没有入职之前，入职后就不要写了，不然容易被裁员！还要写几个 bug 进去，我只能说懂的都懂</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Endclass.demol2;<span class="comment">// 导入必要的包</span></span><br><span class="line"><span class="keyword">import</span> java.awt.*;</span><br><span class="line"><span class="keyword">import</span> java.awt.event.*;</span><br><span class="line"><span class="keyword">import</span> java.sql.*;</span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义一个类，继承JFrame，实现ActionListener接口</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Dictionary</span> <span class="keyword">extends</span> <span class="title class_">JFrame</span> <span class="keyword">implements</span> <span class="title class_">ActionListener</span> &#123;</span><br><span class="line">    <span class="comment">// 定义组件</span></span><br><span class="line">    <span class="keyword">private</span> JLabel label1, label2; <span class="comment">// 标签</span></span><br><span class="line">    <span class="keyword">private</span> JTextField text1, text2; <span class="comment">// 文本框</span></span><br><span class="line">    <span class="keyword">private</span> JButton button1, button2, button3, button4; <span class="comment">// 按钮</span></span><br><span class="line">    <span class="keyword">private</span> JPanel panel1, panel2, panel3; <span class="comment">// 面板</span></span><br><span class="line">    <span class="keyword">private</span> Connection conn; <span class="comment">// 数据库连接</span></span><br><span class="line">    <span class="keyword">private</span> PreparedStatement ps; <span class="comment">// 预编译语句</span></span><br><span class="line">    <span class="keyword">private</span> ResultSet rs; <span class="comment">// 结果集</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Dictionary</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 设置窗口标题</span></span><br><span class="line">        <span class="built_in">super</span>(<span class="string">&quot;中英翻译字典&quot;</span>);</span><br><span class="line">        <span class="comment">// 设置窗口大小</span></span><br><span class="line">        setSize(<span class="number">400</span>, <span class="number">300</span>);</span><br><span class="line">        <span class="comment">// 设置窗口居中</span></span><br><span class="line">        setLocationRelativeTo(<span class="literal">null</span>);</span><br><span class="line">        <span class="comment">// 设置窗口关闭时退出程序</span></span><br><span class="line">        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</span><br><span class="line">        <span class="comment">// 设置窗口布局为边界布局</span></span><br><span class="line">        setLayout(<span class="keyword">new</span> <span class="title class_">BorderLayout</span>());</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化组件</span></span><br><span class="line">        label1 = <span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="string">&quot;开始输入：&quot;</span>);</span><br><span class="line">        label2 = <span class="keyword">new</span> <span class="title class_">JLabel</span>(<span class="string">&quot;翻译结果：&quot;</span>);</span><br><span class="line">        text1 = <span class="keyword">new</span> <span class="title class_">JTextField</span>(<span class="number">20</span>);</span><br><span class="line">        text2 = <span class="keyword">new</span> <span class="title class_">JTextField</span>(<span class="number">20</span>);</span><br><span class="line">        text2.setEditable(<span class="literal">false</span>); <span class="comment">// 设置文本框不可编辑</span></span><br><span class="line"></span><br><span class="line">        button1 = <span class="keyword">new</span> <span class="title class_">JButton</span>(<span class="string">&quot;查询&quot;</span>);</span><br><span class="line">        button2 = <span class="keyword">new</span> <span class="title class_">JButton</span>(<span class="string">&quot;添加&quot;</span>);</span><br><span class="line">        button3 = <span class="keyword">new</span> <span class="title class_">JButton</span>(<span class="string">&quot;修改&quot;</span>);</span><br><span class="line">        button4 = <span class="keyword">new</span> <span class="title class_">JButton</span>(<span class="string">&quot;删除&quot;</span>);</span><br><span class="line">        panel1 = <span class="keyword">new</span> <span class="title class_">JPanel</span>();</span><br><span class="line">        panel2 = <span class="keyword">new</span> <span class="title class_">JPanel</span>();</span><br><span class="line">        panel3 = <span class="keyword">new</span> <span class="title class_">JPanel</span>();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 添加组件到面板</span></span><br><span class="line">        panel1.add(label1);</span><br><span class="line">        panel1.add(text1);</span><br><span class="line">        panel2.add(label2);</span><br><span class="line">        panel2.add(text2);</span><br><span class="line">        panel3.add(button1);</span><br><span class="line">        panel3.add(button2);</span><br><span class="line">        panel3.add(button3);</span><br><span class="line">        panel3.add(button4);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 添加面板到窗口</span></span><br><span class="line">        add(panel1, BorderLayout.NORTH);</span><br><span class="line">        add(panel2, BorderLayout.CENTER);</span><br><span class="line">        add(panel3, BorderLayout.SOUTH);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 设置窗口可见</span></span><br><span class="line">        setVisible(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 注册监听器</span></span><br><span class="line">        button1.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        button2.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        button3.addActionListener(<span class="built_in">this</span>);</span><br><span class="line">        button4.addActionListener(<span class="built_in">this</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 连接数据库</span></span><br><span class="line">        connectDB();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义连接数据库的方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">connectDB</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 加载驱动</span></span><br><span class="line">            Class.forName(<span class="string">&quot;com.mysql.cj.jdbc.Driver&quot;</span>);</span><br><span class="line">            <span class="comment">// 获取连接</span></span><br><span class="line">            conn = DriverManager.getConnection(<span class="string">&quot;jdbc:mysql://localhost:3306/dictionary?useSSL=false&amp;serverTimezone=UTC&quot;</span>, <span class="string">&quot;root&quot;</span>, <span class="string">&quot;123456&quot;</span>);</span><br><span class="line">            <span class="comment">// 输出提示信息</span></span><br><span class="line">            System.out.println(<span class="string">&quot;数据库连接成功！&quot;</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            <span class="comment">// 输出异常信息</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义查询的方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">query</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 获取输入的单词或汉字</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> text1.getText().trim();</span><br><span class="line">            <span class="comment">// 判断输入是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (input.equals(<span class="string">&quot;&quot;</span>)) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;请输入单词或汉字！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义查询语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql</span> <span class="operator">=</span> <span class="string">&quot;select * from words where word = ? or chinese = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, input);</span><br><span class="line">            ps.setString(<span class="number">2</span>, input);</span><br><span class="line">            <span class="comment">// 执行查询</span></span><br><span class="line">            rs = ps.executeQuery();</span><br><span class="line">            <span class="comment">// 判断结果集是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (rs.next()) &#123;</span><br><span class="line">                <span class="comment">// 获取单词和汉字</span></span><br><span class="line">                <span class="type">String</span> <span class="variable">word</span> <span class="operator">=</span> rs.getString(<span class="string">&quot;word&quot;</span>);</span><br><span class="line">                <span class="type">String</span> <span class="variable">chinese</span> <span class="operator">=</span> rs.getString(<span class="string">&quot;chinese&quot;</span>);</span><br><span class="line">                <span class="comment">// 判断输入是单词还是汉字</span></span><br><span class="line">                <span class="keyword">if</span> (input.equals(word)) &#123;</span><br><span class="line">                    <span class="comment">// 设置文本框显示汉字</span></span><br><span class="line">                    text2.setText(chinese);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="comment">// 设置文本框显示单词</span></span><br><span class="line">                    text2.setText(word);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;没有找到对应的翻译！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            <span class="comment">// 输出异常信息</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义添加的方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">add</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 获取输入的单词和汉字</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">word</span> <span class="operator">=</span> text1.getText().trim();</span><br><span class="line">            <span class="type">String</span> <span class="variable">chinese</span> <span class="operator">=</span> text2.getText().trim();</span><br><span class="line">            <span class="comment">// 判断输入是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (word.equals(<span class="string">&quot;&quot;</span>) || chinese.equals(<span class="string">&quot;&quot;</span>)) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;请输入单词和汉字！&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义查询语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql1</span> <span class="operator">=</span> <span class="string">&quot;select * from words where word = ? or chinese = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql1);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, word);</span><br><span class="line">            ps.setString(<span class="number">2</span>, chinese);</span><br><span class="line">            <span class="comment">// 执行查询</span></span><br><span class="line">            rs = ps.executeQuery();</span><br><span class="line">            <span class="comment">// 判断结果集是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (rs.next()) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;该单词或汉字已存在！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义插入语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql2</span> <span class="operator">=</span> <span class="string">&quot;insert into words values (?, ?)&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql2);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, word);</span><br><span class="line">            ps.setString(<span class="number">2</span>, chinese);</span><br><span class="line">            <span class="comment">// 执行插入</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> ps.executeUpdate();</span><br><span class="line">            <span class="comment">// 判断插入是否成功</span></span><br><span class="line">            <span class="keyword">if</span> (n &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;添加成功！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;添加失败！&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            <span class="comment">// 输出异常信息</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义修改的方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">update</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 获取输入的单词和汉字</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">word</span> <span class="operator">=</span> text1.getText().trim();</span><br><span class="line">            <span class="type">String</span> <span class="variable">chinese</span> <span class="operator">=</span> text2.getText().trim();</span><br><span class="line">            <span class="comment">// 判断输入是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (word.equals(<span class="string">&quot;&quot;</span>) || chinese.equals(<span class="string">&quot;&quot;</span>)) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;请输入单词和汉字！&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义查询语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql1</span> <span class="operator">=</span> <span class="string">&quot;select * from words where word = ? or chinese = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql1);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, word);</span><br><span class="line">            ps.setString(<span class="number">2</span>, chinese);</span><br><span class="line">            <span class="comment">// 执行查询</span></span><br><span class="line">            rs = ps.executeQuery();</span><br><span class="line">            <span class="comment">// 判断结果集是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (!rs.next()) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;该单词或汉字不存在！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义更新语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql2</span> <span class="operator">=</span> <span class="string">&quot;update words set chinese = ? where word = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql2);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, chinese);</span><br><span class="line">            ps.setString(<span class="number">2</span>, word);</span><br><span class="line">            <span class="comment">// 执行更新</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> ps.executeUpdate();</span><br><span class="line">            <span class="comment">// 判断更新是否成功</span></span><br><span class="line">            <span class="keyword">if</span> (n &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;修改成功！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;修改失败！&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            <span class="comment">// 输出异常信息</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义删除的方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">delete</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 获取输入的单词或汉字</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> text1.getText().trim();</span><br><span class="line">            <span class="comment">// 判断输入是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (input.equals(<span class="string">&quot;&quot;</span>)) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;请输入单词或汉字！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义查询语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql1</span> <span class="operator">=</span> <span class="string">&quot;select * from words where word = ? or chinese = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql1);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, input);</span><br><span class="line">            ps.setString(<span class="number">2</span>, input);</span><br><span class="line">            <span class="comment">// 执行查询</span></span><br><span class="line">            rs = ps.executeQuery();</span><br><span class="line">            <span class="comment">// 判断结果集是否为空</span></span><br><span class="line">            <span class="keyword">if</span> (!rs.next()) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;该单词或汉字不存在！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                <span class="comment">// 返回</span></span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 定义删除语句</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">sql2</span> <span class="operator">=</span> <span class="string">&quot;delete from words where word = ? or chinese = ?&quot;</span>;</span><br><span class="line">            <span class="comment">// 预编译语句</span></span><br><span class="line">            ps = conn.prepareStatement(sql2);</span><br><span class="line">            <span class="comment">// 设置参数</span></span><br><span class="line">            ps.setString(<span class="number">1</span>, input);</span><br><span class="line">            ps.setString(<span class="number">2</span>, input);</span><br><span class="line">            <span class="comment">// 执行删除</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> ps.executeUpdate();</span><br><span class="line">            <span class="comment">// 判断删除是否成功</span></span><br><span class="line">            <span class="keyword">if</span> (n &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;删除成功！&quot;</span>);</span><br><span class="line">                <span class="comment">// 清空文本框</span></span><br><span class="line">                text1.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">                text2.setText(<span class="string">&quot;&quot;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">// 弹出提示框</span></span><br><span class="line">                JOptionPane.showMessageDialog(<span class="built_in">this</span>, <span class="string">&quot;删除失败！&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            <span class="comment">// 输出异常信息</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="comment">// 定义点击事件函数</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">actionPerformed</span><span class="params">(ActionEvent e)</span> &#123;</span><br><span class="line">        <span class="comment">// 获取事件源</span></span><br><span class="line">        <span class="type">Object</span> <span class="variable">source</span> <span class="operator">=</span> e.getSource();</span><br><span class="line">        <span class="comment">// 判断事件源是哪个按钮</span></span><br><span class="line">        <span class="keyword">if</span> (source == button1) &#123;</span><br><span class="line">            <span class="comment">// 调用查询方法</span></span><br><span class="line">            query();</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (source == button2) &#123;</span><br><span class="line">            <span class="comment">// 调用添加方法</span></span><br><span class="line">            add();</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (source == button3) &#123;</span><br><span class="line">            <span class="comment">// 调用修改方法</span></span><br><span class="line">            update();</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (source == button4) &#123;</span><br><span class="line">            <span class="comment">// 调用删除方法</span></span><br><span class="line">            delete();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Dictionary</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="效果图"><a class="markdownIt-Anchor" href="#效果图">#</a> 效果图</h2>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202312052144964.png" alt="image-20231205214444813"></p>
+<h2 id="完善版"><a class="markdownIt-Anchor" href="#完善版">#</a> 完善版</h2>
+
+      <div class="tags">
+          <a href="/tags/Java%E9%A1%B9%E7%9B%AE/" rel="tag"><i class="ic i-tag"></i> Java项目</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2023-12-05 21:45:02" itemprop="dateModified" datetime="2023-12-05T21:45:02+08:00">2023-12-05</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="罗梓丰 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="罗梓丰 支付宝">
+        <p>支付宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>罗梓丰 <i class="ic i-at"><em>@</em></i>welcome to my world
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="https://chulianyuang.github.io/2023/12/05/%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8/" title="翻译字典">https://chulianyuang.github.io/2023/12/05/翻译字典/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA-Java/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?146286" title="计算机-Java">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> Java入门</span>
+  <h3>计算机-Java</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%AD%E8%8B%B1%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8"><span class="toc-number">1.</span> <span class="toc-text"> 中英翻译字典</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E7%89%88%E5%B7%B2%E5%86%99%E5%AE%8C%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6"><span class="toc-number">1.1.</span> <span class="toc-text"> 初版（已写完基本框架）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%88%E6%9E%9C%E5%9B%BE"><span class="toc-number">1.2.</span> <span class="toc-text"> 效果图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E5%96%84%E7%89%88"><span class="toc-number">1.3.</span> <span class="toc-text"> 完善版</span></a></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li><a href="/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第一个Java程序">第一个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第二个Java程序">第二个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/" rel="bookmark" title="第三个Java程序">第三个Java程序</a></li><li><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第四个Java程序">第四个Java程序</a></li><li><a href="/2023/06/06/Java%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%8F%E6%B5%8B/" rel="bookmark" title="Java第一次小测">Java第一次小测</a></li><li><a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="bookmark" title="蓝桥杯Java日常练习记录0">蓝桥杯Java日常练习记录0</a></li><li><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" rel="bookmark" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></li><li><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" rel="bookmark" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></li><li><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第五个Java程序">第五个Java程序</a></li><li><a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" rel="bookmark" title="项目一  Java 编程基础">项目一  Java 编程基础</a></li><li><a href="/2023/09/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/" rel="bookmark" title="字符串转数组的几种方法">字符串转数组的几种方法</a></li><li><a href="/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第六个Java程序">第六个Java程序</a></li><li><a href="/2023/10/27/%E9%9B%86%E5%90%88/" rel="bookmark" title="集合">集合</a></li><li><a href="/2023/10/30/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" rel="bookmark" title="学生管理系统">学生管理系统</a></li><li><a href="/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" rel="bookmark" title="第七个Java程序">第七个Java程序</a></li><li><a href="/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/" rel="bookmark" title="拼图小游戏.java">拼图小游戏.java</a></li><li><a href="/2023/11/14/Java%E5%B8%B8%E7%94%A8API/" rel="bookmark" title="Java常用API">Java常用API</a></li><li><a href="/2023/11/15/%E7%88%AC%E8%99%AB-Java/" rel="bookmark" title="爬虫-Java">爬虫-Java</a></li><li><a href="/2023/11/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" rel="bookmark" title="数据结构-查找算法">数据结构-查找算法</a></li><li><a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" rel="bookmark" title="数据结构-排序算法">数据结构-排序算法</a></li><li><a href="/2023/11/21/%E9%9B%86%E5%90%88%E7%BB%83%E4%B9%A0/" rel="bookmark" title="集合练习">集合练习</a></li><li><a href="/2023/11/22/%E4%B8%89%E4%BA%BA%E6%96%97%E5%9C%B0%E4%B8%BB-Java/" rel="bookmark" title="三人斗地主-Java">三人斗地主-Java</a></li><li><a href="/2023/11/23/Stream%E6%B5%81%E9%AA%9A%E6%93%8D%E4%BD%9C/" rel="bookmark" title="Stream流骚操作">Stream流骚操作</a></li><li><a href="/2023/11/30/%E8%81%8A%E5%A4%A9%E5%AE%A4/" rel="bookmark" title="聊天室">聊天室</a></li><li><a href="/2023/12/04/%E8%AE%A1%E7%AE%97%E6%9C%BA-Java/" rel="bookmark" title="计算机-Java">计算机-Java</a></li><li class="active"><a href="/2023/12/05/%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8/" rel="bookmark" title="翻译字典">翻译字典</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="罗梓丰"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">罗梓丰</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">92</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">17</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">44</span>
+        <span class="name">标签</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL2NodWxpYW55dWFuZw==" title="https:&#x2F;&#x2F;github.com&#x2F;chulianyuang"><i class="ic i-github"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS/kuK3lsbHlpKflrabnmoTnp4DlhL8=" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;中山大学的秀儿"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item email" data-url="bWFpbHRvOmx1bzY2NjY2NjY4QGdtYWlsLmNvbQ==" title="mailto:luo66666668@gmail.com"><i class="ic i-envelope"></i></span>
+      <span class="exturl item douban" data-url="aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9wZW9wbGUvbHVvLw==" title="https:&#x2F;&#x2F;www.douban.com&#x2F;people&#x2F;luo&#x2F;"><i class="ic i-douban"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>自我介绍</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+  </li>
+
+  </ul>
+    
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>足迹</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/friends/" rel="section"><i class="ic i-heart"></i>friends</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第七个Java程序">第七个Java程序</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/22/%E4%B8%89%E4%BA%BA%E6%96%97%E5%9C%B0%E4%B8%BB-Java/" title="三人斗地主-Java">三人斗地主-Java</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/24/%E6%9E%9A%E4%B8%BE/" title="枚举">枚举</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/04/23/%E6%A0%88/" title="栈">栈</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E9%87%91%E8%9E%8D%E5%AD%A6/" title="分类于 金融学">金融学</a>
+</div>
+
+    <span><a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" title="股票入门">股票入门</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="数据结构-排序算法">数据结构-排序算法</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+</div>
+
+    <span><a href="/2023/05/23/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B22/" title="英语演讲">英语演讲</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">罗梓丰 @ Luo的小世界</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2023/12/05/翻译字典/',
+    favicon: {
+      show: "（●´3｀●）やれやれだぜ",
+      hide: "(´Д｀)大変だ！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
