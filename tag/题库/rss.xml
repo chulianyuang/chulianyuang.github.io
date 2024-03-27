@@ -5,8 +5,8 @@
         <link>https://chulianyuang.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Thu, 23 Nov 2023 17:32:15 +0800</pubDate>
-        <lastBuildDate>Thu, 23 Nov 2023 17:32:15 +0800</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2024 11:59:56 +0800</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 11:59:56 +0800</lastBuildDate>
         <category>三省吾身</category>
         <category>C语言函数复习</category>
         <category>小白学C语言</category>
@@ -51,6 +51,14 @@
         <category>概念介绍</category>
         <category>项目一-学生管理系统</category>
         <category>Java项目</category>
+        <item>
+            <guid isPermalink="true">https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</guid>
+            <title>Python可视化综合案例</title>
+            <link>https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</link>
+            <category>题库</category>
+            <pubDate>Wed, 27 Mar 2024 11:59:56 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://chulianyuang.github.io/2023/11/23/Stream%E6%B5%81%E9%AA%9A%E6%93%8D%E4%BD%9C/</guid>
             <title>Stream流骚操作</title>

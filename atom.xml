@@ -3,7 +3,7 @@
     <id>https://chulianyuang.github.io</id>
     <title>welcome to my world</title>
     <link href="https://chulianyuang.github.io" />
-    <updated>2023-12-09T05:15:39.000Z</updated>
+    <updated>2024-03-27T03:59:56.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
     <category term="小白学C语言" />
@@ -48,6 +48,14 @@
     <category term="概念介绍" />
     <category term="项目一-学生管理系统" />
     <category term="Java项目" />
+    <entry>
+        <id>https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</id>
+        <title>Python可视化综合案例</title>
+        <link rel="alternate" href="https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/"/>
+        <content type="html"></content>
+        <category term="题库" />
+        <updated>2024-03-27T03:59:56.000Z</updated>
+    </entry>
     <entry>
         <id>https://chulianyuang.github.io/2023/12/09/%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9C%9F%E9%A2%98%E5%A4%8D%E4%B9%A0-2013/</id>
         <title>蓝桥杯真题复习-2013</title>
