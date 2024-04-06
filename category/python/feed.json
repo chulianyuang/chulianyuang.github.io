@@ -9,7 +9,7 @@
             "url": "https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/",
             "title": "Python可视化综合案例",
             "date_published": "2024-03-27T03:59:56.000Z",
-            "content_html": "",
+            "content_html": "<h1 id=\"折线图\"><a class=\"markdownIt-Anchor\" href=\"#折线图\">#</a> 折线图</h1>\n<figure class=\"highlight python\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"keyword\">from</span> pyecharts.charts <span class=\"keyword\">import</span> Line</span><br><span class=\"line\">line=Line()</span><br><span class=\"line\">line.add_xaxis([<span class=\"string\">&quot;中国&quot;</span>,<span class=\"string\">&quot;美国&quot;</span>,<span class=\"string\">&quot;日本&quot;</span>]);</span><br><span class=\"line\">line.add_yaxis(<span class=\"string\">&quot;GDP&quot;</span>,[<span class=\"number\">40</span>,<span class=\"number\">30</span>,<span class=\"number\">20</span>])</span><br><span class=\"line\">line.render()</span><br></pre></td></tr></table></figure>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202403272207362.png\" alt=\"image-20240327220744159\"></p>\n",
             "tags": [
                 "题库"
             ]
