@@ -3,7 +3,7 @@
     <id>https://chulianyuang.github.io</id>
     <title>welcome to my world</title>
     <link href="https://chulianyuang.github.io" />
-    <updated>2024-04-10T16:32:43.000Z</updated>
+    <updated>2024-04-11T12:54:45.000Z</updated>
     <category term="三省吾身" />
     <category term="C语言函数复习" />
     <category term="小白学C语言" />
@@ -49,6 +49,21 @@
     <category term="项目一-学生管理系统" />
     <category term="Java项目" />
     <category term="Front-end project" />
+    <entry>
+        <id>https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/</id>
+        <title>Vue2-水果购物车</title>
+        <link rel="alternate" href="https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/"/>
+        <content type="html">&lt;h1 id=&#34;水果购物车&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#水果购物车&#34;&gt;#&lt;/a&gt; 水果购物车&lt;/h1&gt;
+&lt;p&gt;从现在开始做 Vue2 的第二个案例。&lt;/p&gt;
+&lt;h2 id=&#34;上图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#上图&#34;&gt;#&lt;/a&gt; 上图&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202404112057826.png&#34; alt=&#34;屏幕截图 2024-04-11 205330&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因为有些图片资源丢失了，所以图片的那列就直接改成写名字就好&lt;/p&gt;
+&lt;h2 id=&#34;代码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码&#34;&gt;#&lt;/a&gt; 代码&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="Front-end project" />
+        <updated>2024-04-11T12:54:45.000Z</updated>
+    </entry>
     <entry>
         <id>https://chulianyuang.github.io/2024/04/11/Vue2-%E5%B0%8F%E7%BD%97%E7%9A%84%E8%AE%B0%E4%BA%8B%E6%9C%AC/</id>
         <title>Vue2-小罗的记事本</title>

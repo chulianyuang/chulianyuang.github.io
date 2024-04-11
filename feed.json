@@ -5,6 +5,16 @@
     "home_page_url": "https://chulianyuang.github.io",
     "items": [
         {
+            "id": "https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/",
+            "url": "https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/",
+            "title": "Vue2-水果购物车",
+            "date_published": "2024-04-11T12:54:45.000Z",
+            "content_html": "<h1 id=\"水果购物车\"><a class=\"markdownIt-Anchor\" href=\"#水果购物车\">#</a> 水果购物车</h1>\n<p>从现在开始做 Vue2 的第二个案例。</p>\n<h2 id=\"上图\"><a class=\"markdownIt-Anchor\" href=\"#上图\">#</a> 上图</h2>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202404112057826.png\" alt=\"屏幕截图 2024-04-11 205330\"></p>\n<p>因为有些图片资源丢失了，所以图片的那列就直接改成写名字就好</p>\n<h2 id=\"代码\"><a class=\"markdownIt-Anchor\" href=\"#代码\">#</a> 代码</h2>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"></span><br></pre></td></tr></table></figure>\n",
+            "tags": [
+                "Front-end project"
+            ]
+        },
+        {
             "id": "https://chulianyuang.github.io/2024/04/11/Vue2-%E5%B0%8F%E7%BD%97%E7%9A%84%E8%AE%B0%E4%BA%8B%E6%9C%AC/",
             "url": "https://chulianyuang.github.io/2024/04/11/Vue2-%E5%B0%8F%E7%BD%97%E7%9A%84%E8%AE%B0%E4%BA%8B%E6%9C%AC/",
             "title": "Vue2-小罗的记事本",
