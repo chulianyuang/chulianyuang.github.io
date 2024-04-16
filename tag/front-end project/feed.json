@@ -5,16 +5,6 @@
     "home_page_url": "https://chulianyuang.github.io",
     "items": [
         {
-            "id": "https://chulianyuang.github.io/2024/04/13/Vue2-%E5%B0%8F%E7%BD%97%E8%AE%B0%E8%B4%A6%E6%B8%85%E5%8D%95/",
-            "url": "https://chulianyuang.github.io/2024/04/13/Vue2-%E5%B0%8F%E7%BD%97%E8%AE%B0%E8%B4%A6%E6%B8%85%E5%8D%95/",
-            "title": "Vue2-小罗记账清单",
-            "date_published": "2024-04-13T06:38:09.000Z",
-            "content_html": "<h1 id=\"小罗记账清单\"><a href=\"#小罗记账清单\" class=\"headerlink\" title=\"小罗记账清单\"></a>小罗记账清单</h1><h2 id=\"模版图片\"><a href=\"#模版图片\" class=\"headerlink\" title=\"模版图片\"></a>模版图片</h2><p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202404131439635.png\" alt=\"image-20240413143859474\"></p>\n<h2 id=\"代码演示\"><a href=\"#代码演示\" class=\"headerlink\" title=\"代码演示\"></a>代码演示</h2><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"></span><br></pre></td></tr></table></figure>\n\n",
-            "tags": [
-                "Front-end project"
-            ]
-        },
-        {
             "id": "https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/",
             "url": "https://chulianyuang.github.io/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/",
             "title": "Vue2-水果购物车",
