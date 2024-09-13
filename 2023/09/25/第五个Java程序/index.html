@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?707612"></li>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?947150"></li>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?155292"></li>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?80721"></li>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?231147"></li>
-          <li class="item" data-background-image="https://www.acy.moe/api/2?965758"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?177004"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?90318"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?711019"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?571587"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?379816"></li>
+          <li class="item" data-background-image="https://www.acy.moe/api/2?329991"></li>
         </ul>
       </div>
     </header>
@@ -153,16 +153,16 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h2 id="对称字符串"><a href="#对称字符串" class="headerlink" title="对称字符串"></a>对称字符串</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309241614019.png" alt="image-20230924161431880"></p>
+    <h2 id="对称字符串"><a class="markdownIt-Anchor" href="#对称字符串">#</a> 对称字符串</h2>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309241614019.png" alt="image-20230924161431880"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol1</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        Scanner s=<span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        System.out.print(<span class="string">&quot;请输入要检查的字符串：&quot;</span>);</span><br><span class="line">        StringBuffer str=<span class="keyword">new</span> <span class="title class_">StringBuffer</span>();</span><br><span class="line">        <span class="comment">//定义一个变量接受输入的字符串</span></span><br><span class="line">        String OldString=s.next();</span><br><span class="line">        <span class="comment">//判断反转后的字符串与原字符串是否相等</span></span><br><span class="line">        <span class="keyword">if</span>(str.append(OldString).reverse().toString().equals(OldString))&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;是&quot;</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> System.out.println(<span class="string">&quot;不是&quot;</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="拼接字符串"><a href="#拼接字符串" class="headerlink" title="拼接字符串"></a>拼接字符串</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309241641451.png" alt="image-20230924164127386"></p>
+<h2 id="拼接字符串"><a class="markdownIt-Anchor" href="#拼接字符串">#</a> 拼接字符串</h2>
+<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309241641451.png" alt="image-20230924164127386"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol2</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> []arr=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">        System.out.println(add(arr));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//定义一个方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">add</span><span class="params">(<span class="type">int</span> []arr)</span> &#123;</span><br><span class="line">        StringBuffer sb=<span class="keyword">new</span> <span class="title class_">StringBuffer</span>();</span><br><span class="line">        sb.append(<span class="string">&quot;[&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">            sb.append(arr[i]);</span><br><span class="line">            <span class="keyword">if</span>(i==arr.length-<span class="number">1</span>)<span class="keyword">break</span>;</span><br><span class="line">            sb.append(<span class="string">&quot;,&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sb.toString()+<span class="string">&quot;]&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="第二种方法，利用StringJoiner-编写"><a href="#第二种方法，利用StringJoiner-编写" class="headerlink" title="第二种方法，利用StringJoiner()编写"></a>第二种方法，利用StringJoiner()编写</h3><p><strong>注意：JDK版本不能低于8.0</strong></p>
+<h3 id="第二种方法利用stringjoiner编写"><a class="markdownIt-Anchor" href="#第二种方法利用stringjoiner编写">#</a> 第二种方法，利用 StringJoiner () 编写</h3>
+<p><strong>注意：JDK 版本不能低于 8.0</strong></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.StringJoiner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol2</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> []arr=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">        System.out.println(add(arr));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//定义一个方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">add</span><span class="params">(<span class="type">int</span> []arr)</span> &#123;</span><br><span class="line">        StringJoiner sj=<span class="keyword">new</span> <span class="title class_">StringJoiner</span>(<span class="string">&quot;,&quot;</span>,<span class="string">&quot;[&quot;</span>,<span class="string">&quot;]&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">            sj.add(arr[i]+<span class="string">&quot;&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span>  sj.toString();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>少了两行，嗯，so great!!!!!yep?</p>
+<p>少了两行，嗯，so great!!!yep?</p>
 
       <div class="tags">
           <a href="/tags/%E9%A2%98%E5%BA%93/" rel="tag"><i class="ic i-tag"></i> 题库</a>
@@ -227,7 +227,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?324829" title="Java入门（全书习题答案汇总）">
+  <a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?375091" title="Java入门（全书习题答案汇总）">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>Java入门（全书习题答案汇总）</h3>
@@ -237,7 +237,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?81598" title="项目一  Java 编程基础">
+  <a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;www.acy.moe&#x2F;api&#x2F;2?732199" title="项目一  Java 编程基础">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>项目一  Java 编程基础</h3>
@@ -259,7 +259,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E7%A7%B0%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.</span> <span class="toc-text">对称字符串</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">2.</span> <span class="toc-text">拼接字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%8C%E5%88%A9%E7%94%A8StringJoiner-%E7%BC%96%E5%86%99"><span class="toc-number">2.1.</span> <span class="toc-text">第二种方法，利用StringJoiner()编写</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E7%A7%B0%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.</span> <span class="toc-text"> 对称字符串</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">2.</span> <span class="toc-text"> 拼接字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95%E5%88%A9%E7%94%A8stringjoiner%E7%BC%96%E5%86%99"><span class="toc-number">2.1.</span> <span class="toc-text"> 第二种方法，利用 StringJoiner () 编写</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -376,29 +376,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+<a href="/categories/%E5%8A%9B%E6%89%A3/" title="分类于 力扣">力扣</a>
 </div>
 
-    <span><a href="/2023/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A6%82%E5%BF%B5%E9%A2%98%E5%9E%8B/" title="数据库概念题型">数据库概念题型</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/" title="网页设计简介">网页设计简介</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
-</div>
-
-    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
+    <span><a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" title="力扣题型试水">力扣题型试水</a></span>
   </li>
 
       
@@ -408,37 +389,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
+    <span><a href="/2023/05/22/%E9%98%9F%E5%88%97/" title="队列">队列</a></span>
   </li>
 
       
@@ -448,16 +399,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第二个Java程序">第二个Java程序</a></span>
+    <span><a href="/2023/10/27/%E9%9B%86%E5%90%88/" title="集合">集合</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/Vue%E5%85%A5%E9%97%A8/" title="分类于 Vue入门">Vue入门</a>
 </div>
 
-    <span><a href="/2022/12/21/%E6%80%A7%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E4%BD%9C%E4%B8%9A/" title="性心理健康作业">性心理健康作业</a></span>
+    <span><a href="/2024/04/07/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6Vue%E7%BB%83%E4%B9%A0%E9%A2%98/" title="前端框架Vue练习题">前端框架Vue练习题</a></span>
   </li>
 
       
@@ -467,7 +419,56 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第一个Java程序">第一个Java程序</a></span>
+    <span><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第五个Java程序">第五个Java程序</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/11/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E5%88%B0%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%89%80%E6%9C%89%E9%94%99%E8%AF%AF%E6%80%BB%E7%BB%93/" title="C语言学习到现在的所有错误总结">C语言学习到现在的所有错误总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2023/09/08/%E6%BB%B4%EF%BC%8C%E8%AF%B7%E7%AD%BE%E6%94%B6/" title="滴，请签收">滴，请签收</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/typora/" title="分类于 typora">typora</a>
+</div>
+
+    <span><a href="/2023/03/07/typora%E7%94%A8%E6%B3%95%E5%86%8D%E6%B7%B1%E5%8C%96/" title="typora用法再深化">typora用法再深化</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" title="指向一维数组的指针变量">指向一维数组的指针变量</a></span>
   </li>
 
   </ul>
