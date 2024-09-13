@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"maven工程+mybatis\" tag",
+    "description": "",
+    "home_page_url": "https://chulianyuang.github.io",
+    "items": [
+        {
+            "id": "https://chulianyuang.github.io/2024/09/13/Mybatis%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/",
+            "url": "https://chulianyuang.github.io/2024/09/13/Mybatis%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/",
+            "title": "Mybatis项目配置",
+            "date_published": "2024-09-13T05:18:27.000Z",
+            "content_html": "<h1 id=\"mybatis环境配置\"><a class=\"markdownIt-Anchor\" href=\"#mybatis环境配置\">#</a> Mybatis 环境配置</h1>\n<h2 id=\"这次项目的最终效果\"><a class=\"markdownIt-Anchor\" href=\"#这次项目的最终效果\">#</a> 这次项目的最终效果</h2>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202409131326714.png\" alt=\"屏幕截图 2024-09-12 005757\"></p>\n<p>当看到控制台输出你的姓名和学号就说明做对了</p>\n<h2 id=\"首先进入官网地址\"><a class=\"markdownIt-Anchor\" href=\"#首先进入官网地址\">#</a> 首先进入官网地址</h2>\n<h3 id=\"官网地址如下\"><a class=\"markdownIt-Anchor\" href=\"#官网地址如下\">#</a> 官网地址如下</h3>\n<p>[]: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9teWJhdGlzLm9yZy9teWJhdGlzLTMvemhfQ04vaW5kZXguaHRtbA==\">https://mybatis.org/mybatis-3/zh_CN/index.html</span>\t“官网地址”</p>\n<p><strong>如图</strong></p>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202409131322713.png\" alt=\"image-20240913132244500\"></p>\n<p>打开 IDEA 进行 maven 工程搭建</p>\n",
+            "tags": [
+                "maven工程+Mybatis"
+            ]
+        }
+    ]
+}
