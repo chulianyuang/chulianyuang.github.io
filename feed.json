@@ -5,6 +5,16 @@
     "home_page_url": "https://chulianyuang.github.io",
     "items": [
         {
+            "id": "https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/",
+            "url": "https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/",
+            "title": "Java开发学习路线",
+            "date_published": "2025-10-10T06:27:42.000Z",
+            "content_html": "<h1 id=\"Java学习路线\"><a href=\"#Java学习路线\" class=\"headerlink\" title=\"Java学习路线\"></a>Java学习路线</h1><p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510101428954.png\" alt=\"deepseek_mermaid_20251010_f37404\"></p>\n<ol>\n<li>**基础阶段 (Stage 1)**：打好Java、数据库和前端基础。</li>\n<li><strong>Web入门阶段 (Stage 2)<strong>：理解B&#x2F;S架构如何工作，掌握经典的MVC开发模式。</strong>此处可做第一个综合项目：一个简单的管理系统。</strong></li>\n<li><strong>框架整合阶段 (Stage 3)<strong>：学习企业级开发框架，简化开发。</strong>此处做核心项目：SSM或SpringBoot单体架构项目。</strong></li>\n<li><strong>微服务与进阶阶段 (Stage 4)<strong>：学习分布式、微服务架构，应对复杂业务系统。</strong>此处可做微服务项目。</strong></li>\n<li>**运维与拓展阶段 (Stage 5)**：关注部署、效率和系统性能，学习各种中间件。</li>\n</ol>\n",
+            "tags": [
+                "Java"
+            ]
+        },
+        {
             "id": "https://chulianyuang.github.io/2024/09/25/Hadoop%E7%9A%84%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F/",
             "url": "https://chulianyuang.github.io/2024/09/25/Hadoop%E7%9A%84%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F/",
             "title": "Hadoop的生态系统",

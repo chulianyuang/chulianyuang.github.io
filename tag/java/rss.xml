@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>welcome to my world • Posts by &#34;java&#34; tag</title>
+        <link>https://chulianyuang.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 10 Oct 2025 14:27:42 +0800</pubDate>
+        <lastBuildDate>Fri, 10 Oct 2025 14:27:42 +0800</lastBuildDate>
+        <category>C语言函数复习</category>
+        <category>三省吾身</category>
+        <category>小白学C语言</category>
+        <category>C语言大一上学期期末复习</category>
+        <category>细解</category>
+        <category>习题汇总</category>
+        <category>题库</category>
+        <category>maven工程+Mybatis+IDEA</category>
+        <category>Front-end project</category>
+        <category>网页设计</category>
+        <category>巧思</category>
+        <category>细化操作</category>
+        <category>中二病</category>
+        <category>Java项目</category>
+        <category>练习题</category>
+        <category>动态规划</category>
+        <category>历史早读</category>
+        <category>大学计划1</category>
+        <category>鸡汤</category>
+        <category>C语言探索</category>
+        <category>性理解</category>
+        <category>项目一-学生管理系统</category>
+        <category>慢节奏的生活</category>
+        <category>C语言指针复习</category>
+        <category>小测</category>
+        <category>期末复习</category>
+        <category>习题答案</category>
+        <category>《Me for you》翻译</category>
+        <category>栈和队列</category>
+        <category>日常小作</category>
+        <category>环境保护</category>
+        <category>矩阵与求解</category>
+        <category>慢慢就爱上的科目</category>
+        <category>知识点总结</category>
+        <category>C语言复习</category>
+        <category>从年头红到年尾</category>
+        <category>课前五分钟</category>
+        <category>全国英语四级考试</category>
+        <category>英语角</category>
+        <category>蓝桥杯</category>
+        <category>课前演讲</category>
+        <category>概念介绍</category>
+        <category>C语言实验报告</category>
+        <category>实训报告</category>
+        <category>关于创业的一条路</category>
+        <category>知识总结</category>
+        <category>Java</category>
+        <item>
+            <guid isPermalink="true">https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</guid>
+            <title>Java开发学习路线</title>
+            <link>https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</link>
+            <category>Java</category>
+            <pubDate>Fri, 10 Oct 2025 14:27:42 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;Java学习路线&#34;&gt;&lt;a href=&#34;#Java学习路线&#34; class=&#34;headerlink&#34; title=&#34;Java学习路线&#34;&gt;&lt;/a&gt;Java学习路线&lt;/h1&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510101428954.png&#34; alt=&#34;deepseek_mermaid_20251010_f37404&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;**基础阶段 (Stage 1)**：打好Java、数据库和前端基础。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web入门阶段 (Stage 2)&lt;strong&gt;：理解B&amp;#x2F;S架构如何工作，掌握经典的MVC开发模式。&lt;/strong&gt;此处可做第一个综合项目：一个简单的管理系统。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;框架整合阶段 (Stage 3)&lt;strong&gt;：学习企业级开发框架，简化开发。&lt;/strong&gt;此处做核心项目：SSM或SpringBoot单体架构项目。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微服务与进阶阶段 (Stage 4)&lt;strong&gt;：学习分布式、微服务架构，应对复杂业务系统。&lt;/strong&gt;此处可做微服务项目。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;**运维与拓展阶段 (Stage 5)**：关注部署、效率和系统性能，学习各种中间件。&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

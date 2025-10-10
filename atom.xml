@@ -3,7 +3,7 @@
     <id>https://chulianyuang.github.io</id>
     <title>welcome to my world</title>
     <link href="https://chulianyuang.github.io" />
-    <updated>2024-09-25T15:17:49.000Z</updated>
+    <updated>2025-10-10T06:27:42.000Z</updated>
     <category term="C语言函数复习" />
     <category term="三省吾身" />
     <category term="小白学C语言" />
@@ -50,6 +50,23 @@
     <category term="实训报告" />
     <category term="关于创业的一条路" />
     <category term="知识总结" />
+    <category term="Java" />
+    <entry>
+        <id>https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</id>
+        <title>Java开发学习路线</title>
+        <link rel="alternate" href="https://chulianyuang.github.io/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+        <content type="html">&lt;h1 id=&#34;Java学习路线&#34;&gt;&lt;a href=&#34;#Java学习路线&#34; class=&#34;headerlink&#34; title=&#34;Java学习路线&#34;&gt;&lt;/a&gt;Java学习路线&lt;/h1&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510101428954.png&#34; alt=&#34;deepseek_mermaid_20251010_f37404&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;**基础阶段 (Stage 1)**：打好Java、数据库和前端基础。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web入门阶段 (Stage 2)&lt;strong&gt;：理解B&amp;#x2F;S架构如何工作，掌握经典的MVC开发模式。&lt;/strong&gt;此处可做第一个综合项目：一个简单的管理系统。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;框架整合阶段 (Stage 3)&lt;strong&gt;：学习企业级开发框架，简化开发。&lt;/strong&gt;此处做核心项目：SSM或SpringBoot单体架构项目。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微服务与进阶阶段 (Stage 4)&lt;strong&gt;：学习分布式、微服务架构，应对复杂业务系统。&lt;/strong&gt;此处可做微服务项目。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;**运维与拓展阶段 (Stage 5)**：关注部署、效率和系统性能，学习各种中间件。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Java" />
+        <updated>2025-10-10T06:27:42.000Z</updated>
+    </entry>
     <entry>
         <id>https://chulianyuang.github.io/2024/09/25/Hadoop%E7%9A%84%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F/</id>
         <title>Hadoop的生态系统</title>
