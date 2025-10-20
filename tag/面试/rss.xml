@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>welcome to my world • Posts by &#34;面试&#34; tag</title>
+        <link>https://chulianyuang.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 20 Oct 2025 17:48:52 +0800</pubDate>
+        <lastBuildDate>Mon, 20 Oct 2025 17:48:52 +0800</lastBuildDate>
+        <category>C语言函数复习</category>
+        <category>三省吾身</category>
+        <category>小白学C语言</category>
+        <category>C语言大一上学期期末复习</category>
+        <category>细解</category>
+        <category>习题汇总</category>
+        <category>题库</category>
+        <category>maven工程+Mybatis+IDEA</category>
+        <category>Front-end project</category>
+        <category>网页设计</category>
+        <category>巧思</category>
+        <category>细化操作</category>
+        <category>中二病</category>
+        <category>Java项目</category>
+        <category>练习题</category>
+        <category>动态规划</category>
+        <category>历史早读</category>
+        <category>大学计划1</category>
+        <category>鸡汤</category>
+        <category>C语言探索</category>
+        <category>性理解</category>
+        <category>项目一-学生管理系统</category>
+        <category>慢节奏的生活</category>
+        <category>C语言指针复习</category>
+        <category>小测</category>
+        <category>期末复习</category>
+        <category>习题答案</category>
+        <category>《Me for you》翻译</category>
+        <category>栈和队列</category>
+        <category>日常小作</category>
+        <category>环境保护</category>
+        <category>矩阵与求解</category>
+        <category>慢慢就爱上的科目</category>
+        <category>知识点总结</category>
+        <category>C语言复习</category>
+        <category>从年头红到年尾</category>
+        <category>课前五分钟</category>
+        <category>全国英语四级考试</category>
+        <category>英语角</category>
+        <category>蓝桥杯</category>
+        <category>课前演讲</category>
+        <category>概念介绍</category>
+        <category>C语言实验报告</category>
+        <category>实训报告</category>
+        <category>关于创业的一条路</category>
+        <category>知识总结</category>
+        <category>Java</category>
+        <category>面试</category>
+        <item>
+            <guid isPermalink="true">https://chulianyuang.github.io/2025/10/20/%E4%B8%AA%E4%BA%BA%E6%A0%A1%E5%86%85%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</guid>
+            <title>个人校内项目汇总;</title>
+            <link>https://chulianyuang.github.io/2025/10/20/%E4%B8%AA%E4%BA%BA%E6%A0%A1%E5%86%85%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</link>
+            <category>面试</category>
+            <pubDate>Mon, 20 Oct 2025 17:48:52 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;🚀-我的技术项目集&#34;&gt;&lt;a href=&#34;#🚀-我的技术项目集&#34; class=&#34;headerlink&#34; title=&#34;🚀 我的技术项目集&#34;&gt;&lt;/a&gt;🚀 我的技术项目集&lt;/h1&gt;&lt;p&gt;欢迎来到我的技术项目展示页面！这里汇集了我个人开发和学习过程中完成的主要项目。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;📊-项目概览&#34;&gt;&lt;a href=&#34;#📊-项目概览&#34; class=&#34;headerlink&#34; title=&#34;📊 项目概览&#34;&gt;&lt;/a&gt;📊 项目概览&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目类别&lt;/th&gt;
+&lt;th&gt;项目数量&lt;/th&gt;
+&lt;th&gt;技术栈&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Web 应用&lt;/td&gt;
+&lt;td&gt;5 个&lt;/td&gt;
+&lt;td&gt;React, Vue, Node.js&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;工具库&lt;/td&gt;
+&lt;td&gt;3 个&lt;/td&gt;
+&lt;td&gt;Python, JavaScript&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;学习笔记&lt;/td&gt;
+&lt;td&gt;10+ 篇&lt;/td&gt;
+&lt;td&gt;各种技术&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;🌟-精选项目&#34;&gt;&lt;a href=&#34;#🌟-精选项目&#34; class=&#34;headerlink&#34; title=&#34;🌟 精选项目&#34;&gt;&lt;/a&gt;🌟 精选项目&lt;/h2&gt;&lt;h3 id=&#34;1-博客网站&#34;&gt;&lt;a href=&#34;#1-博客网站&#34; class=&#34;headerlink&#34; title=&#34;1. 博客网站&#34;&gt;&lt;/a&gt;1. &lt;a href=&#34;%E9%93%BE%E6%8E%A5%E5%88%B0%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D%E6%96%87%E7%AB%A0&#34;&gt;博客网站&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;技术栈&lt;/strong&gt;: Vue.js&amp;#x2F;React, Node.js, MySQL&lt;br&gt;&lt;strong&gt;状态&lt;/strong&gt;: 🟢 在线运行&lt;br&gt;&lt;strong&gt;描述&lt;/strong&gt;: 基于 Typora 文档的个人博客系统，支持 Markdown 渲染和分类管理。&lt;br&gt;&lt;strong&gt;亮点&lt;/strong&gt;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自动解析 Typora 文档&lt;/li&gt;
+&lt;li&gt;响应式设计&lt;/li&gt;
+&lt;li&gt;标签分类系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;%E5%8D%9A%E5%AE%A2%E9%A1%B9%E7%9B%AE%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5&#34;&gt;查看详情&lt;/a&gt; | &lt;a href=&#34;%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%9C%B0%E5%9D%80&#34;&gt;在线演示&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-项目名称&#34;&gt;&lt;a href=&#34;#2-项目名称&#34; class=&#34;headerlink&#34; title=&#34;2. [项目名称]&#34;&gt;&lt;/a&gt;2. [项目名称]&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;技术栈&lt;/strong&gt;: 技术栈名称&lt;br&gt;&lt;strong&gt;状态&lt;/strong&gt;: 🟡 开发中 &amp;#x2F; 🟢 已完成&lt;br&gt;&lt;strong&gt;描述&lt;/strong&gt;: 项目简要描述…&lt;br&gt;&lt;strong&gt;亮点&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;亮点1&lt;/li&gt;
+&lt;li&gt;亮点2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;%E9%A1%B9%E7%9B%AE%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5&#34;&gt;查看详情&lt;/a&gt; | &lt;a href=&#34;%E4%BB%A3%E7%A0%81%E9%93%BE%E6%8E%A5&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;🗂️-项目分类&#34;&gt;&lt;a href=&#34;#🗂️-项目分类&#34; class=&#34;headerlink&#34; title=&#34;🗂️ 项目分类&#34;&gt;&lt;/a&gt;🗂️ 项目分类&lt;/h2&gt;&lt;h3 id=&#34;Web-开发&#34;&gt;&lt;a href=&#34;#Web-开发&#34; class=&#34;headerlink&#34; title=&#34;Web 开发&#34;&gt;&lt;/a&gt;Web 开发&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;博客网站&lt;/a&gt; - 个人博客系统&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;项目2&lt;/a&gt; - 电商平台&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;项目3&lt;/a&gt; - 后台管理系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工具脚本&#34;&gt;&lt;a href=&#34;#工具脚本&#34; class=&#34;headerlink&#34; title=&#34;工具脚本&#34;&gt;&lt;/a&gt;工具脚本&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;自动化工具&lt;/a&gt; - 文件处理脚本&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;数据分析&lt;/a&gt; - 数据处理程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习笔记&#34;&gt;&lt;a href=&#34;#学习笔记&#34; class=&#34;headerlink&#34; title=&#34;学习笔记&#34;&gt;&lt;/a&gt;学习笔记&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;Vue.js 深入学习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;Node.js 实战&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E9%93%BE%E6%8E%A5&#34;&gt;数据库优化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;💡-技术栈&#34;&gt;&lt;a href=&#34;#💡-技术栈&#34; class=&#34;headerlink&#34; title=&#34;💡 技术栈&#34;&gt;&lt;/a&gt;💡 技术栈&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;前端&lt;/strong&gt;: HTML, CSS, JavaScript, Vue.js, React&lt;br&gt;&lt;strong&gt;后端&lt;/strong&gt;: Node.js, Python, Java&lt;br&gt;&lt;strong&gt;数据库&lt;/strong&gt;: MySQL, MongoDB, Redis&lt;br&gt;&lt;strong&gt;工具&lt;/strong&gt;: Git, Docker, Webpack&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;📞-联系我&#34;&gt;&lt;a href=&#34;#📞-联系我&#34; class=&#34;headerlink&#34; title=&#34;📞 联系我&#34;&gt;&lt;/a&gt;📞 联系我&lt;/h2&gt;&lt;p&gt;如果对我的项目感兴趣，欢迎通过以下方式联系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;邮箱：&lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOiYjeDc5OyYjMTExOyYjMTE3OyYjeDcyOyYjNDY7JiMxMDE7JiN4NmQ7JiN4NjE7JiMxMDU7JiN4NmM7JiM2NDsmIzEwMTsmIzEyMDsmIzk3OyYjMTA5OyYjMTEyOyYjeDZjOyYjeDY1OyYjeDJlOyYjeDYzOyYjeDZmOyYjeDZkOw==&#34;&gt;&amp;#x79;&amp;#111;&amp;#117;&amp;#x72;&amp;#46;&amp;#101;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#64;&amp;#101;&amp;#120;&amp;#97;&amp;#109;&amp;#112;&amp;#x6c;&amp;#x65;&amp;#x2e;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;GitHub：[你的GitHub主页]&lt;/li&gt;
+&lt;li&gt;LinkedIn：[你的LinkedIn]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢您花时间浏览我的项目！🙏&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
