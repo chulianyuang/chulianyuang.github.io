@@ -51,7 +51,6 @@
     <category term="关于创业的一条路" />
     <category term="知识总结" />
     <category term="Java" />
-    <category term="面试" />
     <entry>
         <id>https://chulianyuang.github.io/2024/04/16/%E5%BD%93%E6%B2%A1%E6%9C%89%E5%AD%A6%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%B6%EF%BC%8C%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%B5%8B%E8%AF%95/</id>
         <title>当没有学后端服务器时，前端如何测试</title>

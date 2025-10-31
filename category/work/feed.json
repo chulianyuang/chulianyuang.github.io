@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome to my world • All posts by \"work\" category",
+    "description": "",
+    "home_page_url": "https://chulianyuang.github.io",
+    "items": [
+        {
+            "id": "https://chulianyuang.github.io/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/",
+            "url": "https://chulianyuang.github.io/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/",
+            "title": "个人介绍",
+            "date_published": "2025-10-31T02:53:29.000Z",
+            "content_html": "<p><strong>罗梓丰</strong></p>\n<p><strong>📸 生活瞬间</strong></p>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510311055753.jpg\" alt=\"生活照\">{: width&#x3D;”300” }</p>\n<p><strong>🎯 兴趣所在</strong><br>• 骑行探索 - 用车轮丈量世界<br>• 技术学习 - 通过B站、CSDN持续充电</p>\n<p><strong>✨ 生活哲学</strong><br>“像规划骑行路线一样规划代码架构，注重长远与稳健；像享受下坡清风一样享受解决Bug后的豁然开朗。”</p>\n",
+            "tags": []
+        }
+    ]
+}
