@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?11694"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?579544"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?191735"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?395396"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?376280"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?272129"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?77984"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?97671"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?621617"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?980372"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?888873"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?127947"></li>
         </ul>
       </div>
     </header>
@@ -153,20 +153,19 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="函数声明的错误"><a class="markdownIt-Anchor" href="#函数声明的错误">#</a> 函数声明的错误</h1>
-<h2 id="错误来源例题数组的输入与输出"><a class="markdownIt-Anchor" href="#错误来源例题数组的输入与输出">#</a> 错误来源・例题：数组的输入与输出</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> M 3</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N 4</span></span><br><span class="line"><span class="meta">#void input(int a[][N]);</span></span><br><span class="line"><span class="meta">#void output(int b[][N]);</span></span><br><span class="line"><span class="comment">//输出arr[3][4]的所有数组元素的值（按列输出）</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="comment">//int arr[M][N] = &#123; &#123;1,4,7,10&#125;,&#123;2,5,8,11&#125;,&#123;3,6,9,12&#125; &#125;;</span></span><br><span class="line">	<span class="type">int</span> arr[M][N];</span><br><span class="line">	 input(arr);</span><br><span class="line">	 output(arr);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//函数功能：对数组进行赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[][N])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i, j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; M;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; N;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			scanf_s(<span class="string">&quot;%d\t&quot;</span>, &amp;a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//函数功能:对数组进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> b[][N])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; M;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; N;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>, b[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>编译过程中的错误提示：</p>
-<p><strong>E0011	无法识别的预处理指令	数组</strong></p>
-<p><strong>C:\Users\luo66\Desktop\C 语言实验报告 \ 数组 \ 源.cpp	5</strong></p>
+    <h1 id="函数声明的错误"><a href="#函数声明的错误" class="headerlink" title="函数声明的错误"></a>函数声明的错误</h1><h2 id="错误来源·例题：数组的输入与输出"><a href="#错误来源·例题：数组的输入与输出" class="headerlink" title="错误来源·例题：数组的输入与输出"></a>错误来源·例题：数组的输入与输出</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> M 3</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N 4</span></span><br><span class="line"><span class="meta">#void input(int a[][N]);</span></span><br><span class="line"><span class="meta">#void output(int b[][N]);</span></span><br><span class="line"><span class="comment">//输出arr[3][4]的所有数组元素的值（按列输出）</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="comment">//int arr[M][N] = &#123; &#123;1,4,7,10&#125;,&#123;2,5,8,11&#125;,&#123;3,6,9,12&#125; &#125;;</span></span><br><span class="line">	<span class="type">int</span> arr[M][N];</span><br><span class="line">	 input(arr);</span><br><span class="line">	 output(arr);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//函数功能：对数组进行赋值</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">input</span><span class="params">(<span class="type">int</span> a[][N])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i, j;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; M;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; N;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			scanf_s(<span class="string">&quot;%d\t&quot;</span>, &amp;a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//函数功能:对数组进行输出</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">output</span><span class="params">(<span class="type">int</span> b[][N])</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; M;i++) <span class="comment">//行下标遍历</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>;j &lt; N;j++)<span class="comment">//列下标遍历</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>, b[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>编译过程中的错误提示：	</p>
+<p><strong>E0011	无法识别的预处理指令	数组</strong>	</p>
+<p><strong>C:\Users\luo66\Desktop\C语言实验报告\数组\源.cpp	5</strong></p>
 <p>处理问题后的代码为</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define M 3</span><br><span class="line">#define N 4</span><br><span class="line">void input(int a[][N]);</span><br><span class="line">void output(int b[][N]);</span><br><span class="line">//输出arr[3][4]的所有数组元素的值（按列输出）</span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	//int arr[M][N] = &#123; &#123;1,4,7,10&#125;,&#123;2,5,8,11&#125;,&#123;3,6,9,12&#125; &#125;;</span><br><span class="line">	int arr[M][N];</span><br><span class="line">	 input(arr);</span><br><span class="line">	 output(arr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br><span class="line">//函数功能：对数组进行赋值</span><br><span class="line">void input(int a[][N])</span><br><span class="line">&#123;</span><br><span class="line">	int i, j;</span><br><span class="line">	for (i = 0;i &lt; M;i++) //行下标遍历</span><br><span class="line">	&#123;</span><br><span class="line">		for (j = 0;j &lt; N;j++)//列下标遍历</span><br><span class="line">		&#123;</span><br><span class="line">		printf(&quot;请给第%d行第%d列的数赋值\n&quot;, i + 1, j + 1);</span><br><span class="line">		scanf(&quot;%d&quot;, &amp;a[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">//函数功能:对数组进行输出</span><br><span class="line">void output(int b[][N])</span><br><span class="line">&#123;</span><br><span class="line">	int i = 0, j = 0;</span><br><span class="line"></span><br><span class="line">	for (i = 0;i &lt; M;i++) //行下标遍历</span><br><span class="line">	&#123;</span><br><span class="line">		for (j = 0;j &lt; N;j++)//列下标遍历</span><br><span class="line">		&#123;</span><br><span class="line">			printf(&quot;%d\t&quot;, b[i][j]);</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="解决方法"><a class="markdownIt-Anchor" href="#解决方法">#</a> 解决方法：</h3>
-<ol>
+
+<h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><ol>
 <li>函数声明前面不需要加#</li>
-<li>scanf 的引号内不能加 /t</li>
+<li>scanf的引号内不能加&#x2F;t</li>
 </ol>
-<p>感悟心得：有点小粗心，过分依赖软件自身的扫描，没想到 scanf 里面加 \t 不是语法问题，系统扫描不出来，就自己在傻傻的看头文件。真的越学越像头猪了。越简单的错误越容易让人忽略，下次要注意敲代码的习惯</p>
+<p>感悟心得：有点小粗心，过分依赖软件自身的扫描，没想到scanf里面加\t不是语法问题，系统扫描不出来，就自己在傻傻的看头文件。真的越学越像头猪了。越简单的错误越容易让人忽略，下次要注意敲代码的习惯</p>
 
       <div class="tags">
           <a href="/tags/%E4%B8%89%E7%9C%81%E5%90%BE%E8%BA%AB/" rel="tag"><i class="ic i-tag"></i> 三省吾身</a>
@@ -231,7 +230,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?253040" title="C语言数组模块知识总结">
+  <a href="/2022/11/29/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?340611" title="C语言数组模块知识总结">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>C语言数组模块知识总结</h3>
@@ -241,7 +240,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?454676" title="课前五分钟中英双版">
+  <a href="/2022/12/02/%E8%AF%BE%E5%89%8D%E4%BA%94%E5%88%86%E9%92%9F%E4%B8%AD%E8%8B%B1%E5%8F%8C%E7%89%88/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?620281" title="课前五分钟中英双版">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 大学进阶英语</span>
   <h3>课前五分钟中英双版</h3>
@@ -263,7 +262,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E7%9A%84%E9%94%99%E8%AF%AF"><span class="toc-number">1.</span> <span class="toc-text"> 函数声明的错误</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%E6%9D%A5%E6%BA%90%E4%BE%8B%E9%A2%98%E6%95%B0%E7%BB%84%E7%9A%84%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA"><span class="toc-number">1.1.</span> <span class="toc-text"> 错误来源・例题：数组的输入与输出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 解决方法：</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E7%9A%84%E9%94%99%E8%AF%AF"><span class="toc-number">1.</span> <span class="toc-text">函数声明的错误</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%E6%9D%A5%E6%BA%90%C2%B7%E4%BE%8B%E9%A2%98%EF%BC%9A%E6%95%B0%E7%BB%84%E7%9A%84%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA"><span class="toc-number">1.1.</span> <span class="toc-text">错误来源·例题：数组的输入与输出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-number">1.1.1.</span> <span class="toc-text">解决方法：</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -380,10 +379,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/30/%E8%81%8A%E5%A4%A9%E5%AE%A4/" title="聊天室">聊天室</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/03/09/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89/" title="线性表的类型定义">线性表的类型定义</a></span>
+    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
   </li>
 
       
@@ -392,7 +401,26 @@ Luo的小世界 = welcome to my world</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2023/09/08/%E6%BB%B4%EF%BC%8C%E8%AF%B7%E7%AD%BE%E6%94%B6/" title="滴，请签收">滴，请签收</a></span>
+    <span><a href="/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/" title="网页设计简介">网页设计简介</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/23/%E5%9B%B0%E6%89%B0%E6%88%91%E7%9A%84C%E8%AF%AD%E8%A8%80%E9%9A%BE%E9%A2%98/" title="困扰我的程序难题">困扰我的程序难题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" title="Java开发学习路线">Java开发学习路线</a></span>
   </li>
 
       
@@ -402,47 +430,37 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/10/27/%E9%9B%86%E5%90%88/" title="集合">集合</a></span>
+    <span><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第五个Java程序">第五个Java程序</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
+    <span><a href="/2023/05/22/%E9%98%9F%E5%88%97/" title="队列">队列</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
+    <span><a href="/2023/11/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" title="数据结构-查找算法">数据结构-查找算法</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/work/" title="分类于 work">work</a>
-</div>
-
-    <span><a href="/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/" title="个人介绍">个人介绍</a></span>
+    <span><a href="/2023/12/05/%E7%BF%BB%E8%AF%91%E5%AD%97%E5%85%B8/" title="翻译字典">翻译字典</a></span>
   </li>
 
       
@@ -453,26 +471,6 @@ Luo的小世界 = welcome to my world</title>
 </div>
 
     <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Python/" title="分类于 Python">Python</a>
-</div>
-
-    <span><a href="/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/" title="Python可视化综合案例">Python可视化综合案例</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
-</div>
-
-    <span><a href="/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/" title="自主作品2">自主作品2</a></span>
   </li>
 
   </ul>

@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?544600"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?48398"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?803199"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?247945"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?452755"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?366966"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?793037"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?535105"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?549108"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?131980"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?708570"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?478317"></li>
         </ul>
       </div>
     </header>
@@ -153,14 +153,14 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="查找算法-java"><a class="markdownIt-Anchor" href="#查找算法-java">#</a> 查找算法 - Java</h1>
-<h2 id="二分查找"><a class="markdownIt-Anchor" href="#二分查找">#</a> 二分查找</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311171341825.png" alt="屏幕截图 2023-11-16 223828"></p>
+    <h1 id="查找算法-Java"><a href="#查找算法-Java" class="headerlink" title="查找算法-Java"></a>查找算法-Java</h1><h2 id="二分查找"><a href="#二分查找" class="headerlink" title="二分查找"></a>二分查找</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311171341825.png" alt="屏幕截图 2023-11-16 223828"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">d</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//二分查找</span></span><br><span class="line">        <span class="type">int</span> []arr=&#123;<span class="number">7</span>,<span class="number">23</span>,<span class="number">79</span>,<span class="number">81</span>,<span class="number">103</span>,<span class="number">127</span>,<span class="number">131</span>,<span class="number">147</span>&#125;;</span><br><span class="line">        System.out.print(<span class="string">&quot;请输入你要查找的数字：&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> num=<span class="number">1311</span>;</span><br><span class="line">        System.out.println(Findnum(arr,num));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">Findnum</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> num)</span> &#123;</span><br><span class="line">        <span class="comment">//定义左指针</span></span><br><span class="line">        <span class="type">int</span> left= <span class="number">0</span>;</span><br><span class="line">        <span class="comment">//定义右指针</span></span><br><span class="line">        <span class="type">int</span> right=arr.length-<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (<span class="literal">true</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(left&gt;right)<span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">            <span class="type">int</span> a=(left+right)/<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(arr[a]&gt;num) &#123;</span><br><span class="line">                right=a-<span class="number">1</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span> (num&gt;arr[a])&#123;</span><br><span class="line">                left=a+<span class="number">1</span>;</span><br><span class="line">            &#125;<span class="keyword">if</span>(arr[a]==num)&#123;</span><br><span class="line">                <span class="keyword">return</span> a;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="分块查找"><a class="markdownIt-Anchor" href="#分块查找">#</a> 分块查找</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311171341838.png" alt="屏幕截图 2023-11-16 233550"></p>
+
+<h2 id="分块查找"><a href="#分块查找" class="headerlink" title="分块查找"></a>分块查找</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311171341838.png" alt="屏幕截图 2023-11-16 233550"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Day2.text1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol</span> &#123;</span><br><span class="line">    <span class="type">int</span> max;</span><br><span class="line">    <span class="type">int</span> left;</span><br><span class="line">    <span class="type">int</span> right;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">demol</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">demol</span><span class="params">(<span class="type">int</span> max, <span class="type">int</span> left, <span class="type">int</span> right)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.max = max;</span><br><span class="line">        <span class="built_in">this</span>.left = left;</span><br><span class="line">        <span class="built_in">this</span>.right = right;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Day2.text1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">s</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> []arr=&#123;<span class="number">16</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">12</span>,</span><br><span class="line">                <span class="number">21</span>,<span class="number">18</span>,<span class="number">32</span>,<span class="number">23</span>,</span><br><span class="line">                <span class="number">37</span>,<span class="number">26</span>,<span class="number">45</span>,<span class="number">34</span>,</span><br><span class="line">                <span class="number">50</span>,<span class="number">48</span>,<span class="number">61</span>,<span class="number">52</span>,</span><br><span class="line">                <span class="number">73</span>,<span class="number">66</span>&#125;;</span><br><span class="line">        <span class="comment">//定义要查找的数</span></span><br><span class="line">        <span class="type">int</span> num=<span class="number">48</span>;</span><br><span class="line">        System.out.println(Findnum1(arr,num));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">Findnum1</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> num)</span> &#123;</span><br><span class="line">        <span class="comment">//创建对象</span></span><br><span class="line">        demol arr1=<span class="keyword">new</span> <span class="title class_">demol</span>(<span class="number">16</span>,<span class="number">0</span>,<span class="number">3</span>);</span><br><span class="line">        demol arr2=<span class="keyword">new</span> <span class="title class_">demol</span>(<span class="number">32</span>,<span class="number">4</span>,<span class="number">7</span>);</span><br><span class="line">        demol arr3=<span class="keyword">new</span> <span class="title class_">demol</span>(<span class="number">45</span>,<span class="number">8</span>,<span class="number">11</span>);</span><br><span class="line">        demol arr4=<span class="keyword">new</span> <span class="title class_">demol</span>(<span class="number">61</span>,<span class="number">12</span>,<span class="number">15</span>);</span><br><span class="line">        demol arr5=<span class="keyword">new</span> <span class="title class_">demol</span>(<span class="number">73</span>,<span class="number">16</span>,<span class="number">17</span>);</span><br><span class="line">        <span class="comment">//将所有对象装进数组</span></span><br><span class="line">        demol []aa=&#123;arr1,arr2,arr3,arr4,arr5&#125;;</span><br><span class="line">        <span class="comment">//遍历查找num属于哪个索引</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; aa.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (num&lt;aa[i].max)&#123;</span><br><span class="line">                <span class="keyword">for</span> (<span class="type">int</span> j=aa[i].left;j&lt;=aa[i].right;j++)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(arr[j]==num)<span class="keyword">return</span> j;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
       <div class="tags">
           <a href="/tags/%E9%A2%98%E5%BA%93/" rel="tag"><i class="ic i-tag"></i> 题库</a>
@@ -225,7 +225,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/11/15/%E7%88%AC%E8%99%AB-Java/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?433279" title="爬虫-Java">
+  <a href="/2023/11/15/%E7%88%AC%E8%99%AB-Java/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?449771" title="爬虫-Java">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>爬虫-Java</h3>
@@ -235,7 +235,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?267565" title="数据结构-排序算法">
+  <a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?436707" title="数据结构-排序算法">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>数据结构-排序算法</h3>
@@ -257,7 +257,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95-java"><span class="toc-number">1.</span> <span class="toc-text"> 查找算法 - Java</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE"><span class="toc-number">1.1.</span> <span class="toc-text"> 二分查找</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%9D%97%E6%9F%A5%E6%89%BE"><span class="toc-number">1.2.</span> <span class="toc-text"> 分块查找</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95-Java"><span class="toc-number">1.</span> <span class="toc-text">查找算法-Java</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE"><span class="toc-number">1.1.</span> <span class="toc-text">二分查找</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%9D%97%E6%9F%A5%E6%89%BE"><span class="toc-number">1.2.</span> <span class="toc-text">分块查找</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -374,80 +374,20 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/12/05/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E9%9A%BE%E9%A2%98/" title="C语言数组难题">C语言数组难题</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/11/14/Java%E5%B8%B8%E7%94%A8API/" title="Java常用API">Java常用API</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%88%9B%E4%B8%9A/" title="分类于 创业">创业</a>
-</div>
-
-    <span><a href="/2023/02/27/%E9%AC%BC%E7%82%B9%E5%AD%90/" title="鬼点子">鬼点子</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" title="分类于 操作系统">操作系统</a>
-</div>
-
-    <span><a href="/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/" title="操作系统习题汇总">操作系统习题汇总</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/03/09/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="顺序表中基本操作的实现">顺序表中基本操作的实现</a></span>
+    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%8A%9B%E6%89%A3/" title="分类于 力扣">力扣</a>
+<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
 </div>
 
-    <span><a href="/2023/03/15/%E5%8A%9B%E6%89%A3%E9%A2%98%E5%9E%8B%E8%AF%95%E6%B0%B4/" title="力扣题型试水">力扣题型试水</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2023/02/04/%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F/" title="指向一维数组的指针变量">指向一维数组的指针变量</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/30/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%9B%B0%E6%83%91/" title="C语言函数调用困惑">C语言函数调用困惑</a></span>
+    <span><a href="/2023/07/21/%E6%A8%A1%E4%BB%BF%E6%96%B0%E6%B5%AA%E7%BD%91%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BD%9C%E5%93%81/" title="模仿新浪网的一个作品">模仿新浪网的一个作品</a></span>
   </li>
 
       
@@ -457,7 +397,47 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/" title="暑假规划">暑假规划</a></span>
+    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+</div>
+
+    <span><a href="/2023/10/24/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%9C%E4%B8%9A0/" title="数据库作业0">数据库作业0</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Web%E5%BC%80%E5%8F%91/" title="分类于 Web开发">Web开发</a>
+</div>
+
+    <span><a href="/2023/08/06/%E8%87%AA%E4%B8%BB%E4%BD%9C%E5%93%812/" title="自主作品2">自主作品2</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
+</div>
+
+    <span><a href="/2023/03/09/c%E8%AF%AD%E8%A8%80malloc%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E6%84%8F%E4%B9%89/" title="c语言malloc函数的用法和意义">c语言malloc函数的用法和意义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Vue%E5%85%A5%E9%97%A8/" title="分类于 Vue入门">Vue入门</a>
+</div>
+
+    <span><a href="/2024/04/07/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6Vue%E7%BB%83%E4%B9%A0%E9%A2%98/" title="前端框架Vue练习题">前端框架Vue练习题</a></span>
   </li>
 
       
@@ -467,7 +447,27 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/05/29/%E7%AC%AC%E4%B8%89%E4%B8%AAJava%E7%A8%8B%E5%BA%8F-1/" title="第三个Java程序">第三个Java程序</a></span>
+    <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="数据结构-排序算法">数据结构-排序算法</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第二个Java程序">第二个Java程序</a></span>
   </li>
 
   </ul>

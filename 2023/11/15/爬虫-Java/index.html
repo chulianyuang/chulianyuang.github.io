@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?337176"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?91820"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?317063"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?90899"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?253918"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?439973"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?613078"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?788796"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?299558"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?202437"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?999996"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?333580"></li>
         </ul>
       </div>
     </header>
@@ -153,12 +153,10 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="爬虫"><a class="markdownIt-Anchor" href="#爬虫">#</a> 爬虫</h1>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311152149920.png" alt="image-20231115214957655"></p>
-<h2 id="文本改一下改成下面的"><a class="markdownIt-Anchor" href="#文本改一下改成下面的">#</a> 文本改一下，改成下面的</h2>
-<p>Java 是在 1991 年由 SUN 公司的 James Gosling（Java 之父）及其团队所研发的一种编程语言，第一个版本耗时 18 个月，最开始命名为 Oak（一种橡树）。Java 现在广泛应用于各种大型互联网应用，其设计的最初动机主要是平台独立（即体系结构中立）语言的需要，可以嵌入到各种消费类电子设备（家用电器等），但市场反应不佳。当前最新版本为 Java17。</p>
-<h2 id="代码展示"><a class="markdownIt-Anchor" href="#代码展示">#</a> 代码展示</h2>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Day2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.regex.Matcher;</span><br><span class="line"><span class="keyword">import</span> java.util.regex.Pattern;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol1</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//爬虫</span></span><br><span class="line">        <span class="comment">//创建文本类</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">text</span> <span class="operator">=</span> <span class="string">&quot;Java是在1991年由SUN公司的James Gosling（Java之父）及其团队所研发的一种编程语言，第一个版本耗时18个月，最开始命名为Oak（一种橡树）。Java现在广泛应用于各种大型互联网应用，其设计的最初动机主要是平台独立（即体系结构中立）语言的需要，可以嵌入到各种消费类电子设备（家用电器等），但市场反应不佳。当前最新版本为Java17&quot;</span>;</span><br><span class="line">        System.out.println(text);</span><br><span class="line">        <span class="comment">//获取一个正则表达式的对象，这个不能用new</span></span><br><span class="line">        Pattern w= Pattern.compile(<span class="string">&quot;Java\\d&#123;0,2&#125;&quot;</span>);</span><br><span class="line">        <span class="comment">//拿着m去获取text中符合的子串</span></span><br><span class="line">        Matcher m=w.matcher(text);</span><br><span class="line">        <span class="comment">//利用循环获取</span></span><br><span class="line">        <span class="keyword">while</span> (m.find())&#123;</span><br><span class="line">            String a=m.group();</span><br><span class="line">            System.out.print(a+<span class="string">&quot;\t&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <h1 id="爬虫"><a href="#爬虫" class="headerlink" title="爬虫"></a>爬虫</h1><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202311152149920.png" alt="image-20231115214957655"></p>
+<h2 id="文本改一下，改成下面的"><a href="#文本改一下，改成下面的" class="headerlink" title="文本改一下，改成下面的"></a>文本改一下，改成下面的</h2><p>Java是在1991年由SUN公司的James Gosling（Java之父）及其团队所研发的一种编程语言，第一个版本耗时18个月，最开始命名为Oak（一种橡树）。Java现在广泛应用于各种大型互联网应用，其设计的最初动机主要是平台独立（即体系结构中立）语言的需要，可以嵌入到各种消费类电子设备（家用电器等），但市场反应不佳。当前最新版本为Java17。</p>
+<h2 id="代码展示"><a href="#代码展示" class="headerlink" title="代码展示"></a>代码展示</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Day2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.regex.Matcher;</span><br><span class="line"><span class="keyword">import</span> java.util.regex.Pattern;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demol1</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//爬虫</span></span><br><span class="line">        <span class="comment">//创建文本类</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">text</span> <span class="operator">=</span> <span class="string">&quot;Java是在1991年由SUN公司的James Gosling（Java之父）及其团队所研发的一种编程语言，第一个版本耗时18个月，最开始命名为Oak（一种橡树）。Java现在广泛应用于各种大型互联网应用，其设计的最初动机主要是平台独立（即体系结构中立）语言的需要，可以嵌入到各种消费类电子设备（家用电器等），但市场反应不佳。当前最新版本为Java17&quot;</span>;</span><br><span class="line">        System.out.println(text);</span><br><span class="line">        <span class="comment">//获取一个正则表达式的对象，这个不能用new</span></span><br><span class="line">        Pattern w= Pattern.compile(<span class="string">&quot;Java\\d&#123;0,2&#125;&quot;</span>);</span><br><span class="line">        <span class="comment">//拿着m去获取text中符合的子串</span></span><br><span class="line">        Matcher m=w.matcher(text);</span><br><span class="line">        <span class="comment">//利用循环获取</span></span><br><span class="line">        <span class="keyword">while</span> (m.find())&#123;</span><br><span class="line">            String a=m.group();</span><br><span class="line">            System.out.print(a+<span class="string">&quot;\t&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
       <div class="tags">
           <a href="/tags/%E9%A2%98%E5%BA%93/" rel="tag"><i class="ic i-tag"></i> 题库</a>
@@ -223,7 +221,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/11/14/Java%E5%B8%B8%E7%94%A8API/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?49929" title="Java常用API">
+  <a href="/2023/11/14/Java%E5%B8%B8%E7%94%A8API/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?719308" title="Java常用API">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>Java常用API</h3>
@@ -233,7 +231,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/11/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?56832" title="数据结构-查找算法">
+  <a href="/2023/11/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?838302" title="数据结构-查找算法">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>数据结构-查找算法</h3>
@@ -255,7 +253,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%88%AC%E8%99%AB"><span class="toc-number">1.</span> <span class="toc-text"> 爬虫</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E6%9C%AC%E6%94%B9%E4%B8%80%E4%B8%8B%E6%94%B9%E6%88%90%E4%B8%8B%E9%9D%A2%E7%9A%84"><span class="toc-number">1.1.</span> <span class="toc-text"> 文本改一下，改成下面的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA"><span class="toc-number">1.2.</span> <span class="toc-text"> 代码展示</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%88%AC%E8%99%AB"><span class="toc-number">1.</span> <span class="toc-text">爬虫</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E6%9C%AC%E6%94%B9%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%94%B9%E6%88%90%E4%B8%8B%E9%9D%A2%E7%9A%84"><span class="toc-number">1.1.</span> <span class="toc-text">文本改一下，改成下面的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA"><span class="toc-number">1.2.</span> <span class="toc-text">代码展示</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -375,27 +373,27 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/10/27/%E9%9B%86%E5%90%88/" title="集合">集合</a></span>
+    <span><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第五个Java程序">第五个Java程序</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
+    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Myprojects/" title="分类于 Myprojects">Myprojects</a>
+<a href="/categories/Vue%E5%85%A5%E9%97%A8/" title="分类于 Vue入门">Vue入门</a>
 </div>
 
-    <span><a href="/2024/04/11/Vue2-%E6%B0%B4%E6%9E%9C%E8%B4%AD%E7%89%A9%E8%BD%A6/" title="Vue2-水果购物车">Vue2-水果购物车</a></span>
+    <span><a href="/2024/04/07/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6Vue%E7%BB%83%E4%B9%A0%E9%A2%98/" title="前端框架Vue练习题">前端框架Vue练习题</a></span>
   </li>
 
       
@@ -405,37 +403,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2023/02/07/%E5%AF%B9printf%E5%92%8Cscanf%E4%B8%A4%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3/" title="对printf和scanf两函数的理解">对printf和scanf两函数的理解</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/05/29/%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第一个Java程序">第一个Java程序</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第四个Java程序">第四个Java程序</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
-</div>
-
-    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
+    <span><a href="/2022/11/10/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="C语言题目由简单到复杂">C语言题目由简单到复杂</a></span>
   </li>
 
       
@@ -445,7 +413,16 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2022/11/04/%E9%99%90%E6%97%B6%E8%B4%B4%EF%BC%8C%E5%86%85%E5%AE%B9%E8%A7%84%E5%88%92/" title="博客内容规划大方向">博客内容规划大方向</a></span>
+    <span><a href="/2023/05/25/%E7%8E%B0%E5%9C%A8%E6%90%9E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%98%E6%9C%89%E6%B2%A1%E6%9C%89%E6%84%8F%E4%B9%89/" title="现在搞个人博客还有没有意义">现在搞个人博客还有没有意义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" title="Java开发学习路线">Java开发学习路线</a></span>
   </li>
 
       
@@ -455,17 +432,37 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/09/26/%E9%A1%B9%E7%9B%AE%E4%B8%80-Java-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/" title="项目一  Java 编程基础">项目一  Java 编程基础</a></span>
+    <span><a href="/2023/11/22/%E4%B8%89%E4%BA%BA%E6%96%97%E5%9C%B0%E4%B8%BB-Java/" title="三人斗地主-Java">三人斗地主-Java</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
+    <span><a href="/2022/12/05/%E9%A1%B9%E7%9B%AE%E5%9B%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E5%BA%94%E7%94%A8/" title="项目四~数组的应用">项目四~数组的应用</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/" title="拼图小游戏.java">拼图小游戏.java</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+</div>
+
+    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
   </li>
 
   </ul>

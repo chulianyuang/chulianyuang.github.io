@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?594129"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?811093"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?5908"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?693751"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?35322"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?413426"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?116661"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?671622"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?653788"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?947754"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?375248"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?856012"></li>
         </ul>
       </div>
     </header>
@@ -153,47 +153,28 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="2-队列"><a class="markdownIt-Anchor" href="#2-队列">#</a> 2、队列</h1>
-<h2 id="21-队列的基本概念"><a class="markdownIt-Anchor" href="#21-队列的基本概念">#</a> 2.1 队列的基本概念</h2>
-<p>队列：队列简称队，是一种操作受限的线性表，只允许在表的一端进行插入，而在表的另一端进行删除。向队列种插入元素称为入队或进队；删除元素称为出队或离队。队列的示意图如下所示：</p>
-<p>对头（front）：允许删除的一端，又称队首。<br>
-队尾（rear）：允许插入的一端。<br>
-空队列：不含任何元素的空表。<br>
-队列的特性：先进先出。<br>
-队列的应用：速度不匹配问题、多用户资源竞争问题。</p>
+    <h1 id="2、队列"><a href="#2、队列" class="headerlink" title="2、队列"></a>2、队列</h1><h2 id="2-1-队列的基本概念"><a href="#2-1-队列的基本概念" class="headerlink" title="2.1 队列的基本概念"></a>2.1 队列的基本概念</h2><p>队列：队列简称队，是一种操作受限的线性表，只允许在表的一端进行插入，而在表的另一端进行删除。向队列种插入元素称为入队或进队；删除元素称为出队或离队。队列的示意图如下所示：</p>
+<p>对头（front）：允许删除的一端，又称队首。<br>队尾（rear）：允许插入的一端。<br>空队列：不含任何元素的空表。<br>队列的特性：先进先出。<br>队列的应用：速度不匹配问题、多用户资源竞争问题。</p>
 <p>注意：栈和队列都是操作受限的线性表，不是任何对线性表的操作都适合栈和队列的操作，不可以随便读取栈或队列中间的某个元素。</p>
-<h2 id="22-队列的顺序存储结构"><a class="markdownIt-Anchor" href="#22-队列的顺序存储结构">#</a> 2.2 队列的顺序存储结构</h2>
-<h3 id="1队列的顺序存储"><a class="markdownIt-Anchor" href="#1队列的顺序存储">#</a> 1. 队列的顺序存储</h3>
-<p>队列的顺序实现是指分配一块连续的存储单元存放队列中的元素，并附设两个指针：对头指针 front 指向对头元素，队尾指针 rear 指向队尾元素的下一个位置。</p>
+<h2 id="2-2-队列的顺序存储结构"><a href="#2-2-队列的顺序存储结构" class="headerlink" title="2.2 队列的顺序存储结构"></a>2.2 队列的顺序存储结构</h2><h3 id="1-队列的顺序存储"><a href="#1-队列的顺序存储" class="headerlink" title="1.队列的顺序存储"></a>1.队列的顺序存储</h3><p>队列的顺序实现是指分配一块连续的存储单元存放队列中的元素，并附设两个指针：对头指针 front 指向对头元素，队尾指针 rear 指向队尾元素的下一个位置。</p>
 <p>队列的顺序存储类型描述如下：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 50  <span class="comment">//定义队列中元素的最大个数</span></span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">   ElemType data[MaxSize];  <span class="comment">//存放队列元素</span></span><br><span class="line">   <span class="type">int</span> front,rear;  <span class="comment">//队头指针和队尾指针</span></span><br><span class="line">   &#125; SqQueue;</span><br></pre></td></tr></table></figure>
-<p>初始状态（队空条件）：Q.front == Q.rear == 0<br>
- 进队操作：队不满时，先送值到队尾元素，再将队尾指针加 1<br>
- 出队操作：队不空时，先取队头元素值，再将队头指针加 1</p>
+
+<p>初始状态（队空条件）：Q.front &#x3D;&#x3D; Q.rear &#x3D;&#x3D; 0<br>进队操作：队不满时，先送值到队尾元素，再将队尾指针加1<br>出队操作：队不空时，先取队头元素值，再将队头指针加1</p>
 <p>队列的操作示意图如下图所示：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231746417.png" alt="在这里插入图片描述"></p>
-<p>队列操作示意图中 d 图所示，队列中仅有一个元素，再进行入队操作时，会出现 “上溢出”，但这种溢出不是真正的溢出，在队列数组中仍然存在可以存放元素的空位置，这是一种 “假溢出”。</p>
-<h3 id="2循环队列"><a class="markdownIt-Anchor" href="#2循环队列">#</a> 2. 循环队列</h3>
-<p>循环队列：将顺序队列臆造成一个环状的空间，即把存储队列元素的表从逻辑上视为一个环，称为循环队列。</p>
-<p>当队首指针 Q.front = MaxSize-1 后，再前进一个位置就会自动到 0，可利用除法取余（%）来实现。</p>
-<p>初始时：Q.front = Q.rear = 0<br>
- 队首指针进 1：Q.front = (Q.front + 1)% MaxSize<br>
- 队尾指针进 1：Q.rear = (Q.rear + 1)% MaxSize<br>
- 队列长度：(Q.rear + MaxSize - Q.front)% MaxSize<br>
- 出队入队时：指针都按照顺时针方向进 1<br>
-<strong> 注意：不能用动态分配的一维数组来实现循环队列，初始化时必须设定一个最大队列长度。</strong></p>
-<h4 id="为了区分循环队列队空还是队满情况有三种处理方式其中第一种为常用的区分方式重点掌握"><a class="markdownIt-Anchor" href="#为了区分循环队列队空还是队满情况有三种处理方式其中第一种为常用的区分方式重点掌握">#</a> <strong>为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握：</strong></h4>
-<p>（1）牺牲一个单元来区分队空还是队满，入队时少用一个队列单元，约定以 “队头指针在队尾的下一个指针作为堆满标志”。如下图 (d2) 所示。</p>
-<p>队满条件： (Q.rear + 1)% MaxSize == Q.front<br>
- 队空条件：Q.front == Q.rear<br>
- 队列中元素的个数：(Q.rear + MaxSize - Q.front)% MaxSize<br>
-（2）类型中增设表示元素个数的数据成员。对空的条件为 Q.size = 0，队满的条件为 Q.size == MaxSize，有 Q.front == Q.rear。<br>
-（3）类型中增设 tag 数据成员，以区分是队空还是队满。tag = 0 时，若因删除导致 Q.front == Q.rear，则为队空；tag = 1 时，若因插入导致 Q.front == Q.rear，则为队满。</p>
+<p>队列操作示意图中 d 图所示，队列中仅有一个元素，再进行入队操作时，会出现“上溢出”，但这种溢出不是真正的溢出，在队列数组中仍然存在可以存放元素的空位置，这是一种“假溢出”。</p>
+<h3 id="2-循环队列"><a href="#2-循环队列" class="headerlink" title="2.循环队列"></a>2.循环队列</h3><p>循环队列：将顺序队列臆造成一个环状的空间，即把存储队列元素的表从逻辑上视为一个环，称为循环队列。</p>
+<p>当队首指针 Q.front &#x3D; MaxSize-1 后，再前进一个位置就会自动到 0，可利用除法取余（%）来实现。</p>
+<p>初始时：Q.front &#x3D; Q.rear &#x3D; 0<br>队首指针进1：Q.front &#x3D; (Q.front + 1)%MaxSize<br>队尾指针进1：Q.rear &#x3D; (Q.rear + 1)%MaxSize<br>队列长度：(Q.rear + MaxSize - Q.front)%MaxSize<br>出队入队时：指针都按照顺时针方向进1<br><strong>注意：不能用动态分配的一维数组来实现循环队列，初始化时必须设定一个最大队列长度。</strong></p>
+<h4 id="为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握："><a href="#为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握：" class="headerlink" title="为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握："></a><strong>为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握：</strong></h4><p>（1）牺牲一个单元来区分队空还是队满，入队时少用一个队列单元，约定以“队头指针在队尾的下一个指针作为堆满标志”。如下图 (d2) 所示。</p>
+<p>队满条件： (Q.rear + 1)%MaxSize &#x3D;&#x3D; Q.front<br>队空条件：Q.front &#x3D;&#x3D; Q.rear<br>队列中元素的个数：(Q.rear + MaxSize - Q.front)%MaxSize<br>（2）类型中增设表示元素个数的数据成员。对空的条件为 Q.size &#x3D; 0，队满的条件为 Q.size &#x3D;&#x3D; MaxSize，有Q.front &#x3D;&#x3D; Q.rear。<br>（3）类型中增设 tag 数据成员，以区分是队空还是队满。tag &#x3D; 0 时，若因删除导致 Q.front &#x3D;&#x3D; Q.rear，则为队空；tag &#x3D; 1 时，若因插入导致 Q.front &#x3D;&#x3D; Q.rear，则为队满。</p>
 <p>循环队列出入队示意图如下所示：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231746287.png" alt="在这里插入图片描述"></p>
 <p>3 . 循环队列的操作</p>
 <p>（1）初始化</p>
    <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitQueue</span><span class="params">(SqQueue &amp;Q)</span>&#123;</span><br><span class="line">   Q.front == Q.rear=<span class="number">0</span>;  <span class="comment">//初始化队首、队尾指针</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>（2）判队空</p>
 <pre><code> bool isEmpty(SqQueue Q)&#123;
     if(Q.front == Q.rear) //队空条件
@@ -221,23 +202,21 @@ Luo的小世界 = welcome to my world</title>
  &#125;
 </code></pre>
 <ol start="4">
-<li>顺序队列示例代码<br>
-顺序队列基本操作：顺序队列的初始化、入队列、出队列以及显示队列中的数据元素的示例代码如下所示：</li>
+<li>顺序队列示例代码<br>顺序队列基本操作：顺序队列的初始化、入队列、出队列以及显示队列中的数据元素的示例代码如下所示：</li>
 </ol>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> QINITSIZE 100</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> QINCRECEMENT 10</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> OK 1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> null 0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> Status;</span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> QElemType;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">QueueType</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    QElemType *front;</span><br><span class="line">    QElemType *rear;</span><br><span class="line">    <span class="type">int</span> qsize;</span><br><span class="line">&#125;<span class="built_in">queue</span>;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">q_init</span><span class="params">(<span class="built_in">queue</span> *q)</span></span><br><span class="line">&#123;</span><br><span class="line">	q-&gt;front = (QElemType *)<span class="built_in">malloc</span>(QINITSIZE*<span class="keyword">sizeof</span>(QElemType));</span><br><span class="line">	<span class="keyword">if</span>(q-&gt;front == null)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line">	q-&gt;rear = q-&gt;front;</span><br><span class="line">	q-&gt;qsize = QINITSIZE;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">Enqueue</span><span class="params">(<span class="built_in">queue</span> *q,<span class="type">int</span> e)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(q-&gt;rear - q-&gt;front &gt;= QINITSIZE)</span><br><span class="line">	&#123;</span><br><span class="line">		q-&gt;front = (QElemType *)<span class="built_in">realloc</span>(q,(q-&gt;qsize + QINCRECEMENT)*<span class="keyword">sizeof</span>(QElemType));</span><br><span class="line">		q-&gt;rear = q-&gt;front;</span><br><span class="line">		q-&gt;qsize += QINCRECEMENT; </span><br><span class="line">	&#125;</span><br><span class="line">	*q-&gt;rear++ = e;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line">Status <span class="title function_">Dequeue</span><span class="params">(<span class="built_in">queue</span> *q,<span class="type">int</span> *e)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(q-&gt;rear == q-&gt;front)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line">	*e = *q-&gt;front++;</span><br><span class="line">	q-&gt;qsize--;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">queue</span> q;</span><br><span class="line">	QElemType e,*p;</span><br><span class="line">	<span class="keyword">if</span>(q_init(&amp;q))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;顺序队列创建成功!\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	Enqueue(&amp;q,<span class="number">1</span>);</span><br><span class="line">	Enqueue(&amp;q,<span class="number">2</span>);</span><br><span class="line">	Enqueue(&amp;q,<span class="number">3</span>);</span><br><span class="line">	Enqueue(&amp;q,<span class="number">4</span>);</span><br><span class="line">	Enqueue(&amp;q,<span class="number">5</span>);</span><br><span class="line">	p = q.front;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;顺序队列里面的数据为:\n&quot;</span>);</span><br><span class="line">	<span class="keyword">while</span>(p &lt; q.rear)</span><br><span class="line">	    <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>,*p++);</span><br><span class="line">	Dequeue(&amp;q,&amp;e);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n被删除的元素:\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,e);</span><br><span class="line">	p=q.front;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;删除队头后的数据为:\n&quot;</span>);</span><br><span class="line">	<span class="keyword">while</span>(p&lt;q.rear)</span><br><span class="line">	     <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>,*p++);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>运行结果如下图所示：<img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231746520.png" alt="在这里插入图片描述"></p>
-<h2 id="23-队列的链式存储结构"><a class="markdownIt-Anchor" href="#23-队列的链式存储结构">#</a> 2.3 队列的链式存储结构</h2>
-<h3 id="1队列的链式存储"><a class="markdownIt-Anchor" href="#1队列的链式存储">#</a> 1. 队列的链式存储</h3>
-<p>队列的链式表示称为链队列，实际上是一个同时带有队头指针和队尾指针的单链表。头指针指向队头结点，尾指针指向队尾结点，即单链表的最后一个结点。</p>
+<h2 id="2-3-队列的链式存储结构"><a href="#2-3-队列的链式存储结构" class="headerlink" title="2.3 队列的链式存储结构"></a>2.3 队列的链式存储结构</h2><h3 id="1-队列的链式存储"><a href="#1-队列的链式存储" class="headerlink" title="1.队列的链式存储"></a>1.队列的链式存储</h3><p>队列的链式表示称为链队列，实际上是一个同时带有队头指针和队尾指针的单链表。头指针指向队头结点，尾指针指向队尾结点，即单链表的最后一个结点。</p>
 <p>队列的不带头结点的链式存储示意图如下图所示：<img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231747307.png" alt="在这里插入图片描述"></p>
 <p>队列的链式存储类型代码描述如下所示：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span>  <span class="comment">//链式队列结点</span></span><br><span class="line">   ElemType data;</span><br><span class="line">   <span class="class"><span class="keyword">struct</span> <span class="title">LinkNode</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;LinkNode;</span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span>  <span class="comment">//链式队列</span></span><br><span class="line">   LinkNode *front,*rear;  <span class="comment">//队列的队头和队尾指针</span></span><br><span class="line">&#125;LinkQueue;</span><br></pre></td></tr></table></figure>
-<p>当 Q.front == NULL 且 Q.rear == NULL 时，链式队列为空。</p>
+
+<p>当 Q.front &#x3D;&#x3D; NULL 且 Q.rear &#x3D;&#x3D; NULL 时，链式队列为空。</p>
 <p>出队时，首先判断队是否为空，若不空，则取出队头元素，将其从链表中移除，并让 Q.front 指向下一个结点（若该结点为最后一个结点，则令 Q.front 和 Q.rear 都为 NULL）。入队时，建立一个新结点，将新结点插入到链表的尾部，并改让 Q.rear 指向这个新插入的结点（若原队列为空队，则另 Q.front 也指向该结点）。</p>
 <p>由于不带头结点的链式队列在操作上比较麻烦，因此通常将链式队列设计成一个带头结点的单链表，实现插入和删除相统一。带头结点和不带头结点的链式队列如下图所示：</p>
 <p><strong>优点：用单链表表示的链式队列特别适合于数据元素变动比较大的情形，而且不存在队列满且产生溢出的问题。</strong></p>
-<h3 id="2链式队列的基本操作"><a class="markdownIt-Anchor" href="#2链式队列的基本操作">#</a> 2. 链式队列的基本操作</h3>
-<p>（1）初始化</p>
+<h3 id="2-链式队列的基本操作"><a href="#2-链式队列的基本操作" class="headerlink" title="2.链式队列的基本操作"></a>2.链式队列的基本操作</h3><p>（1）初始化</p>
 <pre><code> void InitQueue(LinkQueue &amp;Q)&#123;
     Q.front = Q.rear = (LinkNode *)malloc(sizeof(LinkNode));//建立头结点
     Q.front-&gt;next =NULL; //初始为空
@@ -272,9 +251,9 @@ Luo的小世界 = welcome to my world</title>
     return true;
  &#125;
 </code></pre>
-<h3 id="3链队列示例代码"><a class="markdownIt-Anchor" href="#3链队列示例代码">#</a> 3. 链队列示例代码</h3>
-<p>链队列的操作：链队列的初始化、入链队列、链队列队头元素出链队列以及显示链队列所有数据元素的示例代码如下所示：</p>
+<h3 id="3-链队列示例代码"><a href="#3-链队列示例代码" class="headerlink" title="3.链队列示例代码"></a>3.链队列示例代码</h3><p>链队列的操作：链队列的初始化、入链队列、链队列队头元素出链队列以及显示链队列所有数据元素的示例代码如下所示：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> OK 1;</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ERROR 0;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> QElemType;</span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> Status;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">QNode</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	QElemType data;</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">QNode</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;QNode,*QueuePtr;</span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> </span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	QueuePtr rear;</span><br><span class="line">	QueuePtr front;</span><br><span class="line">&#125;LinkQueue;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">InitQueue</span><span class="params">(LinkQueue &amp;Q)</span></span><br><span class="line">&#123;</span><br><span class="line">	Q.front=Q.rear=(QueuePtr)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(QNode));</span><br><span class="line">	<span class="keyword">if</span>(!Q.front)</span><br><span class="line">		<span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">	Q.front-&gt;next=<span class="literal">NULL</span>;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">EnQueue</span><span class="params">(LinkQueue &amp;Q,QElemType e)</span></span><br><span class="line">&#123;</span><br><span class="line">	QueuePtr p;</span><br><span class="line">	p=(QueuePtr)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(QNode));</span><br><span class="line">	<span class="keyword">if</span>(!p)</span><br><span class="line">		<span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">	p-&gt;data=e;</span><br><span class="line">	p-&gt;next=<span class="literal">NULL</span>;</span><br><span class="line">	Q.rear-&gt;next=p;</span><br><span class="line">	Q.rear=p;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">displayQueue</span><span class="params">(LinkQueue &amp;Q)</span></span><br><span class="line">&#123;</span><br><span class="line">	QueuePtr rear,front;</span><br><span class="line">	front=Q.front-&gt;next;</span><br><span class="line">	rear=Q.rear;</span><br><span class="line">	<span class="keyword">if</span>(front==rear)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;链队列为空!&quot;</span>);</span><br><span class="line">		<span class="keyword">return</span> OK;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">while</span>(front!=<span class="literal">NULL</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>,front-&gt;data);</span><br><span class="line">		front=front-&gt;next;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">distoryQueue</span><span class="params">(LinkQueue &amp;Q)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">while</span>(Q.front!=<span class="literal">NULL</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		Q.rear=Q.front-&gt;next;</span><br><span class="line">		<span class="built_in">free</span>(Q.front);</span><br><span class="line">		Q.front=Q.rear;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Status <span class="title function_">DeQueue</span><span class="params">(LinkQueue &amp;Q,QElemType &amp;e)</span></span><br><span class="line">&#123;</span><br><span class="line">	QueuePtr p;</span><br><span class="line">	<span class="keyword">if</span>(Q.front==Q.rear)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line">	p=Q.front-&gt;next;</span><br><span class="line">	e=p-&gt;data;</span><br><span class="line">	Q.front-&gt;next=p-&gt;next;</span><br><span class="line">	<span class="keyword">if</span>(Q.rear==p)</span><br><span class="line">		Q.rear=Q.front;</span><br><span class="line">	<span class="built_in">free</span>(p);</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	LinkQueue Q;</span><br><span class="line">	InitQueue(Q);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;链队列中输入三个数据:\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;10\t20\t30&quot;</span>);</span><br><span class="line">	EnQueue(Q,<span class="number">10</span>);</span><br><span class="line">	EnQueue(Q,<span class="number">20</span>);</span><br><span class="line">	EnQueue(Q,<span class="number">30</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n输出链队列中的三个数据:\n&quot;</span>);</span><br><span class="line">	displayQueue(Q);</span><br><span class="line">	<span class="type">int</span> e;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;链队列对头元素出队:&quot;</span>);</span><br><span class="line">	DeQueue(Q,e);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;出队的元素为:e=%d\n\n&quot;</span>,e);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;初始化链队列:\n\n&quot;</span>);</span><br><span class="line">	distoryQueue(Q);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <p>运行结果：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202305231747688.png" alt="在这里插入图片描述"></p>
 
@@ -341,7 +320,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/04/23/%E6%A0%88/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?412597" title="栈">
+  <a href="/2023/04/23/%E6%A0%88/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?985085" title="栈">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 数据结构与算法</span>
   <h3>栈</h3>
@@ -351,7 +330,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?776169" title="数据结构与算法知识点汇总">
+  <a href="/2023/05/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?131905" title="数据结构与算法知识点汇总">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 数据结构与算法</span>
   <h3>数据结构与算法知识点汇总</h3>
@@ -373,7 +352,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E9%98%9F%E5%88%97"><span class="toc-number">1.</span> <span class="toc-text"> 2、队列</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#21-%E9%98%9F%E5%88%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text"> 2.1 队列的基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#22-%E9%98%9F%E5%88%97%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text"> 2.2 队列的顺序存储结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E9%98%9F%E5%88%97%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1. 队列的顺序存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2. 循环队列</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BA%86%E5%8C%BA%E5%88%86%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%E9%98%9F%E7%A9%BA%E8%BF%98%E6%98%AF%E9%98%9F%E6%BB%A1%E6%83%85%E5%86%B5%E6%9C%89%E4%B8%89%E7%A7%8D%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%E5%85%B6%E4%B8%AD%E7%AC%AC%E4%B8%80%E7%A7%8D%E4%B8%BA%E5%B8%B8%E7%94%A8%E7%9A%84%E5%8C%BA%E5%88%86%E6%96%B9%E5%BC%8F%E9%87%8D%E7%82%B9%E6%8E%8C%E6%8F%A1"><span class="toc-number">1.2.2.1.</span> <span class="toc-text"> 为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#23-%E9%98%9F%E5%88%97%E7%9A%84%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text"> 2.3 队列的链式存储结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E9%98%9F%E5%88%97%E7%9A%84%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8"><span class="toc-number">1.3.1.</span> <span class="toc-text"> 1. 队列的链式存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E9%93%BE%E5%BC%8F%E9%98%9F%E5%88%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.2.</span> <span class="toc-text"> 2. 链式队列的基本操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E9%93%BE%E9%98%9F%E5%88%97%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81"><span class="toc-number">1.3.3.</span> <span class="toc-text"> 3. 链队列示例代码</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#2%E3%80%81%E9%98%9F%E5%88%97"><span class="toc-number">1.</span> <span class="toc-text">2、队列</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-%E9%98%9F%E5%88%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text">2.1 队列的基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E9%98%9F%E5%88%97%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">2.2 队列的顺序存储结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E9%98%9F%E5%88%97%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.队列的顺序存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.循环队列</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BA%86%E5%8C%BA%E5%88%86%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%E9%98%9F%E7%A9%BA%E8%BF%98%E6%98%AF%E9%98%9F%E6%BB%A1%E6%83%85%E5%86%B5%EF%BC%8C%E6%9C%89%E4%B8%89%E7%A7%8D%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%85%B6%E4%B8%AD%E7%AC%AC%E4%B8%80%E7%A7%8D%E4%B8%BA%E5%B8%B8%E7%94%A8%E7%9A%84%E5%8C%BA%E5%88%86%E6%96%B9%E5%BC%8F%EF%BC%8C%E9%87%8D%E7%82%B9%E6%8E%8C%E6%8F%A1%EF%BC%9A"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">为了区分循环队列队空还是队满情况，有三种处理方式，其中第一种为常用的区分方式，重点掌握：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E9%98%9F%E5%88%97%E7%9A%84%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text">2.3 队列的链式存储结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E9%98%9F%E5%88%97%E7%9A%84%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8"><span class="toc-number">1.3.1.</span> <span class="toc-text">1.队列的链式存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%93%BE%E5%BC%8F%E9%98%9F%E5%88%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.2.</span> <span class="toc-text">2.链式队列的基本操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E9%93%BE%E9%98%9F%E5%88%97%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81"><span class="toc-number">1.3.3.</span> <span class="toc-text">3.链队列示例代码</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -490,10 +469,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/work/" title="分类于 work">work</a>
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/" title="个人介绍">个人介绍</a></span>
+    <span><a href="/2023/03/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%BA%BF%E6%80%A7%E8%A1%A8%E4%B9%A0%E9%A2%98/" title="数据结构第二章线性表习题">数据结构第二章线性表习题</a></span>
   </li>
 
       
@@ -503,7 +482,37 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
 </div>
 
-    <span><a href="/2023/05/22/%E9%98%9F%E5%88%97/" title="队列">队列</a></span>
+    <span><a href="/2023/03/10/ElemType%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/" title="ElemType是什么？">ElemType是什么？</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
+</div>
+
+    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/05/29/%E7%AC%AC%E4%BA%8C%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第二个Java程序">第二个Java程序</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2023/02/08/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E4%BD%BF%E7%94%A8/" title="结构体的使用">结构体的使用</a></span>
   </li>
 
       
@@ -513,7 +522,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2022/12/10/%E6%A2%A6%E6%83%B3%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%BD%9C/" title="梦想中的工作">梦想中的工作</a></span>
+    <span><a href="/2023/08/06/%E6%9A%91%E5%81%87%E8%A7%84%E5%88%92/" title="暑假规划">暑假规划</a></span>
   </li>
 
       
@@ -523,7 +532,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/11/23/Stream%E6%B5%81%E9%AA%9A%E6%93%8D%E4%BD%9C/" title="Stream流骚操作">Stream流骚操作</a></span>
+    <span><a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" title="Java入门（全书习题答案汇总）">Java入门（全书习题答案汇总）</a></span>
   </li>
 
       
@@ -533,27 +542,17 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/11/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" title="数据结构-查找算法">数据结构-查找算法</a></span>
+    <span><a href="/2023/06/03/%E7%AC%AC%E5%9B%9B%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第四个Java程序">第四个Java程序</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+<a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2023/11/14/%E6%B8%B8%E6%B2%89%E9%A6%99%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86/" title="游沉香文化博物馆">游沉香文化博物馆</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/11/22/%E4%B8%89%E4%BA%BA%E6%96%97%E5%9C%B0%E4%B8%BB-Java/" title="三人斗地主-Java">三人斗地主-Java</a></span>
+    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
   </li>
 
       
@@ -563,27 +562,7 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
 </div>
 
-    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
-</div>
-
-    <span><a href="/2023/03/18/%E3%80%8A%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/" title="《幸福的方法》笔记">《幸福的方法》笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></span>
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
   </li>
 
   </ul>

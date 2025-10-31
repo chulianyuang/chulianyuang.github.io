@@ -4,17 +4,18 @@
     <title>welcome to my world • Posts by &#34;python&#34; category</title>
     <link href="https://chulianyuang.github.io" />
     <updated>2024-03-27T03:59:56.000Z</updated>
+    <category term="小白学C语言" />
     <category term="C语言函数复习" />
     <category term="三省吾身" />
-    <category term="小白学C语言" />
     <category term="C语言大一上学期期末复习" />
     <category term="细解" />
     <category term="习题汇总" />
+    <category term="Java" />
     <category term="题库" />
     <category term="maven工程+Mybatis+IDEA" />
     <category term="Front-end project" />
-    <category term="网页设计" />
     <category term="巧思" />
+    <category term="网页设计" />
     <category term="细化操作" />
     <category term="中二病" />
     <category term="Java项目" />
@@ -28,10 +29,10 @@
     <category term="项目一-学生管理系统" />
     <category term="慢节奏的生活" />
     <category term="C语言指针复习" />
-    <category term="小测" />
     <category term="期末复习" />
-    <category term="习题答案" />
+    <category term="小测" />
     <category term="《Me for you》翻译" />
+    <category term="习题答案" />
     <category term="栈和队列" />
     <category term="日常小作" />
     <category term="环境保护" />
@@ -40,23 +41,22 @@
     <category term="知识点总结" />
     <category term="C语言复习" />
     <category term="从年头红到年尾" />
-    <category term="课前五分钟" />
     <category term="全国英语四级考试" />
-    <category term="英语角" />
     <category term="蓝桥杯" />
+    <category term="英语角" />
+    <category term="课前五分钟" />
     <category term="课前演讲" />
     <category term="概念介绍" />
-    <category term="C语言实验报告" />
     <category term="实训报告" />
-    <category term="关于创业的一条路" />
+    <category term="C语言实验报告" />
     <category term="知识总结" />
-    <category term="Java" />
+    <category term="关于创业的一条路" />
     <entry>
         <id>https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</id>
         <title>Python可视化综合案例</title>
         <link rel="alternate" href="https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/"/>
-        <content type="html">&lt;h1 id=&#34;折线图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#折线图&#34;&gt;#&lt;/a&gt; 折线图&lt;/h1&gt;
-&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; pyecharts.charts &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; Line&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line=Line()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_xaxis([&lt;span class=&#34;string&#34;&gt;&amp;quot;中国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;美国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;日本&amp;quot;&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_yaxis(&lt;span class=&#34;string&#34;&gt;&amp;quot;GDP&amp;quot;&lt;/span&gt;,[&lt;span class=&#34;number&#34;&gt;40&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;30&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.render()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+        <content type="html">&lt;h1 id=&#34;折线图&#34;&gt;&lt;a href=&#34;#折线图&#34; class=&#34;headerlink&#34; title=&#34;折线图&#34;&gt;&lt;/a&gt;折线图&lt;/h1&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; pyecharts.charts &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; Line&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line=Line()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_xaxis([&lt;span class=&#34;string&#34;&gt;&amp;quot;中国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;美国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;日本&amp;quot;&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_yaxis(&lt;span class=&#34;string&#34;&gt;&amp;quot;GDP&amp;quot;&lt;/span&gt;,[&lt;span class=&#34;number&#34;&gt;40&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;30&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.render()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202403272207362.png&#34; alt=&#34;image-20240327220744159&#34;&gt;&lt;/p&gt;
 </content>
         <category term="题库" />

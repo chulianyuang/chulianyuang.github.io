@@ -7,17 +7,18 @@
         <language>zh-CN</language>
         <pubDate>Wed, 27 Mar 2024 11:59:56 +0800</pubDate>
         <lastBuildDate>Wed, 27 Mar 2024 11:59:56 +0800</lastBuildDate>
+        <category>小白学C语言</category>
         <category>C语言函数复习</category>
         <category>三省吾身</category>
-        <category>小白学C语言</category>
         <category>C语言大一上学期期末复习</category>
         <category>细解</category>
         <category>习题汇总</category>
+        <category>Java</category>
         <category>题库</category>
         <category>maven工程+Mybatis+IDEA</category>
         <category>Front-end project</category>
-        <category>网页设计</category>
         <category>巧思</category>
+        <category>网页设计</category>
         <category>细化操作</category>
         <category>中二病</category>
         <category>Java项目</category>
@@ -31,10 +32,10 @@
         <category>项目一-学生管理系统</category>
         <category>慢节奏的生活</category>
         <category>C语言指针复习</category>
-        <category>小测</category>
         <category>期末复习</category>
-        <category>习题答案</category>
+        <category>小测</category>
         <category>《Me for you》翻译</category>
+        <category>习题答案</category>
         <category>栈和队列</category>
         <category>日常小作</category>
         <category>环境保护</category>
@@ -43,25 +44,24 @@
         <category>知识点总结</category>
         <category>C语言复习</category>
         <category>从年头红到年尾</category>
-        <category>课前五分钟</category>
         <category>全国英语四级考试</category>
-        <category>英语角</category>
         <category>蓝桥杯</category>
+        <category>英语角</category>
+        <category>课前五分钟</category>
         <category>课前演讲</category>
         <category>概念介绍</category>
-        <category>C语言实验报告</category>
         <category>实训报告</category>
-        <category>关于创业的一条路</category>
+        <category>C语言实验报告</category>
         <category>知识总结</category>
-        <category>Java</category>
+        <category>关于创业的一条路</category>
         <item>
             <guid isPermalink="true">https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</guid>
             <title>Python可视化综合案例</title>
             <link>https://chulianyuang.github.io/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</link>
             <category>题库</category>
             <pubDate>Wed, 27 Mar 2024 11:59:56 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;折线图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#折线图&#34;&gt;#&lt;/a&gt; 折线图&lt;/h1&gt;
-&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; pyecharts.charts &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; Line&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line=Line()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_xaxis([&lt;span class=&#34;string&#34;&gt;&amp;quot;中国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;美国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;日本&amp;quot;&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_yaxis(&lt;span class=&#34;string&#34;&gt;&amp;quot;GDP&amp;quot;&lt;/span&gt;,[&lt;span class=&#34;number&#34;&gt;40&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;30&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.render()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;折线图&#34;&gt;&lt;a href=&#34;#折线图&#34; class=&#34;headerlink&#34; title=&#34;折线图&#34;&gt;&lt;/a&gt;折线图&lt;/h1&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; pyecharts.charts &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; Line&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line=Line()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_xaxis([&lt;span class=&#34;string&#34;&gt;&amp;quot;中国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;美国&amp;quot;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;quot;日本&amp;quot;&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.add_yaxis(&lt;span class=&#34;string&#34;&gt;&amp;quot;GDP&amp;quot;&lt;/span&gt;,[&lt;span class=&#34;number&#34;&gt;40&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;30&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;line.render()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202403272207362.png&#34; alt=&#34;image-20240327220744159&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>

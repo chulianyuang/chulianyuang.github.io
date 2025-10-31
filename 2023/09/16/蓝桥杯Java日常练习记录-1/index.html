@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?744980"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?310491"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?239502"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?682861"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?970151"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?108524"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?410843"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?466178"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?209267"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?358989"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?475918"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?279361"></li>
         </ul>
       </div>
     </header>
@@ -153,15 +153,13 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="第二题"><a class="markdownIt-Anchor" href="#第二题">#</a> 第二题</h1>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161526649.png" alt="image-20230916152650561"></p>
+    <h1 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h1><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161526649.png" alt="image-20230916152650561"></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">test1</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;=<span class="number">2019</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (add(i))&#123;</span><br><span class="line"><span class="comment">//                System.out.print(i+&quot; &quot;);</span></span><br><span class="line">                sum+=i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;1~2019中所有这样的数之和为：&quot;</span>+sum);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//写一个嵌套，找出含有2 0 1 9 这些数字的数</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">add</span><span class="params">(<span class="type">int</span> i)</span> &#123;</span><br><span class="line">        <span class="keyword">while</span> (i!=<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="type">int</span> num=i%<span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span>(num==<span class="number">2</span>||num==<span class="number">0</span>||num==<span class="number">1</span>||num==<span class="number">9</span>)&#123;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            i=i/<span class="number">10</span>;</span><br><span class="line">            add(i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="运行结果"><a class="markdownIt-Anchor" href="#运行结果">#</a> 运行结果</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161528617.png" alt="image-20230916152824568"></p>
-<h2 id="第二种解法"><a class="markdownIt-Anchor" href="#第二种解法">#</a> 第二种解法</h2>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">test2</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//这是第二种算法，思路是数据类型转成字符数组，提黄字符数组比较</span></span><br><span class="line">        <span class="type">int</span> count=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;=<span class="number">2019</span> ; i++) &#123;</span><br><span class="line">            <span class="comment">//数字转字符串</span></span><br><span class="line">            String j=i+<span class="string">&quot; &quot;</span>;</span><br><span class="line">            <span class="comment">//利用函数将字符串转成字符数组</span></span><br><span class="line">            <span class="type">char</span> []sc=j.toCharArray();</span><br><span class="line">            <span class="comment">//定义一个变量存放相加的数值</span></span><br><span class="line"></span><br><span class="line">            <span class="comment">//通过for循环判断是否有2019这几个数</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">0</span>; k &lt; sc.length; k++) &#123;</span><br><span class="line">                <span class="keyword">if</span>(sc[k]==<span class="string">&#x27;0&#x27;</span>||sc[k]==<span class="string">&#x27;1&#x27;</span>||sc[k]==<span class="string">&#x27;2&#x27;</span>||sc[k]==<span class="string">&#x27;9&#x27;</span>)&#123;</span><br><span class="line">                    count+=i;</span><br><span class="line">                    <span class="keyword">break</span>;<span class="comment">//此处break不能漏，不然数字会加重复</span></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;1~2019中符合条件的数之和为：&quot;</span>+count);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="运行结果-2"><a class="markdownIt-Anchor" href="#运行结果-2">#</a> 运行结果</h2>
-<p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161800656.png" alt="image-20230916180053514"></p>
+
+<h2 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161528617.png" alt="image-20230916152824568"></p>
+<h2 id="第二种解法"><a href="#第二种解法" class="headerlink" title="第二种解法"></a>第二种解法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">test2</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//这是第二种算法，思路是数据类型转成字符数组，提黄字符数组比较</span></span><br><span class="line">        <span class="type">int</span> count=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;=<span class="number">2019</span> ; i++) &#123;</span><br><span class="line">            <span class="comment">//数字转字符串</span></span><br><span class="line">            String j=i+<span class="string">&quot; &quot;</span>;</span><br><span class="line">            <span class="comment">//利用函数将字符串转成字符数组</span></span><br><span class="line">            <span class="type">char</span> []sc=j.toCharArray();</span><br><span class="line">            <span class="comment">//定义一个变量存放相加的数值</span></span><br><span class="line"></span><br><span class="line">            <span class="comment">//通过for循环判断是否有2019这几个数</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">0</span>; k &lt; sc.length; k++) &#123;</span><br><span class="line">                <span class="keyword">if</span>(sc[k]==<span class="string">&#x27;0&#x27;</span>||sc[k]==<span class="string">&#x27;1&#x27;</span>||sc[k]==<span class="string">&#x27;2&#x27;</span>||sc[k]==<span class="string">&#x27;9&#x27;</span>)&#123;</span><br><span class="line">                    count+=i;</span><br><span class="line">                    <span class="keyword">break</span>;<span class="comment">//此处break不能漏，不然数字会加重复</span></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;1~2019中符合条件的数之和为：&quot;</span>+count);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="运行结果-1"><a href="#运行结果-1" class="headerlink" title="运行结果"></a>运行结果</h2><p><img data-src="https://cdn.jsdelivr.net/gh/chulianyuang/imap/202309161800656.png" alt="image-20230916180053514"></p>
 
       <div class="tags">
           <a href="/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/" rel="tag"><i class="ic i-tag"></i> 蓝桥杯</a>
@@ -226,7 +224,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?403157" title="蓝桥杯Java日常练习记录0">
+  <a href="/2023/09/11/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?502495" title="蓝桥杯Java日常练习记录0">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>蓝桥杯Java日常练习记录0</h3>
@@ -236,7 +234,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?401255" title="Java入门（全书习题答案汇总）">
+  <a href="/2023/09/23/Java%E5%85%A5%E9%97%A8%EF%BC%88%E5%85%A8%E4%B9%A6%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB%EF%BC%89/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?758653" title="Java入门（全书习题答案汇总）">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> Java入门</span>
   <h3>Java入门（全书习题答案汇总）</h3>
@@ -258,7 +256,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 第二题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text"> 运行结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E8%A7%A3%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text"> 第二种解法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C-2"><span class="toc-number">1.3.</span> <span class="toc-text"> 运行结果</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text">第二题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">1.1.</span> <span class="toc-text">运行结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E8%A7%A3%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">第二种解法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C-1"><span class="toc-number">1.3.</span> <span class="toc-text">运行结果</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -375,89 +373,10 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/04/23/%E6%A0%88/" title="栈">栈</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/10/01/%E7%AC%AC%E5%85%AD%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第六个Java程序">第六个Java程序</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/11/14/Java%E5%B8%B8%E7%94%A8API/" title="Java常用API">Java常用API</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
-</div>
-
-    <span><a href="/2023/10/24/%E5%A4%87%E7%94%A8%E5%9B%BE%E5%BA%8AAPI/" title="备用图床API">备用图床API</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
-</div>
-
-    <span><a href="/2022/11/08/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0/" title="简明线性代数第二章小节1">简明线性代数第二章小节1</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E6%A1%86%E6%9E%B6/" title="分类于 Java框架">Java框架</a>
-</div>
-
-    <span><a href="/2024/09/13/Mybatis%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/" title="Mybatis环境搭建">Mybatis环境搭建</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
-</div>
-
-    <span><a href="/2022/11/26/%E9%A1%B9%E7%9B%AE%E4%B8%89-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目三 循环结构程序设计">项目三 循环结构程序设计</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" title="分类于 线性代数">线性代数</a>
-</div>
-
-    <span><a href="/2022/11/11/%E7%AE%80%E6%98%8E%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E4%BA%8C%E7%AB%A0-1/" title="简明线性代数第二章小节2">简明线性代数第二章小节2</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/05/25/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B/" title="网页设计简介">网页设计简介</a></span>
+    <span><a href="/2023/09/16/%E8%93%9D%E6%A1%A5%E6%9D%AFJava%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95-1/" title="蓝桥杯Java日常练习记录1">蓝桥杯Java日常练习记录1</a></span>
   </li>
 
       
@@ -467,7 +386,87 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="分类于 大学进阶英语">大学进阶英语</a>
 </div>
 
-    <span><a href="/2022/12/02/%E5%A4%A7%E5%AD%A6%E8%BF%9B%E9%98%B6%E8%8B%B1%E8%AF%AD/" title="一路向前">一路向前</a></span>
+    <span><a href="/2023/03/03/%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E5%B0%8F%E4%BD%9C/" title="环境保护小作">环境保护小作</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/25/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9D%97%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" title="C语言函数模块知识总结">C语言函数模块知识总结</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" title="分类于 高等数学">高等数学</a>
+</div>
+
+    <span><a href="/2022/12/10/%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/" title="内心独白">内心独白</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="分类于 数据库">数据库</a>
+</div>
+
+    <span><a href="/2023/10/25/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A6%82%E5%BF%B5%E9%A2%98%E5%9E%8B/" title="数据库概念题型">数据库概念题型</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/11/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="数据结构-排序算法">数据结构-排序算法</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
+</div>
+
+    <span><a href="/2023/09/25/%E7%AC%AC%E4%BA%94%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第五个Java程序">第五个Java程序</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
+</div>
+
+    <span><a href="/2023/05/25/%E7%8E%B0%E5%9C%A8%E6%90%9E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%98%E6%9C%89%E6%B2%A1%E6%9C%89%E6%84%8F%E4%B9%89/" title="现在搞个人博客还有没有意义">现在搞个人博客还有没有意义</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" title="分类于 操作系统">操作系统</a>
+</div>
+
+    <span><a href="/2023/05/24/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%A0%E9%A2%98%E5%A4%8D%E4%B9%A0/" title="操作系统习题汇总">操作系统习题汇总</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/11/09/%E9%A1%B9%E7%9B%AE%E4%BA%8C-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目二  选择结构程序设计">项目二  选择结构程序设计</a></span>
   </li>
 
   </ul>

@@ -7,17 +7,18 @@
         <language>zh-CN</language>
         <pubDate>Fri, 31 Oct 2025 10:53:29 +0800</pubDate>
         <lastBuildDate>Fri, 31 Oct 2025 10:53:29 +0800</lastBuildDate>
+        <category>小白学C语言</category>
         <category>C语言函数复习</category>
         <category>三省吾身</category>
-        <category>小白学C语言</category>
         <category>C语言大一上学期期末复习</category>
         <category>细解</category>
         <category>习题汇总</category>
+        <category>Java</category>
         <category>题库</category>
         <category>maven工程+Mybatis+IDEA</category>
         <category>Front-end project</category>
-        <category>网页设计</category>
         <category>巧思</category>
+        <category>网页设计</category>
         <category>细化操作</category>
         <category>中二病</category>
         <category>Java项目</category>
@@ -31,10 +32,10 @@
         <category>项目一-学生管理系统</category>
         <category>慢节奏的生活</category>
         <category>C语言指针复习</category>
-        <category>小测</category>
         <category>期末复习</category>
-        <category>习题答案</category>
+        <category>小测</category>
         <category>《Me for you》翻译</category>
+        <category>习题答案</category>
         <category>栈和队列</category>
         <category>日常小作</category>
         <category>环境保护</category>
@@ -43,17 +44,16 @@
         <category>知识点总结</category>
         <category>C语言复习</category>
         <category>从年头红到年尾</category>
-        <category>课前五分钟</category>
         <category>全国英语四级考试</category>
-        <category>英语角</category>
         <category>蓝桥杯</category>
+        <category>英语角</category>
+        <category>课前五分钟</category>
         <category>课前演讲</category>
         <category>概念介绍</category>
-        <category>C语言实验报告</category>
         <category>实训报告</category>
-        <category>关于创业的一条路</category>
+        <category>C语言实验报告</category>
         <category>知识总结</category>
-        <category>Java</category>
+        <category>关于创业的一条路</category>
         <item>
             <guid isPermalink="true">https://chulianyuang.github.io/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</guid>
             <title>个人介绍</title>
@@ -61,8 +61,9 @@
             <pubDate>Fri, 31 Oct 2025 10:53:29 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;罗梓丰&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;📸 生活瞬间&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510311055753.jpg&#34; alt=&#34;生活照&#34;&gt;{: width&amp;#x3D;”300” }&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;🎯 兴趣所在&lt;/strong&gt;&lt;br&gt;• 骑行探索 - 用车轮丈量世界&lt;br&gt;• 技术学习 - 通过B站、CSDN持续充电&lt;/p&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510311055753.jpg&#34; alt=&#34;生活照&#34; width=&#34;60%&#34; style=&#34;border-radius: 8px; display: block; margin: 0 auto;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;🎯 兴趣所在&lt;/strong&gt;&lt;br&gt;• 骑行探索  用车轮丈量世界&lt;br&gt;• 技术学习  通过B站、CSDN持续充电&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;✨ 生活哲学&lt;/strong&gt;&lt;br&gt;“像规划骑行路线一样规划代码架构，注重长远与稳健；像享受下坡清风一样享受解决Bug后的豁然开朗。”&lt;/p&gt;
  ]]></description>
         </item>

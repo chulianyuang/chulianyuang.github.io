@@ -4,17 +4,18 @@
     <title>welcome to my world • Posts by &#34;work&#34; category</title>
     <link href="https://chulianyuang.github.io" />
     <updated>2025-10-31T02:53:29.000Z</updated>
+    <category term="小白学C语言" />
     <category term="C语言函数复习" />
     <category term="三省吾身" />
-    <category term="小白学C语言" />
     <category term="C语言大一上学期期末复习" />
     <category term="细解" />
     <category term="习题汇总" />
+    <category term="Java" />
     <category term="题库" />
     <category term="maven工程+Mybatis+IDEA" />
     <category term="Front-end project" />
-    <category term="网页设计" />
     <category term="巧思" />
+    <category term="网页设计" />
     <category term="细化操作" />
     <category term="中二病" />
     <category term="Java项目" />
@@ -28,10 +29,10 @@
     <category term="项目一-学生管理系统" />
     <category term="慢节奏的生活" />
     <category term="C语言指针复习" />
-    <category term="小测" />
     <category term="期末复习" />
-    <category term="习题答案" />
+    <category term="小测" />
     <category term="《Me for you》翻译" />
+    <category term="习题答案" />
     <category term="栈和队列" />
     <category term="日常小作" />
     <category term="环境保护" />
@@ -40,25 +41,25 @@
     <category term="知识点总结" />
     <category term="C语言复习" />
     <category term="从年头红到年尾" />
-    <category term="课前五分钟" />
     <category term="全国英语四级考试" />
-    <category term="英语角" />
     <category term="蓝桥杯" />
+    <category term="英语角" />
+    <category term="课前五分钟" />
     <category term="课前演讲" />
     <category term="概念介绍" />
-    <category term="C语言实验报告" />
     <category term="实训报告" />
-    <category term="关于创业的一条路" />
+    <category term="C语言实验报告" />
     <category term="知识总结" />
-    <category term="Java" />
+    <category term="关于创业的一条路" />
     <entry>
         <id>https://chulianyuang.github.io/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</id>
         <title>个人介绍</title>
         <link rel="alternate" href="https://chulianyuang.github.io/2025/10/31/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;罗梓丰&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;📸 生活瞬间&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510311055753.jpg&#34; alt=&#34;生活照&#34;&gt;{: width&amp;#x3D;”300” }&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;🎯 兴趣所在&lt;/strong&gt;&lt;br&gt;• 骑行探索 - 用车轮丈量世界&lt;br&gt;• 技术学习 - 通过B站、CSDN持续充电&lt;/p&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/chulianyuang/imap/202510311055753.jpg&#34; alt=&#34;生活照&#34; width=&#34;60%&#34; style=&#34;border-radius: 8px; display: block; margin: 0 auto;&#34; /&gt;
+
+&lt;p&gt;&lt;strong&gt;🎯 兴趣所在&lt;/strong&gt;&lt;br&gt;• 骑行探索  用车轮丈量世界&lt;br&gt;• 技术学习  通过B站、CSDN持续充电&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;✨ 生活哲学&lt;/strong&gt;&lt;br&gt;“像规划骑行路线一样规划代码架构，注重长远与稳健；像享受下坡清风一样享受解决Bug后的豁然开朗。”&lt;/p&gt;
 </content>
         <updated>2025-10-31T02:53:29.000Z</updated>

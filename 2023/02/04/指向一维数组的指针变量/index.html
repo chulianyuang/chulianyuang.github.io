@@ -102,12 +102,12 @@ Luo的小世界 = welcome to my world</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?366549"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?36293"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?887738"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?611210"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?359885"></li>
-          <li class="item" data-background-image="https://t.alcy.cc/ycy?344885"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?498628"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?337725"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?741315"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?781930"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?88285"></li>
+          <li class="item" data-background-image="https://t.alcy.cc/ycy?351924"></li>
         </ul>
       </div>
     </header>
@@ -153,63 +153,48 @@ Luo的小世界 = welcome to my world</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <h2 id="指向一维数组的指针变量定义"><a class="markdownIt-Anchor" href="#指向一维数组的指针变量定义">#</a> 指向一维数组的指针变量定义：</h2>
-<p>如果定义一个指针变量，使其指向一个一维数组的首地址，或指向某个数组元素的地址，则称该指针变量为指向一维数组的指针变量。<br>
-代码实例：</p>
+    <h2 id="指向一维数组的指针变量定义："><a href="#指向一维数组的指针变量定义：" class="headerlink" title="指向一维数组的指针变量定义："></a>指向一维数组的指针变量定义：</h2><p>如果定义一个指针变量，使其指向一个一维数组的首地址，或指向某个数组元素的地址，则称该指针变量为指向一维数组的指针变量。<br>代码实例：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>],*p;<span class="comment">//首先对他们的类型做一个定义</span></span><br><span class="line">    p=a;</span><br><span class="line">    p=&amp;a[<span class="number">0</span>];<span class="comment">//这两种规定都是符合的。</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>以上这个是指向数组的首地址输出的都只是 a [0] 的值。<br>
-对于上面所写 &amp; a [i] 的表示形式，由于数组元素访问运算符 [] 的优先级更高，所以这里不必写成 &amp;(a [i]) 点形式。<br>
-<strong>插入优先级排序：由高到低为：！，算术运算符，关系运算符，&amp;&amp;，||，赋值运算符。</strong></p>
-<h2 id="可以得到数组元素ai地址的方式有四种-接下来我就只会用代码来介绍常用的三种"><a class="markdownIt-Anchor" href="#可以得到数组元素ai地址的方式有四种-接下来我就只会用代码来介绍常用的三种">#</a> 可以得到数组元素 a [i] 地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。</h2>
-<h3 id="第一种是通过数组的下标来引用数组元素这也是我们之前学数组时一直用的方法这里就不过多介绍了如下所示"><a class="markdownIt-Anchor" href="#第一种是通过数组的下标来引用数组元素这也是我们之前学数组时一直用的方法这里就不过多介绍了如下所示">#</a> ‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：</h3>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,a[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="第二种是可以通过数组名来访问数组元素-例如-ai与ai等价"><a class="markdownIt-Anchor" href="#第二种是可以通过数组名来访问数组元素-例如-ai与ai等价">#</a> ‌第二种是可以通过数组名来访问数组元素。例如：* (a+i) 与 a [i] 等价。</h3>
-<p><strong>注意：使用数组名时，不能用 a++ 的方式，因为在这里的 a 是地址常量，而常量不能被重新赋值。</strong><br>
-实例：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,*(a+i));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="第三种如果定义了指针变量pint-p并使p指向数组a的首地址即pa则可以用指针变量来访问数组元素元素p0即与a0等价~~~~pi与ai等价"><a class="markdownIt-Anchor" href="#第三种如果定义了指针变量pint-p并使p指向数组a的首地址即pa则可以用指针变量来访问数组元素元素p0即与a0等价~~~~pi与ai等价">#</a> ‌第三种，如果定义了指针变量 p (int p;), 并使 p 指向数组 a 的首地址 (即 p=a), 则可以用指针变量来访问数组元素元素，(p+0)(即 §) 与 a [0] 等价～～～～(p+i) 与 a [i] 等价。</h3>
-<p>实例：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="type">int</span> *p; p=a;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,*(p+i));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="例题使用指向数组的指针变量计算数组元素的平均值"><a class="markdownIt-Anchor" href="#例题使用指向数组的指针变量计算数组元素的平均值">#</a> 例题，使用指向数组的指针变量，计算数组元素的平均值。</h2>
-<h3 id="提示定义数组和指针变量后让指针变量指向数组循环求和"><a class="markdownIt-Anchor" href="#提示定义数组和指针变量后让指针变量指向数组循环求和">#</a> 提示：定义数组和指针变量后，让指针变量指向数组，循环求和。</h3>
-<p>代码</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>],*p,k;</span><br><span class="line">    <span class="type">float</span> aver=<span class="number">0</span>;</span><br><span class="line">    p=a;</span><br><span class="line">    <span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;<span class="number">10</span>;k++)</span><br><span class="line">    &#123;</span><br><span class="line">     <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,p+k); <span class="comment">/*p+k等价于&amp;a[k]*/</span></span><br><span class="line">     aver=aver+*(p+k);  <span class="comment">/*  *(p+k)等价于a[k]*/</span></span><br><span class="line">    &#125;</span><br><span class="line">    aver=aver/<span class="number">10</span>;</span><br><span class="line">    <span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;<span class="number">10</span>;k++)</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>,*(p+k));  <span class="comment">/*  *(p+k)等价于a[k] */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n平均值=%f\n&quot;</span>,aver);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="在该程序运行过程中指针变量p的值不变化-接下来我将为你们展示我另一种指针变量p的值发生变化的答案"><a class="markdownIt-Anchor" href="#在该程序运行过程中指针变量p的值不变化-接下来我将为你们展示我另一种指针变量p的值发生变化的答案">#</a> 在该程序运行过程中，指针变量 p 的值不变化。接下来我将为你们展示我另一种指针变量 p 的值发生变化的答案。</h3>
-<p>程序代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a[10],*p=a,i;</span><br><span class="line">    float aver=0;</span><br><span class="line">    for(i=0;i&lt;10;i++,p++)</span><br><span class="line">    &#123;</span><br><span class="line">     scanf(&quot;%d&quot;,p); /*p+k等价于&amp;a[k]*/</span><br><span class="line">     aver=aver+*(p);  /*  *(p+k)等价于a[k]*/</span><br><span class="line">    &#125;</span><br><span class="line">aver=aver/10;</span><br><span class="line">p=a;</span><br><span class="line">for(i=0;i&lt;10;i++,p++)</span><br><span class="line"> printf(&quot;%d\t&quot;,*(p));  /*  *(p+k)等价于a[k] */</span><br><span class="line">printf(&quot;\n平均值=%f\n&quot;,aver);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><em><em>注意：在这个程序使用第二个 for 循环输出数组元素的值 (即</em> p，</em> p 与 a [i 等价] 之前，一定要让指针变量 p 重新指向数组的第一个元素 (即执行语句 “p=a;”)，否则会出错。**<br>
- 从上面两个程序可以看出：使用指针变量 p 引用数组元素时，既可以用 p+i 方式，也可以用 p<ins> 方式。用 p+i 方式时，p 的值不变 (p 中存放数组首地址)。用 p</ins> 方式时，p 的初值是数组首地址 (a [0] 的地址)，后续按顺序取其它数组元素的地址。这两种方式都可以按顺序访问数组的每个元素。</p>
-<h2 id="指针使用的几个小细节"><a class="markdownIt-Anchor" href="#指针使用的几个小细节">#</a> 指针使用的几个小细节：</h2>
-<h3 id="1指针初始化"><a class="markdownIt-Anchor" href="#1指针初始化">#</a> 〈1〉指针初始化。</h3>
-<p>在定义指针变量时，可以用合法的指针值对它进行初始化。例如：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> n, * p = &amp;n;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="2空指针"><a class="markdownIt-Anchor" href="#2空指针">#</a> &lt;2&gt; 空指针</h3>
-<p>空指针是一个特殊的值，也是唯一一个对任何指针类型都合法的值。一个指针变量具有空值，表示它当时没有被赋予有意义的地址，处于闲置状态。</p>
-<p>空指针值用 0 表示。将空值赋予一个指针变量，说明该指针变量不再是一个不确定的值，而是一个有效的值。</p>
-<p>为了提高程序的可读性，C 语言标准库定义了一个与 0 等价的符号常量 NULL，当 p 是一个指针变量时，在程序中有两种形式：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> n, * p = &amp;n;</span><br><span class="line">	p = <span class="literal">NULL</span>;<span class="comment">//第一种</span></span><br><span class="line">	p = <span class="number">0</span>;<span class="comment">//第二种</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这两种写法都是将指针 p 放置为空指针值，前一种写法使读该程序的人容易意识到这里是一个指针赋值。采用前一种写法时，必须通过 #include &lt;stdio.h&gt; 包含相应的标准头文件。</p>
-<h3 id="3如果指针变量p指向数组a的元素ai即pai则需要注意以下几点"><a class="markdownIt-Anchor" href="#3如果指针变量p指向数组a的元素ai即pai则需要注意以下几点">#</a> &lt;3&gt; 如果指针变量 p 指向数组 a 的元素 a [i]（即 p=&amp;a [i]），则需要注意以下几点：</h3>
-<ol>
-<li>
-<p>*(p–) 相当于 a [i–], 先取 *p，再使 p 减 1。</p>
-</li>
-<li>
-<p>*（++p）相当于 a [++i], 先使 p 加 1，再取 *p。</p>
-</li>
-<li>
-<p>*（–p）相当于 a [–i]，先使 p 减 1，再取 *p。</p>
-</li>
-</ol>
-<h3 id="4如果指针变量p指向数组a的首地址即pa则需要注意以下几点"><a class="markdownIt-Anchor" href="#4如果指针变量p指向数组a的首地址即pa则需要注意以下几点">#</a> &lt;4&gt; 如果指针变量 p 指向数组 a 的首地址（即 p=a），则需要注意以下几点：</h3>
-<ol>
-<li>执行 p++(或 p+=1) 后，p 指向数组的下一个元素。</li>
-<li>*p<ins> 相当于 *(p</ins>)。因为 * 和 ++ 的优先级相同，++ 是右结合运算符。</li>
-<li>*(p++) 与 *(<ins>p) 的作用不同。 *(p</ins>) 为先取 *p, 再使 p 加 1； *(++p) 为先使 p 加 1，再取 *p。</li>
-<li>(*p)++ 表示 p 指向的数组元素的值加 1。<strong>// 这个可别学懵逼了</strong></li>
-</ol>
-<h3 id="5当两个指针变量指向同一个数组时可以求他们的差得到的结果是对应的两个数组元素的下标之差可能时负整数-当指向的不是同一个数组时对他们的比较将毫无意义"><a class="markdownIt-Anchor" href="#5当两个指针变量指向同一个数组时可以求他们的差得到的结果是对应的两个数组元素的下标之差可能时负整数-当指向的不是同一个数组时对他们的比较将毫无意义">#</a> &lt;5&gt; 当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。</h3>
 
+<p>以上这个是指向数组的首地址输出的都只是a[0]的值。<br>对于上面所写&amp;a[i]的表示形式，由于数组元素访问运算符[]的优先级更高，所以这里不必写成&amp;(a[i])点形式。<br><strong>插入优先级排序：由高到低为：！，算术运算符，关系运算符，&amp;&amp;，||，赋值运算符。</strong></p>
+<h2 id="可以得到数组元素a-i-地址的方式有四种-接下来，我就只会用代码来介绍常用的三种。"><a href="#可以得到数组元素a-i-地址的方式有四种-接下来，我就只会用代码来介绍常用的三种。" class="headerlink" title="可以得到数组元素a[i]地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。"></a>可以得到数组元素a[i]地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。</h2><h3 id="‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示："><a href="#‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：" class="headerlink" title="‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示："></a>‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,a[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="‌第二种是可以通过数组名来访问数组元素。例如：-a-i-与a-i-等价。"><a href="#‌第二种是可以通过数组名来访问数组元素。例如：-a-i-与a-i-等价。" class="headerlink" title="‌第二种是可以通过数组名来访问数组元素。例如：* (a+i)与a[i]等价。"></a>‌第二种是可以通过数组名来访问数组元素。例如：* (a+i)与a[i]等价。</h3><p><strong>注意：使用数组名时，不能用a++的方式，因为在这里的a是地址常量，而常量不能被重新赋值。</strong><br>实例：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,*(a+i));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="‌第三种，如果定义了指针变量p-int-p-并使p指向数组a的首地址-即p-x3D-a-则可以用指针变量来访问数组元素元素，-p-0-即-p-与a-0-等价-p-i-与a-i-等价。"><a href="#‌第三种，如果定义了指针变量p-int-p-并使p指向数组a的首地址-即p-x3D-a-则可以用指针变量来访问数组元素元素，-p-0-即-p-与a-0-等价-p-i-与a-i-等价。" class="headerlink" title="‌第三种，如果定义了指针变量p(int p;),并使p指向数组a的首地址(即p&#x3D;a),则可以用指针变量来访问数组元素元素，(p+0)(即(p))与a[0]等价~~~~(p+i)与a[i]等价。"></a>‌第三种，如果定义了指针变量p(int p;),并使p指向数组a的首地址(即p&#x3D;a),则可以用指针变量来访问数组元素元素，(p+0)(即(p))与a[0]等价~~~~(p+i)与a[i]等价。</h3><p>实例：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>&#125;;</span><br><span class="line">    <span class="type">int</span> *p; p=a;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,*(p+i));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="例题，使用指向数组的指针变量，计算数组元素的平均值。"><a href="#例题，使用指向数组的指针变量，计算数组元素的平均值。" class="headerlink" title="例题，使用指向数组的指针变量，计算数组元素的平均值。"></a>例题，使用指向数组的指针变量，计算数组元素的平均值。</h2><h3 id="提示：定义数组和指针变量后，让指针变量指向数组，循环求和。"><a href="#提示：定义数组和指针变量后，让指针变量指向数组，循环求和。" class="headerlink" title="提示：定义数组和指针变量后，让指针变量指向数组，循环求和。"></a>提示：定义数组和指针变量后，让指针变量指向数组，循环求和。</h3><p>代码</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">10</span>],*p,k;</span><br><span class="line">    <span class="type">float</span> aver=<span class="number">0</span>;</span><br><span class="line">    p=a;</span><br><span class="line">    <span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;<span class="number">10</span>;k++)</span><br><span class="line">    &#123;</span><br><span class="line">     <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,p+k); <span class="comment">/*p+k等价于&amp;a[k]*/</span></span><br><span class="line">     aver=aver+*(p+k);  <span class="comment">/*  *(p+k)等价于a[k]*/</span></span><br><span class="line">    &#125;</span><br><span class="line">    aver=aver/<span class="number">10</span>;</span><br><span class="line">    <span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;<span class="number">10</span>;k++)</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>,*(p+k));  <span class="comment">/*  *(p+k)等价于a[k] */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n平均值=%f\n&quot;</span>,aver);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="在该程序运行过程中，指针变量p的值不变化。接下来我将为你们展示我另一种指针变量p的值发生变化的答案。"><a href="#在该程序运行过程中，指针变量p的值不变化。接下来我将为你们展示我另一种指针变量p的值发生变化的答案。" class="headerlink" title="在该程序运行过程中，指针变量p的值不变化。接下来我将为你们展示我另一种指针变量p的值发生变化的答案。"></a>在该程序运行过程中，指针变量p的值不变化。接下来我将为你们展示我另一种指针变量p的值发生变化的答案。</h3><p>程序代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a[10],*p=a,i;</span><br><span class="line">    float aver=0;</span><br><span class="line">    for(i=0;i&lt;10;i++,p++)</span><br><span class="line">    &#123;</span><br><span class="line">     scanf(&quot;%d&quot;,p); /*p+k等价于&amp;a[k]*/</span><br><span class="line">     aver=aver+*(p);  /*  *(p+k)等价于a[k]*/</span><br><span class="line">    &#125;</span><br><span class="line">aver=aver/10;</span><br><span class="line">p=a;</span><br><span class="line">for(i=0;i&lt;10;i++,p++)</span><br><span class="line"> printf(&quot;%d\t&quot;,*(p));  /*  *(p+k)等价于a[k] */</span><br><span class="line">printf(&quot;\n平均值=%f\n&quot;,aver);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em><em>注意：在这个程序使用第二个for循环输出数组元素的值(即</em> p，</em> p与a[i等价]之前，一定要让指针变量p重新指向数组的第一个元素(即执行语句“p&#x3D;a;”)，否则会出错。**<br>从上面两个程序可以看出：使用指针变量p引用数组元素时，既可以用p+i方式，也可以用p++方式。用p+i方式时，p的值不变(p中存放数组首地址)。用p++方式时，p的初值是数组首地址(a[0]的地址)，后续按顺序取其它数组元素的地址。这两种方式都可以按顺序访问数组的每个元素。</p>
+<h2 id="指针使用的几个小细节："><a href="#指针使用的几个小细节：" class="headerlink" title="指针使用的几个小细节："></a>指针使用的几个小细节：</h2><h3 id="〈1〉指针初始化。"><a href="#〈1〉指针初始化。" class="headerlink" title="〈1〉指针初始化。"></a>〈1〉指针初始化。</h3><p>在定义指针变量时,可以用合法的指针值对它进行初始化。例如：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> n, * p = &amp;n;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="lt-2-gt-空指针"><a href="#lt-2-gt-空指针" class="headerlink" title="&lt;2&gt;空指针"></a>&lt;2&gt;空指针</h3><p>空指针是一个特殊的值，也是唯一一个对任何指针类型都合法的值。一个指针变量具有空值，表示它当时没有被赋予有意义的地址，处于闲置状态。</p>
+<p>空指针值用0表示。将空值赋予一个指针变量，说明该指针变量不再是一个不确定的值，而是一个有效的值。</p>
+<p>为了提高程序的可读性，C语言标准库定义了一个与0等价的符号常量NULL，当p是一个指针变量时，在程序中有两种形式：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> n, * p = &amp;n;</span><br><span class="line">	p = <span class="literal">NULL</span>;<span class="comment">//第一种</span></span><br><span class="line">	p = <span class="number">0</span>;<span class="comment">//第二种</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这两种写法都是将指针p放置为空指针值，前一种写法使读该程序的人容易意识到这里是一个指针赋值。采用前一种写法时，必须通过#include &lt;stdio.h&gt;包含相应的标准头文件。</p>
+<h3 id="lt-3-gt-如果指针变量p指向数组a的元素a-i-（即p-x3D-amp-a-i-），则需要注意以下几点："><a href="#lt-3-gt-如果指针变量p指向数组a的元素a-i-（即p-x3D-amp-a-i-），则需要注意以下几点：" class="headerlink" title="&lt;3&gt;如果指针变量p指向数组a的元素a[i]（即p&#x3D;&amp;a[i]），则需要注意以下几点："></a>&lt;3&gt;如果指针变量p指向数组a的元素a[i]（即p&#x3D;&amp;a[i]），则需要注意以下几点：</h3><ol>
+<li><p>*(p–)相当于a[i–],先取 *p，再使p减1。</p>
+</li>
+<li><p>*（++p）相当于a[++i],先使p加1，再取 *p。</p>
+</li>
+<li><p>*（–p）相当于a[–i]，先使p减1，再取 *p。</p>
+</li>
+</ol>
+<h3 id="lt-4-gt-如果指针变量p指向数组a的首地址（即p-x3D-a），则需要注意以下几点："><a href="#lt-4-gt-如果指针变量p指向数组a的首地址（即p-x3D-a），则需要注意以下几点：" class="headerlink" title="&lt;4&gt;如果指针变量p指向数组a的首地址（即p&#x3D;a），则需要注意以下几点："></a>&lt;4&gt;如果指针变量p指向数组a的首地址（即p&#x3D;a），则需要注意以下几点：</h3><ol>
+<li>执行p++(或p+&#x3D;1)后，p指向数组的下一个元素。</li>
+<li>*p++相当于 *(p++)。因为 *和++的优先级相同，++是右结合运算符。</li>
+<li>*(p++)与 *(++p)的作用不同。 *(p++)为先取 *p,再使p加1； *(++p)为先使p加1，再取 *p。</li>
+<li>(<em>p)++表示p指向的数组元素的值加1。</em><em>&#x2F;&#x2F;这个可别学懵逼了</em>*</li>
+</ol>
+<h3 id="lt-5-gt-当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。"><a href="#lt-5-gt-当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。" class="headerlink" title="&lt;5&gt;当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。"></a>&lt;5&gt;当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。</h3>
       <div class="tags">
           <a href="/tags/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E5%A4%8D%E4%B9%A0/" rel="tag"><i class="ic i-tag"></i> C语言指针复习</a>
       </div>
@@ -273,7 +258,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item left">
       
 
-  <a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?758434" title="指针变量的定义">
+  <a href="/2023/01/14/%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?424402" title="指针变量的定义">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>指针变量的定义</h3>
@@ -283,7 +268,7 @@ Luo的小世界 = welcome to my world</title>
     <div class="item right">
       
 
-  <a href="/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?420161" title="指针与字符串">
+  <a href="/2023/02/04/%E6%8C%87%E9%92%88%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;t.alcy.cc&#x2F;ycy?78685" title="指针与字符串">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C语言程序设计</span>
   <h3>指针与字符串</h3>
@@ -305,7 +290,7 @@ Luo的小世界 = welcome to my world</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E5%AE%9A%E4%B9%89"><span class="toc-number">1.</span> <span class="toc-text"> 指向一维数组的指针变量定义：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%AF%E4%BB%A5%E5%BE%97%E5%88%B0%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0ai%E5%9C%B0%E5%9D%80%E7%9A%84%E6%96%B9%E5%BC%8F%E6%9C%89%E5%9B%9B%E7%A7%8D-%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E5%B0%B1%E5%8F%AA%E4%BC%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E6%9D%A5%E4%BB%8B%E7%BB%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%89%E7%A7%8D"><span class="toc-number">2.</span> <span class="toc-text"> 可以得到数组元素 a [i] 地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%98%AF%E9%80%9A%E8%BF%87%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8B%E6%A0%87%E6%9D%A5%E5%BC%95%E7%94%A8%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E8%BF%99%E4%B9%9F%E6%98%AF%E6%88%91%E4%BB%AC%E4%B9%8B%E5%89%8D%E5%AD%A6%E6%95%B0%E7%BB%84%E6%97%B6%E4%B8%80%E7%9B%B4%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%E8%BF%99%E9%87%8C%E5%B0%B1%E4%B8%8D%E8%BF%87%E5%A4%9A%E4%BB%8B%E7%BB%8D%E4%BA%86%E5%A6%82%E4%B8%8B%E6%89%80%E7%A4%BA"><span class="toc-number">2.1.</span> <span class="toc-text"> ‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%98%AF%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%95%B0%E7%BB%84%E5%90%8D%E6%9D%A5%E8%AE%BF%E9%97%AE%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0-%E4%BE%8B%E5%A6%82-ai%E4%B8%8Eai%E7%AD%89%E4%BB%B7"><span class="toc-number">2.2.</span> <span class="toc-text"> ‌第二种是可以通过数组名来访问数组元素。例如：* (a+i) 与 a [i] 等价。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%A6%82%E6%9E%9C%E5%AE%9A%E4%B9%89%E4%BA%86%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fpint-p%E5%B9%B6%E4%BD%BFp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E9%A6%96%E5%9C%B0%E5%9D%80%E5%8D%B3pa%E5%88%99%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%9D%A5%E8%AE%BF%E9%97%AE%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E5%85%83%E7%B4%A0p0%E5%8D%B3%E4%B8%8Ea0%E7%AD%89%E4%BB%B7~~~~pi%E4%B8%8Eai%E7%AD%89%E4%BB%B7"><span class="toc-number">2.3.</span> <span class="toc-text"> ‌第三种，如果定义了指针变量 p (int p;), 并使 p 指向数组 a 的首地址 (即 p&#x3D;a), 则可以用指针变量来访问数组元素元素，(p+0)(即 §) 与 a [0] 等价～～～～(p+i) 与 a [i] 等价。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BE%8B%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E8%AE%A1%E7%AE%97%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC"><span class="toc-number">3.</span> <span class="toc-text"> 例题，使用指向数组的指针变量，计算数组元素的平均值。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E7%A4%BA%E5%AE%9A%E4%B9%89%E6%95%B0%E7%BB%84%E5%92%8C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E5%90%8E%E8%AE%A9%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84%E5%BE%AA%E7%8E%AF%E6%B1%82%E5%92%8C"><span class="toc-number">3.1.</span> <span class="toc-text"> 提示：定义数组和指针变量后，让指针变量指向数组，循环求和。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E8%AF%A5%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E7%9A%84%E5%80%BC%E4%B8%8D%E5%8F%98%E5%8C%96-%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E5%B0%86%E4%B8%BA%E4%BD%A0%E4%BB%AC%E5%B1%95%E7%A4%BA%E6%88%91%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E7%9A%84%E5%80%BC%E5%8F%91%E7%94%9F%E5%8F%98%E5%8C%96%E7%9A%84%E7%AD%94%E6%A1%88"><span class="toc-number">3.2.</span> <span class="toc-text"> 在该程序运行过程中，指针变量 p 的值不变化。接下来我将为你们展示我另一种指针变量 p 的值发生变化的答案。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E9%92%88%E4%BD%BF%E7%94%A8%E7%9A%84%E5%87%A0%E4%B8%AA%E5%B0%8F%E7%BB%86%E8%8A%82"><span class="toc-number">4.</span> <span class="toc-text"> 指针使用的几个小细节：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E6%8C%87%E9%92%88%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">4.1.</span> <span class="toc-text"> 〈1〉指针初始化。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E7%A9%BA%E6%8C%87%E9%92%88"><span class="toc-number">4.2.</span> <span class="toc-text"> &lt;2&gt; 空指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E5%A6%82%E6%9E%9C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E5%85%83%E7%B4%A0ai%E5%8D%B3pai%E5%88%99%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%A5%E4%B8%8B%E5%87%A0%E7%82%B9"><span class="toc-number">4.3.</span> <span class="toc-text"> &lt;3&gt; 如果指针变量 p 指向数组 a 的元素 a [i]（即 p&#x3D;&amp;a [i]），则需要注意以下几点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%E5%A6%82%E6%9E%9C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E9%A6%96%E5%9C%B0%E5%9D%80%E5%8D%B3pa%E5%88%99%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%A5%E4%B8%8B%E5%87%A0%E7%82%B9"><span class="toc-number">4.4.</span> <span class="toc-text"> &lt;4&gt; 如果指针变量 p 指向数组 a 的首地址（即 p&#x3D;a），则需要注意以下几点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5%E5%BD%93%E4%B8%A4%E4%B8%AA%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%8C%87%E5%90%91%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%97%B6%E5%8F%AF%E4%BB%A5%E6%B1%82%E4%BB%96%E4%BB%AC%E7%9A%84%E5%B7%AE%E5%BE%97%E5%88%B0%E7%9A%84%E7%BB%93%E6%9E%9C%E6%98%AF%E5%AF%B9%E5%BA%94%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%8B%E6%A0%87%E4%B9%8B%E5%B7%AE%E5%8F%AF%E8%83%BD%E6%97%B6%E8%B4%9F%E6%95%B4%E6%95%B0-%E5%BD%93%E6%8C%87%E5%90%91%E7%9A%84%E4%B8%8D%E6%98%AF%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%97%B6%E5%AF%B9%E4%BB%96%E4%BB%AC%E7%9A%84%E6%AF%94%E8%BE%83%E5%B0%86%E6%AF%AB%E6%97%A0%E6%84%8F%E4%B9%89"><span class="toc-number">4.5.</span> <span class="toc-text"> &lt;5&gt; 当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E5%90%91%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">指向一维数组的指针变量定义：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%AF%E4%BB%A5%E5%BE%97%E5%88%B0%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0a-i-%E5%9C%B0%E5%9D%80%E7%9A%84%E6%96%B9%E5%BC%8F%E6%9C%89%E5%9B%9B%E7%A7%8D-%E6%8E%A5%E4%B8%8B%E6%9D%A5%EF%BC%8C%E6%88%91%E5%B0%B1%E5%8F%AA%E4%BC%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E6%9D%A5%E4%BB%8B%E7%BB%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%89%E7%A7%8D%E3%80%82"><span class="toc-number">2.</span> <span class="toc-text">可以得到数组元素a[i]地址的方式有四种 接下来，我就只会用代码来介绍常用的三种。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%8C%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%98%AF%E9%80%9A%E8%BF%87%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8B%E6%A0%87%E6%9D%A5%E5%BC%95%E7%94%A8%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%EF%BC%8C%E8%BF%99%E4%B9%9F%E6%98%AF%E6%88%91%E4%BB%AC%E4%B9%8B%E5%89%8D%E5%AD%A6%E6%95%B0%E7%BB%84%E6%97%B6%E4%B8%80%E7%9B%B4%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E8%BF%99%E9%87%8C%E5%B0%B1%E4%B8%8D%E8%BF%87%E5%A4%9A%E4%BB%8B%E7%BB%8D%E4%BA%86%EF%BC%8C%E5%A6%82%E4%B8%8B%E6%89%80%E7%A4%BA%EF%BC%9A"><span class="toc-number">2.1.</span> <span class="toc-text">‌第一种是通过数组的下标来引用数组元素，这也是我们之前学数组时一直用的方法，这里就不过多介绍了，如下所示：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%8C%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%98%AF%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%95%B0%E7%BB%84%E5%90%8D%E6%9D%A5%E8%AE%BF%E9%97%AE%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E3%80%82%E4%BE%8B%E5%A6%82%EF%BC%9A-a-i-%E4%B8%8Ea-i-%E7%AD%89%E4%BB%B7%E3%80%82"><span class="toc-number">2.2.</span> <span class="toc-text">‌第二种是可以通过数组名来访问数组元素。例如：* (a+i)与a[i]等价。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%8C%E7%AC%AC%E4%B8%89%E7%A7%8D%EF%BC%8C%E5%A6%82%E6%9E%9C%E5%AE%9A%E4%B9%89%E4%BA%86%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp-int-p-%E5%B9%B6%E4%BD%BFp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E9%A6%96%E5%9C%B0%E5%9D%80-%E5%8D%B3p-x3D-a-%E5%88%99%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%9D%A5%E8%AE%BF%E9%97%AE%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E5%85%83%E7%B4%A0%EF%BC%8C-p-0-%E5%8D%B3-p-%E4%B8%8Ea-0-%E7%AD%89%E4%BB%B7-p-i-%E4%B8%8Ea-i-%E7%AD%89%E4%BB%B7%E3%80%82"><span class="toc-number">2.3.</span> <span class="toc-text">‌第三种，如果定义了指针变量p(int p;),并使p指向数组a的首地址(即p&#x3D;a),则可以用指针变量来访问数组元素元素，(p+0)(即(p))与a[0]等价~~~~(p+i)与a[i]等价。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BE%8B%E9%A2%98%EF%BC%8C%E4%BD%BF%E7%94%A8%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84%E7%9A%84%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%EF%BC%8C%E8%AE%A1%E7%AE%97%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E5%B9%B3%E5%9D%87%E5%80%BC%E3%80%82"><span class="toc-number">3.</span> <span class="toc-text">例题，使用指向数组的指针变量，计算数组元素的平均值。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E7%A4%BA%EF%BC%9A%E5%AE%9A%E4%B9%89%E6%95%B0%E7%BB%84%E5%92%8C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E5%90%8E%EF%BC%8C%E8%AE%A9%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84%EF%BC%8C%E5%BE%AA%E7%8E%AF%E6%B1%82%E5%92%8C%E3%80%82"><span class="toc-number">3.1.</span> <span class="toc-text">提示：定义数组和指针变量后，让指针变量指向数组，循环求和。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E8%AF%A5%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%EF%BC%8C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E7%9A%84%E5%80%BC%E4%B8%8D%E5%8F%98%E5%8C%96%E3%80%82%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E5%B0%86%E4%B8%BA%E4%BD%A0%E4%BB%AC%E5%B1%95%E7%A4%BA%E6%88%91%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E7%9A%84%E5%80%BC%E5%8F%91%E7%94%9F%E5%8F%98%E5%8C%96%E7%9A%84%E7%AD%94%E6%A1%88%E3%80%82"><span class="toc-number">3.2.</span> <span class="toc-text">在该程序运行过程中，指针变量p的值不变化。接下来我将为你们展示我另一种指针变量p的值发生变化的答案。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E9%92%88%E4%BD%BF%E7%94%A8%E7%9A%84%E5%87%A0%E4%B8%AA%E5%B0%8F%E7%BB%86%E8%8A%82%EF%BC%9A"><span class="toc-number">4.</span> <span class="toc-text">指针使用的几个小细节：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%881%E3%80%89%E6%8C%87%E9%92%88%E5%88%9D%E5%A7%8B%E5%8C%96%E3%80%82"><span class="toc-number">4.1.</span> <span class="toc-text">〈1〉指针初始化。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lt-2-gt-%E7%A9%BA%E6%8C%87%E9%92%88"><span class="toc-number">4.2.</span> <span class="toc-text">&lt;2&gt;空指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lt-3-gt-%E5%A6%82%E6%9E%9C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E5%85%83%E7%B4%A0a-i-%EF%BC%88%E5%8D%B3p-x3D-amp-a-i-%EF%BC%89%EF%BC%8C%E5%88%99%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%A5%E4%B8%8B%E5%87%A0%E7%82%B9%EF%BC%9A"><span class="toc-number">4.3.</span> <span class="toc-text">&lt;3&gt;如果指针变量p指向数组a的元素a[i]（即p&#x3D;&amp;a[i]），则需要注意以下几点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lt-4-gt-%E5%A6%82%E6%9E%9C%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8Fp%E6%8C%87%E5%90%91%E6%95%B0%E7%BB%84a%E7%9A%84%E9%A6%96%E5%9C%B0%E5%9D%80%EF%BC%88%E5%8D%B3p-x3D-a%EF%BC%89%EF%BC%8C%E5%88%99%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%A5%E4%B8%8B%E5%87%A0%E7%82%B9%EF%BC%9A"><span class="toc-number">4.4.</span> <span class="toc-text">&lt;4&gt;如果指针变量p指向数组a的首地址（即p&#x3D;a），则需要注意以下几点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lt-5-gt-%E5%BD%93%E4%B8%A4%E4%B8%AA%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E6%8C%87%E5%90%91%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%97%B6%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%B1%82%E4%BB%96%E4%BB%AC%E7%9A%84%E5%B7%AE%EF%BC%8C%E5%BE%97%E5%88%B0%E7%9A%84%E7%BB%93%E6%9E%9C%E6%98%AF%E5%AF%B9%E5%BA%94%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%8B%E6%A0%87%E4%B9%8B%E5%B7%AE%EF%BC%88%E5%8F%AF%E8%83%BD%E6%97%B6%E8%B4%9F%E6%95%B4%E6%95%B0%EF%BC%89%E3%80%82%E5%BD%93%E6%8C%87%E5%90%91%E7%9A%84%E4%B8%8D%E6%98%AF%E5%90%8C%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%97%B6%EF%BC%8C%E5%AF%B9%E4%BB%96%E4%BB%AC%E7%9A%84%E6%AF%94%E8%BE%83%E5%B0%86%E6%AF%AB%E6%97%A0%E6%84%8F%E4%B9%89%E3%80%82"><span class="toc-number">4.5.</span> <span class="toc-text">&lt;5&gt;当两个指针变量指向同一个数组时，可以求他们的差，得到的结果是对应的两个数组元素的下标之差（可能时负整数）。当指向的不是同一个数组时，对他们的比较将毫无意义。</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -425,47 +410,35 @@ Luo的小世界 = welcome to my world</title>
 <a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/11/30/%E8%81%8A%E5%A4%A9%E5%AE%A4/" title="聊天室">聊天室</a></span>
+    <span><a href="/2023/11/21/%E9%9B%86%E5%90%88%E7%BB%83%E4%B9%A0/" title="集合练习">集合练习</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
 </div>
 
-    <span><a href="/2023/11/12/%E6%8B%BC%E5%9B%BE%E5%B0%8F%E6%B8%B8%E6%88%8F-java/" title="拼图小游戏.java">拼图小游戏.java</a></span>
+    <span><a href="/2023/12/09/%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9C%9F%E9%A2%98%E5%A4%8D%E4%B9%A0-2013/" title="蓝桥杯真题复习-2013">蓝桥杯真题复习-2013</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E7%B5%AE/" title="分类于 生活小絮">生活小絮</a>
+<a href="/categories/%E6%87%82%E8%AE%A1%E5%88%92%E7%9A%84%E7%8C%AB/" title="分类于 懂计划的猫">懂计划的猫</a>
 </div>
 
-    <span><a href="/2023/03/07/%E7%94%BB%E5%AE%B6/" title="画画">画画</a></span>
+    <span><a href="/2022/11/12/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" title="大学规划">大学规划</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/" title="分类于 数据结构实践课程">数据结构实践课程</a>
 </div>
 
-    <span><a href="/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/" title="大一第二学期实训作业">大一第二学期实训作业</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/11/15/%E7%88%AC%E8%99%AB-Java/" title="爬虫-Java">爬虫-Java</a></span>
+    <span><a href="/2022/11/08/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">网站搭建</a></span>
   </li>
 
       
@@ -475,26 +448,6 @@ Luo的小世界 = welcome to my world</title>
 </div>
 
     <span><a href="/2023/11/27/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" title="文件操作">文件操作</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Java%E5%85%A5%E9%97%A8/" title="分类于 Java入门">Java入门</a>
-</div>
-
-    <span><a href="/2023/11/05/%E7%AC%AC%E4%B8%83%E4%B8%AAJava%E7%A8%8B%E5%BA%8F/" title="第七个Java程序">第七个Java程序</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" title="分类于 数据结构与算法">数据结构与算法</a>
-</div>
-
-    <span><a href="/2023/03/07/%E7%BB%AA%E8%AE%BA/" title="绪论">绪论</a></span>
   </li>
 
       
@@ -511,10 +464,39 @@ Luo的小世界 = welcome to my world</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E9%87%91%E8%9E%8D%E5%AD%A6/" title="分类于 金融学">金融学</a>
 </div>
 
-    <span><a href="/2023/02/22/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8/" title="股票入门">股票入门</a></span>
+    <span><a href="/2025/10/10/Java%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" title="Java开发学习路线">Java开发学习路线</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/" title="分类于 数据结构实践课程">数据结构实践课程</a>
+</div>
+
+    <span><a href="/2023/06/08/%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E5%AE%9E%E8%AE%AD%E4%BD%9C%E4%B8%9A/" title="大一第二学期实训作业">大一第二学期实训作业</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="分类于 C语言程序设计">C语言程序设计</a>
+</div>
+
+    <span><a href="/2022/12/06/%E9%A1%B9%E7%9B%AE%E4%BA%94~%E6%A8%A1%E5%9D%97%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" title="项目五~模块化程序设计">项目五~模块化程序设计</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Python/" title="分类于 Python">Python</a>
+</div>
+
+    <span><a href="/2024/03/27/Python%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/" title="Python可视化综合案例">Python可视化综合案例</a></span>
   </li>
 
   </ul>
